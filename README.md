@@ -14,7 +14,7 @@
 
 <p align="center">
     <strong>Startup del Proyecto:ClinicCode </strong><br>
-    <strong>Producto:Dent </strong><br>
+    <strong>Producto:Dentify </strong><br>
 </p>
 
 <div>
@@ -28,37 +28,72 @@
             <th style="text-align:center;">Code</th>
         </tr>
         <tr>
-            <td>Bastidas Bastidas, Diego Martin</td>
-            <td>U20221A301</td>
+            <td>Aponte Cruzado, Andrea Marielena</td>
+            <td>U202224135</td>
         </tr>
         <tr>
             <td>Belahonia Miranda, Fabrisio  </td>
             <td>U202220219</td>
         </tr>
         <tr>
-            <td>Choquehuanca Núñez, Luciana Carolina</td>
-            <td>U202319431</td>
+            <td>Bohorquez Lerzundi	Gerardo Sebastian</td>
+            <td>U202224149</td>
         </tr>
         <tr>
-            <td>Escobar Palomino, Sebastian Matias</td>
-            <td>U202220219</td>
+            <td>Cutiri Agüero	Fabrizio Alexander</td>
+            <td>U201914181</td>
         </tr>
         <tr>
-            <td>Prado Vargas, Mario Benjamín</td>
-            <td>U202115357</td>
+            <td>Berrocal Ramirez	Omar Christian</td>
+            <td>U20201B529</td>
         </tr>
     </table>
     </div>
 </body>
 
 <p align="center">
-<br><strong>2025-01</strong></p>
+<br><strong>2025-02</strong></p>
 <br>
 
 ---
 
 # Registro de Versiones del Informe
 
+El objetivo de esta sección es resumir las modificaciones relevantes que se realizan al informe durante el ciclo de vida del proyecto. Esta sección inicia en una página nueva y se incluye un cuadro con la siguiente estructura:
+
+| Versión | Fecha | Autor | Descripción de modificación |
+|---------|-------|-------|-----------------------------|
+| TB1 | 24/04/2025 | Belahonia Miranda, Fabrisio  | Realización de:<br>- Capítulo I: Presentación<br>- Capítulo II: Requirements Elicitation & Analysis<br>- Capítulo III: Requirements Specification<br>- Capítulo IV: Solution Software Design |
+
+# Project Report Collaboration Insights
+---
+
+URL del repositorio para el reporte del proyecto:asdasdasd
+<img>
+
+TB1:
+
+Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
+
+| Integrante | Tareas Asignadas |
+|------------|-----------------|
+| Aponte Cruzado, Andrea Marielena | Analisis Competitivo y User Stories |
+| Belahonia Miranda, Fabrisio | Entrevistas, Análisis de entrevistas y Needfinding, As to Be escenario, Elaboración de PPT |
+| Bohorquez Lerzundi, Gerardo Sebastian | Lean UX, Entrevistas, Análisis de entrevistas y Needfinding, Impact Map |
+| Cutiri Agüero, Fabrizio Alexander | Lean UX, User Stories, NeedFinding, Elaboración de PPT |
+| Berrocal Ramirez, Omar Christian | Antecedentes y problemática, User and Technical Stories, Product Backlog, Capítulo IV: Solution Software Design, Elaboración de primera versión del BackEnd |
+
+# GitHub Collaboration Insights
+
+GitHub también presenta un timeline de las ramas principales y los procesos de merge a los que se han sometido. Todas las ramas se crearon tomando en cuenta el diseño de GitFlow para una buena organización cuando se usa un software de control de versiones.
+
+Los integrantes son:
+
+- Aponte Cruzado, Andrea Marielena
+- Belahonia Miranda, Fabrisio
+- Bohorquez Lerzundi, Gerardo Sebastian
+- Cutiri Agüero, Fabrizio Alexander
+- Berrocal Ramirez, Omar Christian
 
 # Contenido
 ## Tabla de contenidos
@@ -174,6 +209,6 @@
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |----|----|----|
-|Trabaja en equipo para proporcionar liderazgo en forma conjunta.| **Bastidas Bastidas, Diego Martin**<br>**Belahonia Miranda, Fabrisio**<br>**Choquehuanca Núñez, Luciana Carolina**<br>**Escobar Palomino, Sebastian Matias**<br>**Prado Vargas, Mario Benjamín**| |
-|Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos| **Bastidas Bastidas, Diego Martin**<br>**Belahonia Miranda, Fabrisio**<br>**Choquehuanca Núñez, Luciana Carolina**<br>**Escobar Palomino, Sebastian Matias**<br>**Prado Vargas, Mario Benjamín**| |
+|Trabaja en equipo para proporcionar liderazgo en forma conjunta.| **Aponte Cruzado, Andrea Marielena**<br>**Belahonia Miranda, Fabrisio**<br>**Bohorquez Lerzundi, Gerardo Sebastian**<br>**Cutiri Agüero, Fabrizio Alexander**<br>**Berrocal Ramirez, Omar Christian**| |
+|Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos| **Aponte Cruzado, Andrea Marielena**<br>**Belahonia Miranda, Fabrisio**<br>**Bohorquez Lerzundi, Gerardo Sebastian**<br>**Cutiri Agüero, Fabrizio Alexander**<br>**Berrocal Ramirez, Omar Christian**| |
 
