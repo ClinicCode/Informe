@@ -366,7 +366,7 @@ Los integrantes son:
 
 ### 4.4.2. Mobile Applications Wireflow Diagrams
 
-**Enlace Figma**:
+**Enlace Figma**:https://www.figma.com/design/WRThFO0TXiuoNfXCPJvR26/Dise%C3%B1o-web?node-id=0-1&p=f&t=gM1Z07iNNkLSpL0t-0
 
 
 
@@ -478,6 +478,50 @@ Los integrantes son:
 
 
 ### 4.4.4. Mobile Applications User Flow Diagrams
+
+**Enlace Figma:**https://www.figma.com/design/WRThFO0TXiuoNfXCPJvR26/Dise%C3%B1o-web?node-id=0-1&p=f&t=gM1Z07iNNkLSpL0t-0
+
+
+## User Goal: Actualizar datos
+Cuando el usuario accede a Dentify, primero debe iniciar sesión. Una vez autenticado, puede ingresar a su perfil y modificar su información personal. Esto incluye actualizar nombre, correo electrónico o contraseña, así como añadir o editar datos adicionales como teléfono o dirección.  
+
+![Actualizar datos](Img/Actualizar datos.png)
+
+---
+
+## User Goal: Cita
+Dentro de la aplicación, el usuario tiene acceso a la sección de citas. Allí puede revisar las citas programadas, registrar nuevas o modificar las ya existentes. También cuenta con la opción de cancelar citas en caso necesario.  
+
+![Cita](Img/Cita.png)
+
+---
+
+## User Goal: Inventario
+El usuario puede entrar a la sección de inventario para gestionar los productos de la clínica. Desde este apartado, es posible consultar el stock, añadir nuevos artículos, actualizarlos o eliminarlos cuando dejen de ser necesarios.  
+
+![Inventario](Img/Inventario.png)
+
+---
+
+## User Goal: Paciente
+En la sección de pacientes, el usuario puede visualizar la lista de pacientes registrados, incorporar nuevos registros o editar la información de los existentes. Además, es posible eliminar aquellos pacientes que ya no deban estar en la base de datos.  
+
+![Paciente](Img/Paciente.png)
+
+---
+
+## User Goal: Pagos
+La sección de pagos permite al usuario visualizar las citas pendientes de cobro, registrar abonos y emitir facturas de manera sencilla. Asimismo, se puede acceder al historial completo de pagos realizados.  
+
+![Pagos](Img/Pagos.png)
+
+---
+
+## User Goal: Registro
+Si el usuario no cuenta con una cuenta, puede registrarse proporcionando información básica como nombre, correo electrónico y contraseña. Una vez completado este proceso, podrá iniciar sesión y acceder a todas las funcionalidades de Dentify.  
+
+![Registro](Img/Registro.png)
+
 
 ## 4.5. Mobile Applications Prototyping
 
