@@ -234,7 +234,123 @@ Los integrantes son:
 
 ## 2.1. Competidores
 
+El objetivo de esta sección es identificar a los principales competidores directos que cuentan con modelos de negocio basados en productos digitales similares, así como a los competidores indirectos que brindan soluciones parcialmente comparables.
+
 ### 2.1.1. Análisis competitivo
+
+
+<table border="1px">
+        <thead>
+            <th colspan="11">Competitive Analysis Landscepe</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2" colspan="2">¿Por qué llevar a
+                    cabo este análisis?</td>
+                <td colspan="9">Escriba en el recuadro la pregunta que busca responder o el objetivo de
+                    este análisis.</td>
+            </tr>
+            <tr>
+                <td colspan="9">El objetivo de este análisis es comprender el funcionamiento y las características que presentan los productos de nuestros competidores, para posteriormente planificar estrategias y tácticas para aprovechar las fortalezas de nuestro producto y las debilidades de nuestros competidores.   </td> 
+            </tr>
+            <tr>
+                <tr>
+                    <td colspan="3">(En la cabecera colocar por cada competidor nombre y logo)</td>
+                    <td colspan="2"><img src="/Img/Dentify-logo.png" style="width: 60px; height: auto;"><br>Dentify</td>
+                    <td colspan="2"><img src="/Img/identist.png" style="width: 60px; height: auto;"><br>iDentins</td>
+                    <td colspan="2"><img src="/Img/my-dental-clinic.png" style="width: 60px; height: auto;"><br>My Dental Clinic</td>
+                    <td colspan="2"><img src="/Img/cusp-software-dental.png" style="width: 60px; height: auto;"><br>Cusp Software Dental</td>
+                </tr>
+            </tr>
+            <tr>
+                <td rowspan="2" colspan="1">Perfil</td>
+                <td colspan="2">Overview</td>
+                <td colspan="2">App móvil para dentistas que facilita citas, pagos y seguimiento de pacientes en tiempo real.</td>
+                <td colspan="2">App móvil para clínicas dentales con enfoque en automatización desde dispositivos móviles.</td>
+                <td colspan="2">App móvil que digitaliza procesos clínicos y administrativos de forma simple.</td>
+                <td colspan="2">App móvil con herramientas digitales enfocadas en tratamiento y contabilidad para clínicas dentales.</td>
+            </tr>
+            <tr>
+                <td colspan="2"> Ventaja competitiva <br></br> ¿Qué valor ofrece a los clientes?</td>
+                <td colspan="2">Gestión total del consultorio desde el móvil, con notificaciones push e interfaz optimizada para smartphones.</td>
+                <td colspan="2">Multiplataforma (iOS, Android, Windows), modo offline, control de ingresos y gastos.</td>
+                <td colspan="2">Facilidad de uso, integración con calendario y soporte multilenguaje.</td>
+                <td colspan="2">Buen balance entre funciones clínicas y contables, acceso en múltiples dispositivos.</td>
+            </tr>
+            <tr>
+                <td rowspan="2" colspan="1">Perfil de Marketing</td>
+                <td colspan="2">Mercado Objetivo</td>
+                <td colspan="2">Clínicas pequeñas y medianas en zonas urbanas del Perú.</td>
+                <td colspan="2">Clínicas modernas que trabajan desde dispositivos móviles.</td>
+                <td colspan="2">Consultorios que quieren digitalizar sin complicaciones técnicas.</td>
+                <td colspan="2">Clínicas que quieren seguimiento visual y contable de tratamientos.</td>
+            </tr>
+            <tr>
+                <td colspan="2">Estrategia de Marketing</td>
+                <td colspan="2">Presencia digital, publicidad en redes, alianzas con gremios dentales.</td>
+                <td colspan="2">App Store, Play Store, redes sociales, enfoque en movilidad y facilidad.</td>
+                <td colspan="2">Enfocada en App Stores, recomendaciones y facilidad de uso.</td>
+                <td colspan="2">Uso de redes sociales, beneficios de digitalización rápida y clara.</td>
+            </tr>
+            <tr>
+                <td rowspan="3" colspan="1">Perfil de Producto</td>
+                <td colspan="2">Producto & Servicio</td>
+                <td colspan="2">Citas, historial, pagos, métricas, backup, dashboard, recordatorios, soporte técnico.</td>
+                <td colspan="2">Citas, pacientes, diagnósticos, pagos, imágenes, gastos, recordatorios SMS, modo oscuro.</td>
+                <td colspan="2">Citas, historial, notas dentales, gráficos dentales, imágenes, PDF, pagos. </td>
+                <td colspan="2">Citas, pacientes, pagos, odontogramas, contabilidad, gráficos, historial, recordatorios SMS.</td>
+            </tr>
+            <tr>
+                <td colspan="2">Precio & Costos  </td>
+                <td colspan="2">Precio accesible mensual con prueba gratuita.</td>
+                <td colspan="2">Plan de pago mensual/anual (varía según plataforma).</td>
+                <td colspan="2">Costos bajos, con versiones gratuitas limitadas y planes premium.</td>
+                <td colspan="2">Plan de pago mensual con acceso completo desde el inicio.</td>
+            </tr>
+            <tr>
+                <td colspan="2">Canales de distribucion (web y/o Movil)</td>
+                <td colspan="2">Aplicación web y Móvil</td>
+                <td colspan="2">Móvil</td>
+                <td colspan="2">Móvil</td>
+                <td colspan="2">Móvil</td>
+            </tr>
+            <tr>
+                <td rowspan="5">Analisis SWOT</td>
+                <td colspan="10">Realice esto para su startup y sus competidores. Sus fortalezas deberían apoyar sus
+                    oportunidades y contribuir a lo que ustedes definen como su posible ventaja
+                    competitiva</td>
+            </tr>
+            <tr>
+                <td colspan="2">Fortalezas</td>
+                <td colspan="2">Solución local con soporte completo, adaptable y segura.</td>
+                <td colspan="2"> Automatización, compatibilidad, almacenamiento en la nube.</td>
+                <td colspan="2"> Facilidad, conexión con calendario, interfaz amigable.</td>
+                <td colspan="2"> Funciones clínicas novedosas, sincronización entre dispositivos.</td>
+            </tr>
+            <tr>
+                <td colspan="2">Debilidades</td>
+                <td colspan="2">Nuevo en el mercado, falta de confianza inicial.</td>
+                <td colspan="2">Puede no cubrir necesidades avanzadas de grandes clínicas.</td>
+                <td colspan="2">Limitado a móviles, poco robusto para clínicas grandes.</td>
+                <td colspan="2">Falta de personalización en algunos módulos, riesgo de estancamiento.</td>
+            </tr>
+            <tr>
+                <td colspan="2">Oportunidades</td>
+                <td colspan="2">Alta demanda de digitalización en clínicas del Perú.</td>
+                <td colspan="2">Aumento de uso de móviles en el rubro médico.</td>
+                <td colspan="2">Gran adopción de móviles en regiones con bajo acceso a PCs.</td>
+                <td colspan="2">Interés en herramientas visuales y simples para contabilidad.</td>
+            </tr>
+            <tr>
+                <td colspan="2">Amenazas</td>
+                <td colspan="2">Al ser una aplicación nueva, si hay poca oferta o demanda en la aplicación, los usuarios no tendrán motivos para permanecer activos.</td>
+                <td colspan="2">Introducción o demanda de soluciones personalizadas y necesidades más avanzadas al mercado. Podrían perder clientes.</td>
+                <td colspan="2">Perdidas de grandes contratos por falta de integración con un sistema mayor.</td>
+                <td colspan="2">Inclinación del público por aspectos más personalizados. </td>
+            </tr>
+        </tbody>
+    </table>
+
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
