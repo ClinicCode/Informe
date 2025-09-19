@@ -230,13 +230,13 @@ En esta sección se presenta la descripción del startup y los perfiles de los m
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-|                       Photo                        | Description |
-|:--------------------------------------------------:|:------------|
-| ![Diego](./feature/chapter01/Diegopfp.jpeg) | **Nombre y Apellido:**   <br> **Carrera:** Ingeniería de Software (8vo ciclo) <br> **Acerca de:**  . |
-| ![Fabrisio](./feature/chapter01/fafa.jpeg) | **Nombre y Apellido:** Fabrisio Belahonia Miranda <br> **Carrera:** Ingeniería de Software (7mo ciclo) <br> **Acerca de:** . |
-| ![Rafael](./feature/chapter01/rafael.jpg) | **Nombre y Apellido:** Rafael Alexander Dominguez Vargas  <br> **Carrera:** Ingeniería de Software (6to ciclo) <br> **Acerca de:** a de Software. |
-| ![Sebastian](./feature/chapter01/Sebastianpfp.png) | **Nombre y Apellido:** Sebastian Escobar Palomino  <br> **Carrera:** Ingeniería de Software <br> **Acerca de:** Me como. |
-| ![Alonso](./feature/chapter01/Alonso.png) | **Nombre y Apellido:** Percy Alonso Muñiz Huayanca <br> **Carrera:** Ingeniería de Software <br> **Acerca de:** SX. |
+|                       Photo                        | Description                                                                                                                                      |
+|:--------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![Diego](./feature/chapter01/Diegopfp.jpeg) | **Nombre y Apellido:**   <br> **Carrera:** Ingeniería de Software (8vo ciclo) <br> **Acerca de:**  .                                             |
+| ![Fabrisio](./feature/chapter01/fafa.jpeg) | **Nombre y Apellido:** Fabrisio Belahonia Miranda <br> **Carrera:** Ingeniería de Software (7mo ciclo) <br> **Acerca de:** .                     |
+| ![foto-fabrizio-cutiri.png](Img/foto-fabrizio-cutiri.png) | **Nombre y Apellido:** Fabrizio Alexander Cutiri Agüero  <br> **Carrera:** Ingeniería de Software (8to ciclo) <br> **Acerca de:** Me considero una persona responsable, puntual y capaz de adaptarse a diferentes situaciones. Elegí esta carrera porque me apasiona la tecnología y disfruto diseñar y desarrollar aplicaciones innovadoras que ayuden a las personas y empresas a solucionar sus problemas. |
+| ![Sebastian](./feature/chapter01/Sebastianpfp.png) | **Nombre y Apellido:** Sebastian Escobar Palomino  <br> **Carrera:** Ingeniería de Software <br> **Acerca de:** Me como.                         |
+| ![Alonso](./feature/chapter01/Alonso.png) | **Nombre y Apellido:** Percy Alonso Muñiz Huayanca <br> **Carrera:** Ingeniería de Software <br> **Acerca de:** SX.                              |
 
 ## 1.2. Solution Profile
 
