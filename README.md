@@ -306,23 +306,61 @@ Los integrantes son:
 
 ### 4.4.1. Mobile Applications Wireframes
 
-**Register**
 
-**Login**
 
-**Perfil**
+## Autenticación
+<div align="center">
+  <img src="Img/login_wm.png" width="300">
+  <img src="Img/register_wm.png" width="300">
+</div>
 
-**Menú**
+<div align="center">
+  <img src="Img/perfil_wm.png" width="300">
+</div>
 
-**Dashboard**
+## Menú principal
+<div align="center">
+  <img src="Img/menu_wm.png" width="300">
+  <img src="Img/dashboard_wm.png" width="300">
+</div>
 
-**Citas**
+## Gestión de citas
+<div align="center">
+  <img src="Img/lista_citas_wm.png" width="300">
+  <img src="Img/anadir_cita_wm.png" width="300">
+</div>
 
-**Inventario**
+<div align="center">
+  <img src="Img/ghorario_wm.png" width="300">
+</div>
 
-**Pacientes**
+## Gestión de pacientes
+<div align="center">
+  <img src="Img/lista_pacientes_wm.png" width="300">
+  <img src="Img/añadir_pacientes_wm.png" width="300">
+</div>
 
-**Pagos**
+<div align="center">
+  <img src="Img/historial_pacientes_wm.png" width="300">
+</div>
+
+## Inventario
+<div align="center">
+  <img src="Img/lista_inventario_wm.png" width="300">
+  <img src="Img/añadir_inventario_wm.png" width="300">
+</div>
+
+## Pagos
+<div align="center">
+  <img src="Img/registrar_pagos_wm.png" width="300">
+  <img src="Img/facturas_pagos_wm.png" width="300">
+</div>
+
+<div align="center">
+  <img src="Img/lista_pagos_wm.png" width="300">
+</div>
+
+
 
 
 
