@@ -394,7 +394,11 @@ Esta sección recopila la información obtenida a partir de entrevistas realizad
 
 ## 2.3. Needfinding
 
+Es una técnica de diseño centrado en el usuario que busca descubrir necesidades reales de las personas, incluso aquellas que no expresan explícitamente. A través de entrevistas, observaciones y análisis del comportamiento, se identifican problemas, frustraciones, deseos y oportunidades que pueden guiar el desarrollo de soluciones más útiles y significativas.
+
 ### 2.3.1. User Personas
+
+<img src="Img/Carlos Hijar Santa Maria.png" alt="Imagen_User" style="margin-bottom: 5px;" width="800"/>
 
 ### 2.3.2. User Task Matrix
 
