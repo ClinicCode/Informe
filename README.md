@@ -1558,6 +1558,10 @@ Y enlaces a redes sociales o políticas del sitio si están disponibles.
 
 ## 3.4. Impact Mapping
 
+El Impact Mapping es una técnica visual que permite conectar los objetivos del proyecto con las necesidades y expectativas de los principales actores involucrados. En este caso, ayuda a comprender cómo cada decisión de diseño impacta tanto en la experiencia de los odontólogos como en la de sus pacientes. A través de este mapa se identifican los resultados que se esperan alcanzar, los comportamientos que se desean fomentar y las funcionalidades que aportan valor real al consultorio.
+
+![impact-mapping.png](Img/impact-mapping.png)
+
 # Capítulo IV: Product Design
 
 ## 4.1. Style Guidelines
