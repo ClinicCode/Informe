@@ -368,17 +368,25 @@ Los integrantes son:
 
 **Enlace Figma**:
 
-User Goal: Autentificacion
-User Goal: Gestión de Citas
-User Goal: Gestión de pacientes
-User Goal: Gestión de inventario
-
-User Goal: Perfil
 
 
-User Goal: Gestión de pagos
+**User Goal: Autentificación**
+![Autentificación](Img/autentificacion_wf.png)  
 
+**User Goal: Gestión de Citas**
+![Gestión de Citas](Img/gestion_citas_wf.png)  
 
+**User Goal: Gestión de Pacientes**
+![Gestión de Pacientes](Img/gestion_pacientes_wf.png) 
+
+**User Goal: Gestión de Inventario**
+![Gestión de Inventario](Img/gestion_inventario_wf.png)  
+
+**User Goal: Perfil**
+![Perfil](Img/perfil_wf.png)  
+
+**User Goal: Gestión de pagos**
+![Gestión de Pagos](Img/pagos_wf.png)  
 
 
 
