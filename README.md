@@ -210,9 +210,33 @@ Los integrantes son:
 
 ## 1.1. Startup Profile
 
+En esta sección se presenta la descripción del startup y los perfiles de los miembros del equipo.
+
 ### 1.1.1. Descripción de la Startup
 
+**ClinicCode**: es una startup tecnológica enfocada en revolucionar la forma en que los consultorios dentales administran sus actividades diarias. Su producto Dentify es una aplicación móvil completa, creada específicamente para cubrir todas las necesidades de gestión en el ámbito odontológico.
+
+**Misión**: Simplificar y optimizar la administración de los consultorios dentales, permitiendo que los profesionales se enfoquen en lo más importante: la salud y el bienestar de sus pacientes.
+
+**Visión**: Ser la plataforma de referencia en la gestión de consultorios dentales en Lima, liderando el proceso de digitalización en el sector odontológico.
+
+**Valores**:
+
+* Compromiso con la calidad y la excelencia
+
+*  Innovación continua
+
+* Responsabilidad social
+
 ### 1.1.2. Perfiles de integrantes del equipo
+
+|                       Photo                        | Description |
+|:--------------------------------------------------:|:------------|
+| ![Diego](./feature/chapter01/Diegopfp.jpeg) | **Nombre y Apellido:**   <br> **Carrera:** Ingeniería de Software (8vo ciclo) <br> **Acerca de:**  . |
+| ![Fabrisio](./feature/chapter01/fafa.jpeg) | **Nombre y Apellido:** Fabrisio Belahonia Miranda <br> **Carrera:** Ingeniería de Software (7mo ciclo) <br> **Acerca de:** . |
+| ![Rafael](./feature/chapter01/rafael.jpg) | **Nombre y Apellido:** Rafael Alexander Dominguez Vargas  <br> **Carrera:** Ingeniería de Software (6to ciclo) <br> **Acerca de:** a de Software. |
+| ![Sebastian](./feature/chapter01/Sebastianpfp.png) | **Nombre y Apellido:** Sebastian Escobar Palomino  <br> **Carrera:** Ingeniería de Software <br> **Acerca de:** Me como. |
+| ![Alonso](./feature/chapter01/Alonso.png) | **Nombre y Apellido:** Percy Alonso Muñiz Huayanca <br> **Carrera:** Ingeniería de Software <br> **Acerca de:** SX. |
 
 ## 1.2. Solution Profile
 
