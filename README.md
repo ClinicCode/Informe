@@ -475,6 +475,10 @@ Utilizaremos esta herramienta visual que nos ayudará a comprender mejor a los u
 
 ### 2.3.5. As-is Scenario Mapping
 
+El As-Is Scenario Mapping muestra cómo los odontólogos gestionan actualmente su consultorio sin una solución digital integrada. A partir de entrevistas realizadas, se identificaron procesos, herramientas, pensamientos y emociones relacionados con tareas clave como citas, pagos, historias clínicas e inventario. Esta información permite detectar puntos de mejora y fundamentar el desarrollo de una solución más eficiente y centrada en sus necesidades.
+
+<img src="Img/as-is-scenario-mapping.jpg" width="800">
+
 ## 2.4. Ubiquitous Language
 
 # Capítulo III: Requirements Specification
