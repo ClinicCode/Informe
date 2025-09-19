@@ -485,7 +485,7 @@ Los integrantes son:
 ## User Goal: Actualizar datos
 Cuando el usuario accede a Dentify, primero debe iniciar sesión. Una vez autenticado, puede ingresar a su perfil y modificar su información personal. Esto incluye actualizar nombre, correo electrónico o contraseña, así como añadir o editar datos adicionales como teléfono o dirección.  
 
-![Actualizar datos](Img/Actualizar datos.png)
+![Actualizar datos](Img/Actualizar_datos.png)
 
 ---
 
