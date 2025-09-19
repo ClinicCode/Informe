@@ -264,6 +264,10 @@ Los integrantes son:
 
 ## 3.1. To-Be Scenario Mapping
 
+El To-Be Scenario Mapping muestra cómo los odontólogos podrán administrar su consultorio de manera más eficiente mediante aplicación web como aplicación móvil. Basándose en el As-Is Scenario Mapping, que permitió reconocer sus métodos de trabajo actuales y las dificultades que enfrentan, se planteó un escenario futuro optimizado. Esta comparación facilitó la identificación de oportunidades de mejora en procesos como la gestión de citas, pagos, historiales clínicos e inventario, y permitió diseñar una solución práctica, ajustada a sus necesidades y fácil de utilizar.
+
+![to-be-scenario-mapping.png](Img/to-be-scenario-mapping.png)
+
 ## 3.2. User Stories
 
 ## 3.3. Product Backlog
