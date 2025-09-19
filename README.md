@@ -386,21 +386,86 @@ User Goal: Gestión de pagos
 
 
 ## Autenticación
+<div align="center">
+  <img src="Img/Login.png" width="250">
+  <img src="Img/Register.png" width="250">
+  <img src="Img/Perfil.png" width="250">
+</div>
 
+<div align="center">
+  <img src="Img/Editar perfil.png" width="250">
+  <img src="Img/Editar contraseña.png" width="250">
+</div>
 
 ## Menú principal
+<div align="center">
+  <img src="Img/Menu-inicio.png" width="250">
+</div>
 
+## Gestión de Citas
+<div align="center">
+  <img src="Img/Gestión de Citas1.png" width="250">
+  <img src="Img/Gestión de Citas2.png" width="250">
+  <img src="Img/Gestión de Citas3.png" width="250">
+</div>
+<div align="center">
+  <img src="Img/Gestión de Citas4.png" width="250">
+  <img src="Img/Gestión de Citas5.png" width="250">
+  <img src="Img/Gestión de Citas6.png" width="250">
+</div>
+<div align="center">
+  <img src="Img/Gestión de Citas7.png" width="250">
+  <img src="Img/Gestión de Citas8.png" width="250">
+  <img src="Img/Gestión de Citas9.png" width="250">
+</div>
+<div align="center">
+  <img src="Img/Gestión de Citas10.png" width="250">
+</div>
 
-## Gestión de citas
+## Gestión de Pacientes
+<div align="center">
+  <img src="Img/Gestión de Pacientes1.png" width="250">
+  <img src="Img/Gestión de Pacientes2.png" width="250">
+  <img src="Img/Gestión de Pacientes3.png" width="250">
+</div>
+<div align="center">
+  <img src="Img/Gestión de Pacientes4.png" width="250">
+  <img src="Img/Gestión de Pacientes5.png" width="250">
+  <img src="Img/Gestión de Pacientes6.png" width="250">
+</div>
+<div align="center">
+  <img src="Img/Gestión de Pacientes7.png" width="250">
+  <img src="Img/Gestión de Pacientes8.png" width="250">
+  <img src="Img/Gestión de Pacientes9.png" width="250">
+</div>
 
-
-## Gestión de pacientes
-
-
-## Inventario
-
+## Gestión de Inventario
+<div align="center">
+  <img src="Img/Gestión de Inventario1.png" width="250">
+  <img src="Img/Gestión de Inventario2.png" width="250">
+  <img src="Img/Gestión de Inventario3.png" width="250">
+</div>
+<div align="center">
+  <img src="Img/Gestión de Inventario4.png" width="250">
+  <img src="Img/Gestión de Inventario5.png" width="250">
+</div>
 
 ## Pagos
+<div align="center">
+  <img src="Img/Pagos1.png" width="250">
+  <img src="Img/Pagos2.png" width="250">
+  <img src="Img/Pagos3.png" width="250">
+</div>
+<div align="center">
+  <img src="Img/Pagos4.png" width="250">
+  <img src="Img/Pagos5.png" width="250">
+  <img src="Img/Pagos6.png" width="250">
+</div>
+<div align="center">
+  <img src="Img/Pagos7.png" width="250">
+  <img src="Img/Pagos8.png" width="250">
+</div>
+
 
 
 
