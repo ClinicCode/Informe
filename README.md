@@ -465,7 +465,13 @@ Del análisis de la matriz de tareas de Carlos Hijar Santa María, se destaca qu
 
 ### 2.3.3. User Journey Mapping
 
+<img src="Img/User-Journey-Mapping-1.png" alt="JS" style="margin-bottom: 5px;" width="700"/>
+
 ### 2.3.4. Empathy Mapping
+
+Utilizaremos esta herramienta visual que nos ayudará a comprender mejor a los usuarios que hemos escogido viendo desde una perspectiva más humana y emocional, en este caso para los odontólogos independientes.
+
+<img src="Img/Emphaty-Map.png" width="800">
 
 ### 2.3.5. As-is Scenario Mapping
 
