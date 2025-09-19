@@ -390,6 +390,32 @@ Esta sección recopila la información obtenida a partir de entrevistas realizad
 
 ### 2.2.2. Registro de entrevistas
 
+**Segmento Objetivo:** Odontólogos
+
+**Entrevista 1: Samuel Mendoza**
+
+![entrevista-fabrizio-cutiri.png](Img/entrevista-fabrizio-cutiri.png)
+
+**Datos del entrevistado**
+* **Nombre:** Samuel Mendoza
+* **Edad:** 60 años
+* **Distrito de Residencia:** Breña
+* **Duración de la entrevista:** 15:20 min
+
+**Resumen de la entrevista:**
+
+El doctor Samuel Mendoza tiene 60 años, vive en Breña y trabaja en Chorrillos, donde cuenta con un consultorio en la Av. Huaylas que funciona desde hace 10 años. Atiende en promedio a 50 pacientes por semana y en su práctica diaria utiliza laptop, computadora y celular para revisar estadísticas y mantenerse al día con los datos de sus pacientes.
+
+Actualmente emplea una aplicación básica que le permite registrar los procedimientos realizados a cada paciente, anotar lo que se hará en la siguiente cita y confirmar asistencia o inasistencia. Sin embargo, considera que esta herramienta es limitada, ya que carece de funciones importantes como la gestión de inventario, el manejo digital de historias clínicas y una mayor seguridad en los datos.
+
+La solicitud de las citas en su consultorio se realiza tanto de manera presencial como por teléfono, a través de un personal encargado. No obstante, enfrenta dificultades frecuentes: pacientes que llegan tarde, que no asisten o que exigen citas inmediatas. Cuando hay cancelaciones o cambios, su equipo se comunica con los pacientes mediante llamadas, generalmente un día antes o, de ser el caso, el mismo día por la mañana.
+
+El manejo de las historias clínicas todavía se realiza de forma manual y por escrito, lo que representa una tarea tediosa que desearía digitalizar por completo. En cuanto a los pagos, estos se gestionan en caja, con la posibilidad de hacerlo en efectivo o con tarjeta de débito o crédito.
+
+El odontólogo también destaca la importancia de recibir críticas y recomendaciones de los pacientes, ya sean positivas o negativas, ya que considera que estas le permiten mejorar la gestión y el trato brindado en su consultorio. Asimismo, subraya que la seguridad de la información es un aspecto crucial, pues se trata de datos personales sensibles que deberían estar protegidos mediante filtros de acceso en cualquier software de gestión.
+
+Finalmente, señala estar dispuesto a pagar por un sistema de gestión completo que le permita mejorar la administración de su consultorio. Aunque no tiene un rango de precio definido, menciona que en Estados Unidos conoce softwares que cuestan alrededor de 2000 dólares y ofrecen soluciones completas. Reconoce que en Perú todavía no es común el uso de estas herramientas, pero considera que deberían estar más extendidas en todos los consultorios.
+
 ### 2.2.3. Análisis de entrevistas
 
 ## 2.3. Needfinding
