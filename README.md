@@ -343,7 +343,8 @@ Para mitigar este riesgo, ofreceremos demostraciones del software y un soporte c
 
 #### 1.2.2.4. Lean UX Canvas
 
-<img>
+<img src="Img/Lean-UX-Canvas.jpg">
+
 
 
 ## 1.3. Segmentos objetivo
