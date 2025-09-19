@@ -306,9 +306,63 @@ Los integrantes son:
 
 ### 4.4.1. Mobile Applications Wireframes
 
+**Register**
+
+**Login**
+
+**Perfil**
+
+**Menú**
+
+**Dashboard**
+
+**Citas**
+
+**Inventario**
+
+**Pacientes**
+
+**Pagos**
+
+
+
 ### 4.4.2. Mobile Applications Wireflow Diagrams
 
+**Enlace Figma**:
+
+User Goal: Autentificacion
+User Goal: Gestión de Citas
+User Goal: Gestión de pacientes
+User Goal: Gestión de inventario
+
+User Goal: Perfil
+
+
+User Goal: Gestión de pagos
+
+
+
+
+
 ### 4.4.3. Mobile Applications Mock-ups
+
+**Register**
+
+**Login**
+
+**Perfil**
+
+**Menú**
+
+**Dashboard**
+
+**Citas**
+
+**Inventario**
+
+**Pacientes**
+
+**Pagos**
 
 ### 4.4.4. Mobile Applications User Flow Diagrams
 
