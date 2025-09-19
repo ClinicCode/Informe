@@ -384,23 +384,25 @@ User Goal: Gestión de pagos
 
 ### 4.4.3. Mobile Applications Mock-ups
 
-**Register**
 
-**Login**
+## Autenticación
 
-**Perfil**
 
-**Menú**
+## Menú principal
 
-**Dashboard**
 
-**Citas**
+## Gestión de citas
 
-**Inventario**
 
-**Pacientes**
+## Gestión de pacientes
 
-**Pagos**
+
+## Inventario
+
+
+## Pagos
+
+
 
 ### 4.4.4. Mobile Applications User Flow Diagrams
 
