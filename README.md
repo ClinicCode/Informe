@@ -354,9 +354,39 @@ El objetivo de esta sección es identificar a los principales competidores direc
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
+- Proporcionaremos una interfaz intuitiva que facilite el uso del software, con una navegación fluida y rápida, además de soporte personalizado para garantizar una adopción eficiente y una alta satisfacción del usuario.
+
+- Ofreceremos planes de suscripción flexibles y escalonados, diseñados para ajustarse a distintos presupuestos y necesidades. Desde opciones básicas hasta funciones avanzadas, cada plan estará orientado a diferentes tipos de consultorios.
+
+- Incorporaremos testimonios de clientes satisfechos en nuestra estrategia de marketing para reforzar la credibilidad. Estos testimonios serán resaltados en nuestro sitio web y materiales promocionales, contribuyendo a atraer nuevos usuarios y fortalecer la confianza en nuestra plataforma.
+
 ## 2.2. Entrevistas
 
+Esta sección recopila la información obtenida a partir de entrevistas realizadas a odontólogos que gestionan sus propios consultorios. Se incluyen las preguntas formuladas, las entrevistas realizadas y un análisis comparativo. El objetivo es comprender sus necesidades y hábitos actuales para fundamentar el desarrollo de una solución digital adecuada a su entorno real.
+
 ### 2.2.1. Diseño de entrevistas
+
+**Preguntas para los odontólogos independientes**
+
+1. ¿Cuál es tu nombre?
+2. ¿Qué edad tienes?
+3. ¿A qué te dedicas actualmente?
+4. ¿En qué lugar vives o trabajas?
+5. ¿Podrías contarme un poco sobre ti? Por ejemplo, ¿cuántos pacientes sueles atender semanalmente?
+6. ¿Dónde está ubicado tu consultorio?
+7. ¿Cuánto tiempo lleva funcionando tu consultorio?
+8. ¿Utilizas alguna app o software para organizar las tareas diarias en tu clínica? Si es así, ¿podrías contarme cómo funciona y qué te parece?
+9. ¿Qué tan necesario es para ti que esa aplicación funcione sin conexión a internet (modo offline)?
+10. ¿Qué dificultades enfrentas al organizar tu agenda y las citas de tus pacientes?
+11. ¿Cómo manejas la comunicación con los pacientes, especialmente cuando hay cancelaciones o cambios en las citas?
+12. Si pudieras añadir nuevas funciones al software que usas, ¿cuáles agregarías y por qué?
+13. ¿Qué marcas, dispositivos o plataformas digitales prefieres para trabajar y mantenerte al día?
+14. ¿Cómo organizas tu jornada diaria para asegurarte de que todas las citas se realicen sin inconvenientes?
+15. ¿Qué tan complicado te resulta mantener actualizados los registros y tratamientos de tus pacientes? ¿Qué métodos usas para llevar el control de las historias clínicas?
+16. ¿Cómo controlas los ingresos del consultorio y haces seguimiento de los pagos pendientes?
+17. ¿Qué tan relevante es para ti recibir opiniones de tus pacientes? ¿Cómo sabes si recomiendan tus servicios?
+18. ¿Qué tan importante es para ti que la información del consultorio esté segura y bien respaldada?
+19. ¿Estarías dispuesto(a) a pagar por una aplicación que te ayude a gestionar tu consultorio? ¿Qué precio te parecería razonable?
 
 ### 2.2.2. Registro de entrevistas
 
