@@ -544,6 +544,77 @@ enlace video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220219_upc_e
 
 ### 4.6.1. Web Applications Wireframes
 
+**Autenticación**
+<div align="center">
+  <img src="Img/Registro-W.png" width="600" />
+  <img src="Img/Inicio-sesión-W.png" width="600" />
+</div>
+
+**Dashboard (inicio)**
+<div align="center">
+  <img src="Img/Dashboard.png" width="800" />
+</div>
+
+**Inventario**
+<div align="center">
+  <img src="Img/Inventario-W.png" width="800" />
+</div>
+<div align="center">
+  <img src="Img/Inventario-producto-seleccionado-W.png" width="600" />
+  <img src="Img/Inventario-producto-seleccionado-2-W.png" width="600" />
+</div>
+<div align="center">
+  <img src="Img/Inventario-producto-modificado-W.png" width="800" />
+</div>
+<div align="center">
+  <img src="Img/inventario-producto-seleccionado-confirmado-W.png" width="800" />
+</div>
+
+**Configuración & Perfil**
+<div align="center">
+  <img src="Img/Perfil-W.png" width="600" />
+  <img src="Img/Perfil-2-W.png" width="600" />
+</div>
+<div align="center">
+  <img src="Img/Perfil-editar-información-personal-W.png" width="600" />
+  <img src="Img/Perfil-cambiar-contraseña-W.png" width="600" />
+</div>
+
+**Pagos & Facturación**
+<div align="center">
+  <img src="Img/Pagos-citas-a-pagar-W.png" width="600" />
+  <img src="Img/Pagos-citas-a-pagar-2-W.png" width="600" />
+</div>
+<div align="center">
+  <img src="Img/Pagos-seleccionar-pagos-W.png" width="600" />
+  <img src="Img/Pagos-filtros-para-buscar-facturas-W.png" width="600" />
+</div>
+<div align="center">
+  <img src="Img/Pagos-pagar-cita-W.png" width="600" />
+  <img src="Img/Pagos-pago-exitoso-W.png" width="600" />
+</div>
+<div align="center">
+  <img src="Img/Pagos-vista-de-una-factura-W.png" width="800" />
+</div>
+
+**Gestión de Citas de pacientes**
+<div align="center">
+  <img src="Img/Reserva-de-citas-W.png" width="800" />
+</div>
+<div align="center">
+  <img src="Img/Modificar-citas-W.png" width="600" />
+  <img src="Img/Modificar-citas-2-W.png" width="600" />
+</div>
+<div align="center">
+  <img src="Img/Eliminar-citas-W.png" width="600" />
+  <img src="Img/Eliminar-citas-2-W.png" width="600" />
+</div>
+
+**Notificaciones**
+<div align="center">
+  <img src="Img/Notificaciones-W.png" width="800" />
+</div>
+
 ### 4.6.2. Web Applications Wireflow Diagrams
 
 ### 4.6.3. Web Applications Mock-ups
