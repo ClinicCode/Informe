@@ -1556,6 +1556,42 @@ Y enlaces a redes sociales o políticas del sitio si están disponibles.
 
 ## 3.3. Product Backlog
 
+| #Orden | ID   | User Story                            | Story Points |
+|:-------|:-----|:--------------------------------------|:-------------|
+| 01     | US05 | Añadir citas                          | 8            |
+| 02     | US04 | Editar Citas                          | 8            |
+| 03     | US06 | Eliminar Cita                         | 8            |
+| 04     | US11 | Mostrar Pacientes                     | 8            |
+| 05     | US12 | Añadir Pacientes                      | 8            |
+| 06     | US13 | Editar Pacientes                      | 8            |
+| 07     | US16 | Añadir Historial Clínico              | 8            |
+| 08     | US19 | Visualizar Inventario                 | 8            |
+| 09     | US20 | Añadir objeto al inventario           | 8            |
+| 10     | US21 | Editar objeto del inventario          | 8            |
+| 11     | US22 | Eliminar objeto del inventario        | 8            |
+| 12     | US25 | Registrar cantidad consumida de ítems | 8            |
+| 13     | US03 | Mostrar Citas                         | 5            |
+| 14     | US07 | Buscar Citas                          | 5            |
+| 15     | US08 | Gestionar horarios de atención        | 5            |
+| 16     | US09 | Pagar tratamiento                     | 5            |
+| 17     | US10 | Historial de pagos                    | 5            |
+| 18     | US14 | Eliminar Pacientes                    | 5            |
+| 19     | US15 | Buscar Pacientes                      | 5            |
+| 20     | US17 | Eliminar historial clínico            | 5            |
+| 21     | US18 | Mostrar historial clínico             | 5            |
+| 22     | US23 | Dashboard de inventario               | 5            |
+| 23     | US24 | Guardar fecha de ajuste de inventario | 5            |
+| 24     | US26 | Gestión del Perfil                    | 3            |
+| 25     | US27 | Visualización del menú principal      | 3            |
+| 26     | US28 | Navegación por la barra principal     | 3            |
+| 27     | US29 | Sección About Us                      | 3            |
+| 28     | US30 | Sección de Servicios                  | 3            |
+| 29     | US31 | Sección Contact Us                    | 3            |
+| 30     | US32 | Formulario de contacto                | 3            |
+| 31     | US33 | Footer informativo                    | 3            |
+| 32     | US01 | Registrar Usuarios                    | 3            |
+| 33     | US02 | Iniciar Sesión                        | 3            |
+
 ## 3.4. Impact Mapping
 
 El Impact Mapping es una técnica visual que permite conectar los objetivos del proyecto con las necesidades y expectativas de los principales actores involucrados. En este caso, ayuda a comprender cómo cada decisión de diseño impacta tanto en la experiencia de los odontólogos como en la de sus pacientes. A través de este mapa se identifican los resultados que se esperan alcanzar, los comportamientos que se desean fomentar y las funcionalidades que aportan valor real al consultorio.
