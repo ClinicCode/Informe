@@ -651,6 +651,74 @@ enlace video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220219_upc_e
 
 ### 4.6.3. Web Applications Mock-ups
 
+**Autenticación**
+<div align="center">
+  <img src="Img/Inicio-de-sesion-M.png" alt="Mockup: Inicio de sesión" width="600" />
+  <img src="Img/Registro-M.png" alt="Mockup: Registro" width="600" />
+</div>
+
+**Dashboard (inicio)**
+<div align="center">
+  <img src="Img/Dashboard-M.png" alt="Mockup: Dashboard" width="800" />
+</div>
+
+**Perfil**
+<div align="center">
+  <img src="Img/Perfil-M.png" alt="Mockup: Perfil" width="600" />
+  <img src="Img/Perfil-editar-información-personal-M.png" alt="Mockup: Editar información personal" width="600" />
+</div>
+<div align="center">
+  <img src="Img/Perfil-editar-información-personal-2-M.png" alt="Mockup: Editar información personal (variante)" width="600" />
+  <img src="Img/Perfil-cambiar-contraseña-M.png" alt="Mockup: Cambiar contraseña" width="600" />
+</div>
+<div align="center">
+  <img src="Img/Perfil-cambiar-contraseña-2-M.png" alt="Mockup: Cambiar contraseña (variante)" width="800" />
+</div>
+
+**Gestión de Citas**
+<div align="center">
+  <img src="Img/Reserva-de-citas-M.png" alt="Mockup: Reservar cita" width="600" />
+  <img src="Img/Modificar-citas-M.png" alt="Mockup: Modificar cita" width="600" />
+</div>
+<div align="center">
+  <img src="Img/Modificar-citas-2-M.png" alt="Mockup: Modificar cita (paso 2)" width="600" />
+  <img src="Img/Eliminar-citas-M.png" alt="Mockup: Eliminar cita" width="600" />
+</div>
+<div align="center">
+  <img src="Img/Eliminar-citas-2-M.png" alt="Mockup: Eliminar cita (confirmación)" width="600" />
+  <img src="Img/Historial-de-citas-M.png" alt="Mockup: Historial de citas" width="600" />
+</div>
+
+**Pagos & Facturación**
+<div align="center">
+  <img src="Img/Pagos-citas-a-pagar-M.png" alt="Mockup: Citas a pagar" width="600" />
+  <img src="Img/Pagos-seleccionar-cita-M.png" alt="Mockup: Seleccionar cita a pagar" width="600" />
+</div>
+<div align="center">
+  <img src="Img/Pagos-filtros-para-buscar-facturas-M.png" alt="Mockup: Filtros para buscar facturas" width="600" />
+  <img src="Img/Pagos-pagar-cita-M.png" alt="Mockup: Pagar cita" width="600" />
+</div>
+<div align="center">
+  <img src="Img/Pagos-pago-exitoso-M.png" alt="Mockup: Pago exitoso" width="600" />
+  <img src="Img/Pagos-vista-de-una-factura-M.png" alt="Mockup: Vista de factura" width="600" />
+</div>
+<div align="center">
+  <img src="Img/Pagos-facturas-M.png" alt="Mockup: Facturas" width="800" />
+</div>
+
+**Inventario**
+<div align="center">
+  <img src="Img/Inventario-M.png" alt="Mockup: Inventario (listado)" width="800" />
+</div>
+<div align="center">
+  <img src="Img/Inventario-producto-seleccionado-M.png" alt="Mockup: Producto seleccionado" width="600" />
+  <img src="Img/Inventario-nuevo-producto-M.png" alt="Mockup: Nuevo producto" width="600" />
+</div>
+<div align="center">
+  <img src="Img/Inventario-modificar-producto-M.png" alt="Mockup: Modificar producto" width="600" />
+  <img src="Img/Inventario-eliminar-producto-M.png" alt="Mockup: Eliminar producto" width="600" />
+</div>
+
 ### 4.6.4. Web Applications User Flow Diagrams
 
 ## 4.7. Web Applications Prototyping
