@@ -615,7 +615,39 @@ enlace video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220219_upc_e
   <img src="Img/Notificaciones-W.png" width="800" />
 </div>
 
-### 4.6.2. Web Applications Wireflow Diagrams
+### 4.6.4. Web Applications User Flow Diagrams
+
+### 4.6.4. Web Applications User Flow Diagrams
+
+**Enlace Figma:** <https://www.figma.com/design/WRThFO0TXiuoNfXCPJvR26/Dise%C3%B1o-web?node-id=0-1&p=f&t=gM1Z07iNNkLSpL0t-0>
+
+**User Goal: Autenticación & Perfil**
+<div align="center">
+  <img src="Img/registro-y-autenticación.png" alt="User Flow: Registro y Autenticación" width="800" />
+</div>
+<div align="center">
+  <img src="Img/actualizar-datos.png" alt="User Flow: Actualizar datos de perfil" width="800" />
+</div>
+
+**User Goal: Gestión de Citas (programar / modificar / cancelar)**
+<div align="center">
+  <img src="Img/gestion-de-citas.png" alt="User Flow: Gestión de Citas (programar, modificar, cancelar)" width="800" />
+</div>
+
+**User Goal: Gestión de Pacientes (listar / crear / editar / eliminar)**
+<div align="center">
+  <img src="Img/gestion-de-pacientes.png" alt="User Flow: Gestión de Pacientes (listar, crear, editar, eliminar)" width="800" />
+</div>
+
+**User Goal: Pagos & Facturación**
+<div align="center">
+  <img src="Img/gestion-de-pagos.png" alt="User Flow: Pagos y Facturación" width="600" />
+</div>
+
+**User Goal: Gestión de Inventario**
+<div align="center">
+  <img src="Img/inventario-wireflow.png" alt="User Flow: Gestión de Inventario" width="800" />
+</div>
 
 ### 4.6.3. Web Applications Mock-ups
 
