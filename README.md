@@ -725,13 +725,13 @@ enlace video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220219_upc_e
 
 ## User Goal: Actualizar datos
 Cuando el usuario accede a la app, inicia sesión y va a Perfil para modificar su información personal. Puede actualizar nombre, correo y contraseña, así como agregar o editar teléfono y dirección.  
-![Actualizar datos](Img/actualizar-datos.png)
+![Actualizar datos](Img/actualizar-datos-mockups.png)
 
 ---
 
 ## User Goal: Cita
 El usuario ingresa a Citas para revisar, crear o modificar citas existentes. También puede cancelar una cita si es necesario.  
-![Gestión de Citas](Img/gestion-de-citas.png)
+![Gestión de Citas](Img/gestion-de-citas-mockups.png)
 
 ---
 
@@ -749,7 +749,7 @@ En **Pacientes**, el usuario visualiza la lista, registra nuevos pacientes o edi
 
 ## User Goal: Pagos
 En **Pagos**, el usuario ve citas pendientes de cobro, selecciona ítems, registra el pago y puede emitir/consultar facturas e historial.  
-![Gestión de Pagos](Img/gestion-de-pagos.png)
+![Gestión de Pagos](Img/gestion-de-pagos-mockups.png)
 
 ---
 
