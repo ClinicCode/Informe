@@ -721,6 +721,43 @@ enlace video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220219_upc_e
 
 ### 4.6.4. Web Applications User Flow Diagrams
 
+**Enlace Figma:** <https://www.figma.com/design/WRThFO0TXiuoNfXCPJvR26/Dise%C3%B1o-web?node-id=0-1&p=f&t=gM1Z07iNNkLSpL0t-0>
+
+## User Goal: Actualizar datos
+Cuando el usuario accede a la app, inicia sesión y va a Perfil para modificar su información personal. Puede actualizar nombre, correo y contraseña, así como agregar o editar teléfono y dirección.  
+![Actualizar datos](Img/actualizar-datos.png)
+
+---
+
+## User Goal: Cita
+El usuario ingresa a Citas para revisar, crear o modificar citas existentes. También puede cancelar una cita si es necesario.  
+![Gestión de Citas](Img/gestion-de-citas.png)
+
+---
+
+## User Goal: Inventario
+Desde Inventario, el usuario consulta stock, añade nuevos productos, los actualiza o elimina cuando corresponde.  
+![Inventario](Img/inventario-mockup.png)
+
+---
+
+## User Goal: Paciente
+En **Pacientes**, el usuario visualiza la lista, registra nuevos pacientes o edita la información de los existentes; además, puede eliminarlos si ya no deben permanecer en el sistema.  
+![Gestión del Paciente](Img/gestion-del-paciente.png)
+
+---
+
+## User Goal: Pagos
+En **Pagos**, el usuario ve citas pendientes de cobro, selecciona ítems, registra el pago y puede emitir/consultar facturas e historial.  
+![Gestión de Pagos](Img/gestion-de-pagos.png)
+
+---
+
+## User Goal: Registro
+Si aún no tiene cuenta, el usuario se registra ingresando nombre, correo y contraseña; luego podrá iniciar sesión y acceder a todas las funciones.  
+![Registro y Autenticación](Img/registro-y-autentizacion.png)
+
+
 ## 4.7. Web Applications Prototyping
 
 ## 4.8. Domain-Driven Software Architecture
