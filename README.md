@@ -426,28 +426,28 @@ Se incluyen confirmaciones visuales tras cada acción del usuario, brindando ret
 **App Móvil (Dentify)**
 La interfaz de Dentify organiza sus secciones principales —como “Reserva de Citas”, “Pagar Tratamiento” y “Historial”— mediante títulos visibles, botones destacados y elementos interactivos que guían al usuario de forma intuitiva. Por ejemplo, “Reservar Citas” se ubica en una posición prioritaria dentro de la pantalla principal o como botón flotante, lo que permite un acceso rápido y directo.
 
-**Landing Page (MediTech)**
+**Landing Page (ClinicCode)**
 Las secciones como “Nosotros”, “Servicios”, “Información” y “Contáctenos” se presentan con encabezados grandes y llamados a la acción claros, facilitando la navegación del visitante. En “Servicios”, se utilizan íconos representativos y botones que conducen a más detalles sobre soluciones destacadas como Dentify.
 
 #### Categorización del Contenido
 **App Móvil (Dentify)**
 Las funcionalidades están organizadas en categorías intuitivas como “Citas”, “Pagos” y “Historial”, lo que permite al usuario encontrar rápidamente lo que necesita. Por ejemplo, funciones específicas como “Gestión de Inventario” se agrupan en una sección administrativa, accesible únicamente para usuarios premium.
 
-**Landing Page (MediTech)**
+**Landing Page (ClinicCode)**
 El contenido se distribuye en secciones informativas bien definidas. “Nosotros” reúne la historia y el equipo; “Servicios” detalla las soluciones ofrecidas; y en “Información”, los temas están organizados por áreas como eficiencia clínica o gestión de citas, lo que facilita su exploración.
 
 #### Secuencia de Contenidos
 **App Móvil (Dentify)**
 La experiencia de uso sigue una secuencia lógica: tras iniciar sesión, el usuario accede al menú principal y luego a funciones frecuentes como reservas o consultas. Por ejemplo, al ingresar, se muestra en primer plano la opción “Reserva de Citas”, lo que permite una navegación fluida y enfocada.
 
-**Landing Page (MediTech)**
+**Landing Page (ClinicCode)**
 La estructura del sitio sigue un orden progresivo: comienza con la presentación de la empresa, continúa con los servicios y finaliza en la sección de contacto. Esto permite que el visitante conozca primero las soluciones disponibles, luego acceda a información detallada y finalmente encuentre cómo comunicarse.
 
 #### Agrupación de Funcionalidades
 **App Móvil (Dentify)**
 Las funciones están agrupadas por áreas de uso para mejorar la experiencia. Por ejemplo, “Perfil” incluye configuraciones personales; “Citas” reúne programación, recordatorios y seguimiento. Los métodos de pago y facturación se integran en “Pagos”, mientras que la información médica del paciente se organiza dentro de “Historial”.
 
-**Landing Page (MediTech)**
+**Landing Page (ClinicCode)**
 Las secciones funcionales están estructuradas para facilitar la navegación. “Servicios” agrupa todas las soluciones que ofrece la empresa, y “Contáctenos” centraliza los medios de comunicación. Dentro de “Servicios”, se puede destacar una subsección dedicada a Dentify como propuesta innovadora.
 
 ### 4.2.2. Labeling Systems
@@ -455,10 +455,23 @@ Las secciones funcionales están estructuradas para facilitar la navegación. �
 **Aplicación Móvil (Dentify)**
 Se han utilizado etiquetas claras y precisas que describen directamente la función de cada sección, lo que permite a los usuarios identificar fácilmente las acciones disponibles dentro de la app. Por ejemplo, en el menú principal se emplean términos como “Reservar Cita”, “Historial” y “Pagos”, que comunican de forma directa lo que el usuario encontrará al ingresar. En la sección “Perfil”, opciones como “Editar Información Personal” y “Modificar Contraseña” están nombradas de manera específica, lo que ayuda a guiar al usuario sin generar confusión.
 
-**Landing Page (MediTech)**
+**Landing Page (ClinicCode)**
 Las secciones del sitio están etiquetadas con términos comprensibles y directos, como “Servicios” o “Información”, lo que facilita la navegación desde cualquier dispositivo. Un ejemplo claro se encuentra en la sección “Contáctenos”, donde se diferencian las vías de comunicación mediante etiquetas como “Formulario de Consulta”, “Llamada Telefónica” y “Atención por Chat”, permitiendo al usuario elegir fácilmente el canal que prefiera.
 
 ### 4.2.3. SEO Tags and Meta Tags
+
+Se han aplicado estrategias de posicionamiento en tiendas de aplicaciones mediante técnicas de ASO (App Store Optimization), con el objetivo de que Dentify sea fácilmente encontrada por profesionales del área odontológica que buscan soluciones móviles para la gestión de sus consultorios.
+
+Se han definido elementos clave como:
+
+- **Título de la App:**
+“Dentify - Gestión Dental Móvil por ClinicCode”
+
+- **Descripción de la App:**
+“Organiza tus citas, tratamientos y pacientes desde una sola app. Dentify optimiza la administración de tu consultorio dental desde cualquier lugar.”
+
+- **Palabras Clave:**
+“app dental, gestión de citas, consultorio móvil, odontología digital, Dentify ClinicCode”
 
 ### 4.2.4. Searching Systems
 
