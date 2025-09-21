@@ -525,6 +525,8 @@ Si el usuario no cuenta con una cuenta, puede registrarse proporcionando informa
 
 ## 4.5. Mobile Applications Prototyping
 
+Para los prototipos de interfaz móvil seguimos tres principios: claridad, diseño mobile-first adaptable y presentación de información esencial. Priorizamos flujos cortos para registrar procesos y consultar reportes, navegación inferior y cuidamos legibilidad, manteniendo la experiencia rápida y consistente en distintos tamaños de pantalla.
+
 ### 4.5.1. Android Mobile Applications Prototyping
 
 ![Prototype_and](Img/proto_and.jpeg)
@@ -759,6 +761,10 @@ Si aún no tiene cuenta, el usuario se registra ingresando nombre, correo y cont
 
 
 ## 4.7. Web Applications Prototyping
+
+Para los prototipos de interfaz web en escritorio seguimos tres principios: claridad, eficiencia y diseño adaptable. Utilizamos layouts de grilla y paneles que organizan funciones clave (registro de procesos y reportes), tablas filtrables y una jerarquía tipográfica limpia para comprender de inmediato. Aseguramos consistencia entre resoluciones, soporte de accesibilidad (navegación por teclado, estados de foco visibles) y mostramos solo los datos críticos para cada perfil, reduciendo ruido visual y mejorando la productividad.
+
+![Prototipo Web](Img/proto_web.png)
 
 ## 4.8. Domain-Driven Software Architecture
 
