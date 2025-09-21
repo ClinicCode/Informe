@@ -916,9 +916,182 @@ Para los prototipos de interfaz web en escritorio seguimos tres principios: clar
 
 ## 5.1. Software Configuration Management
 
+Con el fin de garantizar la consistencia, trazabilidad y calidad a lo largo del ciclo de vida de Dentify, en todos sus productos software, el equipo ha definido un conjunto de decisiones y convenciones orientadas a la gestión de configuraciones. Esta sección describe los mecanismos adoptados para controlar el código fuente, configurar los entornos de desarrollo y definir el proceso de despliegue de la aplicación web.
+
+Estas prácticas permiten asegurar que las versiones del software se mantengan estables, que el trabajo colaborativo sea eficiente y que las implementaciones sean controladas y reproducibles.
+
 ### 5.1.1. Software Development Environment Configuration
 
+Para asegurar una colaboración eficiente y mantener la calidad en el desarrollo de Eventify, se ha definido un entorno de desarrollo común para todos los miembros del equipo. A continuación, se listan los productos de software utilizados en las distintas etapas del ciclo de vida del producto digital, indicando su propósito y su enlace de referencia o descarga correspondiente.
+
+**Requirements Management:**
+
+**UxPressia:** Utilizamos esta herramienta para elaborar los distintos artefactos de Needfinding como son el User persona, Journey Map, Empathy Map e Impact Maps. 
+
+Referencia: [https://uxpressia.com](https://uxpressia.com)
+
+<img src="Img/uxpressia-icon.png" alt="UxPressia" height="150"/>
+
+**Miro:** Esta plataforma en línea nos ayudó a desarrollar los cuadros de As-Is y To-Be Scenary Map 
+
+Referencia: [https://miro.com/es/](https://miro.com/es/)
+
+<img src="Img/miro-icon.png" alt="Miro" height="150"/>
+
+
+**Product UX/UI Design**
+
+**Figma:** Se empleó para la creación de wireframes, mock-ups y prototipos de la aplicación web.
+
+Referencia: [https://www.figma.com/es-es/](https://www.figma.com/es-es/)
+
+<img src="Img/figma-icon.png" alt="Figma" height="150"/>
+
+**Software Development**
+
+**WebStorm:** (Instalación local): Utilizado como entorno de desarrollo para trabajar con HTML, CSS y JavaScript. 
+
+Referencia: [https://www.jetbrains.com/es-es/webstorm/](https://www.jetbrains.com/es-es/webstorm/)
+
+<img src="Img/webstorm-icon.png" alt="WebStorm" height="150"/>
+
+**IntelliJ:** Este es un IDE de Jetbrains para desarrollar aplicaciones con Java. Para este proyecto lo utilizamos para desarrollar el backend de la aplicación
+
+Referencia: [https://www.jetbrains.com/idea](https://www.jetbrains.com/idea)
+
+<img src="Img/intellij-icon.png" alt="IntelliJ" height="150"/>
+
+**Android Studio:** Es un IDE oficial para el desarrollo de aplicaciones Android. Dicho software es gratuito y está basado en IntelliJ IDEA. Esta herramienta nos permite desarrollar la aplicación móvil planteada.
+
+Referencia: [https://developer.android.com](https://developer.android.com)
+
+<img src="Img/android-studio-icon.png" alt="Android Studio" height="150"/>
+
+**Visual Studio Code:** Este es un editor de código usado para desarrollo de software, ya sea con HTML, CSS y Javascript, asi como con frameworks (Vue, Angular, React, etc.)
+
+Referencia: [https://code.visualstudio.com](https://code.visualstudio.com)
+
+<img src="Img/visual-studio-icon.png" alt="Visual Studio Code" height="150"/>
+
+**Project Management and Collaboration**
+
+En la gestión de proyectos y colaboración del equipo se utilizaron:
+
+**Jira:** Esta es una plataforma especializada en la gestión de proyecto, la cual utilizamos para asignar tareas a realizar por cada integrante del equipo. 
+
+Referencia: [https://www.atlassian.com/es/software/jira](https://www.atlassian.com/es/software/jira)
+
+<img src="Img/jira-icon.png" alt="Jira" height="150"/>
+
+**GitHub:** Plataforma de repositorio remoto para la gestión de versiones del código, implementando el flujo GitFlow para garantizar un desarrollo organizado.
+
+Referencia: [https://github.com/](https://github.com/)
+
+<img src="Img/github-icon.png" alt="GitHub" height="150"/>
+
+**Git (Instalación local):** Empleado para gestionar los cambios de código de manera local mediante commits y ramas.
+
+Referencia: [https://git-scm.com/](https://git-scm.com/)
+
+<img src="Img/git-icon.png" alt="Git" height="150"/>
+
+
+
+**Software Documentation**
+
+**GitHub:** Esta plataforma tambien fue utilizada para el desarrollo del informe mediante archivos MarkDown(.md) 
+
+Referencia: [https://github.com/](https://github.com/)
+
+<img src="Img/github-icon.png" alt="GitHub" height="150"/>
+
+**Vertabelo:** Herramienta utilizada para el diseño, creación y documentación colaborativa de bases de datos. 
+
+Referencia: [https://vertabelo.com/](https://vertabelo.com/)
+
+<img src="Img/vertabelo-icon.png" alt="Vertabelo" height="150"/>
+
+**Structurizr:** Herramienta usada para modelar la arquitectura de software mediante diagramas C4.
+
+Referencia: [https://structurizr.com/](https://structurizr.com/)
+
+<img src="Img/structurizr-icon.png" alt="Structurizr" height="150"/>
+
+**Software Deployment**
+
+**Firebase:** Esta es una plataforma de Google para desarrollo de aplicaciones. Para este caso lo utilizamos para desplegar la aplicación móvil
+
+Referencia: [https://firebase.google.com/?hl=es-419](https://firebase.google.com/?hl=es-419)
+
+<img src="Img/firebase-icon.png" alt="Firebase" height="150"/>
+
+**Azure:** Este es un servicio en la nube de Microsoft, el cual usamos para desplegar el backend junto con la documentación en Swagger 
+
+Referencia: [https://azure.microsoft.com/es-es](https://azure.microsoft.com/es-es)
+
+<img src="Img/azure-icon.png" alt="Azure" height="150"/>
+
+**GithubPages:** Esta es una herramienta de GitHub para alojar sitios web estáticos. Lo utilizamos para desplegar el landing page. 
+
+Referencia: [https://docs.github.com/es/pages](https://docs.github.com/es/pages)
+
+<img src="Img/github-pages-icon.png" alt="GitHub Pages" height="150"/>
+
 ### 5.1.2. Source Code Management
+
+La gestión del código fuente es una parte fundamental en el desarrollo colaborativo de software, ya que permite un control eficiente sobre las modificaciones realizadas en el proyecto a lo largo de su ciclo de vida. En esta sección, se describe el sistema de control de versiones implementado en el proyecto Dentify, utilizando GitHub como plataforma principal. Además, se detallan las convenciones de trabajo adoptadas por el equipo, como el modelo GitFlow, el versionado semántico (Semantic Versioning) y las convenciones de commit mediante Conventional Commits. Estas prácticas aseguran un desarrollo ordenado y una integración continua efectiva entre los miembros del equipo.
+
+**URL de los Repositorios:**
+- Organización: [https://github.com/ClinicCode](https://github.com/ClinicCode)
+- Reporte: [https://github.com/ClinicCode/Informe](https://github.com/ClinicCode/Informe)
+- Landing Page: [https://github.com/ClinicCode/dentify-landing-page](https://github.com/ClinicCode/dentify-landing-page)
+- FrontEnd: [https://github.com/ClinicCode/dentify-app-web](https://github.com/ClinicCode/dentify-app-web)
+- Backend: [https://github.com/ClinicCode/dentify-backend](https://github.com/ClinicCode/dentify-backend)
+- Mobile App: [https://github.com/ClinicCode/dentify-app-mobile](https://github.com/ClinicCode/dentify-app-mobile)
+
+**Estructura de Ramas:**
+
+Para mantener un flujo organizado en el desarrollo y facilitar la colaboración, se ha implementado el modelo GitFlow, creando las siguientes ramas:
+
+- Master Branch: Rama principal (main) que contiene las versiones estables del proyecto. Todas las demás ramas derivan de esta.
+- Develop: Rama secundaria donde se integran todas las características nuevas antes de fusionarse a la rama main.
+- Feature Branches: Se crean a partir de develop para trabajar en nuevas funcionalidades específicas
+- Release Branches: Se crean desde develop para preparar una nueva versión.
+- Hotfix Branches: Se crean desde main para solucionar errores críticos detectados en producción.
+
+**Convenciones de commits:**
+
+Para la escritura de commits, se sigue la convención 'Conventional Commits', el cual cuenta con un formato estándar para facilitar la lectura y entendimiento del historial de cambios dentro del proyecto.
+```
+    <type>[optional scope]: <description>
+    
+    [optional body]
+    
+    [optional footer(s)]
+```
+- Type:
+  - feat: Añadir una nueva característica.
+  - fix: Correción de errores.
+  - docs: Modificaciones en la documentación.
+  - style: Cambios que no afectan la lógica del código.
+  - refactor: Modificaciones que no añaden características y/o errores.
+  - test: Adición/Modificación de pruebas.
+
+
+- Scope: Brinda información extra acerca del área del código afectado.
+```
+   feat(auth): add register functionality.
+```
+**Ejemplos básicos de commits:**
+```
+   feat(login): add organizer authentication module.
+```
+```
+   fix(payment): resolve payment security issue.
+```
+```
+   docs(README): update index instructions.
+```
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
