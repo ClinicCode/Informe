@@ -352,7 +352,7 @@ Los integrantes son:
 
 ## 5.1. Software Configuration Management
 
-Con el fin de garantizar la consistencia, trazabilidad y calidad a lo largo del ciclo de vida de Clinic Code, en todos sus productos software, el equipo ha definido un conjunto de decisiones y convenciones orientadas a la gestión de configuraciones. Esta sección describe los mecanismos adoptados para controlar el código fuente, configurar los entornos de desarrollo y definir el proceso de despliegue de la aplicación web.
+Con el fin de garantizar la consistencia, trazabilidad y calidad a lo largo del ciclo de vida de Dentify, en todos sus productos software, el equipo ha definido un conjunto de decisiones y convenciones orientadas a la gestión de configuraciones. Esta sección describe los mecanismos adoptados para controlar el código fuente, configurar los entornos de desarrollo y definir el proceso de despliegue de la aplicación web.
 
 Estas prácticas permiten asegurar que las versiones del software se mantengan estables, que el trabajo colaborativo sea eficiente y que las implementaciones sean controladas y reproducibles.
 
@@ -474,6 +474,60 @@ Referencia: [https://docs.github.com/es/pages](https://docs.github.com/es/pages)
 <img src="Img/github-pages-icon.png" alt="GitHub Pages" height="150"/>
 
 ### 5.1.2. Source Code Management
+
+La gestión del código fuente es una parte fundamental en el desarrollo colaborativo de software, ya que permite un control eficiente sobre las modificaciones realizadas en el proyecto a lo largo de su ciclo de vida. En esta sección, se describe el sistema de control de versiones implementado en el proyecto Dentify, utilizando GitHub como plataforma principal. Además, se detallan las convenciones de trabajo adoptadas por el equipo, como el modelo GitFlow, el versionado semántico (Semantic Versioning) y las convenciones de commit mediante Conventional Commits. Estas prácticas aseguran un desarrollo ordenado y una integración continua efectiva entre los miembros del equipo.
+
+**URL de los Repositorios:**
+- Organización: [https://github.com/ClinicCode](https://github.com/ClinicCode)
+- Reporte: [https://github.com/ClinicCode/Informe](https://github.com/ClinicCode/Informe)
+- Landing Page: [https://github.com/ClinicCode/dentify-landing-page](https://github.com/ClinicCode/dentify-landing-page)
+- FrontEnd: [https://github.com/ClinicCode/dentify-app-web](https://github.com/ClinicCode/dentify-app-web)
+- Backend: [https://github.com/ClinicCode/dentify-backend](https://github.com/ClinicCode/dentify-backend)
+- Mobile App: [https://github.com/ClinicCode/dentify-app-mobile](https://github.com/ClinicCode/dentify-app-mobile)
+
+**Estructura de Ramas:**
+
+Para mantener un flujo organizado en el desarrollo y facilitar la colaboración, se ha implementado el modelo GitFlow, creando las siguientes ramas:
+
+- Master Branch: Rama principal (main) que contiene las versiones estables del proyecto. Todas las demás ramas derivan de esta.
+- Develop: Rama secundaria donde se integran todas las características nuevas antes de fusionarse a la rama main.
+- Feature Branches: Se crean a partir de develop para trabajar en nuevas funcionalidades específicas
+- Release Branches: Se crean desde develop para preparar una nueva versión.
+- Hotfix Branches: Se crean desde main para solucionar errores críticos detectados en producción.
+
+**Convenciones de commits:**
+
+Para la escritura de commits, se sigue la convención 'Conventional Commits', el cual cuenta con un formato estándar para facilitar la lectura y entendimiento del historial de cambios dentro del proyecto.
+```
+    <type>[optional scope]: <description>
+    
+    [optional body]
+    
+    [optional footer(s)]
+```
+- Type:
+  - feat: Añadir una nueva característica.
+  - fix: Correción de errores.
+  - docs: Modificaciones en la documentación.
+  - style: Cambios que no afectan la lógica del código.
+  - refactor: Modificaciones que no añaden características y/o errores.
+  - test: Adición/Modificación de pruebas.
+
+
+- Scope: Brinda información extra acerca del área del código afectado.
+```
+   feat(auth): add register functionality.
+```
+**Ejemplos básicos de commits:**
+```
+   feat(login): add organizer authentication module.
+```
+```
+   fix(payment): resolve payment security issue.
+```
+```
+   docs(README): update index instructions.
+```
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
