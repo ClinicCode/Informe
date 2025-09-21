@@ -746,9 +746,8 @@ enlace video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220219_upc_e
   <img src="Img/Notificaciones-W.png" width="800" />
 </div>
 
-### 4.6.4. Web Applications User Flow Diagrams
 
-### 4.6.4. Web Applications User Flow Diagrams
+### 4.6.2. Web Applications Wireflow Diagrams
 
 **Enlace Figma:** <https://www.figma.com/design/WRThFO0TXiuoNfXCPJvR26/Dise%C3%B1o-web?node-id=0-1&p=f&t=gM1Z07iNNkLSpL0t-0>
 
