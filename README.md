@@ -475,7 +475,27 @@ Se han definido elementos clave como:
 
 ### 4.2.4. Searching Systems
 
+**Aplicación Móvil (Dentify)**
+
+Se ha integrado una función de búsqueda optimizada que permite a los usuarios encontrar rápidamente información relevante dentro de la app, como citas programadas, registros de pacientes o tratamientos específicos.
+Por ejemplo, la búsqueda incluye filtros por fecha, profesional de salud o tipo de procedimiento, lo que facilita el acceso ágil a los datos desde cualquier sección, incluso en dispositivos con pantallas pequeñas.
+
+**Landing Page (ClinicCode)**
+
+Se ha implementado una barra de búsqueda sencilla que ayuda a los visitantes a localizar contenidos específicos, como artículos informativos o detalles sobre los servicios ofrecidos.
+Un ejemplo se encuentra en la sección “Información”, donde los usuarios pueden buscar temas concretos como “automatización de citas” o “eficiencia administrativa en consultorios dentales”.
+
 ### 4.2.5. Navigation Systems
+
+Menú Principal:
+
+**Aplicación Móvil (Dentify)**
+- El menú principal ha sido diseñado para ser intuitivo y accesible desde cualquier pantalla mediante un botón desplegable (hamburger menu), que ofrece acceso directo a funciones clave como “Citas”, “Pagos” e “Historial”. Este menú se adapta a pantallas pequeñas y prioriza la facilidad de uso en movimiento.
+- Ejemplo: Los usuarios premium pueden acceder rápidamente al soporte técnico desde cualquier sección, ya sea mediante un ícono fijo en el menú o accesos rápidos en la pantalla principal.
+
+**Landing Page (ClinicCode)**
+- Se utiliza un menú superior fijo que permanece visible al hacer scroll, con enlaces a las secciones principales del sitio. Está optimizado para dispositivos móviles, con íconos representativos y un diseño compacto.
+- Ejemplo: En la vista móvil, el menú muestra íconos claros para acceder a “Nosotros”, “Servicios” y al chat de ayuda, mejorando la navegación desde smartphones.
 
 ## 4.3. Landing Page UI Design
 
