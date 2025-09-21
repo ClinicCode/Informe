@@ -276,17 +276,179 @@ Los integrantes son:
 
 ### 4.1.1. General Style Guidelines
 
+#### Nombre y Logotipo
+
+El nombre de la aplicación, Dentify, transmite innovación, profesionalismo y un enfoque claro en la gestión de consultorios odontológicos. El logotipo de Dentify está compuesto únicamente por un ícono de un diente sin acompañamiento de texto. Este símbolo representa de forma clara y directa el enfoque odontológico de la aplicación, transmitiendo profesionalismo, salud y confianza. Su diseño limpio y minimalista asegura una fácil identificación
+
+![Logo](Img/Dentify-logo.png)
+
+#### Tono de comunicación
+
+Para el tono de comunicación se optó por uno con un efoque profesional, consiso, claro y que transmita confianza sin perder calidez. El lenguaje técnico será evitado en su mayoría y se priorizará expresiones accesibles para facilitar la comprensión.
+
+#### Colors
+
+
+
 ### 4.1.2. Web Style Guidelines
+
+La paleta de colores se basa en tonos de celeste y azul, que transmiten confianza, profesionalismo y tranquilidad, ideales para el entorno de la salud dental. Como colores secundarios se utilizan blanco, negro y gris, que aportan equilibrio visual, legibilidad y una estética limpia y moderna. Esta combinación refuerza una imagen clara, ordenada y amigable para los usuarios.
+
+![colores](Img/paleta-de-colores.png)
+
+#### Typography
+
+La tipografía que se usará principalmente, dada su legibilidad, estilo y versatilidad, es Roboto. 
+
+![tipography](Img/tipografía.png)
+
+#### Spacing
+
+En nuestra app móvil, aplicamos un sistema de spacing consistente para mantener una estructura visual ordenada y accesible. Utilizamos márgenes de 19.5px entre secciones principales, un padding interno de 18px en botones y componentes, y un interlineado de 1.5x en los textos largos para mejorar la lectura. Esta coherencia visual refuerza el branding y la experiencia de usuario.
+
+#### Íconos de la aplicación
+
+La aplicación utilizará íconos seleccionados para la mejor experiencia de usuario. Cada ícono cumple una función clara y está alineado con la identidad de la marca.
+
+![iconos](Img/íconos.png)
+
+#### Lenguaje aplicado
+Para el desarrollo de la aplicación móvil “Dentify” y su correspondiente landing page, se ha adoptado un lenguaje formal, serio y respetuoso, alineado con el propósito y los objetivos del producto. En el diseño y construcción tanto de la aplicación móvil como de la landing page, se han aplicado los principios fundamentales del diseño visual.
+
+##### Consistencia
+Mantenemos una estructura y estilo uniformes en todo el producto digital. Esto incluye el uso coherente de elementos de diseño como tipografías, tamaños de fuente, paleta de colores y patrones de interacción, permitiendo que el usuario se adapte fácilmente a la interfaz y navegue con mayor facilidad.
+
+#### Simplicidad
+Eliminamos los elementos innecesarios o que pueden complicar la interfaz con el fin de que los usuarios puedan realizar sus tareas de manera más sencilla y rápida.
+
+#### Comunicación
+Hemos incorporado confirmaciones visuales que se presentan cuando los usuarios realizan alguna acción. Este tipo de retroalimentación les permite identificar su ubicación dentro del proceso y, sobre todo, verificar que sus acciones se han llevado a cabo correctamente.
 
 ### 4.1.3. Mobile Style Guidelines
 
 #### 4.1.3.1. iOS Mobile Style Guidelines
 
+#### Nombre y Logotipo
+El nombre Dentify comunica innovación y profesionalismo, con un enfoque específico en la gestión de clínicas odontológicas. El logotipo, representado únicamente por un ícono de diente sin texto, transmite de forma directa el propósito de la app. Su diseño limpio y minimalista está optimizado para entornos iOS, facilitando su reconocimiento en interfaces móviles y reforzando la confianza del usuario.
+
+![Logo](Img/Dentify-logo.png)
+
+#### Tono de Comunicación en la App Móvil
+
+La aplicación utiliza un tono profesional, claro y confiable, manteniendo una comunicación cálida y accesible. Se evita el uso excesivo de lenguaje técnico, priorizando expresiones simples que se adapten al estilo directo y fluido de iOS, facilitando la comprensión en pantallas pequeñas.
+
+#### Colores
+
+La paleta principal se compone de tonos celestes y azules, que transmiten tranquilidad y profesionalismo, ideales para el entorno de salud. Blanco, negro y gris se usan como colores secundarios para lograr una estética limpia, moderna y legible, en línea con las recomendaciones de diseño de Apple.
+
+![colores](Img/paleta-de-colores.png)
+
+#### Tipografía
+
+La fuente principal es Roboto, elegida por su excelente legibilidad y adaptabilidad en interfaces móviles. Aunque iOS utiliza por defecto San Francisco, Roboto se integra bien en entornos híbridos o personalizados, manteniendo una apariencia clara y profesional.
+
+![tipography](Img/tipografía.png)
+
+#### Spacing
+
+Se aplica un sistema de espaciado coherente para mantener la interfaz ordenada:
+- 19.5px entre secciones principales
+- 18px de padding en botones y componentes
+- Interlineado de 1.5x en textos extensos 
+
+Este diseño mejora la legibilidad y la navegación en dispositivos iOS, respetando las guías de accesibilidad de Apple
+
+
+#### Íconos
+
+Los íconos están diseñados para cumplir funciones específicas y se alinean con la identidad visual de Dentify. Su estilo es simple y claro, optimizado para pantallas Retina, asegurando una experiencia fluida y coherente en iOS.
+![iconos](Img/íconos.png)
+
+#### Lenguaje
+
+Tanto en la app como en la landing page, se utiliza un lenguaje respetuoso y profesional, alineado con los objetivos del producto. Se prioriza la claridad para facilitar la interacción en dispositivos Apple, donde la simplicidad y la eficiencia son clave.
+
+#### Consistencia
+
+Se mantiene una estructura uniforme en toda la app: tipografías, tamaños, colores y patrones de interacción se aplican de forma coherente, permitiendo que el usuario se familiarice rápidamente con la interfaz.
+
+#### Simplicidad
+
+Se eliminan elementos innecesarios para que la interfaz sea clara y funcional, permitiendo que los usuarios completen sus tareas de forma rápida y sin distracciones, en línea con el principio de “menos es más” de Apple
+
+#### Comunicación
+
+La app incorpora confirmaciones visuales tras cada acción del usuario, ofreciendo retroalimentación inmediata y clara, lo que mejora la experiencia y refuerza la confianza en el uso de la aplicación.
+
 #### 4.1.3.2. Android Mobile Style Guidelines
+
+#### Nombre y Logotipo
+El nombre Dentify comunica innovación, profesionalismo y un enfoque especializado en la gestión de consultorios odontológicos. Su logotipo, compuesto únicamente por un ícono de diente sin texto, representa de forma directa el ámbito odontológico. El diseño minimalista y limpio facilita su reconocimiento en entornos móviles, transmitiendo confianza y salud.
+![Logo](Img/Dentify-logo.png)
+
+#### Tono de Comunicación en la App Móvil
+Se ha definido un tono profesional, claro y confiable, manteniendo cercanía con el usuario. Se evita el uso excesivo de lenguaje técnico, priorizando expresiones accesibles que faciliten la comprensión en dispositivos móviles, donde la lectura debe ser rápida y efectiva.
+
+#### Colores
+La paleta principal se compone de tonos celestes y azules, ideales para transmitir tranquilidad y profesionalismo en el entorno de salud dental. Los colores secundarios —blanco, negro y gris— aportan equilibrio visual, buena legibilidad y una estética moderna, especialmente pensada para pantallas móviles.
+
+![colores](Img/paleta-de-colores.png)
+
+#### Tipografía
+Se utiliza Roboto como fuente principal por su alta legibilidad y versatilidad en interfaces móviles, adaptándose bien a distintos tamaños de pantalla.
+![tipography](Img/tipografía.png)
+
+#### Spacing
+En la app móvil se aplica un sistema de espaciado coherente:
+
+#### Íconos
+La aplicación incorpora íconos funcionales y alineados con la identidad de marca. Cada ícono tiene un propósito específico, facilitando la navegación y mejorando la experiencia del usuario en pantallas pequeñas.
+
+![iconos](Img/íconos.png)
+
+#### Lenguaje
+Tanto en la app como en su landing page, se utiliza un lenguaje serio y respetuoso, alineado con los objetivos del producto. Se prioriza la claridad para facilitar la interacción en dispositivos móviles.
+
+#### Consistencia
+Se mantiene una estructura uniforme en toda la app: tipografías, tamaños, colores y patrones de interacción se aplican de forma coherente, ayudando al usuario a adaptarse rápidamente a la interfaz.
+
+#### Simplicidad
+Se eliminan elementos innecesarios para que la interfaz sea clara y funcional, permitiendo que los usuarios completen sus tareas de forma rápida y sin distracciones.
+
+#### Comunicación
+Se incluyen confirmaciones visuales tras cada acción del usuario, brindando retroalimentación clara sobre el estado del proceso y asegurando que sus acciones se han realizado correctamente.
+
 
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems
+
+**App Móvil (Dentify)**
+La interfaz de Dentify organiza sus secciones principales —como “Reserva de Citas”, “Pagar Tratamiento” y “Historial”— mediante títulos visibles, botones destacados y elementos interactivos que guían al usuario de forma intuitiva. Por ejemplo, “Reservar Citas” se ubica en una posición prioritaria dentro de la pantalla principal o como botón flotante, lo que permite un acceso rápido y directo.
+
+**Landing Page (MediTech)**
+Las secciones como “Nosotros”, “Servicios”, “Información” y “Contáctenos” se presentan con encabezados grandes y llamados a la acción claros, facilitando la navegación del visitante. En “Servicios”, se utilizan íconos representativos y botones que conducen a más detalles sobre soluciones destacadas como Dentify.
+
+#### Categorización del Contenido
+**App Móvil (Dentify)**
+Las funcionalidades están organizadas en categorías intuitivas como “Citas”, “Pagos” y “Historial”, lo que permite al usuario encontrar rápidamente lo que necesita. Por ejemplo, funciones específicas como “Gestión de Inventario” se agrupan en una sección administrativa, accesible únicamente para usuarios premium.
+
+**Landing Page (MediTech)**
+El contenido se distribuye en secciones informativas bien definidas. “Nosotros” reúne la historia y el equipo; “Servicios” detalla las soluciones ofrecidas; y en “Información”, los temas están organizados por áreas como eficiencia clínica o gestión de citas, lo que facilita su exploración.
+
+#### Secuencia de Contenidos
+**App Móvil (Dentify)**
+La experiencia de uso sigue una secuencia lógica: tras iniciar sesión, el usuario accede al menú principal y luego a funciones frecuentes como reservas o consultas. Por ejemplo, al ingresar, se muestra en primer plano la opción “Reserva de Citas”, lo que permite una navegación fluida y enfocada.
+
+**Landing Page (MediTech)**
+La estructura del sitio sigue un orden progresivo: comienza con la presentación de la empresa, continúa con los servicios y finaliza en la sección de contacto. Esto permite que el visitante conozca primero las soluciones disponibles, luego acceda a información detallada y finalmente encuentre cómo comunicarse.
+
+#### Agrupación de Funcionalidades
+**App Móvil (Dentify)**
+Las funciones están agrupadas por áreas de uso para mejorar la experiencia. Por ejemplo, “Perfil” incluye configuraciones personales; “Citas” reúne programación, recordatorios y seguimiento. Los métodos de pago y facturación se integran en “Pagos”, mientras que la información médica del paciente se organiza dentro de “Historial”.
+
+**Landing Page (MediTech)**
+Las secciones funcionales están estructuradas para facilitar la navegación. “Servicios” agrupa todas las soluciones que ofrece la empresa, y “Contáctenos” centraliza los medios de comunicación. Dentro de “Servicios”, se puede destacar una subsección dedicada a Dentify como propuesta innovadora.
 
 ### 4.2.2. Labeling Systems
 
