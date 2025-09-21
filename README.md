@@ -363,31 +363,315 @@ En esta sección se describen los perfiles específicos del público objetivo de
 
 ## 2.1. Competidores
 
+El objetivo de esta sección es identificar a los principales competidores directos que cuentan con modelos de negocio basados en productos digitales similares, así como a los competidores indirectos que brindan soluciones parcialmente comparables.
+
 ### 2.1.1. Análisis competitivo
+
+
+<table border="1px">
+        <thead>
+            <th colspan="11">Competitive Analysis Landscepe</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2" colspan="2">¿Por qué llevar a
+                    cabo este análisis?</td>
+                <td colspan="9">Escriba en el recuadro la pregunta que busca responder o el objetivo de
+                    este análisis.</td>
+            </tr>
+            <tr>
+                <td colspan="9">El objetivo de este análisis es comprender el funcionamiento y las características que presentan los productos de nuestros competidores, para posteriormente planificar estrategias y tácticas para aprovechar las fortalezas de nuestro producto y las debilidades de nuestros competidores.   </td> 
+            </tr>
+            <tr>
+                <tr>
+                    <td colspan="3">(En la cabecera colocar por cada competidor nombre y logo)</td>
+                    <td colspan="2"><img src="/Img/Dentify-logo.png" style="width: 60px; height: auto;"><br>Dentify</td>
+                    <td colspan="2"><img src="/Img/identist.png" style="width: 60px; height: auto;"><br>iDentins</td>
+                    <td colspan="2"><img src="/Img/my-dental-clinic.png" style="width: 60px; height: auto;"><br>My Dental Clinic</td>
+                    <td colspan="2"><img src="/Img/cusp-software-dental.png" style="width: 60px; height: auto;"><br>Cusp Software Dental</td>
+                </tr>
+            </tr>
+            <tr>
+                <td rowspan="2" colspan="1">Perfil</td>
+                <td colspan="2">Overview</td>
+                <td colspan="2">App móvil para dentistas que facilita citas, pagos y seguimiento de pacientes en tiempo real.</td>
+                <td colspan="2">App móvil para clínicas dentales con enfoque en automatización desde dispositivos móviles.</td>
+                <td colspan="2">App móvil que digitaliza procesos clínicos y administrativos de forma simple.</td>
+                <td colspan="2">App móvil con herramientas digitales enfocadas en tratamiento y contabilidad para clínicas dentales.</td>
+            </tr>
+            <tr>
+                <td colspan="2"> Ventaja competitiva <br></br> ¿Qué valor ofrece a los clientes?</td>
+                <td colspan="2">Gestión total del consultorio desde el móvil, con notificaciones push e interfaz optimizada para smartphones.</td>
+                <td colspan="2">Multiplataforma (iOS, Android, Windows), modo offline, control de ingresos y gastos.</td>
+                <td colspan="2">Facilidad de uso, integración con calendario y soporte multilenguaje.</td>
+                <td colspan="2">Buen balance entre funciones clínicas y contables, acceso en múltiples dispositivos.</td>
+            </tr>
+            <tr>
+                <td rowspan="2" colspan="1">Perfil de Marketing</td>
+                <td colspan="2">Mercado Objetivo</td>
+                <td colspan="2">Clínicas pequeñas y medianas en zonas urbanas del Perú.</td>
+                <td colspan="2">Clínicas modernas que trabajan desde dispositivos móviles.</td>
+                <td colspan="2">Consultorios que quieren digitalizar sin complicaciones técnicas.</td>
+                <td colspan="2">Clínicas que quieren seguimiento visual y contable de tratamientos.</td>
+            </tr>
+            <tr>
+                <td colspan="2">Estrategia de Marketing</td>
+                <td colspan="2">Presencia digital, publicidad en redes, alianzas con gremios dentales.</td>
+                <td colspan="2">App Store, Play Store, redes sociales, enfoque en movilidad y facilidad.</td>
+                <td colspan="2">Enfocada en App Stores, recomendaciones y facilidad de uso.</td>
+                <td colspan="2">Uso de redes sociales, beneficios de digitalización rápida y clara.</td>
+            </tr>
+            <tr>
+                <td rowspan="3" colspan="1">Perfil de Producto</td>
+                <td colspan="2">Producto & Servicio</td>
+                <td colspan="2">Citas, historial, pagos, métricas, backup, dashboard, recordatorios, soporte técnico.</td>
+                <td colspan="2">Citas, pacientes, diagnósticos, pagos, imágenes, gastos, recordatorios SMS, modo oscuro.</td>
+                <td colspan="2">Citas, historial, notas dentales, gráficos dentales, imágenes, PDF, pagos. </td>
+                <td colspan="2">Citas, pacientes, pagos, odontogramas, contabilidad, gráficos, historial, recordatorios SMS.</td>
+            </tr>
+            <tr>
+                <td colspan="2">Precio & Costos  </td>
+                <td colspan="2">Precio accesible mensual con prueba gratuita.</td>
+                <td colspan="2">Plan de pago mensual/anual (varía según plataforma).</td>
+                <td colspan="2">Costos bajos, con versiones gratuitas limitadas y planes premium.</td>
+                <td colspan="2">Plan de pago mensual con acceso completo desde el inicio.</td>
+            </tr>
+            <tr>
+                <td colspan="2">Canales de distribucion (web y/o Movil)</td>
+                <td colspan="2">Aplicación web y Móvil</td>
+                <td colspan="2">Móvil</td>
+                <td colspan="2">Móvil</td>
+                <td colspan="2">Móvil</td>
+            </tr>
+            <tr>
+                <td rowspan="5">Analisis SWOT</td>
+                <td colspan="10">Realice esto para su startup y sus competidores. Sus fortalezas deberían apoyar sus
+                    oportunidades y contribuir a lo que ustedes definen como su posible ventaja
+                    competitiva</td>
+            </tr>
+            <tr>
+                <td colspan="2">Fortalezas</td>
+                <td colspan="2">Solución local con soporte completo, adaptable y segura.</td>
+                <td colspan="2"> Automatización, compatibilidad, almacenamiento en la nube.</td>
+                <td colspan="2"> Facilidad, conexión con calendario, interfaz amigable.</td>
+                <td colspan="2"> Funciones clínicas novedosas, sincronización entre dispositivos.</td>
+            </tr>
+            <tr>
+                <td colspan="2">Debilidades</td>
+                <td colspan="2">Nuevo en el mercado, falta de confianza inicial.</td>
+                <td colspan="2">Puede no cubrir necesidades avanzadas de grandes clínicas.</td>
+                <td colspan="2">Limitado a móviles, poco robusto para clínicas grandes.</td>
+                <td colspan="2">Falta de personalización en algunos módulos, riesgo de estancamiento.</td>
+            </tr>
+            <tr>
+                <td colspan="2">Oportunidades</td>
+                <td colspan="2">Alta demanda de digitalización en clínicas del Perú.</td>
+                <td colspan="2">Aumento de uso de móviles en el rubro médico.</td>
+                <td colspan="2">Gran adopción de móviles en regiones con bajo acceso a PCs.</td>
+                <td colspan="2">Interés en herramientas visuales y simples para contabilidad.</td>
+            </tr>
+            <tr>
+                <td colspan="2">Amenazas</td>
+                <td colspan="2">Al ser una aplicación nueva, si hay poca oferta o demanda en la aplicación, los usuarios no tendrán motivos para permanecer activos.</td>
+                <td colspan="2">Introducción o demanda de soluciones personalizadas y necesidades más avanzadas al mercado. Podrían perder clientes.</td>
+                <td colspan="2">Perdidas de grandes contratos por falta de integración con un sistema mayor.</td>
+                <td colspan="2">Inclinación del público por aspectos más personalizados. </td>
+            </tr>
+        </tbody>
+    </table>
+
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
+- Proporcionaremos una interfaz intuitiva que facilite el uso del software, con una navegación fluida y rápida, además de soporte personalizado para garantizar una adopción eficiente y una alta satisfacción del usuario.
+
+- Ofreceremos planes de suscripción flexibles y escalonados, diseñados para ajustarse a distintos presupuestos y necesidades. Desde opciones básicas hasta funciones avanzadas, cada plan estará orientado a diferentes tipos de consultorios.
+
+- Incorporaremos testimonios de clientes satisfechos en nuestra estrategia de marketing para reforzar la credibilidad. Estos testimonios serán resaltados en nuestro sitio web y materiales promocionales, contribuyendo a atraer nuevos usuarios y fortalecer la confianza en nuestra plataforma.
+
 ## 2.2. Entrevistas
+
+Esta sección recopila la información obtenida a partir de entrevistas realizadas a odontólogos que gestionan sus propios consultorios. Se incluyen las preguntas formuladas, las entrevistas realizadas y un análisis comparativo. El objetivo es comprender sus necesidades y hábitos actuales para fundamentar el desarrollo de una solución digital adecuada a su entorno real.
 
 ### 2.2.1. Diseño de entrevistas
 
+**Preguntas para los odontólogos independientes**
+
+1. ¿Cuál es tu nombre?
+2. ¿Qué edad tienes?
+3. ¿A qué te dedicas actualmente?
+4. ¿En qué lugar vives o trabajas?
+5. ¿Podrías contarme un poco sobre ti? Por ejemplo, ¿cuántos pacientes sueles atender semanalmente?
+6. ¿Dónde está ubicado tu consultorio?
+7. ¿Cuánto tiempo lleva funcionando tu consultorio?
+8. ¿Utilizas alguna app o software para organizar las tareas diarias en tu clínica? Si es así, ¿podrías contarme cómo funciona y qué te parece?
+9. ¿Qué tan necesario es para ti que esa aplicación funcione sin conexión a internet (modo offline)?
+10. ¿Qué dificultades enfrentas al organizar tu agenda y las citas de tus pacientes?
+11. ¿Cómo manejas la comunicación con los pacientes, especialmente cuando hay cancelaciones o cambios en las citas?
+12. Si pudieras añadir nuevas funciones al software que usas, ¿cuáles agregarías y por qué?
+13. ¿Qué marcas, dispositivos o plataformas digitales prefieres para trabajar y mantenerte al día?
+14. ¿Cómo organizas tu jornada diaria para asegurarte de que todas las citas se realicen sin inconvenientes?
+15. ¿Qué tan complicado te resulta mantener actualizados los registros y tratamientos de tus pacientes? ¿Qué métodos usas para llevar el control de las historias clínicas?
+16. ¿Cómo controlas los ingresos del consultorio y haces seguimiento de los pagos pendientes?
+17. ¿Qué tan relevante es para ti recibir opiniones de tus pacientes? ¿Cómo sabes si recomiendan tus servicios?
+18. ¿Qué tan importante es para ti que la información del consultorio esté segura y bien respaldada?
+19. ¿Estarías dispuesto(a) a pagar por una aplicación que te ayude a gestionar tu consultorio? ¿Qué precio te parecería razonable?
+
 ### 2.2.2. Registro de entrevistas
+
+**Segmento Objetivo:** Odontólogos
+
+**Entrevista 1: Samuel Mendoza**
+
+![entrevista-fabrizio-cutiri.png](Img/entrevista-fabrizio-cutiri.png)
+
+**Datos del entrevistado**
+* **Nombre:** Samuel Mendoza
+* **Edad:** 60 años
+* **Distrito de Residencia:** Breña
+* **Duración de la entrevista:** 15:20 min
+
+**Resumen de la entrevista:**
+
+El doctor Samuel Mendoza tiene 60 años, vive en Breña y trabaja en Chorrillos, donde cuenta con un consultorio en la Av. Huaylas que funciona desde hace 10 años. Atiende en promedio a 50 pacientes por semana y en su práctica diaria utiliza laptop, computadora y celular para revisar estadísticas y mantenerse al día con los datos de sus pacientes.
+
+Actualmente emplea una aplicación básica que le permite registrar los procedimientos realizados a cada paciente, anotar lo que se hará en la siguiente cita y confirmar asistencia o inasistencia. Sin embargo, considera que esta herramienta es limitada, ya que carece de funciones importantes como la gestión de inventario, el manejo digital de historias clínicas y una mayor seguridad en los datos.
+
+La solicitud de las citas en su consultorio se realiza tanto de manera presencial como por teléfono, a través de un personal encargado. No obstante, enfrenta dificultades frecuentes: pacientes que llegan tarde, que no asisten o que exigen citas inmediatas. Cuando hay cancelaciones o cambios, su equipo se comunica con los pacientes mediante llamadas, generalmente un día antes o, de ser el caso, el mismo día por la mañana.
+
+El manejo de las historias clínicas todavía se realiza de forma manual y por escrito, lo que representa una tarea tediosa que desearía digitalizar por completo. En cuanto a los pagos, estos se gestionan en caja, con la posibilidad de hacerlo en efectivo o con tarjeta de débito o crédito.
+
+El odontólogo también destaca la importancia de recibir críticas y recomendaciones de los pacientes, ya sean positivas o negativas, ya que considera que estas le permiten mejorar la gestión y el trato brindado en su consultorio. Asimismo, subraya que la seguridad de la información es un aspecto crucial, pues se trata de datos personales sensibles que deberían estar protegidos mediante filtros de acceso en cualquier software de gestión.
+
+Finalmente, señala estar dispuesto a pagar por un sistema de gestión completo que le permita mejorar la administración de su consultorio. Aunque no tiene un rango de precio definido, menciona que en Estados Unidos conoce softwares que cuestan alrededor de 2000 dólares y ofrecen soluciones completas. Reconoce que en Perú todavía no es común el uso de estas herramientas, pero considera que deberían estar más extendidas en todos los consultorios.
 
 ### 2.2.3. Análisis de entrevistas
 
 ## 2.3. Needfinding
 
+Es una técnica de diseño centrado en el usuario que busca descubrir necesidades reales de las personas, incluso aquellas que no expresan explícitamente. A través de entrevistas, observaciones y análisis del comportamiento, se identifican problemas, frustraciones, deseos y oportunidades que pueden guiar el desarrollo de soluciones más útiles y significativas.
+
 ### 2.3.1. User Personas
+
+<img src="Img/Carlos Hijar Santa Maria.png" alt="Imagen_User" style="margin-bottom: 5px;" width="800"/>
 
 ### 2.3.2. User Task Matrix
 
+A continuación, se presenta una matriz de tareas enfocada en el odontólogo independiente Carlos Hijar Santa María. Esta herramienta permite identificar y clasificar las actividades clave que realiza en su día a día, considerando la frecuencia con la que las lleva a cabo y el nivel de importancia que representan dentro de su práctica profesional.</br></br>
+
+<table border="1">
+  <thead>
+    <tr>
+      <th rowspan="2">Tarea</th>
+      <th colspan="2">Carlos Hijar Santa María</th>
+    </tr>
+    <tr>
+      <th>Frecuencia</th>
+      <th>Importancia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Agendar citas</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Registrar historia clínica</td>
+      <td>Media</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Hacer seguimiento de tratamientos</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Revisar y gestionar ingresos</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Revisar insumos y equipo</td>
+      <td>Media</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Recordar tratamientos periódicos</td>
+      <td>Baja</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Comunicarse con pacientes</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Revisar estado general del consultorio</td>
+      <td>Baja</td>
+      <td>Media</td>
+    </tr>
+  </tbody>
+</table>
+
+
+Del análisis de la matriz de tareas de Carlos Hijar Santa María, se destaca que las actividades más frecuentes y de mayor importancia están relacionadas directamente con la atención al paciente y la gestión financiera: agendar citas, hacer seguimiento de tratamientos, revisar ingresos y comunicarse con los pacientes. Estas tareas son claves en su rutina diaria y representan puntos críticos que una solución digital debe priorizar. Asimismo, aunque tareas como recordar tratamientos periódicos, revisar insumos y equipos, y revisar estado general del consultorio no se realizan con tanta frecuencia, sí tienen un nivel de importancia alto, lo que indica oportunidades para automatización o recordatorios que aumenten la eficiencia y reduzcan errores.
+
+
 ### 2.3.3. User Journey Mapping
+
+<img src="Img/User-Journey-Mapping-1.png" alt="JS" style="margin-bottom: 5px;" width="700"/>
 
 ### 2.3.4. Empathy Mapping
 
+Utilizaremos esta herramienta visual que nos ayudará a comprender mejor a los usuarios que hemos escogido viendo desde una perspectiva más humana y emocional, en este caso para los odontólogos independientes.
+
+<img src="Img/Emphaty-Map.png" width="800">
+
 ### 2.3.5. As-is Scenario Mapping
 
+El As-Is Scenario Mapping muestra cómo los odontólogos gestionan actualmente su consultorio sin una solución digital integrada. A partir de entrevistas realizadas, se identificaron procesos, herramientas, pensamientos y emociones relacionados con tareas clave como citas, pagos, historias clínicas e inventario. Esta información permite detectar puntos de mejora y fundamentar el desarrollo de una solución más eficiente y centrada en sus necesidades.
+
+<img src="Img/as-is-scenario-mapping.jpg" width="800">
+
 ## 2.4. Ubiquitous Language
+
+**Patient Record (Historia clínica):**
+Conjunto estructurado de documentos e información relacionada con la salud del paciente, que incluye antecedentes médicos, diagnósticos, tratamientos realizados y procedimientos llevados a cabo en el consultorio dental.
+
+**Appointment Scheduling (Programación de citas):**
+Proceso mediante el cual se asigna una fecha y hora determinadas para que el paciente acuda al consultorio dental a recibir atención.
+
+**Dental Charting (Odontograma):**
+Representación gráfica detallada del estado bucodental del paciente, que registra las condiciones de los dientes y encías.
+
+**Billing (Facturación):**
+Procedimiento administrativo orientado a la elaboración y emisión de facturas dirigidas a los pacientes o a sus aseguradoras, detallando los costos asociados a los tratamientos y procedimientos realizados.
+
+**Electronic Health Record – EHR (Registro Electrónico de Salud):**
+Sistema digital que almacena y organiza la información médica del paciente, permitiendo un acceso ágil, seguro y centralizado a sus antecedentes, resultados de exámenes y tratamientos previos.
+
+**Oral Hygiene Education (Educación en higiene oral):**
+Estrategia de orientación dirigida a los pacientes, centrada en promover prácticas adecuadas de cuidado dental —como el cepillado correcto y el uso de hilo dental— con el fin de prevenir enfermedades y mantener una buena salud bucal.
+
+**Radiographic Imaging (Imágenes radiográficas):**
+Técnica diagnóstica basada en el uso de radiografías (rayos X) para visualizar las estructuras internas de la cavidad oral, como dientes, raíces y huesos maxilares.
+
+**Patient Portal (Portal del paciente):**
+Plataforma digital segura que permite al paciente interactuar con el consultorio dental, facilitando el acceso a su información clínica, la programación de citas, el pago de facturas y la comunicación con el profesional de salud.
+
+**Revenue Cycle Management – RCM (Gestión del ciclo de ingresos):**
+Proceso integral de gestión financiera que abarca desde la programación de citas hasta la facturación y el cobro, con el objetivo de optimizar los ingresos y reducir los costos operativos del consultorio.
+
+**Compliance (Cumplimiento):**
+Adopción y seguimiento riguroso de normativas legales, reglamentarias y éticas establecidas por organismos gubernamentales y profesionales que regulan el ejercicio de la odontología.
+
+**Dental Practice Management Software (Software de gestión de consultorios dentales):**
+Solución digital diseñada para asistir en la administración diaria del consultorio, incluyendo la gestión de citas, historiales clínicos, pagos, inventario y comunicaciones internas.
+
+**Continuing Education (Educación continua):**
+Programas formativos y cursos especializados orientados a que los profesionales odontológicos actualicen y amplíen sus conocimientos, asegurando la aplicación de técnicas modernas y el uso de tecnologías actuales en su práctica clínica.
+
 
 # Capítulo III: Requirements Specification
 
