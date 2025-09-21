@@ -396,6 +396,8 @@ Esta sección recopila la información obtenida a partir de entrevistas realizad
 
 ![entrevista-martin-salcedo](Img/entrevista-martin-salcedo.png)
 
+[Ver video](https://upcedupe-my.sharepoint.com/personal/u202224135_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202224135%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202520%2D1asi0732%2D14651%2DClinicCode%2Dneedfinding%2Dsprint%2D1%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E7f6a857d%2D2920%2D4d5b%2Dacec%2D5be83c0e6a7a&isDarkMode=true)
+
 **Datos del entrevistado**
 - **Nombre:** Martín Salcedo
 - **Edad:** 25 años
@@ -408,6 +410,8 @@ Martín trabaja en un consultorio con 10 años de operación. La agenda la manej
 **Entrevista 2: Samuel Mendoza**
 
 ![entrevista-fabrizio-cutiri.png](Img/entrevista-fabrizio-cutiri.png)
+
+[Ver video](https://upcedupe-my.sharepoint.com/personal/u202224135_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202224135%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202520%2D1asi0732%2D14651%2DClinicCode%2Dneedfinding%2Dsprint%2D1%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E7f6a857d%2D2920%2D4d5b%2Dacec%2D5be83c0e6a7a&isDarkMode=true)
 
 **Datos del entrevistado**
 * **Nombre:** Samuel Mendoza
