@@ -577,6 +577,22 @@ Para la aplicación móvil se empleó la guía de estilo oficial de Kotlin (Goog
 
 ### 5.1.4. Software Deployment Configuration
 
+**Landing Page**
+
+El despliegue del landing page se realizó en GitHub Pages, siguiendo los siguientes pasos:
+
+1. **Dirigirse a Settings:** Una vez todos los cambios realizados esten en la rama **main**, debemos dirigirnos a la sección **Settings**
+
+![deploy-landing-page-step-1.png](Img/deploy-landing-page-step-1.png)
+
+2. **Dirigirse a la opción Pages:** Dentro de **Settings** buscamos la opción **Pages**
+
+![deploy-landing-page-step-2.png](Img/deploy-landing-page-step-2.png)
+
+3. **Seleccinar la rama y carpeta para el despliegue:** Por último, seleccionar la rama main y la carpeta por defecto **(root)** para realizar el despliegue. 
+
+![deploy-landing-page-step-3.png](Img/deploy-landing-page-step-3.png)
+
 ## 5.2. Product Implementation & Deployment
 
 ### 5.2.1. Sprint Backlogs
