@@ -302,20 +302,19 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán administrar su 
     <td colspan="4" align="center"><b>Description</b></td>
   </tr>
   <tr>
-    <td colspan="4">Como odontólogo, quiero registrarme en la aplicación para acceder a los servicios.</td>
+    <td colspan="4">Como odontólogo, <br>quiero registrarme en la aplicación <br>para acceder a los servicios.</td>
   </tr>
   <tr>
     <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
   </tr>
   <tr>
     <td colspan="4">
-    Escenario 1: Odontólogo se registra en la aplicación
-
-Dado que el odontólogo se ha registrado en la aplicación
-Cuando esté en registro
-Y complete los datos solicitados en el formulario de registro
-Y seleccione el botón Registrarme
-Entonces la aplicación redirigirá al personal odontológico a la pantalla de inicio.
+    Escenario 1: Odontólogo se registra en la aplicación<br><br>
+Dado que el odontólogo se ha registrado en la aplicación<br>
+Cuando esté en registro<br>
+Y complete los datos solicitados en el formulario de registro<br>
+Y seleccione el botón Registrarme<br>
+Entonces la aplicación redirigirá al personal odontológico a la pantalla de inicio.<br>
     </td>
   </tr>
 </table>
@@ -341,19 +340,18 @@ Entonces la aplicación redirigirá al personal odontológico a la pantalla de i
     <td colspan="4" align="center"><b>Description</b></td>
   </tr>
   <tr>
-    <td colspan="4">Como Odontólogo, quiero iniciar sesión en la aplicación para acceder a las funcionalidades.</td>
+    <td colspan="4">Como Odontólogo, <br>quiero iniciar sesión en la aplicación <br>para acceder a las funcionalidades.</td>
   </tr>
   <tr>
     <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
   </tr>
   <tr>
     <td colspan="4">
-      Escenario 1: Odontólogo inicia sesión correctamente
-
-Dado que el personal del consultorio ya se encuentra registrado en la aplicación
-Cuando ingrese su correo y contraseña en el formulario de inicio de sesión
-Y seleccione el botón Iniciar Sesión
-Entonces la aplicación lo redirigirá a la pantalla de inicio con acceso a sus funcionalidades.
+      Escenario 1: Odontólogo inicia sesión correctamente<br><br>
+Dado que el personal del consultorio ya se encuentra registrado en la aplicación<br>
+Cuando ingrese su correo y contraseña en el formulario de inicio de sesión<br>
+Y seleccione el botón Iniciar Sesión<br>
+Entonces la aplicación lo redirigirá a la pantalla de inicio con acceso a sus funcionalidades.<br>
     </td>
   </tr>
 </table>
@@ -379,19 +377,18 @@ Entonces la aplicación lo redirigirá a la pantalla de inicio con acceso a sus 
     <td colspan="4" align="center"><b>Description</b></td>
   </tr>
   <tr>
-    <td colspan="4">Como odontólogo, quiero visualizar todas las citas registradas para poder gestionar los horarios de atención.</td>
+    <td colspan="4">Como odontólogo, <br>quiero visualizar todas las citas registradas <br>para poder gestionar los horarios de atención.</td>
   </tr>
   <tr>
     <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
   </tr>
   <tr>
     <td colspan="4">
-      Escenario 1: Visualización de citas registradas
-
-Dado que el odontólogo ha iniciado sesión
-Y accede a la sección de citas
-Cuando se cargue la pantalla de citas
-Entonces la aplicación mostrará una lista con todas las citas registradas, incluyendo la información del paciente, fecha y hora.
+      Escenario 1: Visualización de citas registradas<br><br>
+Dado que el odontólogo ha iniciado sesión<br>
+Y accede a la sección de citas<br>
+Cuando se cargue la pantalla de citas<br>
+Entonces la aplicación mostrará una lista con todas las citas registradas, incluyendo la información del paciente, fecha y hora.<br>
     </td>
   </tr>
 </table>
@@ -417,24 +414,21 @@ Entonces la aplicación mostrará una lista con todas las citas registradas, inc
     <td colspan="4" align="center"><b>Description</b></td>
   </tr>
   <tr>
-    <td colspan="4">Como odontólogo, quiero poder editar la información de una cita ya registrada para corregir errores o adaptarla a cambios de disponibilidad.</td>
+    <td colspan="4">Como odontólogo, <br>quiero poder editar la información de una cita ya registrada <br>para corregir errores o adaptarla a cambios de disponibilidad.</td>
   </tr>
   <tr>
     <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
   </tr>
   <tr>
     <td colspan="4">
-      Escenario 1: Modificación exitosa de una cita
-
-Dado que el odontólogo visualiza una cita futura
-Cuando edite los campos permitidos (fecha, hora, tratamiento, profesional)
-Entonces la información se actualizará correctamente en el sistema.
-
-Escenario 2: Cita pasada no editable
-
-Dado que una cita ya ha pasado
-Cuando el asistente intente editarla
-Entonces el sistema mostrará un mensaje indicando que no puede ser modificada.
+      Escenario 1: Modificación exitosa de una cita<br><br>
+Dado que el odontólogo visualiza una cita futura<br>
+Cuando edite los campos permitidos (fecha, hora, tratamiento, profesional)<br>
+Entonces la información se actualizará correctamente en el sistema.<br>
+Escenario 2: Cita pasada no editable<br><br>
+Dado que una cita ya ha pasado<br>
+Cuando el asistente intente editarla<br>
+Entonces el sistema mostrará un mensaje indicando que no puede ser modificada.<br>
     </td>
   </tr>
 </table>
@@ -460,21 +454,20 @@ Entonces el sistema mostrará un mensaje indicando que no puede ser modificada.
     <td colspan="4" align="center"><b>Description</b></td>
   </tr>
   <tr>
-    <td colspan="4">	Como odontólogo, quiero registrar nuevas citas para poder agendar la atención de los pacientes.</td>
+    <td colspan="4">	Como odontólogo, <br>quiero registrar nuevas citas <br>para poder agendar la atención de los pacientes.</td>
   </tr>
   <tr>
     <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
   </tr>
   <tr>
     <td colspan="4">
-      Escenario 1: Registro de una nueva cita
-
-Dado que el odontólogo ha iniciado sesión
-Y se encuentra en la sección de citas
-Cuando seleccione la opción para añadir nueva cita
-Y complete los campos requeridos como paciente, fecha y hora
-Y confirme el registro
-Entonces la aplicación guardará la nueva cita y la mostrará en la lista de citas registradas.
+      Escenario 1: Registro de una nueva cita<br><br>
+Dado que el odontólogo ha iniciado sesión<br>
+Y se encuentra en la sección de citas<br>
+Cuando seleccione la opción para añadir nueva cita<br>
+Y complete los campos requeridos como paciente, fecha y hora<br>
+Y confirme el registro<br>
+Entonces la aplicación guardará la nueva cita y la mostrará en la lista de citas registradas.<br>
     </td>
   </tr>
 </table>
@@ -500,24 +493,21 @@ Entonces la aplicación guardará la nueva cita y la mostrará en la lista de ci
     <td colspan="4" align="center"><b>Description</b></td>
   </tr>
   <tr>
-    <td colspan="4">Como odontólogo, quiero eliminar una cita del sistema para evitar confusiones si un paciente cancela o reprograma.</td>
+    <td colspan="4">Como odontólogo, <br>quiero eliminar una cita del sistema <br>para evitar confusiones si un paciente cancela o reprograma.</td>
   </tr>
   <tr>
     <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
   </tr>
   <tr>
     <td colspan="4">
-      Escenario 1: Eliminación confirmada de cita futura
-
-Dado que el odontólogo accede a la lista de citas
-Cuando seleccione una cita futura y confirme la eliminación
-Entonces la cita será eliminada del sistema y se notificará al paciente.
-
-Escenario 2: Intento de eliminar cita pasada
-
-Dado que la cita ya ocurrió
-Cuando se intente eliminar
-Entonces el sistema impedirá la acción y mostrará un mensaje de restricción.
+      Escenario 1: Eliminación confirmada de cita futura<br><br>
+Dado que el odontólogo accede a la lista de citas<br>
+Cuando seleccione una cita futura y confirme la eliminación<br>
+Entonces la cita será eliminada del sistema y se notificará al paciente.<br><br>
+Escenario 2: Intento de eliminar cita pasada<br><br>
+Dado que la cita ya ocurrió<br>
+Cuando se intente eliminar<br>
+Entonces el sistema impedirá la acción y mostrará un mensaje de restricción.<br>
     </td>
   </tr>
 </table>
@@ -543,26 +533,23 @@ Entonces el sistema impedirá la acción y mostrará un mensaje de restricción.
     <td colspan="4" align="center"><b>Description</b></td>
   </tr>
   <tr>
-    <td colspan="4">Como personal del consultorio, quiero buscar citas por fecha o mediante filtros para localizar rápidamente una cita específica.</td>
+    <td colspan="4">Como personal del consultorio, <br>quiero buscar citas por fecha o mediante filtros <br>para localizar rápidamente una cita específica.</td>
   </tr>
   <tr>
     <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
   </tr>
   <tr>
     <td colspan="4">
-Escenario 1: Búsqueda de cita por fecha
-
-Dado que el odontólogo se encuentra en la sección de citas
-Cuando ingrese una fecha en el campo de búsqueda
-Y seleccione el botón Buscar
-Entonces la aplicación mostrará las citas programadas para esa fecha.
-
-Escenario 2: Busqueda de citas por DNI
-
-Dado que el odontólogo se encuentra en la sección de citas
-Cuando ingrese el DNI de un paciente en el campo de busqueda
-Y seleccione el boton Buscar
-Entonces la aplicación mostrará las citas que coincidan con el DNI correspondiente.</td>
+Escenario 1: Búsqueda de cita por fecha<br><br>
+Dado que el odontólogo se encuentra en la sección de citas<br>
+Cuando ingrese una fecha en el campo de búsqueda<br>
+Y seleccione el botón Buscar<br>
+Entonces la aplicación mostrará las citas programadas para esa fecha.<br><br>
+Escenario 2: Busqueda de citas por DNI<br>
+Dado que el odontólogo se encuentra en la sección de citas<br>
+Cuando ingrese el DNI de un paciente en el campo de busqueda<br>
+Y seleccione el boton Buscar<br>
+Entonces la aplicación mostrará las citas que coincidan con el DNI correspondiente.<br></td>
   </tr>
 </table>
 <table border="1" cellspacing="0" cellpadding="5">
@@ -586,24 +573,21 @@ Entonces la aplicación mostrará las citas que coincidan con el DNI correspondi
     <td colspan="4" align="center"><b>Description</b></td>
   </tr>
   <tr>
-    <td colspan="4">Como odontólogo, quisiera gestionar los horarios de atención de mi consultorio con las citas ya agendadas para poder optimizar la disponibilidad de los especialistas.</td>
+    <td colspan="4">Como odontólogo, <br>quisiera gestionar los horarios de atención de mi consultorio con las citas ya agendadas <br>para poder optimizar la disponibilidad de los especialistas.</td>
   </tr>
   <tr>
     <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
   </tr>
   <tr>
     <td colspan="4">
-      Escenario 1: Ver horarios de atención con citas agendadas
-
-Dado que soy un odontólogo autenticado en el sistema
-Cuando accedo a la sección de gestión de horarios de atención
-Entonces debo poder ver los horarios disponibles y ocupados, con las citas agendadas reflejadas en la agenda.
-
-Escenario 2: Editar horarios de atención
-
-Dado que soy un odontólogo autenticado en el sistema
-Cuando modifico los horarios de atención de un especialista
-Entonces el sistema debe actualizar automáticamente la disponibilidad y bloquear esos horarios para nuevas reservas si ya están ocupados por citas.  
+      Escenario 1: Ver horarios de atención con citas agendadas<br><br>
+Dado que soy un odontólogo autenticado en el sistema<br>
+Cuando accedo a la sección de gestión de horarios de atención<br>
+Entonces debo poder ver los horarios disponibles y ocupados, con las citas agendadas reflejadas en la agenda.<br><br>
+Escenario 2: Editar horarios de atención<br><br>
+Dado que soy un odontólogo autenticado en el sistema<br>
+Cuando modifico los horarios de atención de un especialista<br>
+Entonces el sistema debe actualizar automáticamente la disponibilidad y bloquear esos horarios para nuevas reservas si ya están ocupados por citas.<br>  
     </td>
   </tr>
 </table>
@@ -629,30 +613,25 @@ Entonces el sistema debe actualizar automáticamente la disponibilidad y bloquea
     <td colspan="4" align="center"><b>Description</b></td>
   </tr>
   <tr>
-    <td colspan="4">Como paciente, quiero pagar mi tratamiento desde la plataforma para mayor comodidad y rapidez en el proceso de atención.</td>
+    <td colspan="4">Como paciente, <br>quiero pagar mi tratamiento desde la plataforma <br>para mayor comodidad y rapidez en el proceso de atención.</td>
   </tr>
   <tr>
     <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
   </tr>
   <tr>
     <td colspan="4">
-      Escenario 1: Pago exitoso desde la plataforma
-
-Dado que el paciente ha iniciado sesión y tiene un tratamiento pendiente de pago
-Cuando acceda a la sección de pagos y complete los datos de su tarjeta
-Entonces el sistema procesará el pago y mostrará una confirmación.
-
-Escenario 2: Error en el pago
-
-Dado que el paciente intenta pagar
-Cuando ocurra un error en la transacción (fondos insuficientes, datos inválidos, etc.)
-Entonces el sistema mostrará un mensaje de error y permitirá reintentar el pago.
-
-Escenario 3: Ver historial de pagos
-
-Dado que el paciente ha realizado pagos anteriores
-Cuando acceda a la sección de historial
-Entonces podrá visualizar el detalle de los pagos realizados y sus estados.
+      Escenario 1: Pago exitoso desde la plataforma<br><br>
+Dado que el paciente ha iniciado sesión y tiene un tratamiento pendiente de pago<br>
+Cuando acceda a la sección de pagos y complete los datos de su tarjeta<br>
+Entonces el sistema procesará el pago y mostrará una confirmación.<br><br>
+Escenario 2: Error en el pago<br><br>
+Dado que el paciente intenta pagar<br>
+Cuando ocurra un error en la transacción (fondos insuficientes, datos inválidos, etc.)<br>
+Entonces el sistema mostrará un mensaje de error y permitirá reintentar el pago.<br><br>
+Escenario 3: Ver historial de pagos<br><br>
+Dado que el paciente ha realizado pagos anteriores<br>
+Cuando acceda a la sección de historial<br>
+Entonces podrá visualizar el detalle de los pagos realizados y sus estados.<br>
     </td>
   </tr>
 </table>
@@ -678,15 +657,14 @@ Entonces podrá visualizar el detalle de los pagos realizados y sus estados.
     <td colspan="4" align="center"><b>Description</b></td>
   </tr>
   <tr>
-    <td colspan="4">Como personal del consultorio, quiero visualizar el historial de pagos realizados para tener un control financiero detallado.</td>
+    <td colspan="4">Como personal del consultorio, <br>quiero visualizar el historial de pagos realizados <br>para tener un control financiero detallado.</td>
   </tr>
   <tr>
     <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
   </tr>
   <tr>
     <td colspan="4">
-      Escenario 1: Visualización de historial de pagos
-
+      Escenario 1: Visualización de historial de pagos<br><br>
 Dado que el personal accede al módulo de pagos
 Cuando seleccione la opción "Historial de pagos"
 Entonces la aplicación mostrará una lista de todos los pagos registrados con su fecha, monto y paciente asociado.
@@ -715,15 +693,14 @@ Entonces la aplicación mostrará una lista de todos los pagos registrados con s
     <td colspan="4" align="center"><b>Description</b></td>
   </tr>
   <tr>
-    <td colspan="4">Como personal del consultorio, quiero visualizar la lista de pacientes registrados para consultar y gestionar sus datos.</td>
+    <td colspan="4">Como personal del consultorio, <br>quiero visualizar la lista de pacientes registrados <br>para consultar y gestionar sus datos.</td>
   </tr>
   <tr>
     <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
   </tr>
   <tr>
     <td colspan="4">
-      Escenario 1: Visualización de pacientes registrados
-
+      Escenario 1: Visualización de pacientes registrados<br><br>
 Dado que el personal ha iniciado sesión en la aplicación
 Y accede a la sección de pacientes
 Cuando se cargue la pantalla
@@ -753,15 +730,14 @@ Entonces la aplicación mostrará una lista con los datos de todos los pacientes
     <td colspan="4" align="center"><b>Description</b></td>
   </tr>
   <tr>
-    <td colspan="4">Como personal del consultorio, quiero registrar nuevos pacientes para poder gestionarlos en las citas y tratamientos.</td>
+    <td colspan="4">Como personal del consultorio, <br>quiero registrar nuevos pacientes <br>para poder gestionarlos en las citas y tratamientos.</td>
   </tr>
   <tr>
     <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
   </tr>
   <tr>
     <td colspan="4">
-      Escenario 1: Registro de paciente
-
+      Escenario 1: Registro de paciente<br><br>
 Dado que el personal accede a la sección de pacientes
 Cuando complete el formulario con los datos del nuevo paciente
 Y presione "Guardar"
@@ -792,15 +768,14 @@ Entonces la aplicación registrará al paciente y lo mostrará en la lista.
     <td colspan="4" align="center"><b>Description</b></td>
   </tr>
   <tr>
-    <td colspan="4">Como personal del consultorio, quiero modificar los datos de un paciente para mantener su información actualizada.</td>
+    <td colspan="4">Como personal del consultorio, <br>quiero modificar los datos de un paciente <br>para mantener su información actualizada.</td>
   </tr>
   <tr>
     <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
   </tr>
   <tr>
     <td colspan="4">
-      Escenario 1: Edición de datos exitosa
-
+      Escenario 1: Edición de datos exitosa<br><br>
 Dado que el personal accede a la sección de pacientes
 Y selecciona a un paciente de la lista
 Cuando actualice los datos en el formulario
@@ -831,15 +806,14 @@ Entonces el sistema actualizará la información del paciente correctamente.
     <td colspan="4" align="center"><b>Description</b></td>
   </tr>
   <tr>
-    <td colspan="4">Como personal del consultorio, quiero eliminar un paciente inactivo o registrado por error para mantener limpia la base de datos.</td>
+    <td colspan="4">Como personal del consultorio, <br>quiero eliminar un paciente inactivo o registrado por error <br>para mantener limpia la base de datos.</td>
   </tr>
   <tr>
     <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
   </tr>
   <tr>
     <td colspan="4">
-      Escenario 1: Eliminación de paciente
-
+      Escenario 1: Eliminación de paciente<br><br>
 Dado que el personal accede a la lista de pacientes
 Cuando seleccione un paciente
 Y elija la opción de eliminar
@@ -870,15 +844,14 @@ Entonces la aplicación eliminará dicho registro de la base de datos.
     <td colspan="4" align="center"><b>Description</b></td>
   </tr>
   <tr>
-    <td colspan="4">Como personal del consultorio, quiero buscar pacientes por DNI para encontrarlos rápidamente en el sistema.</td>
+    <td colspan="4">Como personal del consultorio, <br>quiero buscar pacientes por DNI <br>para encontrarlos rápidamente en el sistema.</td>
   </tr>
   <tr>
     <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
   </tr>
   <tr>
     <td colspan="4">
-      Escenario 1: Búsqueda exitosa por DNI
-
+      Escenario 1: Búsqueda exitosa por DNI<br><br>
 Dado que existen pacientes registrados
 Cuando el personal ingrese un número de DNI en el campo de búsqueda
 Y seleccione el botón de buscar
@@ -908,15 +881,14 @@ Entonces la aplicación mostrará al paciente correspondiente en los resultados.
     <td colspan="4" align="center"><b>Description</b></td>
   </tr>
   <tr>
-    <td colspan="4">Como personal del consultorio, quiero registrar un nuevo historial clínico para tener un seguimiento detallado del paciente.</td>
+    <td colspan="4">Como personal del consultorio, <br>quiero registrar un nuevo historial clínico <br>para tener un seguimiento detallado del paciente.</td>
   </tr>
   <tr>
     <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
   </tr>
   <tr>
     <td colspan="4">
-      Escenario 1: Registro de historial clínico
-
+      Escenario 1: Registro de historial clínico<br><br>
 Dado que el personal accede al perfil de un paciente
 Cuando seleccione "Añadir historial clínico"
 Y complete los campos requeridos
@@ -947,15 +919,14 @@ Entonces la aplicación almacenará el nuevo historial vinculado al paciente.
     <td colspan="4" align="center"><b>Description</b></td>
   </tr>
   <tr>
-    <td colspan="4">Como personal del consultorio, quiero eliminar un historial clínico para mantener la información actualizada y precisa.</td>
+    <td colspan="4">Como personal del consultorio, <br>quiero eliminar un historial clínico <br>para mantener la información actualizada y precisa.</td>
   </tr>
   <tr>
     <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
   </tr>
   <tr>
     <td colspan="4">
-      Escenario 1: Eliminación de historial clínico
-
+      Escenario 1: Eliminación de historial clínico<br><br>
 Dado que el personal accede al historial clínico de un paciente
 Cuando seleccione la opción de eliminar historial
 Y confirme la acción
@@ -985,15 +956,14 @@ Entonces la aplicación eliminará dicho historial y actualizará la vista.
     <td colspan="4" align="center"><b>Description</b></td>
   </tr>
   <tr>
-    <td colspan="4">Como personal del consultorio, quiero visualizar el historial clínico de un paciente para revisar sus antecedentes y tratamientos.</td>
+    <td colspan="4">Como personal del consultorio, <br>quiero visualizar el historial clínico de un paciente <br>para revisar sus antecedentes y tratamientos.</td>
   </tr>
   <tr>
     <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
   </tr>
   <tr>
     <td colspan="4">
-      Escenario 1: Visualización del historial clínico
-
+      Escenario 1: Visualización del historial clínico<br><br>
 Dado que el personal accede al perfil de un paciente
 Cuando seleccione "Ver historial clínico"
 Entonces la aplicación mostrará todos los registros clínicos asociados a dicho paciente.
@@ -1022,15 +992,14 @@ Entonces la aplicación mostrará todos los registros clínicos asociados a dich
     <td colspan="4" align="center"><b>Description</b></td>
   </tr>
   <tr>
-    <td colspan="4">Como personal del consultorio, quiero acceder al inventario general para revisar la disponibilidad de materiales y equipos.</td>
+    <td colspan="4">Como personal del consultorio, <br>quiero acceder al inventario general <br>para revisar la disponibilidad de materiales y equipos.</td>
   </tr>
   <tr>
     <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
   </tr>
   <tr>
     <td colspan="4">
-      Escenario 1: Visualización del inventario
-
+      Escenario 1: Visualización del inventario<br><br>
 Dado que el personal se encuentra correctamente logueado en la apliacion.
 Cuando acceda al módulo de inventario
 Entonces la aplicación mostrará la lista de todos los objetos registrados con su stock disponible.
@@ -1059,15 +1028,14 @@ Entonces la aplicación mostrará la lista de todos los objetos registrados con 
     <td colspan="4" align="center"><b>Description</b></td>
   </tr>
   <tr>
-    <td colspan="4">Como personal del consultorio, quiero añadir nuevos objetos al inventario para mantener actualizado el stock disponible.</td>
+    <td colspan="4">Como personal del consultorio, <br>quiero añadir nuevos objetos al inventario <br>para mantener actualizado el stock disponible.</td>
   </tr>
   <tr>
     <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
   </tr>
   <tr>
     <td colspan="4">
-      Escenario 1: Registro de nuevo objeto
-
+      Escenario 1: Registro de nuevo objeto<br><br>
 Dado que el personal accede al módulo de inventario
 Cuando seleccione "Añadir objeto"
 Y complete los campos requeridos (nombre, tipo, cantidad)
@@ -1097,15 +1065,14 @@ Entonces la aplicación registrará el objeto en el inventario.
     <td colspan="4" align="center"><b>Description</b></td>
   </tr>
   <tr>
-    <td colspan="4">Como personal del consultorio, quiero modificar los datos de un objeto del inventario para reflejar información correcta y actualizada.</td>
+    <td colspan="4">Como personal del consultorio, <br>quiero modificar los datos de un objeto del inventario <br>para reflejar información correcta y actualizada.</td>
   </tr>
   <tr>
     <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
   </tr>
   <tr>
     <td colspan="4">
-      Escenario 1: Modificación de objeto del inventario
-
+      Escenario 1: Modificación de objeto del inventario<br><br>
 Dado que el personal accede a la sección de inventario
 Cuando seleccione un objeto de la lista
 Y actualice su información
@@ -1136,15 +1103,14 @@ Entonces la aplicación guardará la información modificada del objeto.
     <td colspan="4" align="center"><b>Description</b></td>
   </tr>
   <tr>
-    <td colspan="4">Como personal del consultorio, quiero eliminar objetos del inventario.</td>
+    <td colspan="4">Como personal del consultorio, <br>quiero eliminar objetos del inventario. <br>para mantener mis registros actualizados</td>
   </tr>
   <tr>
     <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
   </tr>
   <tr>
     <td colspan="4">
-      Escenario 1: Eliminación de objeto
-
+      Escenario 1: Eliminación de objeto<br><br>
 Dado que el personal accede a la lista del inventario
 Cuando seleccione un objeto
 Y presione "Eliminar"
@@ -1175,15 +1141,14 @@ Entonces la aplicación eliminará el objeto seleccionado.
     <td colspan="4" align="center"><b>Description</b></td>
   </tr>
   <tr>
-    <td colspan="4">Como personal del consultorio, quiero visualizar un resumen del inventario para tomar decisiones sobre abastecimiento.</td>
+    <td colspan="4">Como personal del consultorio, <br>quiero visualizar un resumen del inventario <br>para tomar decisiones sobre abastecimiento.</td>
   </tr>
   <tr>
     <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
   </tr>
   <tr>
     <td colspan="4">
-      Escenario 1: Visualización del dashboard
-
+      Escenario 1: Visualización del dashboard<br><br>
 Dado que el personal accede a la seccion de inventario
 Cuando seleccione la opción de "Dashboard"
 Entonces la aplicación mostrará gráficos y métricas de stock, consumo y disponibilidad.
@@ -1212,15 +1177,14 @@ Entonces la aplicación mostrará gráficos y métricas de stock, consumo y disp
     <td colspan="4" align="center"><b>Description</b></td>
   </tr>
   <tr>
-    <td colspan="4">Como personal del consultorio, quiero que se guarde la fecha del ajuste del inventario para poder llevar un seguimiento de movimientos.</td>
+    <td colspan="4">Como personal del consultorio, <br>quiero que se guarde la fecha del ajuste del inventario <br>para poder llevar un seguimiento de movimientos.</td>
   </tr>
   <tr>
     <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
   </tr>
   <tr>
     <td colspan="4">
-      Escenario 1: Registro de fecha de ajuste
-
+      Escenario 1: Registro de fecha de ajuste<br><br>
 Dado que se está registrando una acción de consumo o edición en el inventario
 Cuando se complete el proceso
 Entonces la aplicación registrará automáticamente la fecha del ajuste en el historial.
@@ -1249,14 +1213,13 @@ Entonces la aplicación registrará automáticamente la fecha del ajuste en el h
     <td colspan="4" align="center"><b>Description</b></td>
   </tr>
   <tr>
-    <td colspan="4">Como personal del consultorio, quiero registrar la cantidad de objetos usados en cada tratamiento para llevar un control detallado de insumos.</td>
+    <td colspan="4">Como personal del consultorio, <br>quiero registrar la cantidad de objetos usados en cada tratamiento <br>para llevar un control detallado de insumos.</td>
   </tr>
   <tr>
     <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
   </tr>
   <tr>
-    <td colspan="4">Escenario 1: Registro de consumo de objetos
-
+    <td colspan="4">Escenario 1: Registro de consumo de objetos<br><br>
 Dado que se realiza una facturación asociada a un tratamiento
 Cuando se especifique la cantidad utilizada de cada objeto
 Entonces el sistema almacenará dicha cantidad como parte del historial de consumo.</td>
@@ -1284,15 +1247,14 @@ Entonces el sistema almacenará dicha cantidad como parte del historial de consu
     <td colspan="4" align="center"><b>Description</b></td>
   </tr>
   <tr>
-    <td colspan="4">Como personal del consultorio, quiero acceder y editar mi perfil para mantener mi información personal actualizada.</td>
+    <td colspan="4">Como personal del consultorio, <br>quiero acceder y editar mi perfil <br>para mantener mi información personal actualizada.</td>
   </tr>
   <tr>
     <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
   </tr>
   <tr>
     <td colspan="4">
-      Escenario 1: Visualización y edición del perfil
-
+      Escenario 1: Visualización y edición del perfil<br><br>
 Dado que el personal ha iniciado sesión
 Cuando acceda a la sección de perfil
 Entonces podrá visualizar su información registrada
@@ -1323,7 +1285,7 @@ Entonces la aplicación actualizará su perfil correctamente.
     <td colspan="4" align="center"><b>Description</b></td>
   </tr>
   <tr>
-    <td colspan="4">Como visitante del sitio, quiero ver un menú principal en la parte superior de la página para acceder fácilmente a otras secciones.</td>
+    <td colspan="4">Como visitante del sitio, <br>quiero ver un menú principal en la parte superior de la página <br>para acceder fácilmente a otras secciones.</td>
   </tr>
   <tr>
     <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
@@ -1359,7 +1321,7 @@ Entonces el menú principal debe estar visible en la parte superior y mostrar en
     <td colspan="4" align="center"><b>Description</b></td>
   </tr>
   <tr>
-    <td colspan="4">Como visitante del sitio, quiero poder hacer clic en los elementos del menú para navegar a las secciones correspondientes de la misma página.</td>
+    <td colspan="4">Como visitante del sitio, <br>quiero poder hacer clic en los elementos del menú <br>para navegar a las secciones correspondientes de la misma página.</td>
   </tr>
   <tr>
     <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
@@ -1396,13 +1358,13 @@ Y lo mismo debe suceder con "Services", "Contact Us" y "Formulario".
     <td colspan="4" align="center"><b>Description</b></td>
   </tr>
   <tr>
-    <td colspan="4">Como visitante del sitio, quiero ver información sobre la empresa en la sección About Us para conocer su misión y valores.</td>
+    <td colspan="4">Como visitante del sitio, <br>quiero ver información sobre la empresa en la sección About Us <br>para conocer su misión y valores.</td>
   </tr>
   <tr>
     <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
   </tr>
   <tr>
-    <td colspan="4">Escenario 01: Contenido about us
+    <td colspan="4">Escenario 01: Contenido about us<br><br>
 Dado que he navegado a la sección About Us,
 Entonces debo ver texto con información clara sobre la empresa,
 Y un diseño consistente con el resto de la página.</td>
@@ -1430,15 +1392,14 @@ Y un diseño consistente con el resto de la página.</td>
     <td colspan="4" align="center"><b>Description</b></td>
   </tr>
   <tr>
-    <td colspan="4">Como visitante del sitio, quiero conocer los servicios ofrecidos para saber si se ajustan a mis necesidades.</td>
+    <td colspan="4">Como visitante del sitio, <br>quiero conocer los servicios ofrecidos <br>para saber si se ajustan a mis necesidades.</td>
   </tr>
   <tr>
     <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
   </tr>
   <tr>
     <td colspan="4">
-      Escenario 01: Visualizar información de servicios
-
+      Escenario 01: Visualizar información de servicios<br><br>
 Dado que estoy en la sección de Servicios,
 Entonces debo ver una lista o tarjetas con los servicios ofrecidos,
 Y cada servicio debe tener un título y una breve descripción.
@@ -1467,7 +1428,7 @@ Y cada servicio debe tener un título y una breve descripción.
     <td colspan="4" align="center"><b>Description</b></td>
   </tr>
   <tr>
-    <td colspan="4">Como visitante del sitio, quiero tener acceso a datos de contacto para poder comunicarme con la empresa.</td>
+    <td colspan="4">Como visitante del sitio, <br>quiero tener acceso a datos de contacto <br>para poder comunicarme con la empresa.</td>
   </tr>
   <tr>
     <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
@@ -1502,7 +1463,7 @@ Y deben estar visibles y legibles
     <td colspan="4" align="center"><b>Description</b></td>
   </tr>
   <tr>
-    <td colspan="4">Como visitante del sitio, quiero poder enviar un formulario de contacto con mis datos para recibir más información.</td>
+    <td colspan="4">Como visitante del sitio,<br> quiero poder enviar un formulario de contacto con mis datos <br>para recibir más información.</td>
   </tr>
   <tr>
     <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
@@ -1539,7 +1500,7 @@ Entonces el sistema debe confirmar que el mensaje fue enviado correctamente o mo
     <td colspan="4" align="center"><b>Description</b></td>
   </tr>
   <tr>
-    <td colspan="4">Como visitante del sitio, quiero ver información adicional en el pie de página para acceder a datos legales o complementarios.</td>
+    <td colspan="4">Como visitante del sitio,<br> quiero ver información adicional en el pie de página <br>para acceder a datos legales o complementarios.</td>
   </tr>
   <tr>
     <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
@@ -1547,9 +1508,1075 @@ Entonces el sistema debe confirmar que el mensaje fue enviado correctamente o mo
   <tr>
     <td colspan="4">
       Escenario 01: Ver contenido del footer
-Dado que estoy al final de la página,
-Entonces debo ver un footer con información como derechos de autor,
-Y enlaces a redes sociales o políticas del sitio si están disponibles.
+      Dado que estoy al final de la página,
+      Entonces debo ver un footer con información como derechos de autor,
+      Y enlaces a redes sociales o políticas del sitio si están disponibles.
+    </td>
+  </tr>
+</table>
+
+**Technical Stories**
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>TS01</td>
+    <td>Desarrollador</td>
+    <td>Alta</td>
+    <td>EP04</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Implementar endpoint para crear un ítem de inventario</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador<br>
+Quiero implementar el endpoint POST /api/v1/items<br>
+Para que los usuarios puedan registrar nuevos ítems en el inventario.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1:Creación exitosa<br><br>
+      Dado que el cuerpo de la solicitud contiene datos válidos<br>
+      Cuando se consuma POST /api/v1/items<br>
+      Entonces el sistema debe responder con 201 Created y devolver el ítem creado en formato JSON.<br><br>
+      Escenario 2:Error de validación<br><br>
+      Dado que el cuerpo de la solicitud contiene datos inválidos o incompletos<br>
+      Cuando se consuma POST /api/v1/items<br>
+      Entonces el sistema debe responder con 400 Bad Request.<br>
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>TS02</td>
+    <td>Desarrollador</td>
+    <td>Alta</td>
+    <td>EP04</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Implementar endpoint para actualizar un ítem de inventario</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador<br>
+Quiero implementar el endpoint PUT /api/v1/items/{id}<br>
+Para que se pueda modificar un ítem existente del inventario</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1 – Actualización exitosa:<br><br>
+      Dado que el ID corresponde a un ítem existente<br>
+      Y el cuerpo de la solicitud contiene datos válidos<br>
+      Cuando se consuma PUT /api/v1/items/{id}<br>
+      Entonces el sistema debe responder con 200 OK y devolver los datos actualizados.<br><br>
+      Escenario 2 – Error de validación:<br><br>
+      Dado que el cuerpo de la solicitud contiene datos inválidos o faltantes<br>
+      Cuando se consuma PUT /api/v1/items/{id}<br>
+      Entonces el sistema debe responder con 400 Bad Request.<br>
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>TS03</td>
+    <td>Desarrollador</td>
+    <td>Alta</td>
+    <td>EP04</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Implementar endpoint para eliminar un ítem de inventario</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador<br>
+Quiero implementar el endpoint DELETE /api/v1/items/{id}<br>
+Para que se pueda eliminar un ítem del inventario mediante su identificador.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1 – Eliminación exitosa:<br><br>
+      Dado que el ID corresponde a un ítem existente<br>
+      Cuando se consuma DELETE /api/v1/items/{id}<br>
+      Entonces el sistema debe responder con 204 No Content.<br><br>
+      Escenario 2 – Error en la eliminación:<br><br>
+      Dado que el ID es inválido o el ítem no puede eliminarse<br>
+      Cuando se consuma DELETE /api/v1/items/{id}<br>
+      Entonces el sistema debe responder con 400 Bad Request.<br>
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>TS04</td>
+    <td>Desarrollador</td>
+    <td>Alta</td>
+    <td>EP04</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Implementar endpoint para obtener un ítem de inventario por ID </td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador<br>
+Quiero implementar el endpoint GET /api/v1/items/{id}<br>
+Para que se pueda recuperar un ítem específico del inventario mediante su ID.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1 – Ítem encontrado:<br><br>
+      Dado que existe un ítem con un ID válido en la base de datos<br>
+      Cuando se consuma GET /api/v1/items/{id}<br>
+      Entonces el sistema debe responder con 200 OK y devolver el objeto en formato JSON.<br><br>
+      Escenario 2 – Ítem no encontrado:<br><br>
+      Dado que el ID no corresponde a ningún registro<br>
+      Cuando se consuma GET /api/v1/items/{id}<br>
+      Entonces el sistema debe responder con 404 Not Found.<br>
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>TS05</td>
+    <td>Desarrollador</td>
+    <td>Alta</td>
+    <td>EP04</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Implementar endpoint para obtener todos los ítems de inventario de un usuario</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador<br>
+Quiero implementar el endpoint GET /api/v1/items<br>
+Para que se puedan recuperar todos los ítems de inventario registrados por un usuario.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1 – Inventario encontrado:<br><br>
+      Dado que el usuario tiene ítems registrados en el sistema<br>
+      Cuando se consuma GET /api/v1/items con un parámetro de usuario válido<br>
+      Entonces el sistema debe responder con 200 OK y devolver la lista de ítems en formato JSON.<br><br>
+      Escenario 2 – Inventario vacío:<br><br>
+      Dado que el usuario no tiene ítems registrados<br>
+      Cuando se consuma GET /api/v1/items<br>
+      Entonces el sistema debe responder con 404 Not Found.<br>
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>TS06</td>
+    <td>Desarrollador</td>
+    <td>Alta</td>
+    <td>EP03</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Implementar endpoint para crear un paciente</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador<br>
+Quiero implementar el endpoint POST /api/v1/patients<br>
+Para permitir el registro de nuevos pacientes en el sistema.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: Creación exitosa:<br><br>
+Dado que el cuerpo de la solicitud contiene datos válidos<br>
+Cuando se consuma POST /api/v1/patients<br>
+Entonces el sistema debe responder con 201 Created y devolver el paciente registrado en formato JSON.<br><br>
+Escenario 2: Error de validación:<br><br>
+Dado que el cuerpo de la solicitud contiene datos inválidos o incompletos<br>
+Cuando se consuma POST /api/v1/patients<br>
+Entonces el sistema debe responder con 400 Bad Request.<br>
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>TS07</td>
+    <td>Desarrollador</td>
+    <td>Alta</td>
+    <td>EP03</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Implementar endpoint para actualizar un paciente</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador<br>
+Quiero implementar el endpoint PUT /api/v1/patients/{id}<br>
+Para que se pueda modificar la información de un paciente existente.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1 – Actualización exitosa:<br><br>
+Dado que el ID corresponde a un paciente existente<br>
+Y el cuerpo de la solicitud contiene datos válidos<br>
+Cuando se consuma PUT /api/v1/patients/{id}<br>
+Entonces el sistema debe responder con 200 OK y devolver los datos actualizados.<br><br>
+Escenario 2 – Error de validación:<br><br>
+Dado que el cuerpo de la solicitud contiene datos inválidos o faltantes<br>
+Cuando se consuma PUT /api/v1/patients/{id}<br>
+Entonces el sistema debe responder con 400 Bad Request.<br>
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>TS08</td>
+    <td>Desarrollador</td>
+    <td>Media</td>
+    <td>EP03</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Implementar endpoint para eliminar un paciente</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador<br>
+Quiero implementar el endpoint DELETE /api/v1/patients/{id}<br>
+Para que se pueda eliminar un paciente del sistema mediante su identificador.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1 – Eliminación exitosa:<br><br>
+Dado que el ID corresponde a un paciente existente<br>
+Cuando se consuma DELETE /api/v1/patients/{id}<br>
+Entonces el sistema debe responder con 204 No Content.<br><br>
+Escenario 2 – Error en la eliminación:<br><br>
+Dado que el ID es inválido o el paciente no puede eliminarse<br>
+Cuando se consuma DELETE /api/v1/patients/{id}<br>
+Entonces el sistema debe responder con 400 Bad Request.<br>
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>TS09</td>
+    <td>Desarrollador</td>
+    <td>Media</td>
+    <td>EP03</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Implementar endpoint para obtener un paciente por ID</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador<br>
+Quiero implementar el endpoint GET /api/v1/patients/{id}<br>
+Para recuperar la información de un paciente mediante su identificador único.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1 – Paciente encontrado:<br><br>
+Dado que existe un paciente con un ID válido en la base de datos<br>
+Cuando se consuma GET /api/v1/patients/{id}<br>
+Entonces el sistema debe responder con 200 OK <br>
+Y devolver la información del paciente en formato JSON.<br><br>
+Escenario 2 – Paciente no encontrado:<br><br>
+Dado que el ID no corresponde a ningún paciente registrado<br>
+Cuando se consuma GET /api/v1/patients/{id}<br>
+Entonces el sistema debe responder con 404 Not Found.<br>
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>TS10</td>
+    <td>Desarrollador</td>
+    <td>Media</td>
+    <td>EP03</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Implementar endpoint para obtener todos los pacientes de un usuario autenticado</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador<br>
+Quiero implementar el endpoint GET /api/v1/patients<br>
+Para recuperar la lista de pacientes vinculados al usuario autenticado.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1 – Pacientes encontrados:<br><br>
+      Dado que el usuario tiene pacientes registrados<br>
+      Cuando se consuma GET /api/v1/patients<br>
+      Entonces el sistema debe responder con 200 OK<br> 
+      Y devolver la lista de pacientes en formato JSON.<br><br>
+      Escenario 2 – Ningún paciente encontrado:<br><br>
+      Dado que el usuario autenticado no tiene pacientes registrados<br>
+      Cuando se consuma GET /api/v1/patients<br>
+      Entonces el sistema debe responder con 404 Not Found.<br>
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>TS11</td>
+    <td>Desarrollador</td>
+    <td>Alta</td>
+    <td>EP03</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Implementar endpoint para añadir una historia clínica a un paciente</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador<br>
+Quiero implementar el endpoint POST /api/v1/patients/{patientId}/medical-histories<br>
+Para registrar una nueva historia clínica vinculada a un paciente específico.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1 – Creación exitosa:<br><br>
+Dado que el patientId corresponde a un paciente existente<br>
+Y el cuerpo de la solicitud contiene datos válidos<br>
+Cuando se consuma POST /api/v1/patients/{patientId}/medical-histories<br>
+Entonces el sistema debe responder con 201 Created y devolver la historia clínica creada.<br><br>
+Escenario 2 – Error de validación:<br><br>
+Dado que el cuerpo de la solicitud contiene datos inválidos o incompletos<br>
+Cuando se consuma POST /api/v1/patients/{patientId}/medical-histories<br>
+Entonces el sistema debe responder con 400 Bad Request.<br>
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>TS12</td>
+    <td>Desarrollador</td>
+    <td>Alta</td>
+    <td>EP04</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Implementar endpoint para obtener historias clínicas por ID de paciente</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador<br>
+Quiero implementar el endpoint GET /api/v1/patients/{patientId}/medical-histories<br>
+Para recuperar todas las historias clínicas registradas para un paciente específico.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1 – Historias clínicas encontradas:<br><br>
+      Dado que el paciente con ID válido tiene historias clínicas registradas<br>
+      Cuando se consuma GET /api/v1/patients/{patientId}/medical-histories<br>
+      Entonces el sistema debe responder con 200 OK<br> 
+      Y devolver la lista de historias en formato JSON.<br><br>
+      Escenario 2 – Ninguna historia clínica encontrada:<br><br>
+      Dado que el paciente no tiene historias clínicas registradas<br>
+      Cuando se consuma GET /api/v1/patients/{patientId}/medical-histories<br>
+      Entonces el sistema debe responder con 404 Not Found.<br>
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>TS13</td>
+    <td>Desarrollador</td>
+    <td>Alta</td>
+    <td>EP02</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Implementar endpoint para crear una cita</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador<br>
+Quiero implementar el endpoint POST /api/v1/appointments<br>
+Para permitir el registro de nuevas citas médicas.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1 – Creación exitosa:<br><br>
+Dado que el cuerpo de la solicitud contiene datos válidos<br>
+Cuando se consuma POST /api/v1/appointments<br>
+Entonces el sistema debe responder con 201 Created y devolver la cita registrada.<br><br>
+Escenario 2 – Error de validación:<br><br>
+Dado que el cuerpo de la solicitud contiene datos inválidos o incompletos<br>
+Cuando se consuma POST /api/v1/appointments<br>
+Entonces el sistema debe responder con 400 Bad Request.<br>
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>TS14</td>
+    <td>Desarrollador</td>
+    <td>Alta</td>
+    <td>EP02</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Implementar endpoint para actualizar una cita</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador<br>
+Quiero implementar el endpoint PUT /api/v1/appointments/{appointmentId}<br>
+Para que se pueda modificar una cita existente.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1 – Actualización exitosa:<br><br>
+Dado que el appointmentId corresponde a una cita existente<br>
+Y el cuerpo de la solicitud contiene datos válidos<br>
+Cuando se consuma PUT /api/v1/appointments/{appointmentId}<br>
+Entonces el sistema debe responder con 200 OK y devolver los datos actualizados de la cita.<br><br>
+Escenario 2 – Error de validación:<br><br>
+Dado que el cuerpo de la solicitud contiene datos inválidos o incompletos<br>
+Cuando se consuma PUT /api/v1/appointments/{appointmentId}<br>
+Entonces el sistema debe responder con 400 Bad Request.<br><br>
+Escenario 3 – Cita no encontrada:<br><br>
+Dado que el appointmentId no corresponde a ninguna cita registrada<br>
+Cuando se consuma PUT /api/v1/appointments/{appointmentId}<br>
+Entonces el sistema debe responder con 404 Not Found.<br>
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>TS15</td>
+    <td>Desarrollador</td>
+    <td>Alta</td>
+    <td>EP02</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Implementar endpoint para eliminar una cita</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador<br>
+Quiero implementar el endpoint DELETE /api/v1/appointments/{appointmentId}<br>
+Para que se pueda eliminar una cita registrada.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1 – Eliminación exitosa:<br><br>
+Dado que el appointmentId corresponde a una cita existente<br>
+Cuando se consuma DELETE /api/v1/appointments/{appointmentId}<br>
+Entonces el sistema debe responder con 200 OK confirmando la eliminación.<br><br>
+Escenario 2 – Cita no encontrada:<br><br>
+Dado que el appointmentId no corresponde a ninguna cita registrada<br>
+Cuando se consuma DELETE /api/v1/appointments/{appointmentId}<br>
+Entonces el sistema debe responder con 404 Not Found.<br>
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>TS16</td>
+    <td>Desarrollador</td>
+    <td>Media</td>
+    <td>EP02</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Implementar endpoint para obtener todas las citas del usuario autenticado</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador<br>
+Quiero implementar el endpoint GET /api/v1/appointments<br>
+Para recuperar todas las citas médicas asociadas al usuario autenticado.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1 – Citas encontradas:<br><br>
+Dado que el usuario autenticado tiene citas registradas<br>
+Cuando se consuma GET /api/v1/appointments<br>
+Entonces el sistema debe responder con 200 OK y devolver la lista de citas en formato JSON.<br><br>
+Escenario 2 – Ninguna cita encontrada:<br><br>
+Dado que el usuario autenticado no tiene citas registradas<br>
+Cuando se consuma GET /api/v1/appointments<br>
+Entonces el sistema debe responder con 404 Not Found.<br>
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>TS17</td>
+    <td>Desarrollador</td>
+    <td>Media</td>
+    <td>EP02</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Implementar endpoint para obtener todas las citas de un paciente</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador<br>
+Quiero implementar el endpoint GET /api/v1/appointments/{patientId}<br>
+Para recuperar todas las citas asociadas a un paciente específico del usuario autenticado.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1 – Citas encontradas:<br><br>
+Dado que el paciente con patientId válido tiene citas registradas<br>
+Cuando se consuma GET /api/v1/appointments/{patientId}<br>
+Entonces el sistema debe responder con 200 OK y devolver la lista de citas.<br><br>
+Escenario 2 – Ninguna cita encontrada:<br><br>
+Dado que el paciente con patientId no tiene citas registradas<br>
+Cuando se consuma GET /api/v1/appointments/{patientId}<br>
+Entonces el sistema debe responder con 404 Not Found.<br>
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>TS18</td>
+    <td>Desarrollador</td>
+    <td>Alta</td>
+    <td>EP02</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Implementar endpoint para obtener una cita por ID</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador<br>
+Quiero implementar el endpoint GET /api/v1/appointments/appointment/{id}<br>
+Para recuperar los detalles de una cita específica del usuario autenticado.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1 – Cita encontrada:<br><br>
+      Dado que existe una cita con el id proporcionado para el usuario autenticado<br>
+      Cuando se consuma GET /api/v1/appointments/appointment/{id}<br>
+      Entonces el sistema debe responder con 200 OK y devolver los detalles de la cita.<br><br>
+      Escenario 2 – Cita no encontrada:<br><br>
+      Dado que el id no corresponde a ninguna cita registrada del usuario autenticado<br>
+      Cuando se consuma GET /api/v1/appointments/appointment/{id}<br>
+      Entonces el sistema debe responder con 404 Not Found.<br>
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>TS19</td>
+    <td>Desarrollador</td>
+    <td>Media</td>
+    <td>EP05</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Implementar endpoint para crear una factura</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador<br>
+Quiero implementar el endpoint POST /api/v1/invoices<br>
+Para permitir la creación de nuevas facturas en el sistema.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1 – Creación exitosa:<br><br>
+Dado que el cuerpo de la solicitud contiene datos válidos<br>
+Cuando se consuma POST /api/v1/invoices<br>
+Entonces el sistema debe responder con 201 Created y devolver la factura registrada en formato JSON.<br><br>
+Escenario 2 – Error de validación:<br><br>
+Dado que el cuerpo de la solicitud contiene datos inválidos o incompletos<br>
+Cuando se consuma POST /api/v1/invoices<br>
+Entonces el sistema debe responder con 400 Bad Request.<br>
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>TS20</td>
+    <td>Desarrollador</td>
+    <td>Media</td>
+    <td>EP05</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Implementar endpoint para obtener todas las facturas del usuario autenticado</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador<br>
+Quiero implementar el endpoint GET /api/v1/invoices<br>
+Para recuperar todas las facturas asociadas al usuario autenticado.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1 – Facturas encontradas:<br><br>
+Dado que el usuario autenticado tiene facturas registradas<br>
+Cuando se consuma GET /api/v1/invoices<br>
+Entonces el sistema debe responder con 200 OK y devolver la lista de facturas en formato JSON.<br>
+Escenario 2 – Ninguna factura encontrada:<br><br>
+Dado que el usuario autenticado no tiene facturas registradas<br>
+Cuando se consuma GET /api/v1/invoices<br>
+Entonces el sistema debe responder con 404 Not Found.<br>
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>TS21</td>
+    <td>Desarrollador</td>
+    <td>Media</td>
+    <td>EP05</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Implementar endpoint para obtener una factura por ID de cita</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador<br>
+Quiero implementar el endpoint GET /api/v1/invoices/{appointmentId}<br>
+Para recuperar la factura asociada a una cita específica.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1 – Factura encontrada:<br><br>
+      Dado que existe una factura registrada para el appointmentId proporcionado<br>
+      Cuando se consuma GET /api/v1/invoices/{appointmentId}<br>
+      Entonces el sistema debe responder con 200 OK y devolver la factura en formato JSON.<br><br>
+      Escenario 2 – Factura no encontrada:<br><br>
+      Dado que el appointmentId no tiene facturas asociadas<br>
+      Cuando se consuma GET /api/v1/invoices/{appointmentId}<br>
+      Entonces el sistema debe responder con 404 Not Found.<br>
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>TS22</td>
+    <td>Desarrollador</td>
+    <td>Baja</td>
+    <td>EP01</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Implementar endpoint para registrar un usuario</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador<br>
+Quiero implementar el endpoint POST /api/auth/register<br>
+Para que los nuevos usuarios puedan registrarse en el sistema.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1 – Registro exitoso:<br><br>
+Dado que el cuerpo de la solicitud contiene datos válidos (ej. nombre, correo, contraseña)<br>
+Cuando se consuma POST /api/auth/register<br>
+Entonces el sistema debe responder con 200 OK y registrar al nuevo usuario.<br><br>
+Escenario 2 – Error de validación:<br><br>
+Dado que el cuerpo de la solicitud contiene datos inválidos, incompletos o un correo ya registrado<br>
+Cuando se consuma POST /api/auth/register<br>
+Entonces el sistema debe responder con 400 Bad Request.<br>
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>TS23</td>
+    <td>Desarrollador</td>
+    <td>Baja</td>
+    <td>EP01</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Implementar endpoint para iniciar sesión</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador<br>
+Quiero implementar el endpoint POST /api/auth/login<br>
+Para que los usuarios registrados puedan autenticarse en el sistema.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1 – Inicio de sesión exitoso:<br><br>
+Dado que las credenciales proporcionadas (correo y contraseña) son válidas<br>
+Cuando se consuma POST /api/auth/login<br>
+Entonces el sistema debe responder con 200 OK y devolver el token de autenticación.<br><br>
+Escenario 2 – Usuario no encontrado o credenciales inválidas:<br><br>
+Dado que las credenciales no corresponden a ningún usuario registrado<br>
+Cuando se consuma POST /api/auth/login<br>
+Entonces el sistema debe responder con 404 Not Found.<br>
+    </td>
+  </tr>
+</table>
+
+**Spike Stories**
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>SS01</td>
+    <td>Desarrollador</td>
+    <td>Alta</td>
+    <td>EP02</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Investigar uso de Mockito para pruebas unitarias</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador<br>
+Quiero investigar cómo integrar y usar Mockito en el proyecto<br>
+Para facilitar la creación de pruebas unitarias más efectivas.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1 – Configuración de entorno:<br><br>
+Dado que el proyecto tiene un módulo de pruebas unitarias<br>
+Cuando se agregue la librería de Mockito a la configuración del build (Maven)<br>
+Entonces el entorno debe permitir la creación de mocks en las clases de prueba.<br><br>
+Escenario 2 – Verificación de un mock:<br><br>
+Dado que existe un servicio con dependencias<br>
+Cuando se escriba una prueba unitaria usando Mockito<br>
+Entonces debe ser posible simular la respuesta de la dependencia<br> 
+Y validar la lógica del servicio sin llamar a implementaciones reales.
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>SS02</td>
+    <td>Desarrollador</td>
+    <td>Baja</td>
+    <td>EP02</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Investigar el uso de Selenium para pruebas automatizadas</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como desarrollador
+Quiero investigar cómo implementar pruebas automatizadas con Selenium
+Para validar el correcto funcionamiento de la interfaz de usuario y los flujos principales de la aplicación.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1 – Configuración de Selenium:<br><br>
+Dado que se prepara un entorno de pruebas funcionales<br>
+Cuando se agregue Selenium WebDriver a la configuración del proyecto<br>
+Entonces se debe poder lanzar un navegador automatizado y abrir la aplicación.<br><br>
+Escenario 2 – Prueba de flujo básico:<br><br>
+Dado que un usuario ficticio accede a la aplicación<br>
+Cuando el script de Selenium simule el login con credenciales válidas<br>
+Entonces el sistema debe mostrar la página principal de la aplicación, validando que el flujo funciona correctamente.<br>
     </td>
   </tr>
 </table>
