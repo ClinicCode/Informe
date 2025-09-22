@@ -738,33 +738,5 @@ En esta sección se incluyen capturas de la **documentación de la API RESTful**
 En conclusión, este proyecto resalta la importancia de aplicar diferentes enfoques de arquitectura y el uso de Domain-Driven Design (DDD), lo cual contribuyó a una mejor organización, escalabilidad y mantenibilidad del sistema. La implementación de una aplicación móvil desarrollada en Flutter para Android e iOS, junto con una versión nativa para Android, y respaldada por un backend sólido en Spring Boot con Java 17, permitió consolidar una base tecnológica moderna y eficiente. Asimismo, el énfasis en el diseño UX/UI garantizó una experiencia de usuario clara, atractiva e intuitiva. Finalmente, la utilización de control de versiones con Git y la estrategia de ramificación GitFlow favorecieron una gestión colaborativa y ordenada del desarrollo, manteniendo la trazabilidad y calidad del código durante todo el proceso.
 
 
-bi 
-# Bibliografía
-
-Osiptel. (2022). Los servicios de telecomunicaciones en los hogares peruanos: Encuesta Residencial de Servicios de Telecomunicaciones – ERESTEL 2021. https://www.osiptel.gob.pe/media/dujjruwd/erestel-2021.pdf
-
-
-
-# Anexos
-
-## Recursos del Proyecto
-
-| Descripción                          | Enlace                                                                 |
-|--------------------------------------|------------------------------------------------------------------------|
-| Repositorio de Aplicación Móvil      | [GitHub - MobileApp](https://github.com/ClinicCode/dentify-app-mobile) |
-| Repositorio de Landing Page          | [GitHub - LandingPage](https://github.com/ClinicCode/dentify-landing-page) |
-| Despliegue de Landing Page           | [Landing Page Deploy](s) |
-| Repositorio de Web Service           | [GitHub - BackEnd](https://github.com/ClinicCode/dentify-backend) |
-| Despliegue de Web Service            | [Swagger UI](https://dentify-f0gdbubtaafmdfg9.canadacentral-01.azurewebsites.net/swagger-ui/index.html)|
-| Organización de GitHub               | [TF-AplicacionesMoviles](https://github.com/ClinicCode) |
-
-
----
-
-## Evidencias en Video
-
-| Sección                    | Características del video                                                                                                                                          | Enlace                     |
-|----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|
-| **Needfinding Interviews** | **Cantidad de videos:** 1 <br> **Nomenclatura:** upc-pre-202520-1asi0732-14651-ClinicCode-needfinding-sprint-1 <br> **Formato:** mp4 <br> **Duración:** 34:28 | [Ver Video](https://shorturl.at/P0n32) |
 
 
