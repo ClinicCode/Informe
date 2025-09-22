@@ -88,11 +88,11 @@ GitHub también presenta un timeline de las ramas principales y los procesos de 
 
 Los integrantes son:
 
-- Aponte Cruzado, Andrea Marielena
-- Belahonia Miranda, Fabrisio
-- Bohorquez Lerzundi, Gerardo Sebastian
-- Cutiri Agüero, Fabrizio Alexander
-- Berrocal Ramirez, Omar Christian
+- Aponte Cruzado, Andrea Marielena(iconicmiau)
+- Belahonia Miranda, Fabrisio(devfab17)
+- Bohorquez Lerzundi, Gerardo Sebastian(Sebasbl562)
+- Cutiri Agüero, Fabrizio Alexander(FabrizioCutiri)
+- Berrocal Ramirez, Omar Christian(OmBRz)
 
 # Contenido
 ## Tabla de contenidos
