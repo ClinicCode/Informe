@@ -1170,65 +1170,11 @@ En esta presente imagen se detalla la descripción y funcionalidad de los compon
 
 
 ## 4.10. Database Design
-
-```sql
-CREATE TABLE Users (
-    user_id INT PRIMARY KEY AUTO_INCREMENT,
-    name VARCHAR(100),
-    email VARCHAR(100) UNIQUE,
-    password VARCHAR(255)
-);
-
-CREATE TABLE Patients (
-    patient_id INT PRIMARY KEY AUTO_INCREMENT,
-    name VARCHAR(100),
-    email VARCHAR(100),
-    phone VARCHAR(20),
-    address VARCHAR(200)
-);
-
-CREATE TABLE Appointments (
-    appointment_id INT PRIMARY KEY AUTO_INCREMENT,
-    patient_id INT,
-    date DATETIME,
-    status VARCHAR(50),
-    FOREIGN KEY (patient_id) REFERENCES Patients(patient_id)
-);
-
-CREATE TABLE Products (
-    product_id INT PRIMARY KEY AUTO_INCREMENT,
-    name VARCHAR(100),
-    stock INT,
-    price DECIMAL(10,2)
-);
-
-CREATE TABLE Invoices (
-    invoice_id INT PRIMARY KEY AUTO_INCREMENT,
-    patient_id INT,
-    date DATETIME,
-    total DECIMAL(10,2),
-    FOREIGN KEY (patient_id) REFERENCES Patients(patient_id)
-);
-
-CREATE TABLE InvoiceItems (
-    invoice_item_id INT PRIMARY KEY AUTO_INCREMENT,
-    invoice_id INT,
-    product_id INT,
-    quantity INT,
-    price DECIMAL(10,2),
-    FOREIGN KEY (invoice_id) REFERENCES Invoices(invoice_id),
-    FOREIGN KEY (product_id) REFERENCES Products(product_id)
-);
-
-CREATE TABLE LogInventory (
-    log_id INT PRIMARY KEY AUTO_INCREMENT,
-    product_id INT,
-    action VARCHAR(50),
-    date DATETIME,
-    FOREIGN KEY (product_id) REFERENCES Products(product_id)
-);
-``` 
 ### 4.10.1. Relational/Non-Relational Database Diagram
+
+<div align="center">
+<img src="Img/digrama-relacional.png" alt="Diagrama de clase">
+</div>
 
 # Capítulo V: Product Implementation
 
