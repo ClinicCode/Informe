@@ -599,6 +599,18 @@ El despliegue del landing page se realizó en GitHub Pages, siguiendo los siguie
 
 ### 5.2.2. Implemented Landing Page Evidence
 
+En esta sección mostraremos evidencias del landing page desplegado.
+
+**Link de Landing Page:** https://cliniccode.github.io/dentify-landing-page
+
+![landing-page-evidence-1.png](Img/landing-page-evidence-1.png)
+
+![landing-page-evidence-2.png](Img/landing-page-evidence-2.png)
+
+![landing-page-evidence-3.png](Img/landing-page-evidence-3.png)
+
+![landing-page-evidence-4.png](Img/landing-page-evidence-4.png)
+
 ### 5.2.3. Implemented Frontend-Web Application Evidence
 
 ### 5.2.4. Implemented Native-Mobile Application Evidence
