@@ -531,6 +531,50 @@ Para la escritura de commits, se sigue la convención 'Conventional Commits', el
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
+Para el desarrollo de Dentify se emplearon distintos lenguajes y frameworks, aplicando convenciones de codificación y buenas prácticas en cada caso:
+
+**HTML**
+
+En la implementación de HTML se siguieron las Convenciones de Codificación correspondientes. Los aspectos más relevantes fueron:
+
+Uso de etiquetas semánticas: Se incorporaron elementos como header, nav, main y footer para mejorar tanto la accesibilidad como la interpretación del documento.
+
+Indentación y consistencia: Aunque HTML admite mayúsculas y minúsculas en elementos y atributos, se optó exclusivamente por el uso de minúsculas con la convención kebab-case, priorizando la legibilidad y el orden.
+
+**CSS**
+
+El código CSS se desarrolló bajo la convención BEM y lineamientos de estilo para mantener claridad y organización. Algunos puntos destacados:
+
+* Clases descriptivas y en inglés, siempre en formato kebab-case, lo que facilita su comprensión.
+
+* Transiciones en botones, añadiendo efectos suaves que enriquecen la experiencia del usuario.
+
+* Fuentes personalizadas, integradas mediante @font-face siguiendo las recomendaciones para la gestión tipográfica en CSS.
+
+**JavaScript**
+
+Para la interactividad y los componentes dinámicos de la interfaz se utilizó Bootstrap, incluyendo únicamente sus archivos oficiales. Esto permitió aprovechar sus funcionalidades avanzadas sin necesidad de programar desde cero.
+
+**Bootstrap**
+
+En el uso de Bootstrap se respetaron las buenas prácticas, empleando clases predefinidas para garantizar un diseño responsive. Además, se realizaron personalizaciones sin modificar directamente el código base, asegurando compatibilidad y facilidad de actualización.
+
+**Java (Spring Boot)**
+
+En la construcción de la API Restful se siguió la convención Google Java Style Guide.
+
+**Nomenclatura:** Se aplicó PascalCase en clases y métodos, y lowerCamelCase en atributos.
+
+**Estructura del proyecto:** Se adoptaron los principios de Clean Architecture y Domain Driven Design, organizando el sistema por Bounded Contexts y capas (Aplicación, Infraestructura, Dominio e Interfaces).
+
+**Kotlin (Android Studio)**
+
+Para la aplicación móvil se empleó la guía de estilo oficial de Kotlin (Google Kotlin Style Guide).
+
+**Nomenclatura:** Clases y métodos en PascalCase, atributos en lowerCamelCase.
+
+**Arquitectura:** Se aplicaron Clean Architecture y Domain Driven Design, estructurando el proyecto en Repositorios, UI, Casos de Uso y Dominios.
+
 ### 5.1.4. Software Deployment Configuration
 
 ## 5.2. Product Implementation & Deployment
