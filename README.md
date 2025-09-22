@@ -96,106 +96,104 @@ Los integrantes son:
 
 # Contenido
 ## Tabla de contenidos
-- [**Registro de Versiones del Informe**](#registro-de-versiones-del-informe)
-- [**Project Report Collaboration Insights**](#project-report-collaboration-insights)
-- [**Contenido**](#contenido)
-    - [Tabla de contenidos](#tabla-de-contenidos)
-- [**Student Outcome**](#student-outcome)
-
-- [**Capítulo I: Introducción**](#capítulo-i-introducción)
-  - [**1.1. Startup Profile**](#11-startup-profile)
-    - [**1.1.1. Descripción de la Startup**](#111-descripción-de-la-startup)
-    - [**1.1.2. Perfiles de integrantes del equipo**](#112-perfiles-de-integrantes-del-equipo)
-  - [**1.2. Solution Profile**](#12-solution-profile)
-    - [**1.2.1 Antecedentes y problemática**](#121-antecedentes-y-problemática)
-    - [**1.2.2 Lean UX Process**](#122-lean-ux-process)
-      - [**1.2.2.1. Lean UX Problem Statements**](#1221-lean-ux-problem-statements)
-      - [**1.2.2.2. Lean UX Assumptions**](#1222-lean-ux-assumptions)
-      - [**1.2.2.3. Lean UX Hypothesis Statements**](#1223-lean-ux-hypothesis-statements)
-      - [**1.2.2.4. Lean UX Canvas**](#1224-lean-ux-canvas)
-  - [**1.3. Segmentos objetivo**](#13-segmentos-objetivo)
-
-- [**Capítulo II: Requirements Elicitation & Analysis**](#capítulo-ii-requirements-elicitation--analysis)
-  - [**2.1. Competidores**](#21-competidores)
-    - [**2.1.1. Análisis competitivo**](#211-análisis-competitivo)
-    - [**2.1.2. Estrategias y tácticas frente a competidores**](#212-estrategias-y-tácticas-frente-a-competidores)
-  - [**2.2. Entrevistas**](#22-entrevistas)
-    - [**2.2.1. Diseño de entrevistas**](#221-diseño-de-entrevistas)
-    - [**2.2.2. Registro de entrevistas**](#222-registro-de-entrevistas)
-    - [**2.2.3. Análisis de entrevistas**](#223-análisis-de-entrevistas)
-  - [**2.3. Needfinding**](#23-needfinding)
-    - [**2.3.1. User Personas**](#231-user-personas)
-    - [**2.3.2. User Task Matrix**](#232-user-task-matrix)
-    - [**2.3.3. User Journey Mapping**](#233-user-journey-mapping)
-    - [**2.3.4. Empathy Mapping**](#234-empathy-mapping)
-    - [**2.3.5. As-is Scenario Mapping**](#235-as-is-scenario-mapping)
-  - [**2.4. Ubiquitous Language**](#24-ubiquitous-language)
-
-- [**Capítulo III: Requirements Specification**](#capítulo-iii-requirements-specification)
-  - [**3.1. To-Be Scenario Mapping**](#31-to-be-scenario-mapping)
-  - [**3.2. User Stories**](#32-user-stories)
-  - [**3.3. Product Backlog**](#33-product-backlog)
-  - [**3.4. Impact Mapping**](#34-impact-mapping)
-  - [Avance de Conclusiones, Bibliografía y Anexos](#avance-de-conclusiones-bibliografía-y-anexos)
-
-- [**Capítulo IV: Product Design**](#capítulo-iv-product-design)
-  - [**4.1. Style Guidelines**](#41-style-guidelines)
-    - [**4.1.1. General Style Guidelines**](#411-general-style-guidelines)
-    - [**4.1.2. Web Style Guidelines**](#412-web-style-guidelines)
-    - [**4.1.3. Mobile Style Guidelines**](#413-mobile-style-guidelines)
-      - [**4.1.3.1. iOS Mobile Style Guidelines**](#4131-ios-mobile-style-guidelines)
-      - [**4.1.3.2. Android Mobile Style Guidelines**](#4132-android-mobile-style-guidelines)
-  - [**4.2. Information Architecture**](#42-information-architecture)
-    - [**4.2.1. Organization Systems**](#421-organization-systems)
-    - [**4.2.2. Labeling Systems**](#422-labeling-systems)
-    - [**4.2.3. SEO Tags and Meta Tags**](#423-seo-tags-and-meta-tags)
-    - [**4.2.4. Searching Systems**](#424-searching-systems)
-    - [**4.2.5. Navigation Systems**](#425-navigation-systems)
-  - [**4.3. Landing Page UI Design**](#43-landing-page-ui-design)
-    - [**4.3.1. Landing Page Wireframe**](#431-landing-page-wireframe)
-    - [**4.3.2. Landing Page Mock-up**](#432-landing-page-mock-up)
-  - [**4.4. Mobile Applications UX/UI Design**](#44-mobile-applications-uxui-design)
-    - [**4.4.1. Mobile Applications Wireframes**](#441-mobile-applications-wireframes)
-    - [**4.4.2. Mobile Applications Wireflow Diagrams**](#442-mobile-applications-wireflow-diagrams)
-    - [**4.4.3. Mobile Applications Mock-ups**](#443-mobile-applications-mock-ups)
-    - [**4.4.4. Mobile Applications User Flow Diagrams**](#444-mobile-applications-user-flow-diagrams)
-  - [**4.5. Mobile Applications Prototyping**](#45-mobile-applications-prototyping)
-    - [**4.5.1. Android Mobile Applications Prototyping**](#451-android-mobile-applications-prototyping)
-    - [**4.5.2. iOS Mobile Applications Prototyping**](#452-ios-mobile-applications-prototyping)
-  - [**4.6. Web Applications UX/UI Design**](#46-web-applications-uxui-design)
-    - [**4.6.1. Web Applications Wireframes**](#461-web-applications-wireframes)
-    - [**4.6.2. Web Applications Wireflow Diagrams**](#462-web-applications-wireflow-diagrams)
-    - [**4.6.3. Web Applications Mock-ups**](#463-web-applications-mock-ups)
-    - [**4.6.4. Web Applications User Flow Diagrams**](#464-web-applications-user-flow-diagrams)
-  - [**4.7. Web Applications Prototyping**](#47-web-applications-prototyping)
-  - [**4.8. Domain-Driven Software Architecture**](#48-domain-driven-software-architecture)
-    - [**4.8.1. Software Architecture Context Diagram**](#481-software-architecture-context-diagram)
-    - [**4.8.2. Software Architecture Container Diagrams**](#482-software-architecture-container-diagrams)
-    - [**4.8.3. Software Architecture Components Diagrams**](#483-software-architecture-components-diagrams)
-  - [**4.9. Software Object-Oriented Design**](#49-software-object-oriented-design)
-    - [**4.9.1. Class Diagrams**](#491-class-diagrams)
-    - [**4.9.2. Class Dictionary**](#492-class-dictionary)
-  - [**4.10. Database Design**](#410-database-design)
-    - [**4.10.1. Relational/Non-Relational Database Diagram**](#4101-relationalnon-relational-database-diagram)
-
-- [**Capítulo V: Product Implementation**](#capítulo-v-product-implementation)
-  - [**5.1. Software Configuration Management**](#51-software-configuration-management)
-    - [**5.1.1. Software Development Environment Configuration**](#511-software-development-environment-configuration)
-    - [**5.1.2. Source Code Management**](#512-source-code-management)
-    - [**5.1.3. Source Code Style Guide & Conventions**](#513-source-code-style-guide--conventions)
-    - [**5.1.4. Software Deployment Configuration**](#514-software-deployment-configuration)
-  - [**5.2. Product Implementation & Deployment**](#52-product-implementation--deployment)
-    - [**5.2.1. Sprint Backlogs**](#521-sprint-backlogs)
-    - [**5.2.2. Implemented Landing Page Evidence**](#522-implemented-landing-page-evidence)
-    - [**5.2.3. Implemented Frontend-Web Application Evidence**](#523-implemented-frontend-web-application-evidence)
-    - [**5.2.4. Implemented Native-Mobile Application Evidence**](#524-implemented-native-mobile-application-evidence)
-    - [**5.2.5. Implemented RESTful API and/or Serverless Backend Evidence**](#525-implemented-restful-api-andor-serverless-backend-evidence)
-    - [**5.2.6. RESTful API documentation**](#526-restful-api-documentation)
-    - [**5.2.7. Team Collaboration Insights**](#527-team-collaboration-insights)
-  - [**5.3. Video About-the-Product**](#53-video-about-the-product)
-  - [**Conclusiones**](#conclusiones)
-  - [**Bibliografía**](#bibliografía)
-  - [**Anexos**](#anexos)
+- [COURSE PROJECT](#course-project)
+- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+- [Project Report Collaboration Insights](#project-report-collaboration-insights)
+- [GitHub Collaboration Insights](#github-collaboration-insights)
+- [Contenido](#contenido)
+  - [Tabla de contenidos](#tabla-de-contenidos)
+- [Student Outcome](#student-outcome)
+- [Capítulo I: Introducción](#capítulo-i-introducción)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+    - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+  - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+  - [3.2. User Stories](#32-user-stories)
+  - [3.3. Product Backlog](#33-product-backlog)
+  - [3.4. Impact Mapping](#34-impact-mapping)
+- [Capítulo IV: Product Design](#capítulo-iv-product-design)
+  - [4.1. Style Guidelines](#41-style-guidelines)
+    - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+    - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
+    - [4.1.3. Mobile Style Guidelines](#413-mobile-style-guidelines)
+      - [4.1.3.1. iOS Mobile Style Guidelines](#4131-ios-mobile-style-guidelines)
+      - [4.1.3.2. Android Mobile Style Guidelines](#4132-android-mobile-style-guidelines)
+  - [4.2. Information Architecture](#42-information-architecture)
+    - [4.2.1. Organization Systems](#421-organization-systems)
+      - [Categorización del Contenido](#categorización-del-contenido)
+      - [Secuencia de Contenidos](#secuencia-de-contenidos)
+      - [Agrupación de Funcionalidades](#agrupación-de-funcionalidades)
+    - [4.2.2. Labeling Systems](#422-labeling-systems)
+    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+    - [4.2.4. Searching Systems](#424-searching-systems)
+    - [4.2.5. Navigation Systems](#425-navigation-systems)
+  - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
+    - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
+    - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
+  - [4.4. Mobile Applications UX/UI Design](#44-mobile-applications-uxui-design)
+    - [4.4.1. Mobile Applications Wireframes](#441-mobile-applications-wireframes)
+    - [4.4.2. Mobile Applications Wireflow Diagrams](#442-mobile-applications-wireflow-diagrams)
+    - [4.4.3. Mobile Applications Mock-ups](#443-mobile-applications-mock-ups)
+    - [4.4.4. Mobile Applications User Flow Diagrams](#444-mobile-applications-user-flow-diagrams)
+  - [4.5. Mobile Applications Prototyping](#45-mobile-applications-prototyping)
+    - [4.5.1. Android Mobile Applications Prototyping](#451-android-mobile-applications-prototyping)
+    - [4.5.2. iOS Mobile Applications Prototyping](#452-ios-mobile-applications-prototyping)
+  - [4.6. Web Applications UX/UI Design](#46-web-applications-uxui-design)
+    - [4.6.1. Web Applications Wireframes](#461-web-applications-wireframes)
+    - [4.6.2. Web Applications Wireflow Diagrams](#462-web-applications-wireflow-diagrams)
+    - [4.6.3. Web Applications Mock-ups](#463-web-applications-mock-ups)
+    - [4.6.4. Web Applications User Flow Diagrams](#464-web-applications-user-flow-diagrams)
+  - [4.8. Domain-Driven Software Architecture](#48-domain-driven-software-architecture)
+    - [4.8.1. Software Architecture Context Diagram](#481-software-architecture-context-diagram)
+    - [4.8.2. Software Architecture Container Diagrams](#482-software-architecture-container-diagrams)
+    - [4.8.3. Software Architecture Components Diagrams](#483-software-architecture-components-diagrams)
+  - [4.9. Software Object-Oriented Design](#49-software-object-oriented-design)
+    - [4.9.1. Class Diagrams](#491-class-diagrams)
+    - [4.9.2. Class Dictionary](#492-class-dictionary)
+  - [4.10. Database Design](#410-database-design)
+    - [4.10.1. Relational/Non-Relational Database Diagram](#4101-relationalnon-relational-database-diagram)
+- [Capítulo V: Product Implementation](#capítulo-v-product-implementation)
+  - [5.1. Software Configuration Management](#51-software-configuration-management)
+    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
+    - [5.1.2. Source Code Management](#512-source-code-management)
+    - [5.1.3. Source Code Style Guide \& Conventions](#513-source-code-style-guide--conventions)
+    - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
+  - [5.2. Product Implementation \& Deployment](#52-product-implementation--deployment)
+    - [5.2.1. Sprint Backlogs](#521-sprint-backlogs)
+    - [5.2.2. Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)
+    - [5.2.3. Implemented Frontend-Web Application Evidence](#523-implemented-frontend-web-application-evidence)
+    - [5.2.4. Implemented Native-Mobile Application Evidence](#524-implemented-native-mobile-application-evidence)
+    - [5.2.5. Implemented RESTful API and/or Serverless Backend Evidence](#525-implemented-restful-api-andor-serverless-backend-evidence)
+    - [5.2.6. RESTful API documentation](#526-restful-api-documentation)
+    - [5.2.7. Team Collaboration Insights](#527-team-collaboration-insights)
+  - [5.3. Video About-the-Product](#53-video-about-the-product)
+- [Conclusiones](#conclusiones)
+- [Bibliografía](#bibliografía)
+- [Anexos](#anexos)
 
 
     
@@ -276,17 +274,17 @@ Los integrantes son:
 
 ### 4.1.1. General Style Guidelines
 
-#### Nombre y Logotipo
+**Nombre y Logotipo**
 
 El nombre de la aplicación, Dentify, transmite innovación, profesionalismo y un enfoque claro en la gestión de consultorios odontológicos. El logotipo de Dentify está compuesto únicamente por un ícono de un diente sin acompañamiento de texto. Este símbolo representa de forma clara y directa el enfoque odontológico de la aplicación, transmitiendo profesionalismo, salud y confianza. Su diseño limpio y minimalista asegura una fácil identificación
 
 ![Logo](Img/Dentify-logo.png)
 
-#### Tono de comunicación
+**Tono de comunicación**
 
 Para el tono de comunicación se optó por uno con un efoque profesional, consiso, claro y que transmita confianza sin perder calidez. El lenguaje técnico será evitado en su mayoría y se priorizará expresiones accesibles para facilitar la comprensión.
 
-#### Colors
+**Colors**
 
 
 
@@ -296,60 +294,60 @@ La paleta de colores se basa en tonos de celeste y azul, que transmiten confianz
 
 ![colores](Img/paleta-de-colores.png)
 
-#### Typography
+**Typography**
 
 La tipografía que se usará principalmente, dada su legibilidad, estilo y versatilidad, es Roboto. 
 
 ![tipography](Img/tipografía.png)
 
-#### Spacing
+**Spacing**
 
 En nuestra app móvil, aplicamos un sistema de spacing consistente para mantener una estructura visual ordenada y accesible. Utilizamos márgenes de 19.5px entre secciones principales, un padding interno de 18px en botones y componentes, y un interlineado de 1.5x en los textos largos para mejorar la lectura. Esta coherencia visual refuerza el branding y la experiencia de usuario.
 
-#### Íconos de la aplicación
+**Íconos de la aplicación**
 
 La aplicación utilizará íconos seleccionados para la mejor experiencia de usuario. Cada ícono cumple una función clara y está alineado con la identidad de la marca.
 
 ![iconos](Img/íconos.png)
 
-#### Lenguaje aplicado
+**Lenguaje aplicado**
 Para el desarrollo de la aplicación móvil “Dentify” y su correspondiente landing page, se ha adoptado un lenguaje formal, serio y respetuoso, alineado con el propósito y los objetivos del producto. En el diseño y construcción tanto de la aplicación móvil como de la landing page, se han aplicado los principios fundamentales del diseño visual.
 
-##### Consistencia
+**Consistencia**
 Mantenemos una estructura y estilo uniformes en todo el producto digital. Esto incluye el uso coherente de elementos de diseño como tipografías, tamaños de fuente, paleta de colores y patrones de interacción, permitiendo que el usuario se adapte fácilmente a la interfaz y navegue con mayor facilidad.
 
-#### Simplicidad
+**Simplicidad**
 Eliminamos los elementos innecesarios o que pueden complicar la interfaz con el fin de que los usuarios puedan realizar sus tareas de manera más sencilla y rápida.
 
-#### Comunicación
+**Comunicación**
 Hemos incorporado confirmaciones visuales que se presentan cuando los usuarios realizan alguna acción. Este tipo de retroalimentación les permite identificar su ubicación dentro del proceso y, sobre todo, verificar que sus acciones se han llevado a cabo correctamente.
 
 ### 4.1.3. Mobile Style Guidelines
 
 #### 4.1.3.1. iOS Mobile Style Guidelines
 
-#### Nombre y Logotipo
+**Nombre y Logotipo**
 El nombre Dentify comunica innovación y profesionalismo, con un enfoque específico en la gestión de clínicas odontológicas. El logotipo, representado únicamente por un ícono de diente sin texto, transmite de forma directa el propósito de la app. Su diseño limpio y minimalista está optimizado para entornos iOS, facilitando su reconocimiento en interfaces móviles y reforzando la confianza del usuario.
 
 ![Logo](Img/Dentify-logo.png)
 
-#### Tono de Comunicación en la App Móvil
+**Tono de Comunicación en la App Móvil**
 
 La aplicación utiliza un tono profesional, claro y confiable, manteniendo una comunicación cálida y accesible. Se evita el uso excesivo de lenguaje técnico, priorizando expresiones simples que se adapten al estilo directo y fluido de iOS, facilitando la comprensión en pantallas pequeñas.
 
-#### Colores
+**Colores**
 
 La paleta principal se compone de tonos celestes y azules, que transmiten tranquilidad y profesionalismo, ideales para el entorno de salud. Blanco, negro y gris se usan como colores secundarios para lograr una estética limpia, moderna y legible, en línea con las recomendaciones de diseño de Apple.
 
 ![colores](Img/paleta-de-colores.png)
 
-#### Tipografía
+**Tipografía**
 
 La fuente principal es Roboto, elegida por su excelente legibilidad y adaptabilidad en interfaces móviles. Aunque iOS utiliza por defecto San Francisco, Roboto se integra bien en entornos híbridos o personalizados, manteniendo una apariencia clara y profesional.
 
 ![tipography](Img/tipografía.png)
 
-#### Spacing
+**Spacing**
 
 Se aplica un sistema de espaciado coherente para mantener la interfaz ordenada:
 - 19.5px entre secciones principales
@@ -359,63 +357,63 @@ Se aplica un sistema de espaciado coherente para mantener la interfaz ordenada:
 Este diseño mejora la legibilidad y la navegación en dispositivos iOS, respetando las guías de accesibilidad de Apple
 
 
-#### Íconos
+**Íconos**
 
 Los íconos están diseñados para cumplir funciones específicas y se alinean con la identidad visual de Dentify. Su estilo es simple y claro, optimizado para pantallas Retina, asegurando una experiencia fluida y coherente en iOS.
 ![iconos](Img/íconos.png)
 
-#### Lenguaje
+**Lenguaje**
 
 Tanto en la app como en la landing page, se utiliza un lenguaje respetuoso y profesional, alineado con los objetivos del producto. Se prioriza la claridad para facilitar la interacción en dispositivos Apple, donde la simplicidad y la eficiencia son clave.
 
-#### Consistencia
+**Consistencia**
 
 Se mantiene una estructura uniforme en toda la app: tipografías, tamaños, colores y patrones de interacción se aplican de forma coherente, permitiendo que el usuario se familiarice rápidamente con la interfaz.
 
-#### Simplicidad
+**Simplicidad**
 
 Se eliminan elementos innecesarios para que la interfaz sea clara y funcional, permitiendo que los usuarios completen sus tareas de forma rápida y sin distracciones, en línea con el principio de “menos es más” de Apple
 
-#### Comunicación
+**Comunicación**
 
 La app incorpora confirmaciones visuales tras cada acción del usuario, ofreciendo retroalimentación inmediata y clara, lo que mejora la experiencia y refuerza la confianza en el uso de la aplicación.
 
 #### 4.1.3.2. Android Mobile Style Guidelines
 
-#### Nombre y Logotipo
+**Nombre y Logotipo**
 El nombre Dentify comunica innovación, profesionalismo y un enfoque especializado en la gestión de consultorios odontológicos. Su logotipo, compuesto únicamente por un ícono de diente sin texto, representa de forma directa el ámbito odontológico. El diseño minimalista y limpio facilita su reconocimiento en entornos móviles, transmitiendo confianza y salud.
 ![Logo](Img/Dentify-logo.png)
 
-#### Tono de Comunicación en la App Móvil
+**Tono de Comunicación en la App Móvil**
 Se ha definido un tono profesional, claro y confiable, manteniendo cercanía con el usuario. Se evita el uso excesivo de lenguaje técnico, priorizando expresiones accesibles que faciliten la comprensión en dispositivos móviles, donde la lectura debe ser rápida y efectiva.
 
-#### Colores
+**Colores**
 La paleta principal se compone de tonos celestes y azules, ideales para transmitir tranquilidad y profesionalismo en el entorno de salud dental. Los colores secundarios —blanco, negro y gris— aportan equilibrio visual, buena legibilidad y una estética moderna, especialmente pensada para pantallas móviles.
 
 ![colores](Img/paleta-de-colores.png)
 
-#### Tipografía
+**Tipografía**
 Se utiliza Roboto como fuente principal por su alta legibilidad y versatilidad en interfaces móviles, adaptándose bien a distintos tamaños de pantalla.
 ![tipography](Img/tipografía.png)
 
-#### Spacing
+**Spacing**
 En la app móvil se aplica un sistema de espaciado coherente:
 
-#### Íconos
+**Íconos**
 La aplicación incorpora íconos funcionales y alineados con la identidad de marca. Cada ícono tiene un propósito específico, facilitando la navegación y mejorando la experiencia del usuario en pantallas pequeñas.
 
 ![iconos](Img/íconos.png)
 
-#### Lenguaje
+**Lenguaje**
 Tanto en la app como en su landing page, se utiliza un lenguaje serio y respetuoso, alineado con los objetivos del producto. Se prioriza la claridad para facilitar la interacción en dispositivos móviles.
 
-#### Consistencia
+**Consistencia**
 Se mantiene una estructura uniforme en toda la app: tipografías, tamaños, colores y patrones de interacción se aplican de forma coherente, ayudando al usuario a adaptarse rápidamente a la interfaz.
 
-#### Simplicidad
+**Simplicidad**
 Se eliminan elementos innecesarios para que la interfaz sea clara y funcional, permitiendo que los usuarios completen sus tareas de forma rápida y sin distracciones.
 
-#### Comunicación
+**Comunicación**
 Se incluyen confirmaciones visuales tras cada acción del usuario, brindando retroalimentación clara sobre el estado del proceso y asegurando que sus acciones se han realizado correctamente.
 
 
@@ -530,7 +528,7 @@ Contáctenos
 
 
 
-## Autenticación
+**Autenticación**
 <div align="center">
   <img src="Img/login_wm.png" width="300">
   <img src="Img/register_wm.png" width="300">
@@ -540,13 +538,13 @@ Contáctenos
   <img src="Img/perfil_wm.png" width="300">
 </div>
 
-## Menú principal
+**Menú principal**
 <div align="center">
   <img src="Img/menu_wm.png" width="300">
   <img src="Img/dashboard_wm.png" width="300">
 </div>
 
-## Gestión de citas
+**Gestión de citas**
 <div align="center">
   <img src="Img/lista_citas_wm.png" width="300">
   <img src="Img/anadir_cita_wm.png" width="300">
@@ -556,7 +554,7 @@ Contáctenos
   <img src="Img/ghorario_wm.png" width="300">
 </div>
 
-## Gestión de pacientes
+**Gestión de pacientes**
 <div align="center">
   <img src="Img/lista_pacientes_wm.png" width="300">
   <img src="Img/añadir_pacientes_wm.png" width="300">
@@ -566,13 +564,13 @@ Contáctenos
   <img src="Img/historial_pacientes_wm.png" width="300">
 </div>
 
-## Inventario
+**Inventario**
 <div align="center">
   <img src="Img/lista_inventario_wm.png" width="300">
   <img src="Img/añadir_inventario_wm.png" width="300">
 </div>
 
-## Pagos
+**Pagos**
 <div align="center">
   <img src="Img/registrar_pagos_wm.png" width="300">
   <img src="Img/facturas_pagos_wm.png" width="300">
@@ -615,7 +613,7 @@ Contáctenos
 ### 4.4.3. Mobile Applications Mock-ups
 
 
-## Autenticación
+**Autenticación**
 <div align="center">
   <img src="Img/Login.png" width="250">
   <img src="Img/Register.png" width="250">
@@ -627,12 +625,12 @@ Contáctenos
   <img src="Img/Editar contraseña.png" width="250">
 </div>
 
-## Menú principal
+**Menú principal**
 <div align="center">
   <img src="Img/Menu-inicio.png" width="250">
 </div>
 
-## Gestión de Citas
+**Gestión de Citas**
 <div align="center">
   <img src="Img/Gestión de Citas1.png" width="250">
   <img src="Img/Gestión de Citas2.png" width="250">
@@ -652,7 +650,7 @@ Contáctenos
   <img src="Img/Gestión de Citas10.png" width="250">
 </div>
 
-## Gestión de Pacientes
+**Gestión de Pacientes**
 <div align="center">
   <img src="Img/Gestión de Pacientes1.png" width="250">
   <img src="Img/Gestión de Pacientes2.png" width="250">
@@ -669,7 +667,7 @@ Contáctenos
   <img src="Img/Gestión de Pacientes9.png" width="250">
 </div>
 
-## Gestión de Inventario
+**Gestión de Inventario**
 <div align="center">
   <img src="Img/Gestión de Inventario1.png" width="250">
   <img src="Img/Gestión de Inventario2.png" width="250">
@@ -680,7 +678,7 @@ Contáctenos
   <img src="Img/Gestión de Inventario5.png" width="250">
 </div>
 
-## Pagos
+**Pagos**
 <div align="center">
   <img src="Img/Pagos1.png" width="250">
   <img src="Img/Pagos2.png" width="250">
@@ -704,42 +702,42 @@ Contáctenos
 **Enlace Figma:**https://www.figma.com/design/WRThFO0TXiuoNfXCPJvR26/Dise%C3%B1o-web?node-id=0-1&p=f&t=gM1Z07iNNkLSpL0t-0
 
 
-## User Goal: Actualizar datos
+**User Goal: Actualizar datos**
 Cuando el usuario accede a Dentify, primero debe iniciar sesión. Una vez autenticado, puede ingresar a su perfil y modificar su información personal. Esto incluye actualizar nombre, correo electrónico o contraseña, así como añadir o editar datos adicionales como teléfono o dirección.  
 
 ![Actualizar datos](Img/Actualizar_datos.png)
 
 ---
 
-## User Goal: Cita
+**User Goal: Cita**
 Dentro de la aplicación, el usuario tiene acceso a la sección de citas. Allí puede revisar las citas programadas, registrar nuevas o modificar las ya existentes. También cuenta con la opción de cancelar citas en caso necesario.  
 
 ![Cita](Img/Cita.png)
 
 ---
 
-## User Goal: Inventario
+**User Goal: Inventario**
 El usuario puede entrar a la sección de inventario para gestionar los productos de la clínica. Desde este apartado, es posible consultar el stock, añadir nuevos artículos, actualizarlos o eliminarlos cuando dejen de ser necesarios.  
 
 ![Inventario](Img/Inventario.png)
 
 ---
 
-## User Goal: Paciente
+**User Goal: Paciente**
 En la sección de pacientes, el usuario puede visualizar la lista de pacientes registrados, incorporar nuevos registros o editar la información de los existentes. Además, es posible eliminar aquellos pacientes que ya no deban estar en la base de datos.  
 
 ![Paciente](Img/Paciente.png)
 
 ---
 
-## User Goal: Pagos
+**User Goal: Pagos**
 La sección de pagos permite al usuario visualizar las citas pendientes de cobro, registrar abonos y emitir facturas de manera sencilla. Asimismo, se puede acceder al historial completo de pagos realizados.  
 
 ![Pagos](Img/Pagos.png)
 
 ---
 
-## User Goal: Registro
+**User Goal: Registro**
 Si el usuario no cuenta con una cuenta, puede registrarse proporcionando información básica como nombre, correo electrónico y contraseña. Una vez completado este proceso, podrá iniciar sesión y acceder a todas las funcionalidades de Dentify.  
 
 ![Registro](Img/Registro.png)
@@ -946,42 +944,42 @@ enlace video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220219_upc_e
 
 **Enlace Figma:** <https://www.figma.com/design/WRThFO0TXiuoNfXCPJvR26/Dise%C3%B1o-web?node-id=0-1&p=f&t=gM1Z07iNNkLSpL0t-0>
 
-## User Goal: Actualizar datos
+**User Goal: Actualizar datos**
 Cuando el usuario accede a la app, inicia sesión y va a Perfil para modificar su información personal. Puede actualizar nombre, correo y contraseña, así como agregar o editar teléfono y dirección.  
 ![Actualizar datos](Img/actualizar-datos-mockups.png)
 
 ---
 
-## User Goal: Cita
+**User Goal: Cita**
 El usuario ingresa a Citas para revisar, crear o modificar citas existentes. También puede cancelar una cita si es necesario.  
 ![Gestión de Citas](Img/gestion-de-citas-mockups.png)
 
 ---
 
-## User Goal: Inventario
+**User Goal: Inventario**
 Desde Inventario, el usuario consulta stock, añade nuevos productos, los actualiza o elimina cuando corresponde.  
 ![Inventario](Img/inventario-mockup.png)
 
 ---
 
-## User Goal: Paciente
+**User Goal: Paciente**
 En **Pacientes**, el usuario visualiza la lista, registra nuevos pacientes o edita la información de los existentes; además, puede eliminarlos si ya no deben permanecer en el sistema.  
 ![Gestión del Paciente](Img/gestion-del-paciente.png)
 
 ---
 
-## User Goal: Pagos
+**User Goal: Pagos**
 En **Pagos**, el usuario ve citas pendientes de cobro, selecciona ítems, registra el pago y puede emitir/consultar facturas e historial.  
 ![Gestión de Pagos](Img/gestion-de-pagos-mockups.png)
 
 ---
 
-## User Goal: Registro
+**User Goal: Registro**
 Si aún no tiene cuenta, el usuario se registra ingresando nombre, correo y contraseña; luego podrá iniciar sesión y acceder a todas las funciones.  
 ![Registro y Autenticación](Img/registro-y-autentizacion.png)
 
 
-## 4.7. Web Applications Prototyping
+**4.7. Web Applications Prototyping**
 
 Para los prototipos de interfaz web en escritorio seguimos tres principios: claridad, eficiencia y diseño adaptable. Utilizamos layouts de grilla y paneles que organizan funciones clave (registro de procesos y reportes), tablas filtrables y una jerarquía tipográfica limpia para comprender de inmediato. Aseguramos consistencia entre resoluciones, soporte de accesibilidad (navegación por teclado, estados de foco visibles) y mostramos solo los datos críticos para cada perfil, reduciendo ruido visual y mejorando la productividad.
 
@@ -991,18 +989,245 @@ Para los prototipos de interfaz web en escritorio seguimos tres principios: clar
 
 ### 4.8.1. Software Architecture Context Diagram
 
+En nuestro diagrama de contexto se puede visualizar a nuestro Actor, que representa a nuestro segmento objetivo.
+
+Dentify es una plataforma de gestión clínica odontológica que centraliza la administración de citas, pacientes, facturación, inventario e identidad de usuarios, accedida por el personal clínico desde la aplicación móvil.
+
+<div align="center">
+<img src="Img/ContextDiagram.png" alt="Context-Diagram">
+</div>
+
+
 ### 4.8.2. Software Architecture Container Diagrams
 
+El diagrama de contenedores de Dentify representa los principales componentes del sistema y cómo interactúan entre sí. Este nivel de abstracción permite visualizar cómo se organiza la aplicación en distintos contenedores (como aplicaciones web, móviles, backend y base de datos), mostrando tanto la tecnología empleada como las relaciones entre ellos. El objetivo es ofrecer una visión clara de la arquitectura técnica y de las responsabilidades de cada parte del sistema desde una perspectiva de alto nivel.<br><br>
+
+<div align="center">
+<img src="Img/ContainerDiagram.png" alt="Container-Diagram">
+</div>
+
+**Dentify - Containers Overview:**
+
+| Container        | Propósito                                                             | Tecnología         | Interacciones clave                                                                                    |
+| ---------------- | --------------------------------------------------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------ |
+| **Landing Page** | Proporciona información general sobre la app móvil                    | React.js           | - Los usuarios la visitan para conocer la app <br> - Redirige a los usuarios a la aplicación móvil     |
+| **Mobile App**   | Ofrece experiencia nativa para odontólogos en Android e iOS           | Kotlin & Flutter   | - Los usuarios acceden directamente o desde la landing page <br> - Se comunica con el backend por HTTP |
+| **API Backend**  | Implementa lógica de negocio y servicios vía API REST                 | Java y Spring MVC  | - Recibe solicitudes de la app móvil <br> - Lee y escribe datos en la base de datos                    |
+| **Database**     | Almacena datos personales, citas, pacientes, facturación e inventario | MySQL (relacional) | - Gestiona consultas y actualizaciones desde el backend                                                |
+
 ### 4.8.3. Software Architecture Components Diagrams
+
+Los diagramas de componentes de arquitectura de software son representaciones visuales que muestran cómo se organiza un sistema de software en términos de sus componentes o módulos. Estos diagramas son esenciales para comprender la estructura interna de un sistema y cómo interactúan los diferentes componentes entre sí.
+
+**Diagrama de componentes de la API de Dentify:**
+
+En esta presente imagen se detalla la descripción y funcionalidad de los componentes clave dentro de la arquitectura del sistema Dentify, un software que permite a los dentistas gestionar su clínica. Los componentes son partes fundamentales de la solución, y cada uno juega un papel crucial en el sistema global.
+
+---
+
+<div align="center">
+<img src="Img/ComponentDiagram.png" alt="Component-Diagram">
+</div>
+
+---
+
+ 1. **BillingService (Servicio de Facturación)**
+
+- **Descripción**: Este componente maneja todo lo relacionado con la facturación dentro del sistema. Procesa las facturas generadas en función de los servicios prestados en la clínica dental.
+- **Responsabilidades**:
+  - Procesar las facturas generadas por los tratamientos y servicios realizados.
+  - Actualizar el stock de productos en el inventario luego de que se registre una factura.
+  - Escribir los datos de la factura en la base de datos.
+- **Interacciones**:
+  - Interactúa con el **InventoryService** para actualizar el stock después de generar una factura.
+  - Comunica los datos a la **Database** para almacenamiento de la información.
+  - Registra las acciones de consumo en el **LogInventoryService**.
+
+---
+
+ 2. **InventoryService (Servicio de Inventario)**
+
+- **Descripción**: Este componente administra el inventario de la clínica dental, controlando los productos y su disponibilidad.
+- **Responsabilidades**:
+  - Gestionar los artículos en el inventario de la clínica (agregar, eliminar y modificar productos).
+  - Mantener el estado actualizado del stock de productos.
+  - Escribir y leer información relacionada con el inventario en la base de datos.
+- **Interacciones**:
+  - Comunica con la **Database** para leer y escribir datos sobre el inventario.
+  - Envía datos al **LogInventoryService** para registrar los cambios en el inventario debido a consumos o ventas.
+
+---
+
+ 3. **IAMService (Servicio de Gestión de Autenticación e Identidad)**
+
+- **Descripción**: El componente IAMService gestiona la autenticación y autorización de usuarios dentro de la plataforma.
+- **Responsabilidades**:
+  - Verificar la identidad del usuario y autorizar el acceso a la aplicación.
+  - Gestionar la creación, actualización y validación de cuentas de usuario.
+- **Interacciones**:
+  - Interactúa con la **Database** para validar y verificar las credenciales del usuario.
+  - Proporciona servicios de autenticación a los **iamController** para procesar solicitudes de autenticación de los usuarios.
+
+---
+
+ 4. **ManagementService (Servicio de Gestión de Pacientes y Citas)**
+
+- **Descripción**: Este componente gestiona los datos de las citas y pacientes dentro de la clínica dental.
+- **Responsabilidades**:
+  - Gestionar la creación, actualización y eliminación de citas de pacientes.
+  - Gestionar la información personal de los pacientes.
+  - Escribir y leer datos de citas y pacientes en la base de datos.
+- **Interacciones**:
+  - Se comunica con la **Database** para manejar datos relacionados con citas y pacientes.
+
+---
+
+ 5. **LogInventoryService (Servicio de Registro de Inventario)**
+
+- **Descripción**: Este componente registra las acciones que afectan el inventario, tales como la venta de productos o el consumo dentro de la clínica.
+- **Responsabilidades**:
+  - Registrar cada cambio de inventario en el sistema.
+  - Proporcionar un historial completo de los movimientos de inventario, para auditar y analizar las tendencias.
+  - Escribir los registros en la base de datos.
+- **Interacciones**:
+  - Se comunica con el **InventoryController** para proporcionar datos relacionados con los cambios en el inventario.
+  - Envía datos a la **Database** para registrar la información de los movimientos de inventario.
+
+---
+
+ 6. **InventoryController (Controlador de Inventario)**
+
+- **Descripción**: Este componente expone los puntos finales (endpoints) de la API REST relacionados con el inventario.
+- **Responsabilidades**:
+  - Proporcionar acceso a los datos del inventario a través de la API.
+  - Exponer servicios para consultar y actualizar el inventario.
+- **Interacciones**:
+  - Se comunica con el **InventoryService** para obtener datos del inventario.
+  - Usa el **LogInventoryService** para registrar los movimientos del inventario.
+
+---
+
+ 7. **ManagementController (Controlador de Gestión de Pacientes y Citas)**
+
+- **Descripción**: Este componente expone los puntos finales (endpoints) de la API REST relacionados con la gestión de citas y pacientes.
+- **Responsabilidades**:
+  - Proporcionar acceso a los datos de citas y pacientes a través de la API.
+  - Permitir la creación, actualización y consulta de citas y pacientes.
+- **Interacciones**:
+  - Se comunica con el **ManagementService** para gestionar las operaciones sobre pacientes y citas.
+
+---
+
+ 8. **IAMController (Controlador de Gestión de Autenticación)**
+
+- **Descripción**: Este componente expone los puntos finales (endpoints) de la API REST responsables de la autenticación y registro de usuarios.
+- **Responsabilidades**:
+  - Gestionar las solicitudes de autenticación y registro de nuevos usuarios.
+  - Verificar las credenciales de usuario y permitir el acceso a la aplicación.
+- **Interacciones**:
+  - Se comunica con el **IAMService** para procesar las solicitudes de autenticación.
+  - Interactúa con la **Database** para validar las credenciales de los usuarios.
+
+---
+
+ 9. **BillingController (Controlador de Facturación)**
+
+- **Descripción**: Este componente expone los puntos finales (endpoints) de la API REST relacionados con la facturación.
+- **Responsabilidades**:
+  - Proveer los servicios para la creación y consulta de facturas.
+  - Gestionar la interacción entre el frontend y el servicio de facturación.
+- **Interacciones**:
+  - Se comunica con el **BillingService** para procesar las solicitudes de facturación.
+    <br>
 
 ## 4.9. Software Object-Oriented Design
 
 ### 4.9.1. Class Diagrams
 
+<div align="center">
+<img src="Img/diagrama-clase.png" alt="Diagrama de clase">
+</div>
+
 ### 4.9.2. Class Dictionary
+
+| Clase                  | Descripción                                   | Atributos principales |
+|-------------------------|-----------------------------------------------|-----------------------|
+| **BillingController**   | Expone endpoints de facturación.              | Métodos: `createInvoice()`, `getInvoice()` |
+| **InventoryController** | Maneja endpoints de inventario.               | Métodos: `getInventory()`, `updateInventory()` |
+| **ManagementController**| Endpoints para pacientes y citas.             | Métodos: `createAppointment()`, `managePatients()` |
+| **IAMController**       | Controlador para autenticación.               | Métodos: `login()`, `register()` |
+| **BillingService**      | Lógica de facturación.                        | Métodos: `processInvoice()`, `updateStock()` |
+| **InventoryService**    | Lógica de inventario.                         | Métodos: `manageProducts()`, `updateStock()` |
+| **ManagementService**   | Manejo de pacientes y citas.                  | Métodos: `manageAppointments()`, `managePatients()` |
+| **IAMService**          | Autenticación y usuarios.                     | Métodos: `authenticateUser()`, `manageAccounts()` |
+| **LogInventoryService** | Registro de movimientos de inventario.        | Métodos: `registerChange()`, `getLog()` |
+| **Invoice**             | Representa una factura.                       | `id`, `date`, `total` |
+| **Patient**             | Representa un paciente.                       | `id`, `name`, `email`, `phone` |
+| **Appointment**         | Representa una cita.                          | `id`, `date`, `status` |
+| **Product**             | Producto de inventario.                       | `id`, `name`, `stock`, `price` |
+| **User**                | Usuario autenticado.                          | `id`, `name`, `email`, `password` |
+| **LogInventory**        | Registro de inventario.                       | `id`, `action`, `date` |
+
 
 ## 4.10. Database Design
 
+```sql
+CREATE TABLE Users (
+    user_id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100),
+    email VARCHAR(100) UNIQUE,
+    password VARCHAR(255)
+);
+
+CREATE TABLE Patients (
+    patient_id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100),
+    email VARCHAR(100),
+    phone VARCHAR(20),
+    address VARCHAR(200)
+);
+
+CREATE TABLE Appointments (
+    appointment_id INT PRIMARY KEY AUTO_INCREMENT,
+    patient_id INT,
+    date DATETIME,
+    status VARCHAR(50),
+    FOREIGN KEY (patient_id) REFERENCES Patients(patient_id)
+);
+
+CREATE TABLE Products (
+    product_id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100),
+    stock INT,
+    price DECIMAL(10,2)
+);
+
+CREATE TABLE Invoices (
+    invoice_id INT PRIMARY KEY AUTO_INCREMENT,
+    patient_id INT,
+    date DATETIME,
+    total DECIMAL(10,2),
+    FOREIGN KEY (patient_id) REFERENCES Patients(patient_id)
+);
+
+CREATE TABLE InvoiceItems (
+    invoice_item_id INT PRIMARY KEY AUTO_INCREMENT,
+    invoice_id INT,
+    product_id INT,
+    quantity INT,
+    price DECIMAL(10,2),
+    FOREIGN KEY (invoice_id) REFERENCES Invoices(invoice_id),
+    FOREIGN KEY (product_id) REFERENCES Products(product_id)
+);
+
+CREATE TABLE LogInventory (
+    log_id INT PRIMARY KEY AUTO_INCREMENT,
+    product_id INT,
+    action VARCHAR(50),
+    date DATETIME,
+    FOREIGN KEY (product_id) REFERENCES Products(product_id)
+);
+``` 
 ### 4.10.1. Relational/Non-Relational Database Diagram
 
 # Capítulo V: Product Implementation
