@@ -67,10 +67,10 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
 # Project Report Collaboration Insights
 ---
 
-URL del repositorio para el reporte del proyecto:asdasdasd
-<img>
+URL del repositorio para el reporte del proyecto: https://github.com/ClinicCode/Informe
 
 TB1:
+![githubu.png](Img/githuub.png)
 
 Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
 
