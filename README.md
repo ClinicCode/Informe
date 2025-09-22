@@ -4134,22 +4134,200 @@ Para la escritura de commits, se sigue la convención 'Conventional Commits', el
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
+Para el desarrollo de Dentify se emplearon distintos lenguajes y frameworks, aplicando convenciones de codificación y buenas prácticas en cada caso:
+
+**HTML**
+
+En la implementación de HTML se siguieron las Convenciones de Codificación correspondientes. Los aspectos más relevantes fueron:
+
+Uso de etiquetas semánticas: Se incorporaron elementos como header, nav, main y footer para mejorar tanto la accesibilidad como la interpretación del documento.
+
+Indentación y consistencia: Aunque HTML admite mayúsculas y minúsculas en elementos y atributos, se optó exclusivamente por el uso de minúsculas con la convención kebab-case, priorizando la legibilidad y el orden.
+
+**CSS**
+
+El código CSS se desarrolló bajo la convención BEM y lineamientos de estilo para mantener claridad y organización. Algunos puntos destacados:
+
+* Clases descriptivas y en inglés, siempre en formato kebab-case, lo que facilita su comprensión.
+
+* Transiciones en botones, añadiendo efectos suaves que enriquecen la experiencia del usuario.
+
+* Fuentes personalizadas, integradas mediante @font-face siguiendo las recomendaciones para la gestión tipográfica en CSS.
+
+**JavaScript**
+
+Para la interactividad y los componentes dinámicos de la interfaz se utilizó Bootstrap, incluyendo únicamente sus archivos oficiales. Esto permitió aprovechar sus funcionalidades avanzadas sin necesidad de programar desde cero.
+
+**Bootstrap**
+
+En el uso de Bootstrap se respetaron las buenas prácticas, empleando clases predefinidas para garantizar un diseño responsive. Además, se realizaron personalizaciones sin modificar directamente el código base, asegurando compatibilidad y facilidad de actualización.
+
+**Java (Spring Boot)**
+
+En la construcción de la API Restful se siguió la convención Google Java Style Guide.
+
+**Nomenclatura:** Se aplicó PascalCase en clases y métodos, y lowerCamelCase en atributos.
+
+**Estructura del proyecto:** Se adoptaron los principios de Clean Architecture y Domain Driven Design, organizando el sistema por Bounded Contexts y capas (Aplicación, Infraestructura, Dominio e Interfaces).
+
+**Kotlin (Android Studio)**
+
+Para la aplicación móvil se empleó la guía de estilo oficial de Kotlin (Google Kotlin Style Guide).
+
+**Nomenclatura:** Clases y métodos en PascalCase, atributos en lowerCamelCase.
+
+**Arquitectura:** Se aplicaron Clean Architecture y Domain Driven Design, estructurando el proyecto en Repositorios, UI, Casos de Uso y Dominios.
+
 ### 5.1.4. Software Deployment Configuration
+
+**Landing Page**
+
+El despliegue del landing page se realizó en GitHub Pages, siguiendo los siguientes pasos:
+
+1. **Dirigirse a Settings:** Una vez todos los cambios realizados esten en la rama **main**, debemos dirigirnos a la sección **Settings**
+
+![deploy-landing-page-step-1.png](Img/deploy-landing-page-step-1.png)
+
+2. **Dirigirse a la opción Pages:** Dentro de **Settings** buscamos la opción **Pages**
+
+![deploy-landing-page-step-2.png](Img/deploy-landing-page-step-2.png)
+
+3. **Seleccinar la rama y carpeta para el despliegue:** Por último, seleccionar la rama main y la carpeta por defecto **(root)** para realizar el despliegue. 
+
+![deploy-landing-page-step-3.png](Img/deploy-landing-page-step-3.png)
 
 ## 5.2. Product Implementation & Deployment
 
 ### 5.2.1. Sprint Backlogs
 
+El objetivo principal de este Sprint es desarrollar la primera versión funcional de Dentify, priorizando la implementación del Landing Page, la estructura inicial del Frontend Web y Mobile Apps, y la integración básica del Backend. Este Sprint busca validar las funcionalidades esenciales, garantizar la consistencia del diseño UX/UI y establecer la base para iteraciones futuras.
+
+
+| ID   | Tipo       | User Story / Task                               | Description                                         | Estimación (Horas) | Assigned To                           | Status |
+| ---- | ---------- | ----------------------------------------------- | --------------------------------------------------- | ------------------ | ------------------------------------- | ------ |
+| SS01 | Spike      | Investigar uso de Mockito                       | Integrar Mockito para pruebas unitarias             | 8                  | Aponte Cruzado, Andrea Marielena      | Done  |
+| SS02 | Spike      | Investigar uso de Selenium                      | Pruebas automatizadas con Selenium                  | 8                  | Belahonia Miranda, Fabrisio           | Done |
+| US05 | User Story | Añadir Citas                                    | Registrar nuevas citas en el sistema                | 8                  | Bohorquez Lerzundi, Gerardo Sebastian | Done |
+| US04 | User Story | Editar Citas                                    | Modificar información de una cita existente         | 8                  | Cutiri Agüero, Fabrizio Alexander     | Done  |
+| US06 | User Story | Eliminar Cita                                   | Eliminar citas del sistema                          | 8                  | Berrocal Ramirez, Omar Christian      | Done  |
+| US11 | User Story | Mostrar Pacientes                               | Visualizar lista de pacientes                       | 8                  | Aponte Cruzado, Andrea Marielena      | Done  |
+| US12 | User Story | Añadir Pacientes                                | Registrar nuevos pacientes                          | 8                  | Belahonia Miranda, Fabrisio           | Done |
+| US13 | User Story | Editar Pacientes                                | Modificar datos de pacientes                        | 8                  | Bohorquez Lerzundi, Gerardo Sebastian | Done  |
+| US16 | User Story | Añadir Historial Clínico                        | Registrar historial clínico de pacientes            | 8                  | Cutiri Agüero, Fabrizio Alexander     | Done  |
+| US19 | User Story | Visualizar Inventario                           | Ver inventario general                              | 8                  | Berrocal Ramirez, Omar Christian      |    Done  |
+| US20 | User Story | Añadir objeto al inventario                     | Registrar nuevos objetos en inventario              | 8                  | Aponte Cruzado, Andrea Marielena      | Done   |
+| US21 | User Story | Editar objeto del inventario                    | Modificar datos de objetos en inventario            | 8                  | Belahonia Miranda, Fabrisio           | Done   |
+| US22 | User Story | Eliminar objeto del inventario                  | Eliminar objetos del inventario                     | 8                  | Bohorquez Lerzundi, Gerardo Sebastian | Done   |
+| US25 | User Story | Registrar cantidad consumida de ítems           | Registrar insumos usados por tratamiento            | 8                  | Cutiri Agüero, Fabrizio Alexander     | Done   |
+| TS01 | Technical  | Endpoint crear ítem inventario                  | POST /api/v1/items                                  | 8                  | Berrocal Ramirez, Omar Christian      | Done   |
+| TS02 | Technical  | Endpoint actualizar ítem inventario             | PUT /api/v1/items/{id}                              | 8                  | Aponte Cruzado, Andrea Marielena      | Done   |
+| TS03 | Technical  | Endpoint eliminar ítem inventario               | DELETE /api/v1/items/{id}                           | 8                  | Belahonia Miranda, Fabrisio           | Done   |
+| TS04 | Technical  | Endpoint obtener ítem por ID                    | GET /api/v1/items/{id}                              | 8                  | Bohorquez Lerzundi, Gerardo Sebastian | Done   |
+| TS05 | Technical  | Endpoint obtener todos ítems de usuario         | GET /api/v1/items                                   | 8                  | Cutiri Agüero, Fabrizio Alexander     | Done   |
+| TS06 | Technical  | Endpoint crear paciente                         | POST /api/v1/patients                               | 8                  | Berrocal Ramirez, Omar Christian      | Done   |
+| TS07 | Technical  | Endpoint actualizar paciente                    | PUT /api/v1/patients/{id}                           | 8                  | Aponte Cruzado, Andrea Marielena      | Done   |
+| TS08 | Technical  | Endpoint eliminar paciente                      | DELETE /api/v1/patients/{id}                        | 8                  | Belahonia Miranda, Fabrisio           | Done   |
+| TS11 | Technical  | Endpoint añadir historial clínico               | POST /api/v1/patients/{patientId}/medical-histories | 8                  | Bohorquez Lerzundi, Gerardo Sebastian | To-do  |
+| TS12 | Technical  | Endpoint obtener historial clínico por paciente | GET /api/v1/patients/{patientId}/medical-histories  | 8                  | Cutiri Agüero, Fabrizio Alexander     | Done   |
+| TS13 | Technical  | Endpoint crear cita                             | POST /api/v1/appointments                           | 8                  | Berrocal Ramirez, Omar Christian      | Done   |
+| TS14 | Technical  | Endpoint actualizar cita                        | PUT /api/v1/appointments/{appointmentId}            | 8                  | Aponte Cruzado, Andrea Marielena      | Done   |
+| TS15 | Technical  | Endpoint eliminar cita                          | DELETE /api/v1/appointments/{appointmentId}         | 8                  | Belahonia Miranda, Fabrisio           | Done   |
+| TS18 | Technical  | Endpoint obtener cita por ID                    | GET /api/v1/appointments/appointment/{id}           | 8                  | Bohorquez Lerzundi, Gerardo Sebastian | Done   |
+| US03 | User Story | Mostrar Citas                                   | Visualizar todas las citas registradas              | 5                  | Cutiri Agüero, Fabrizio Alexander     | Done   |
+| US07 | User Story | Buscar Citas                                    | Buscar citas por fecha o DNI                        | 5                  | Berrocal Ramirez, Omar Christian      | Done   |
+| US08 | User Story | Gestionar horarios de atención                  | Ver y editar horarios de atención                   | 5                  | Aponte Cruzado, Andrea Marielena      | Done   |
+| US09 | User Story | Pagar tratamiento                               | Procesar pagos de tratamientos                      | 5                  | Belahonia Miranda, Fabrisio           | Done   |
+| US10 | User Story | Historial de pagos                              | Visualizar historial de pagos                       | 5                  | Bohorquez Lerzundi, Gerardo Sebastian | To-do  |
+| US14 | User Story | Eliminar Pacientes                              | Eliminar pacientes inactivos                        | 5                  | Cutiri Agüero, Fabrizio Alexander     | Done   |
+| US15 | User Story | Buscar Pacientes                                | Buscar pacientes por DNI                            | 5                  | Berrocal Ramirez, Omar Christian      | Done   |
+| US17 | User Story | Eliminar historial clínico                      | Eliminar historial clínico de paciente              | 5                  | Aponte Cruzado, Andrea Marielena      | Done   |
+| US18 | User Story | Mostrar historial clínico                       | Visualizar historial clínico                        | 5                  | Belahonia Miranda, Fabrisio           | Done   |
+| US23 | User Story | Dashboard de inventario                         | Visualizar métricas de inventario                   | 5                  | Bohorquez Lerzundi, Gerardo Sebastian | Done   |
+| US24 | User Story | Guardar fecha de ajuste de inventario           | Registrar fecha de movimientos en inventario        | 5                  | Cutiri Agüero, Fabrizio Alexander     | Done   |
+| TS09 | Technical  | Endpoint obtener paciente por ID                | GET /api/v1/patients/{id}                           | 5                  | Berrocal Ramirez, Omar Christian      | Done   |
+| TS10 | Technical  | Endpoint obtener todos pacientes de usuario     | GET /api/v1/patients                                | 5                  | Aponte Cruzado, Andrea Marielena      | Done   |
+| TS16 | Technical  | Endpoint obtener todas citas de usuario         | GET /api/v1/appointments                            | 5                  | Belahonia Miranda, Fabrisio           | Done   |
+| TS17 | Technical  | Endpoint obtener todas citas de paciente        | GET /api/v1/appointments/{patientId}                | 5                  | Bohorquez Lerzundi, Gerardo Sebastian | Done   |
+| TS19 | Technical  | Endpoint crear factura                          | POST /api/v1/invoices                               | 5                  | Cutiri Agüero, Fabrizio Alexander     | Done   |
+| TS20 | Technical  | Endpoint obtener todas facturas de usuario      | GET /api/v1/invoices                                | 5                  | Berrocal Ramirez, Omar Christian      | Done   |
+| TS21 | Technical  | Endpoint obtener factura por ID de cita         | GET /api/v1/invoices/{appointmentId}                | 5                  | Aponte Cruzado, Andrea Marielena      | Done   |
+| US26 | User Story | Gestión del Perfil                              | Visualizar y editar perfil                          | 3                  | Belahonia Miranda, Fabrisio           | Done   |
+| US27 | User Story | Visualización del menú principal                | Ver menú del landing page                           | 3                  | Bohorquez Lerzundi, Gerardo Sebastian | Done   |
+| US28 | User Story | Navegación por la barra principal               | Navegar entre secciones                             | 3                  | Cutiri Agüero, Fabrizio Alexander     | Done   |
+| US29 | User Story | Sección About Us                                | Ver información sobre la empresa                    | 3                  | Berrocal Ramirez, Omar Christian      | Done   |
+| US30 | User Story | Sección de Servicios                            | Visualizar servicios ofrecidos                      | 3                  | Aponte Cruzado, Andrea Marielena      | Done   |
+| US31 | User Story | Sección Contact Us                              | Visualizar datos de contacto                        | 3                  | Belahonia Miranda, Fabrisio           | Done   |
+| US32 | User Story | Formulario de contacto                          | Enviar formulario de contacto                       | 3                  | Bohorquez Lerzundi, Gerardo Sebastian | Done   |
+| US33 | User Story | Footer informativo                              | Ver información legal/complementaria                | 3                  | Cutiri Agüero, Fabrizio Alexander     | Done   |
+| US01 | User Story | Registrar Usuarios                              | Registro de usuarios en la app                      | 3                  | Berrocal Ramirez, Omar Christian      | Done   |
+| US02 | User Story | Iniciar Sesión                                  | Login de usuarios                                   | 3                  | Aponte Cruzado, Andrea Marielena      | Done   |
+| TS22 | Technical  | Endpoint registrar usuario                      | POST /api/auth/register                             | 3                  | Belahonia Miranda, Fabrisio           | Done   |
+| TS23 | Technical  | Endpoint iniciar sesión                         | POST /api/auth/login                                | 3                  | Bohorquez Lerzundi, Gerardo Sebastian |  Done  |
+
+
 ### 5.2.2. Implemented Landing Page Evidence
+
+En esta sección mostraremos evidencias del landing page desplegado.
+
+**Link de Landing Page:** https://cliniccode.github.io/dentify-landing-page
+
+![landing-page-evidence-1.png](Img/landing-page-evidence-1.png)
+
+![landing-page-evidence-2.png](Img/landing-page-evidence-2.png)
+
+![landing-page-evidence-3.png](Img/landing-page-evidence-3.png)
+
+![landing-page-evidence-4.png](Img/landing-page-evidence-4.png)
 
 ### 5.2.3. Implemented Frontend-Web Application Evidence
 
+En esta sección mostraremos evidencias del Frontend desplegado.
+
+
+**Link del Frontend:** https://dentify-frontend.web.app/login
+
+![des_front.png](Img/des_front.png)  
+
+
+
 ### 5.2.4. Implemented Native-Mobile Application Evidence
+
+En esta sección mostraremos evidencias del Mobile Application desplegado.
+
+**Evidencias:**  
+![mov_des.png](Img/mov_des.png)  
+![Mobile_evidence.jpg](Img/Mobile_evidence.jpg) 
 
 ### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
+En esta sección mostraremos evidencias del Mobile Application desplegado.
+
+**Link del Backend:** https://dentify-f0gdbubtaafmdfg9.canadacentral-01.azurewebsites.net/swagger-ui/index.html
+
+**Evidencias:**  
+![REST_BACK.png](Img/REST_BACK.png)  
+![REST_BACK2.png](Img/REST_BACK2.png)  
+![REST_BACK3.png](Img/REST_BACK3.png)  
+![REST_BACK4.png](Img/REST_BACK4.png)  
+![REST_BACK5.png](Img/REST_BACK5.png) 
+
+
 ### 5.2.6. RESTful API documentation
+
+En esta sección se incluyen capturas de la **documentación de la API RESTful**.  
+
+**Evidencias:**  
+![doc1.png](Img/doc1.png)  
+![doc2.png](Img/doc2.png) 
+
 
 ### 5.2.7. Team Collaboration Insights
 
-## 5.3. Video About-the-Product
+
+| Alumno                              | Actividad                                                                                       |
+|-------------------------------------|-------------------------------------------------------------------------------------------------|
+| Aponte Cruzado, Andrea Marielena    | Capítulo I: Startup Profile (1.1, 1.2 y 1.3).                                                   |
+| Belahonia Miranda, Fabrisio         | Capítulo II: Requirements Elicitation & Analysis (2.1 – 2.4).                                   |
+| Bohorquez Lerzundi, Gerardo Sebastian | Capítulo IV: Product Design (Documentación y elaboración de Landing Page y Mobile Applications UX/UI Design). |
+| Cutiri Agüero, Fabrizio Alexander   | Capítulo V: Product Implementation & Deployment (5.1 – 5.2).                                    |
+| Berrocal Ramirez, Omar Christian    | Capítulo IV: Domain-Driven Software Architecture y Database Design (4.8 – 4.10).                |
