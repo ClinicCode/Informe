@@ -286,32 +286,32 @@ Para el tono de comunicación se optó por uno con un efoque profesional, consis
 
 **Colors**
 
-
-
-### 4.1.2. Web Style Guidelines
-
 La paleta de colores se basa en tonos de celeste y azul, que transmiten confianza, profesionalismo y tranquilidad, ideales para el entorno de la salud dental. Como colores secundarios se utilizan blanco, negro y gris, que aportan equilibrio visual, legibilidad y una estética limpia y moderna. Esta combinación refuerza una imagen clara, ordenada y amigable para los usuarios.
 
 ![colores](Img/paleta-de-colores.png)
 
 **Typography**
 
-La tipografía que se usará principalmente, dada su legibilidad, estilo y versatilidad, es Roboto. 
+La tipografía que se usará principalmente, dada su legibilidad, estilo y versatilidad, es Roboto.
 
 ![tipography](Img/tipografía.png)
 
+
+### 4.1.2. Web Style Guidelines
+
 **Spacing**
 
-En nuestra app móvil, aplicamos un sistema de spacing consistente para mantener una estructura visual ordenada y accesible. Utilizamos márgenes de 19.5px entre secciones principales, un padding interno de 18px en botones y componentes, y un interlineado de 1.5x en los textos largos para mejorar la lectura. Esta coherencia visual refuerza el branding y la experiencia de usuario.
+En nuestra aplicación web, se utilizarán márgenes de 19.5px entre las secciones principales para mantener una separación adecuada, padding interno de 18px en botones y componentes para mejorar la interacción, y un interlineado de 1.5x en textos extensos que facilita la lectura en pantalla. Esta consistencia en el diseño contribuye a reforzar la identidad visual de la plataforma y mejora la experiencia del usuario en entornos web.
 
 **Íconos de la aplicación**
 
 La aplicación utilizará íconos seleccionados para la mejor experiencia de usuario. Cada ícono cumple una función clara y está alineado con la identidad de la marca.
 
-![iconos](Img/íconos.png)
+![iconos](Img/íconos-web.png)
 
 **Lenguaje aplicado**
-Para el desarrollo de la aplicación móvil “Dentify” y su correspondiente landing page, se ha adoptado un lenguaje formal, serio y respetuoso, alineado con el propósito y los objetivos del producto. En el diseño y construcción tanto de la aplicación móvil como de la landing page, se han aplicado los principios fundamentales del diseño visual.
+
+Para el desarrollo de la aplicación web “Dentify” y su correspondiente landing page, se ha adoptado un lenguaje formal, serio y respetuoso, alineado con el propósito y los objetivos del producto. En el diseño y construcción tanto de la aplicación web como de la landing page, se han aplicado los principios fundamentales del diseño visual.
 
 **Consistencia**
 Mantenemos una estructura y estilo uniformes en todo el producto digital. Esto incluye el uso coherente de elementos de diseño como tipografías, tamaños de fuente, paleta de colores y patrones de interacción, permitiendo que el usuario se adapte fácilmente a la interfaz y navegue con mayor facilidad.
@@ -327,6 +327,7 @@ Hemos incorporado confirmaciones visuales que se presentan cuando los usuarios r
 #### 4.1.3.1. iOS Mobile Style Guidelines
 
 **Nombre y Logotipo**
+
 El nombre Dentify comunica innovación y profesionalismo, con un enfoque específico en la gestión de clínicas odontológicas. El logotipo, representado únicamente por un ícono de diente sin texto, transmite de forma directa el propósito de la app. Su diseño limpio y minimalista está optimizado para entornos iOS, facilitando su reconocimiento en interfaces móviles y reforzando la confianza del usuario.
 
 ![Logo](Img/Dentify-logo.png)
@@ -335,17 +336,6 @@ El nombre Dentify comunica innovación y profesionalismo, con un enfoque especí
 
 La aplicación utiliza un tono profesional, claro y confiable, manteniendo una comunicación cálida y accesible. Se evita el uso excesivo de lenguaje técnico, priorizando expresiones simples que se adapten al estilo directo y fluido de iOS, facilitando la comprensión en pantallas pequeñas.
 
-**Colores**
-
-La paleta principal se compone de tonos celestes y azules, que transmiten tranquilidad y profesionalismo, ideales para el entorno de salud. Blanco, negro y gris se usan como colores secundarios para lograr una estética limpia, moderna y legible, en línea con las recomendaciones de diseño de Apple.
-
-![colores](Img/paleta-de-colores.png)
-
-**Tipografía**
-
-La fuente principal es Roboto, elegida por su excelente legibilidad y adaptabilidad en interfaces móviles. Aunque iOS utiliza por defecto San Francisco, Roboto se integra bien en entornos híbridos o personalizados, manteniendo una apariencia clara y profesional.
-
-![tipography](Img/tipografía.png)
 
 **Spacing**
 
@@ -360,11 +350,9 @@ Este diseño mejora la legibilidad y la navegación en dispositivos iOS, respeta
 **Íconos**
 
 Los íconos están diseñados para cumplir funciones específicas y se alinean con la identidad visual de Dentify. Su estilo es simple y claro, optimizado para pantallas Retina, asegurando una experiencia fluida y coherente en iOS.
+
 ![iconos](Img/íconos.png)
 
-**Lenguaje**
-
-Tanto en la app como en la landing page, se utiliza un lenguaje respetuoso y profesional, alineado con los objetivos del producto. Se prioriza la claridad para facilitar la interacción en dispositivos Apple, donde la simplicidad y la eficiencia son clave.
 
 **Consistencia**
 
@@ -381,20 +369,14 @@ La app incorpora confirmaciones visuales tras cada acción del usuario, ofrecien
 #### 4.1.3.2. Android Mobile Style Guidelines
 
 **Nombre y Logotipo**
+
 El nombre Dentify comunica innovación, profesionalismo y un enfoque especializado en la gestión de consultorios odontológicos. Su logotipo, compuesto únicamente por un ícono de diente sin texto, representa de forma directa el ámbito odontológico. El diseño minimalista y limpio facilita su reconocimiento en entornos móviles, transmitiendo confianza y salud.
+
 ![Logo](Img/Dentify-logo.png)
 
 **Tono de Comunicación en la App Móvil**
 Se ha definido un tono profesional, claro y confiable, manteniendo cercanía con el usuario. Se evita el uso excesivo de lenguaje técnico, priorizando expresiones accesibles que faciliten la comprensión en dispositivos móviles, donde la lectura debe ser rápida y efectiva.
 
-**Colores**
-La paleta principal se compone de tonos celestes y azules, ideales para transmitir tranquilidad y profesionalismo en el entorno de salud dental. Los colores secundarios —blanco, negro y gris— aportan equilibrio visual, buena legibilidad y una estética moderna, especialmente pensada para pantallas móviles.
-
-![colores](Img/paleta-de-colores.png)
-
-**Tipografía**
-Se utiliza Roboto como fuente principal por su alta legibilidad y versatilidad en interfaces móviles, adaptándose bien a distintos tamaños de pantalla.
-![tipography](Img/tipografía.png)
 
 **Spacing**
 En la app móvil se aplica un sistema de espaciado coherente:
