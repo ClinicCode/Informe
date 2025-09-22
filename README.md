@@ -8,7 +8,7 @@
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img><br>
     <strong>Carrera de Ingeniería de Software - Ciclo V</strong><br><br>
     <strong>DISEÑO - 4370</strong><br>
-    <br><strong>Profesor: </strong><br>
+    <br><strong>Profesor:Juan Tinoco Licas </strong><br>
     <br><strong>INFORME DEL TRABAJO FINAL</strong><br>
 </p>
 
