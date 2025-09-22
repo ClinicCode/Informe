@@ -2583,41 +2583,66 @@ Entonces el sistema debe mostrar la página principal de la aplicación, validan
 
 ## 3.3. Product Backlog
 
-| #Orden | ID   | User Story                            | Story Points |
-|:-------|:-----|:--------------------------------------|:-------------|
-| 01     | US05 | Añadir citas                          | 8            |
-| 02     | US04 | Editar Citas                          | 8            |
-| 03     | US06 | Eliminar Cita                         | 8            |
-| 04     | US11 | Mostrar Pacientes                     | 8            |
-| 05     | US12 | Añadir Pacientes                      | 8            |
-| 06     | US13 | Editar Pacientes                      | 8            |
-| 07     | US16 | Añadir Historial Clínico              | 8            |
-| 08     | US19 | Visualizar Inventario                 | 8            |
-| 09     | US20 | Añadir objeto al inventario           | 8            |
-| 10     | US21 | Editar objeto del inventario          | 8            |
-| 11     | US22 | Eliminar objeto del inventario        | 8            |
-| 12     | US25 | Registrar cantidad consumida de ítems | 8            |
-| 13     | US03 | Mostrar Citas                         | 5            |
-| 14     | US07 | Buscar Citas                          | 5            |
-| 15     | US08 | Gestionar horarios de atención        | 5            |
-| 16     | US09 | Pagar tratamiento                     | 5            |
-| 17     | US10 | Historial de pagos                    | 5            |
-| 18     | US14 | Eliminar Pacientes                    | 5            |
-| 19     | US15 | Buscar Pacientes                      | 5            |
-| 20     | US17 | Eliminar historial clínico            | 5            |
-| 21     | US18 | Mostrar historial clínico             | 5            |
-| 22     | US23 | Dashboard de inventario               | 5            |
-| 23     | US24 | Guardar fecha de ajuste de inventario | 5            |
-| 24     | US26 | Gestión del Perfil                    | 3            |
-| 25     | US27 | Visualización del menú principal      | 3            |
-| 26     | US28 | Navegación por la barra principal     | 3            |
-| 27     | US29 | Sección About Us                      | 3            |
-| 28     | US30 | Sección de Servicios                  | 3            |
-| 29     | US31 | Sección Contact Us                    | 3            |
-| 30     | US32 | Formulario de contacto                | 3            |
-| 31     | US33 | Footer informativo                    | 3            |
-| 32     | US01 | Registrar Usuarios                    | 3            |
-| 33     | US02 | Iniciar Sesión                        | 3            |
+| #Orden | ID   | User Story                                                                      | Story Points |
+|:-------|:-----|:--------------------------------------------------------------------------------|:-------------|
+| 01     | SS01 | Investigar uso de Mockito para pruebas unitarias                                | 8            |
+| 02     | SS02 | Investigar el uso de Selenium para pruebas automatizadas                        | 8            |
+| 03     | US05 | Añadir citas                                                                    | 8            |
+| 04     | US04 | Editar Citas                                                                    | 8            |
+| 05     | US06 | Eliminar Cita                                                                   | 8            |
+| 06     | US11 | Mostrar Pacientes                                                               | 8            |
+| 07     | US12 | Añadir Pacientes                                                                | 8            |
+| 08     | US13 | Editar Pacientes                                                                | 8            |
+| 09     | US16 | Añadir Historial Clínico                                                        | 8            |
+| 10     | US19 | Visualizar Inventario                                                           | 8            |
+| 11     | US20 | Añadir objeto al inventario                                                     | 8            |
+| 12     | US21 | Editar objeto del inventario                                                    | 8            |
+| 13     | US22 | Eliminar objeto del inventario                                                  | 8            |
+| 14     | US25 | Registrar cantidad consumida de ítems                                           | 8            |
+| 15     | TS01 | Implementar endpoint para crear un ítem de inventario                           | 8            |
+| 16     | TS02 | Implementar endpoint para actualizar un ítem de inventario                      | 8            |
+| 17     | TS03 | Implementar endpoint para eliminar un ítem de inventario                        | 8            |
+| 18     | TS04 | Implementar endpoint para obtener un ítem de inventario por ID                  | 8            |
+| 19     | TS05 | Implementar endpoint para obtener todos los ítems de inventario de un usuario   | 8            |
+| 20     | TS06 | Implementar endpoint para crear un paciente                                     | 8            |
+| 21     | TS07 | Implementar endpoint para actualizar un paciente                                | 8            |
+| 22     | TS08 | Implementar endpoint para eliminar un paciente                                  | 8            |
+| 23     | TS11 | Implementar endpoint para añadir una historia clínica a un paciente             | 8            |
+| 24     | TS12 | Implementar endpoint para obtener historias clínicas por ID de paciente         | 8            |
+| 25     | TS13 | Implementar endpoint para crear una cita                                        | 8            |
+| 26     | TS14 | Implementar endpoint para actualizar una cita                                   | 8            |
+| 27     | TS15 | Implementar endpoint para eliminar una cita                                     | 8            |
+| 28     | TS18 | Implementar endpoint para obtener una cita por ID                               | 8            |
+| 29     | US03 | Mostrar Citas                                                                   | 5            |
+| 30     | US07 | Buscar Citas                                                                    | 5            |
+| 31     | US08 | Gestionar horarios de atención                                                  | 5            |
+| 32     | US09 | Pagar tratamiento                                                               | 5            |
+| 33     | US10 | Historial de pagos                                                              | 5            |
+| 34     | US14 | Eliminar Pacientes                                                              | 5            |
+| 35     | US15 | Buscar Pacientes                                                                | 5            |
+| 36     | US17 | Eliminar historial clínico                                                      | 5            |
+| 37     | US18 | Mostrar historial clínico                                                       | 5            |
+| 38     | US23 | Dashboard de inventario                                                         | 5            |
+| 39     | US24 | Guardar fecha de ajuste de inventario                                           | 5            |
+| 40     | TS09 | Implementar endpoint para obtener un paciente por ID                            |              |
+| 41     | TS10 | Implementar endpoint para obtener todos los pacientes de un usuario autenticado |              |
+| 42     | TS16 | Implementar endpoint para obtener todas las citas del usuario autenticado       |              |
+| 43     | TS17 | Implementar endpoint para obtener todas las citas de un paciente                |              |
+| 44     | TS19 | Implementar endpoint para crear una factura                                     |              |
+| 45     | TS20 | Implementar endpoint para obtener todas las facturas del usuario autenticado    |              |
+| 46     | TS21 | Implementar endpoint para obtener una factura por ID de cita                    |              |
+| 47     | US26 | Gestión del Perfil                                                              | 3            |
+| 48     | US27 | Visualización del menú principal                                                | 3            |
+| 49     | US28 | Navegación por la barra principal                                               | 3            |
+| 50     | US29 | Sección About Us                                                                | 3            |
+| 51     | US30 | Sección de Servicios                                                            | 3            |
+| 52     | US31 | Sección Contact Us                                                              | 3            |
+| 53     | US32 | Formulario de contacto                                                          | 3            |
+| 54     | US33 | Footer informativo                                                              | 3            |
+| 55     | US01 | Registrar Usuarios                                                              | 3            |
+| 56     | US02 | Iniciar Sesión                                                                  | 3            |
+| 57     | TS22 | Implementar endpoint para registrar un usuario                                  | 3            |
+| 58     | TS23 | Implementar endpoint para iniciar sesión                                        | 3            |
 
 ## 3.4. Impact Mapping
 
