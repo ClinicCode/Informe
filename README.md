@@ -519,15 +519,33 @@ Esta sección recopila la información obtenida a partir de entrevistas realizad
 
 **Segmento Objetivo:** Odontólogos
 
-**Entrevista 1: Samuel Mendoza**
+## Entrevista 1: Martín Salcedo
+
+![entrevista-martin-salcedo](Img/entrevista-martin-salcedo.png)
+
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224135_upc_edu_pe/EZYisY-jQ1BNq9ATwS-hVu0BsUCxZC_t448gftlV-aQPFg?e=uAfZnm&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MC41MX19)
+
+**Datos del entrevistado**
+- **Nombre:** Martín Salcedo
+- **Edad:** 25 años
+- **Distrito:** San Juan de Lurigancho (SJL)
+- **Timestamp** 00:00 - 10:34
+
+**Resumen de la entrevista**  
+Martín trabaja en un consultorio con 10 años de operación. La agenda la maneja el personal administrativo; él recibe los turnos en Google Calendar. Reporta problemas en reprogramaciones y cancelaciones de último minuto, que dejan huecos o generan solapamientos si el cambio no se refleja a tiempo. Combina registros manuales con herramientas básicas, una vista centralizada (paciente, procedimiento, insumos y pagos) y alertas útiles antes de cada atención. Quiere recordatorios automatizados para el paciente y sincronización inmediata con su calendario.
+
+**Entrevista 2: Samuel Mendoza**
 
 ![entrevista-fabrizio-cutiri.png](Img/entrevista-fabrizio-cutiri.png)
+
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224135_upc_edu_pe/EZYisY-jQ1BNq9ATwS-hVu0BsUCxZC_t448gftlV-aQPFg?e=8vS1tO&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NjM0LjEyfX0%3D)
+
 
 **Datos del entrevistado**
 * **Nombre:** Samuel Mendoza
 * **Edad:** 60 años
 * **Distrito de Residencia:** Breña
-* **Duración de la entrevista:** 15:20 min
+* **Timestamp:** 10:35 - 25:55
 
 **Resumen de la entrevista:**
 
@@ -543,7 +561,83 @@ El odontólogo también destaca la importancia de recibir críticas y recomendac
 
 Finalmente, señala estar dispuesto a pagar por un sistema de gestión completo que le permita mejorar la administración de su consultorio. Aunque no tiene un rango de precio definido, menciona que en Estados Unidos conoce softwares que cuestan alrededor de 2000 dólares y ofrecen soluciones completas. Reconoce que en Perú todavía no es común el uso de estas herramientas, pero considera que deberían estar más extendidas en todos los consultorios.
 
+**Entrevista 2: Elizabeth Huanaco**
+![entrevista_elizabeth.png](Img/entrevista_elizabeth.png)
+
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224135_upc_edu_pe/EZYisY-jQ1BNq9ATwS-hVu0BsUCxZC_t448gftlV-aQPFg?e=Pkl74K&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTU2MS4wNn19)
+
+
+**Datos del entrevistado**
+- **Nombre:** Elizabeth Huanaco
+- **Edad:** 25 años
+- **Distrito:** San Juan de Lurigancho (SJL)
+- **Timestamp** 25:55 - 34:24
+
+
+**Resumen**:
+Es ortodoncista y atiende en un consultorio propio con poco más de un año de operación, ubicado en una zona céntrica y de fácil acceso. Atiende entre 20 y 25 pacientes por semana. Maneja su agenda con una aplicación, aunque le resulta poco intuitiva y le gustaría que funcionara también sin conexión. El principal problema son las cancelaciones de último momento, que desorganizan la jornada. La comunicación con pacientes suele ser por WhatsApp y considera útil centralizarla.
+
+Combina registros digitales con algunos documentos impresos y controla ingresos con Excel, lo que le resulta engorroso. Le gustaría contar con funciones como recordatorios automáticos por WhatsApp/SMS, historias clínicas digitales integradas y un sistema de pagos en la misma plataforma. Usa iPad, laptop y Google Workspace para organizarse. Respalda la información en la nube y considera fundamental la seguridad de los datos. Estaría dispuesto a pagar entre 15 y 25 dólares mensuales por una solución que realmente le optimice el trabajo.
+
+
+
 ### 2.2.3. Análisis de entrevistas
+
+1. **Resumen**  
+Profesionales que atienden en consultorios con operación estable. La agenda suele ser gestionada por personal administrativo; parte de la programación llega al odontólogo por Google Calendar (según el caso). Buscan reducir no-shows y solapes, centralizar información clínica/operativa y contar con reportes simples. Valoran seguridad y permisos por rol.
+
+2. **Edad**  
+Rango observado: 25–60. Valor representativo: 43 (media aritmética).
+
+| Entrevistado     | Edad |
+|---|---:|
+| Martín Salcedo   | 25 |
+| Samuel Mendoza   | 60 |
+| **Valor representativo** | **43** |
+
+3. **Personalidad (arquetipo UX)**  
+Distribución mixta entre **Rational** (eficiencia/automatización) y **Guardián** (orden/seguridad). Valor representativo: **Mixto (Rational–Guardián)**.
+
+| Entrevistado    | Personalidad |
+|---|---|
+| Martín Salcedo  | Rational (eficiencia, automatización) |
+| Samuel Mendoza  | Guardián (cumplimiento, seguridad) |
+| **Representativo** | **Mixto Rational–Guardián** |
+
+4. **Dispositivos y canales**
+
+| Ítem        | Cobertura |
+|---|---|
+| Smartphone  | 100% |
+| Laptop/PC   | 100% |
+| Tablet      | 0–50% |
+| WhatsApp    | 100% |
+| Teléfono    | 100% |
+| Email       | 100% |
+
+5. **Herramientas actuales**
+
+| Herramienta / Práctica                   | Presencia |
+|---|---|
+| Agenda por administrativo                | 100% |
+| Google Calendar (sincronización directa) | 50% |
+| App básica de registro/agenda            | 50% |
+| Historias clínicas digitales completas   | 0–50% |
+| Inventario integrado por procedimiento   | 0% |
+
+6. **Dolores representativos**  
+1) Reprogramaciones tardías.  
+2) Falta de sincronización inmediata con calendario.  
+3) Ausencia de vista unificada (paciente–procedimiento–insumos–pago).  
+4) Permisos/seguridad y trazabilidad de cambios limitados.  
+5) Reportes operativos básicos o inexistentes.
+
+7. **Requisitos prioritarios**  
+- Integración con Google Calendar.  
+- Recordatorios/confirmaciones automáticas (WhatsApp/SMS/email).  
+- Historia clínica + checklist de insumos por procedimiento en una sola vista.  
+- Roles y permisos: con auditoría.  
+- Reportes: utilización de agenda, tiempos muertos, productividad.
 
 ## 2.3. Needfinding
 
@@ -4362,3 +4456,4 @@ Osiptel. (2022). Los servicios de telecomunicaciones en los hogares peruanos: En
 |----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|
 | *Needfinding Interviews* | *Cantidad de videos:* 1 <br> *Nomenclatura:* upc-pre-202520-1asi0732-14651-ClinicCode-needfinding-sprint-1 <br> *Formato:* mp4 <br> *Duración:* 34:28 | [Ver Video](https://shorturl.at/P0n32) |
 
+# Anexos
