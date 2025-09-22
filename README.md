@@ -600,3 +600,7 @@ Para la aplicación móvil se empleó la guía de estilo oficial de Kotlin (Goog
 # Bibliografía
 
 # Anexos
+
+| Sección                    | Caracteristicas del video                                                                                                                                          | Enlace                     |
+|----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|
+| **Needfinding Interviews** | **Cantidad de videos:** 1 <br> **Nomenclatura:** <br> upc-pre-202520-1asi0732-14651-ClinicCode-needfinding-sprint-1 <br> **Formato:** mp4 <br> **Duración:** 34:28 | https://shorturl.at/P0n32  |
