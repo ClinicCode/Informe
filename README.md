@@ -4153,9 +4153,3 @@ Para la escritura de commits, se sigue la convención 'Conventional Commits', el
 ### 5.2.7. Team Collaboration Insights
 
 ## 5.3. Video About-the-Product
-
-# Conclusiones
-
-# Bibliografía
-
-# Anexos
