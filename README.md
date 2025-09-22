@@ -396,7 +396,7 @@ Esta sección recopila la información obtenida a partir de entrevistas realizad
 
 ![entrevista-martin-salcedo](Img/entrevista-martin-salcedo.png)
 
-[Ver video](https://upcedupe-my.sharepoint.com/personal/u202224135_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202224135%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202520%2D1asi0732%2D14651%2DClinicCode%2Dneedfinding%2Dsprint%2D1%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E7f6a857d%2D2920%2D4d5b%2Dacec%2D5be83c0e6a7a&isDarkMode=true)
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224135_upc_edu_pe/EZYisY-jQ1BNq9ATwS-hVu0BsUCxZC_t448gftlV-aQPFg?e=uAfZnm&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MC41MX19)
 
 **Datos del entrevistado**
 - **Nombre:** Martín Salcedo
@@ -411,7 +411,8 @@ Martín trabaja en un consultorio con 10 años de operación. La agenda la manej
 
 ![entrevista-fabrizio-cutiri.png](Img/entrevista-fabrizio-cutiri.png)
 
-[Ver video](https://upcedupe-my.sharepoint.com/personal/u202224135_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202224135%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202520%2D1asi0732%2D14651%2DClinicCode%2Dneedfinding%2Dsprint%2D1%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E7f6a857d%2D2920%2D4d5b%2Dacec%2D5be83c0e6a7a&isDarkMode=true)
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224135_upc_edu_pe/EZYisY-jQ1BNq9ATwS-hVu0BsUCxZC_t448gftlV-aQPFg?e=8vS1tO&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NjM0LjEyfX0%3D)
+
 
 **Datos del entrevistado**
 * **Nombre:** Samuel Mendoza
@@ -432,6 +433,26 @@ El manejo de las historias clínicas todavía se realiza de forma manual y por e
 El odontólogo también destaca la importancia de recibir críticas y recomendaciones de los pacientes, ya sean positivas o negativas, ya que considera que estas le permiten mejorar la gestión y el trato brindado en su consultorio. Asimismo, subraya que la seguridad de la información es un aspecto crucial, pues se trata de datos personales sensibles que deberían estar protegidos mediante filtros de acceso en cualquier software de gestión.
 
 Finalmente, señala estar dispuesto a pagar por un sistema de gestión completo que le permita mejorar la administración de su consultorio. Aunque no tiene un rango de precio definido, menciona que en Estados Unidos conoce softwares que cuestan alrededor de 2000 dólares y ofrecen soluciones completas. Reconoce que en Perú todavía no es común el uso de estas herramientas, pero considera que deberían estar más extendidas en todos los consultorios.
+
+**Entrevista 2: Elizabeth Huanaco**
+![entrevista_elizabeth.png](Img/entrevista_elizabeth.png)
+
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224135_upc_edu_pe/EZYisY-jQ1BNq9ATwS-hVu0BsUCxZC_t448gftlV-aQPFg?e=Pkl74K&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTU2MS4wNn19)
+
+
+**Datos del entrevistado**
+- **Nombre:** Elizabeth Huanaco
+- **Edad:** 25 años
+- **Distrito:** San Juan de Lurigancho (SJL)
+- **Timestamp** 25:55 - 34:24
+
+
+**Resumen**:
+Es ortodoncista y atiende en un consultorio propio con poco más de un año de operación, ubicado en una zona céntrica y de fácil acceso. Atiende entre 20 y 25 pacientes por semana. Maneja su agenda con una aplicación, aunque le resulta poco intuitiva y le gustaría que funcionara también sin conexión. El principal problema son las cancelaciones de último momento, que desorganizan la jornada. La comunicación con pacientes suele ser por WhatsApp y considera útil centralizarla.
+
+Combina registros digitales con algunos documentos impresos y controla ingresos con Excel, lo que le resulta engorroso. Le gustaría contar con funciones como recordatorios automáticos por WhatsApp/SMS, historias clínicas digitales integradas y un sistema de pagos en la misma plataforma. Usa iPad, laptop y Google Workspace para organizarse. Respalda la información en la nube y considera fundamental la seguridad de los datos. Estaría dispuesto a pagar entre 15 y 25 dólares mensuales por una solución que realmente le optimice el trabajo.
+
+
 
 ### 2.2.3. Análisis de entrevistas
 
