@@ -4426,6 +4426,16 @@ En esta sección se incluyen capturas de la **documentación de la API RESTful**
 | Cutiri Agüero, Fabrizio Alexander   | Capítulo V: Product Implementation & Deployment (5.1 – 5.2).                                    |
 | Berrocal Ramirez, Omar Christian    | Capítulo IV: Domain-Driven Software Architecture y Database Design (4.8 – 4.10).                |
 
+## 5.3. Video About-the-Product
+
+# Capítulo VI: Product Verification & Validation
+## 6.1. Testing Suites & Validation
+### 6.1.1. Core Entities Unit Tests.
+### 6.1.2. Core Integration Tests.
+### 6.1.3. Core Behavior-Driven Development
+### 6.1.4. Core System Tests.
+
+
 # Conclusiones
 
 En conclusión, este proyecto resalta la importancia de aplicar diferentes enfoques de arquitectura y el uso de Domain-Driven Design (DDD), lo cual contribuyó a una mejor organización, escalabilidad y mantenibilidad del sistema. La implementación de una aplicación móvil desarrollada en Flutter para Android e iOS, junto con una versión nativa para Android, y respaldada por un backend sólido en Spring Boot con Java 17, permitió consolidar una base tecnológica moderna y eficiente. Asimismo, el énfasis en el diseño UX/UI garantizó una experiencia de usuario clara, atractiva e intuitiva. Finalmente, la utilización de control de versiones con Git y la estrategia de ramificación GitFlow favorecieron una gestión colaborativa y ordenada del desarrollo, manteniendo la trazabilidad y calidad del código durante todo el proceso.
@@ -4458,6 +4468,4 @@ Osiptel. (2022). Los servicios de telecomunicaciones en los hogares peruanos: En
 
 # Anexos
 
-
-## 5.3. Video About-the-Product
 
