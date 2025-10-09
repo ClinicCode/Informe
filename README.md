@@ -4431,6 +4431,61 @@ En esta sección se incluyen capturas de la **documentación de la API RESTful**
 # Capítulo VI: Product Verification & Validation
 ## 6.1. Testing Suites & Validation
 ### 6.1.1. Core Entities Unit Tests.
+
+En esta sección se presentan las pruebas unitarias desarrolladas para las entidades principales del sistema. El objetivo de estas pruebas es validar que la lógica interna de cada entidad funcione correctamente de forma aislada, garantizando que los constructores, métodos de actualización y validaciones internas se comporten según lo esperado.
+
+Para este propósito se utilizaron las clases de prueba InvoiceTest, InventoryItemTest y PatientTest, las cuales verifican el correcto funcionamiento de los aggregates Invoice, Item y Patient, respectivamente. Estas pruebas se implementaron utilizando JUnit, un framework ampliamente utilizado en entornos Spring Boot para asegurar la calidad del código y detectar errores tempranos durante el desarrollo.
+
+**Patient Test Class**
+
+![patient-test-class.png](Img/patient-test-class.png)
+
+**Create Patient Test**
+
+![create-patient-test.png](Img/create-patient-test.png)
+
+**Update Patient Test**
+
+![update-patient-test.png](Img/update-patient-test.png)
+
+**Patient Tests Passed**
+
+![patient-test-passed.png](Img/patient-test-passed.png)
+
+
+**Invoice Test**
+
+![create-invoice-test.png](Img/create-invoice-test.png)
+
+**Invoice Test Passed**
+
+![invoice-test-passed.png](Img/invoice-test-passed.png)
+
+
+**Inventory Item Test Class**
+
+![inventory-item-test-class.png](Img/inventory-item-test-class.png)
+
+**Create Inventory Item Test**
+
+![create-inventory-item-test.png](Img/create-inventory-item-test.png)
+
+**Update Inventory Item Test**
+
+![update-inventory-item-test.png](Img/update-inventory-item-test.png)
+
+**Inventory Item Tests Passed**
+
+![inventory-item-test-passed.png](Img/inventory-item-test-passed.png)
+
+La ejecución de pruebas unitarias sobre las aggretes principales **(Patient, Invoice, Item)** permite garantizar la consistencia e integridad de los datos a nivel de dominio, antes de interactuar con capas más complejas del sistema como los repositorios o controladores.
+
+Estas pruebas son fundamentales porque:
+
+* Aseguran que la lógica del dominio se comporta de forma predecible y conforme a los requerimientos funcionales.
+
+* Permiten detectar errores en etapas tempranas del desarrollo, reduciendo el costo de corrección y el riesgo de fallos en producción.
+
 ### 6.1.2. Core Integration Tests.
 ### 6.1.3. Core Behavior-Driven Development
 ### 6.1.4. Core System Tests.
