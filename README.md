@@ -4471,6 +4471,21 @@ En este proyecto, se establecerá una infraestructura centrada en Jenkins, que a
 
 ### 7.3.2. Production Deployment Pipeline Components.
 
+El Production Deployment Pipeline representa la secuencia automatizada de procesos que permiten llevar una aplicación desde su entorno de desarrollo hasta su despliegue en producción de forma segura, eficiente y controlada
+
+A continuación se describen los pasos que conforman este pipeline:
+
+* **Gestion del código fuente:** El proyecto se gestiona en un repositorio de GitHub, donde cada commit o merge a la rama main activa automáticamente la ejecución del pipeline en Jenkins, clonando el repositorio.
+
+
+* **Compilación del Proyecto:** Jenkins realiza el proceso de compilación utilizando Maven, resolviendo las dependencias declaradas en el backend de SpringBoot, y genera archivos ejecutables listos para ser implementados.
+
+
+* **Validación Automatizada:** Jenkins realiza la ejecución de las pruebas unitarias e integrales con JUnit y Mockito para verificar la funcionalidad del sistema. Si alguna prueba falla, el pipeline se detiene y se comunica al equipo de desarrollo.
+
+
+* **Despliegue a Producción:** Una vez validados los pasos previos, Jenkins procede a realizar el despliegue del sistema en el entorno de producción.
+
 
 # Conclusiones
 
