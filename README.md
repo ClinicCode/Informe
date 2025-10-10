@@ -3137,66 +3137,37 @@ Entonces el sistema debe mostrar la página principal de la aplicación, validan
 
 ## 3.3. Product Backlog
 
-| #Orden | ID   | User Story                                                                      | Story Points |
-|:-------|:-----|:--------------------------------------------------------------------------------|:-------------|
-| 01     | SS01 | Investigar uso de Mockito para pruebas unitarias                                | 8            |
-| 02     | SS02 | Investigar el uso de Selenium para pruebas automatizadas                        | 8            |
-| 03     | US05 | Añadir citas                                                                    | 8            |
-| 04     | US04 | Editar Citas                                                                    | 8            |
-| 05     | US06 | Eliminar Cita                                                                   | 8            |
-| 06     | US11 | Mostrar Pacientes                                                               | 8            |
-| 07     | US12 | Añadir Pacientes                                                                | 8            |
-| 08     | US13 | Editar Pacientes                                                                | 8            |
-| 09     | US16 | Añadir Historial Clínico                                                        | 8            |
-| 10     | US19 | Visualizar Inventario                                                           | 8            |
-| 11     | US20 | Añadir objeto al inventario                                                     | 8            |
-| 12     | US21 | Editar objeto del inventario                                                    | 8            |
-| 13     | US22 | Eliminar objeto del inventario                                                  | 8            |
-| 14     | US25 | Registrar cantidad consumida de ítems                                           | 8            |
-| 15     | TS01 | Implementar endpoint para crear un ítem de inventario                           | 8            |
-| 16     | TS02 | Implementar endpoint para actualizar un ítem de inventario                      | 8            |
-| 17     | TS03 | Implementar endpoint para eliminar un ítem de inventario                        | 8            |
-| 18     | TS04 | Implementar endpoint para obtener un ítem de inventario por ID                  | 8            |
-| 19     | TS05 | Implementar endpoint para obtener todos los ítems de inventario de un usuario   | 8            |
-| 20     | TS06 | Implementar endpoint para crear un paciente                                     | 8            |
-| 21     | TS07 | Implementar endpoint para actualizar un paciente                                | 8            |
-| 22     | TS08 | Implementar endpoint para eliminar un paciente                                  | 8            |
-| 23     | TS11 | Implementar endpoint para añadir una historia clínica a un paciente             | 8            |
-| 24     | TS12 | Implementar endpoint para obtener historias clínicas por ID de paciente         | 8            |
-| 25     | TS13 | Implementar endpoint para crear una cita                                        | 8            |
-| 26     | TS14 | Implementar endpoint para actualizar una cita                                   | 8            |
-| 27     | TS15 | Implementar endpoint para eliminar una cita                                     | 8            |
-| 28     | TS18 | Implementar endpoint para obtener una cita por ID                               | 8            |
-| 29     | US03 | Mostrar Citas                                                                   | 5            |
-| 30     | US07 | Buscar Citas                                                                    | 5            |
-| 31     | US08 | Gestionar horarios de atención                                                  | 5            |
-| 32     | US09 | Pagar tratamiento                                                               | 5            |
-| 33     | US10 | Historial de pagos                                                              | 5            |
-| 34     | US14 | Eliminar Pacientes                                                              | 5            |
-| 35     | US15 | Buscar Pacientes                                                                | 5            |
-| 36     | US17 | Eliminar historial clínico                                                      | 5            |
-| 37     | US18 | Mostrar historial clínico                                                       | 5            |
-| 38     | US23 | Dashboard de inventario                                                         | 5            |
-| 39     | US24 | Guardar fecha de ajuste de inventario                                           | 5            |
-| 40     | TS09 | Implementar endpoint para obtener un paciente por ID                            |              |
-| 41     | TS10 | Implementar endpoint para obtener todos los pacientes de un usuario autenticado |              |
-| 42     | TS16 | Implementar endpoint para obtener todas las citas del usuario autenticado       |              |
-| 43     | TS17 | Implementar endpoint para obtener todas las citas de un paciente                |              |
-| 44     | TS19 | Implementar endpoint para crear una factura                                     |              |
-| 45     | TS20 | Implementar endpoint para obtener todas las facturas del usuario autenticado    |              |
-| 46     | TS21 | Implementar endpoint para obtener una factura por ID de cita                    |              |
-| 47     | US26 | Gestión del Perfil                                                              | 3            |
-| 48     | US27 | Visualización del menú principal                                                | 3            |
-| 49     | US28 | Navegación por la barra principal                                               | 3            |
-| 50     | US29 | Sección About Us                                                                | 3            |
-| 51     | US30 | Sección de Servicios                                                            | 3            |
-| 52     | US31 | Sección Contact Us                                                              | 3            |
-| 53     | US32 | Formulario de contacto                                                          | 3            |
-| 54     | US33 | Footer informativo                                                              | 3            |
-| 55     | US01 | Registrar Usuarios                                                              | 3            |
-| 56     | US02 | Iniciar Sesión                                                                  | 3            |
-| 57     | TS22 | Implementar endpoint para registrar un usuario                                  | 3            |
-| 58     | TS23 | Implementar endpoint para iniciar sesión                                        | 3            |
+| #Orden | ID   | Descripción  | Story Points |
+|:-------|:-----|:--------------------------------------------------|:-------------|
+| 01 | SS01 | Como desarrollador, deseo investigar el uso de **Mockito** para implementar pruebas unitarias efectivas y asegurar la calidad del código. | 8 |
+| 02 | SS02 | Como desarrollador, deseo investigar el uso de **Selenium** para automatizar pruebas de interfaz y garantizar la correcta interacción del usuario con la aplicación. | 8 |
+| 03 | US05 | Como odontólogo, deseo **añadir nuevas citas** al sistema para gestionar mi agenda de atención. | 8 |
+| 04 | US04 | Como odontólogo, deseo **editar la información de una cita existente** para corregir o actualizar datos de mis pacientes. | 8 |
+| 05 | US06 | Como odontólogo, deseo **eliminar una cita** para mantener la agenda libre de registros cancelados o duplicados. | 8 |
+| 06 | US11 | Como recepcionista, deseo **visualizar la lista de pacientes** registrados para gestionar sus atenciones. | 8 |
+| 07 | US12 | Como recepcionista, deseo **añadir nuevos pacientes** al sistema para llevar un control adecuado de sus datos. | 8 |
+| 08 | US13 | Como recepcionista, deseo **editar la información de los pacientes** para mantener los registros actualizados. | 8 |
+| 09 | US16 | Como odontólogo, deseo **añadir el historial clínico de un paciente** para registrar diagnósticos y tratamientos realizados. | 8 |
+| 10 | US19 | Como administrador, deseo **visualizar el inventario general** para conocer el stock disponible de insumos y materiales. | 8 |
+| 11 | US20 | Como administrador, deseo **añadir nuevos objetos al inventario** para mantener actualizado el registro de materiales. | 8 |
+| 12 | US21 | Como administrador, deseo **editar los datos de los objetos del inventario** para reflejar cambios o correcciones. | 8 |
+| 13 | US22 | Como administrador, deseo **eliminar objetos del inventario** cuando ya no estén disponibles o sean obsoletos. | 8 |
+| 14 | US25 | Como odontólogo, deseo **registrar la cantidad consumida de insumos** en cada tratamiento para controlar el uso de materiales. | 8 |
+| 15 | TS01 | Como desarrollador, deseo **implementar el endpoint POST /api/v1/items** para crear nuevos ítems en el inventario. | 8 |
+| 16 | TS02 | Como desarrollador, deseo **implementar el endpoint PUT /api/v1/items/{id}** para actualizar ítems existentes en el inventario. | 8 |
+| 17 | TS03 | Como desarrollador, deseo **implementar el endpoint DELETE /api/v1/items/{id}** para eliminar ítems del inventario. | 8 |
+| 18 | TS04 | Como desarrollador, deseo **implementar el endpoint GET /api/v1/items/{id}** para obtener información de un ítem específico. | 8 |
+| 19 | TS05 | Como desarrollador, deseo **implementar el endpoint GET /api/v1/items** para listar todos los ítems de inventario de un usuario. | 8 |
+| 20 | TS06 | Como desarrollador, deseo **implementar el endpoint POST /api/v1/patients** para registrar nuevos pacientes. | 8 |
+| 21 | TS07 | Como desarrollador, deseo **implementar el endpoint PUT /api/v1/patients/{id}** para actualizar la información de un paciente. | 8 |
+| 22 | TS08 | Como desarrollador, deseo **implementar el endpoint DELETE /api/v1/patients/{id}** para eliminar pacientes inactivos. | 8 |
+| 23 | TS11 | Como desarrollador, deseo **implementar el endpoint POST /api/v1/patients/{patientId}/medical-histories** para añadir historiales clínicos. | 8 |
+| 24 | TS12 | Como desarrollador, deseo **implementar el endpoint GET /api/v1/patients/{patientId}/medical-histories** para obtener los historiales clínicos de un paciente. | 8 |
+| 25 | TS13 | Como desarrollador, deseo **implementar el endpoint POST /api/v1/appointments** para crear nuevas citas. | 8 |
+| 26 | TS14 | Como desarrollador, deseo **implementar el endpoint PUT /api/v1/appointments/{appointmentId}** para actualizar citas existentes. | 8 |
+| 27 | TS15 | Como desarrollador, deseo **implementar el endpoint DELETE /api/v1/appointments/{appointmentId}** para eliminar citas registradas. | 8 |
+| 28 | TS18 | Como desarrollador, deseo **implementar el endpoint GET /api/v1/appoi**
+
 
 ## 3.4. Impact Mapping
 
@@ -4344,70 +4315,68 @@ El despliegue del landing page se realizó en GitHub Pages, siguiendo los siguie
 ### 5.2.1. Sprint Backlogs
 
 
-El objetivo principal de este **Sprint** fue desarrollar la **primera versión funcional de Dentify**, priorizando la implementación del **Landing Page**, la estructura inicial del **Frontend Web y Mobile Apps**, y la **integración básica del Backend**.  
-Este incremento busca **validar las funcionalidades esenciales**, **garantizar la consistencia del diseño UX/UI** y **establecer la base técnica** para iteraciones futuras.  
+El objetivo principal de este Sprint es desarrollar la primera versión funcional de **Dentify**, priorizando la implementación del **Landing Page**, la **estructura inicial del Frontend Web y Mobile Apps**, y la **integración básica del Backend**. Este Sprint busca validar las funcionalidades esenciales, garantizar la consistencia del diseño UX/UI y establecer la base para iteraciones futuras.
 
-
-| ID   | Tipo       | User Story / Task                               | Descripción (como / deseo / para)                                                                                  | Estimación (Horas) | Assigned To                           | Status |
-| ---- | ---------- | ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | ------------------ | ------------------------------------- | ------- |
-| SS01 | Spike      | Investigar uso de Mockito                       | Como desarrollador, deseo investigar e integrar Mockito para realizar pruebas unitarias efectivas, para validar la lógica del sistema. | 8 | Aponte Cruzado, Andrea Marielena | Done |
-| SS02 | Spike      | Investigar uso de Selenium                      | Como QA Engineer, deseo explorar Selenium para automatizar pruebas funcionales, para asegurar la calidad del frontend. | 8 | Belahonia Miranda, Fabrisio | Done |
-| US05 | User Story | Añadir Citas                                    | Como odontólogo, deseo registrar nuevas citas en el sistema, para llevar un control de mi agenda clínica. | 8 | Bohorquez Lerzundi, Gerardo Sebastian | Done |
-| US04 | User Story | Editar Citas                                    | Como odontólogo, deseo modificar información de una cita existente, para actualizar detalles o reagendar al paciente. | 8 | Cutiri Agüero, Fabrizio Alexander | Done |
-| US06 | User Story | Eliminar Cita                                   | Como odontólogo, deseo eliminar citas del sistema, para mantener mi agenda limpia y actualizada. | 8 | Berrocal Ramirez, Omar Christian | Done |
-| US11 | User Story | Mostrar Pacientes                               | Como odontólogo, deseo visualizar la lista de pacientes registrados, para acceder rápidamente a sus datos. | 8 | Aponte Cruzado, Andrea Marielena | Done |
-| US12 | User Story | Añadir Pacientes                                | Como odontólogo, deseo registrar nuevos pacientes, para gestionar su información clínica y de contacto. | 8 | Belahonia Miranda, Fabrisio | Done |
-| US13 | User Story | Editar Pacientes                                | Como odontólogo, deseo modificar los datos de un paciente existente, para mantener la información actualizada. | 8 | Bohorquez Lerzundi, Gerardo Sebastian | Done |
-| US16 | User Story | Añadir Historial Clínico                        | Como odontólogo, deseo registrar el historial clínico de mis pacientes, para documentar diagnósticos y tratamientos. | 8 | Cutiri Agüero, Fabrizio Alexander | Done |
-| US19 | User Story | Visualizar Inventario                           | Como administrador, deseo visualizar el inventario general, para conocer el stock de insumos odontológicos. | 8 | Berrocal Ramirez, Omar Christian | Done |
-| US20 | User Story | Añadir objeto al inventario                     | Como administrador, deseo registrar nuevos objetos en el inventario, para mantener el control de materiales. | 8 | Aponte Cruzado, Andrea Marielena | Done |
-| US21 | User Story | Editar objeto del inventario                    | Como administrador, deseo modificar los datos de objetos del inventario, para corregir errores o actualizar cantidades. | 8 | Belahonia Miranda, Fabrisio | Done |
-| US22 | User Story | Eliminar objeto del inventario                  | Como administrador, deseo eliminar objetos del inventario, para retirar elementos obsoletos o en desuso. | 8 | Bohorquez Lerzundi, Gerardo Sebastian | Done |
-| US25 | User Story | Registrar cantidad consumida de ítems           | Como odontólogo, deseo registrar los insumos usados en cada tratamiento, para mantener un control del consumo. | 8 | Cutiri Agüero, Fabrizio Alexander | Done |
-| TS01 | Technical  | Endpoint crear ítem inventario                  | Como desarrollador backend, deseo implementar el endpoint POST `/api/v1/items`, para permitir registrar nuevos ítems. | 8 | Berrocal Ramirez, Omar Christian | Done |
-| TS02 | Technical  | Endpoint actualizar ítem inventario             | Como desarrollador backend, deseo crear el endpoint PUT `/api/v1/items/{id}`, para modificar ítems existentes. | 8 | Aponte Cruzado, Andrea Marielena | Done |
-| TS03 | Technical  | Endpoint eliminar ítem inventario               | Como desarrollador backend, deseo implementar el endpoint DELETE `/api/v1/items/{id}`, para permitir eliminar ítems. | 8 | Belahonia Miranda, Fabrisio | Done |
-| TS04 | Technical  | Endpoint obtener ítem por ID                    | Como desarrollador backend, deseo crear el endpoint GET `/api/v1/items/{id}`, para consultar ítems específicos. | 8 | Bohorquez Lerzundi, Gerardo Sebastian | Done |
-| TS05 | Technical  | Endpoint obtener todos ítems de usuario         | Como desarrollador backend, deseo implementar el endpoint GET `/api/v1/items`, para listar todos los ítems del usuario. | 8 | Cutiri Agüero, Fabrizio Alexander | Done |
-| TS06 | Technical  | Endpoint crear paciente                         | Como desarrollador backend, deseo implementar el endpoint POST `/api/v1/patients`, para registrar nuevos pacientes. | 8 | Berrocal Ramirez, Omar Christian | Done |
-| TS07 | Technical  | Endpoint actualizar paciente                    | Como desarrollador backend, deseo implementar el endpoint PUT `/api/v1/patients/{id}`, para actualizar datos del paciente. | 8 | Aponte Cruzado, Andrea Marielena | Done |
-| TS08 | Technical  | Endpoint eliminar paciente                      | Como desarrollador backend, deseo implementar el endpoint DELETE `/api/v1/patients/{id}`, para eliminar pacientes inactivos. | 8 | Belahonia Miranda, Fabrisio | Done |
-| TS11 | Technical  | Endpoint añadir historial clínico               | Como desarrollador backend, deseo crear el endpoint POST `/api/v1/patients/{patientId}/medical-histories`, para registrar historiales clínicos. | 8 | Bohorquez Lerzundi, Gerardo Sebastian | To-do |
-| TS12 | Technical  | Endpoint obtener historial clínico por paciente | Como desarrollador backend, deseo implementar el endpoint GET `/api/v1/patients/{patientId}/medical-histories`, para consultar historiales clínicos. | 8 | Cutiri Agüero, Fabrizio Alexander | Done |
-| TS13 | Technical  | Endpoint crear cita                             | Como desarrollador backend, deseo implementar el endpoint POST `/api/v1/appointments`, para registrar nuevas citas. | 8 | Berrocal Ramirez, Omar Christian | Done |
-| TS14 | Technical  | Endpoint actualizar cita                        | Como desarrollador backend, deseo crear el endpoint PUT `/api/v1/appointments/{appointmentId}`, para editar citas. | 8 | Aponte Cruzado, Andrea Marielena | Done |
-| TS15 | Technical  | Endpoint eliminar cita                          | Como desarrollador backend, deseo implementar el endpoint DELETE `/api/v1/appointments/{appointmentId}`, para eliminar citas registradas. | 8 | Belahonia Miranda, Fabrisio | Done |
-| TS18 | Technical  | Endpoint obtener cita por ID                    | Como desarrollador backend, deseo implementar el endpoint GET `/api/v1/appointments/appointment/{id}`, para consultar citas específicas. | 8 | Bohorquez Lerzundi, Gerardo Sebastian | Done |
-| US03 | User Story | Mostrar Citas                                   | Como odontólogo, deseo visualizar todas las citas registradas, para gestionar mi calendario de atención. | 5 | Cutiri Agüero, Fabrizio Alexander | Done |
-| US07 | User Story | Buscar Citas                                    | Como odontólogo, deseo buscar citas por fecha o DNI, para acceder rápidamente a información específica. | 5 | Berrocal Ramirez, Omar Christian | Done |
-| US08 | User Story | Gestionar horarios de atención                  | Como odontólogo, deseo ver y editar mis horarios de atención, para organizar mi disponibilidad. | 5 | Aponte Cruzado, Andrea Marielena | Done |
-| US09 | User Story | Pagar tratamiento                               | Como paciente, deseo procesar el pago de mis tratamientos, para completar el proceso de atención. | 5 | Belahonia Miranda, Fabrisio | Done |
-| US10 | User Story | Historial de pagos                              | Como paciente, deseo visualizar el historial de mis pagos, para llevar control de mis tratamientos. | 5 | Bohorquez Lerzundi, Gerardo Sebastian | To-do |
-| US14 | User Story | Eliminar Pacientes                              | Como odontólogo, deseo eliminar pacientes inactivos, para mantener el registro actualizado. | 5 | Cutiri Agüero, Fabrizio Alexander | Done |
-| US15 | User Story | Buscar Pacientes                                | Como odontólogo, deseo buscar pacientes por DNI, para acceder rápidamente a sus datos. | 5 | Berrocal Ramirez, Omar Christian | Done |
-| US17 | User Story | Eliminar historial clínico                      | Como odontólogo, deseo eliminar historiales clínicos, para corregir errores o eliminar registros duplicados. | 5 | Aponte Cruzado, Andrea Marielena | Done |
-| US18 | User Story | Mostrar historial clínico                       | Como odontólogo, deseo visualizar los historiales clínicos de mis pacientes, para consultar antecedentes médicos. | 5 | Belahonia Miranda, Fabrisio | Done |
-| US23 | User Story | Dashboard de inventario                         | Como administrador, deseo visualizar métricas del inventario, para analizar el uso de insumos y materiales. | 5 | Bohorquez Lerzundi, Gerardo Sebastian | Done |
-| US24 | User Story | Guardar fecha de ajuste de inventario           | Como administrador, deseo registrar las fechas de movimiento de inventario, para mantener trazabilidad. | 5 | Cutiri Agüero, Fabrizio Alexander | Done |
-| TS09 | Technical  | Endpoint obtener paciente por ID                | Como desarrollador backend, deseo implementar el endpoint GET `/api/v1/patients/{id}`, para consultar un paciente específico. | 5 | Berrocal Ramirez, Omar Christian | Done |
-| TS10 | Technical  | Endpoint obtener todos pacientes de usuario     | Como desarrollador backend, deseo implementar el endpoint GET `/api/v1/patients`, para listar todos los pacientes registrados. | 5 | Aponte Cruzado, Andrea Marielena | Done |
-| TS16 | Technical  | Endpoint obtener todas citas de usuario         | Como desarrollador backend, deseo implementar el endpoint GET `/api/v1/appointments`, para listar todas las citas del usuario. | 5 | Belahonia Miranda, Fabrisio | Done |
-| TS17 | Technical  | Endpoint obtener todas citas de paciente        | Como desarrollador backend, deseo implementar el endpoint GET `/api/v1/appointments/{patientId}`, para listar las citas por paciente. | 5 | Bohorquez Lerzundi, Gerardo Sebastian | Done |
-| TS19 | Technical  | Endpoint crear factura                          | Como desarrollador backend, deseo implementar el endpoint POST `/api/v1/invoices`, para registrar nuevas facturas. | 5 | Cutiri Agüero, Fabrizio Alexander | Done |
-| TS20 | Technical  | Endpoint obtener todas facturas de usuario      | Como desarrollador backend, deseo implementar el endpoint GET `/api/v1/invoices`, para listar todas las facturas registradas. | 5 | Berrocal Ramirez, Omar Christian | Done |
-| TS21 | Technical  | Endpoint obtener factura por ID de cita         | Como desarrollador backend, deseo implementar el endpoint GET `/api/v1/invoices/{appointmentId}`, para consultar facturas específicas. | 5 | Aponte Cruzado, Andrea Marielena | Done |
-| US26 | User Story | Gestión del Perfil                              | Como usuario, deseo visualizar y editar mi perfil, para mantener mi información personal actualizada. | 3 | Belahonia Miranda, Fabrisio | Done |
-| US27 | User Story | Visualización del menú principal                | Como visitante, deseo ver el menú principal del landing page, para navegar fácilmente entre secciones. | 3 | Bohorquez Lerzundi, Gerardo Sebastian | Done |
-| US28 | User Story | Navegación por la barra principal               | Como usuario, deseo navegar entre las secciones del sitio, para acceder rápidamente a la información deseada. | 3 | Cutiri Agüero, Fabrizio Alexander | Done |
-| US29 | User Story | Sección About Us                                | Como visitante, deseo conocer información sobre la empresa, para entender su misión y valores. | 3 | Berrocal Ramirez, Omar Christian | Done |
-| US30 | User Story | Sección de Servicios                            | Como visitante, deseo visualizar los servicios ofrecidos, para conocer las opciones disponibles. | 3 | Aponte Cruzado, Andrea Marielena | Done |
-| US31 | User Story | Sección Contact Us                              | Como visitante, deseo ver los datos de contacto, para comunicarme con la clínica. | 3 | Belahonia Miranda, Fabrisio | Done |
-| US32 | User Story | Formulario de contacto                          | Como visitante, deseo enviar un formulario de contacto, para solicitar información o agendar una cita. | 3 | Bohorquez Lerzundi, Gerardo Sebastian | Done |
-| US33 | User Story | Footer informativo                              | Como visitante, deseo visualizar información legal y complementaria en el pie de página, para conocer políticas y derechos. | 3 | Cutiri Agüero, Fabrizio Alexander | Done |
-| US01 | User Story | Registrar Usuarios                              | Como nuevo usuario, deseo registrarme en la aplicación, para acceder a las funcionalidades del sistema. | 3 | Berrocal Ramirez, Omar Christian | Done |
-| US02 | User Story | Iniciar Sesión                                  | Como usuario registrado, deseo iniciar sesión, para acceder a mi cuenta y gestionar mis datos. | 3 | Aponte Cruzado, Andrea Marielena | Done |
-| TS22 | Technical  | Endpoint registrar usuario                      | Como desarrollador backend, deseo implementar el endpoint POST `/api/auth/register`, para permitir el registro de nuevos usuarios. | 3 | Belahonia Miranda, Fabrisio | Done |
-| TS23 | Technical  | Endpoint iniciar sesión                         | Como desarrollador backend, deseo implementar el endpoint POST `/api/auth/login`, para autenticar usuarios registrados. | 3 | Bohorquez Lerzundi, Gerardo Sebastian | Done |
+| ID   | Tipo       | User Story / Task                               | Descripción (“Como... deseo... para...”)                                                                                                                | Estimación (Horas) | Assigned To                           | Status |
+| ---- | ---------- | ----------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ | ------------------------------------- | ------ |
+| SS01 | Spike      | Investigar uso de Mockito                       | Como desarrollador, deseo investigar el uso de **Mockito** para crear pruebas unitarias efectivas y asegurar la calidad del código.                     | 8 | Aponte Cruzado, Andrea Marielena | Done |
+| SS02 | Spike      | Investigar uso de Selenium                      | Como desarrollador, deseo explorar **Selenium** para automatizar pruebas de interfaz y validar el flujo de usuario.                                      | 8 | Belahonia Miranda, Fabrisio | Done |
+| US05 | User Story | Añadir Citas                                    | Como odontólogo, deseo **añadir nuevas citas** al sistema para gestionar mi agenda de atención.                                                          | 8 | Bohorquez Lerzundi, Gerardo Sebastian | Done |
+| US04 | User Story | Editar Citas                                    | Como odontólogo, deseo **editar la información de una cita existente** para corregir o actualizar datos de mis pacientes.                                | 8 | Cutiri Agüero, Fabrizio Alexander | Done |
+| US06 | User Story | Eliminar Cita                                   | Como odontólogo, deseo **eliminar una cita** para mantener la agenda libre de registros cancelados o duplicados.                                         | 8 | Berrocal Ramirez, Omar Christian | Done |
+| US11 | User Story | Mostrar Pacientes                               | Como recepcionista, deseo **visualizar la lista de pacientes registrados** para gestionar sus atenciones.                                                | 8 | Aponte Cruzado, Andrea Marielena | Done |
+| US12 | User Story | Añadir Pacientes                                | Como recepcionista, deseo **añadir nuevos pacientes** al sistema para llevar un control adecuado de sus datos.                                           | 8 | Belahonia Miranda, Fabrisio | Done |
+| US13 | User Story | Editar Pacientes                                | Como recepcionista, deseo **editar la información de los pacientes** para mantener los registros actualizados.                                           | 8 | Bohorquez Lerzundi, Gerardo Sebastian | Done |
+| US16 | User Story | Añadir Historial Clínico                        | Como odontólogo, deseo **añadir el historial clínico de un paciente** para registrar diagnósticos y tratamientos realizados.                             | 8 | Cutiri Agüero, Fabrizio Alexander | Done |
+| US19 | User Story | Visualizar Inventario                           | Como administrador, deseo **visualizar el inventario general** para conocer el stock disponible de insumos y materiales.                                 | 8 | Berrocal Ramirez, Omar Christian | Done |
+| US20 | User Story | Añadir objeto al inventario                     | Como administrador, deseo **añadir nuevos objetos al inventario** para mantener actualizado el registro de materiales.                                   | 8 | Aponte Cruzado, Andrea Marielena | Done |
+| US21 | User Story | Editar objeto del inventario                    | Como administrador, deseo **editar los datos de los objetos del inventario** para reflejar cambios o correcciones.                                       | 8 | Belahonia Miranda, Fabrisio | Done |
+| US22 | User Story | Eliminar objeto del inventario                  | Como administrador, deseo **eliminar objetos del inventario** cuando ya no estén disponibles o sean obsoletos.                                           | 8 | Bohorquez Lerzundi, Gerardo Sebastian | Done |
+| US25 | User Story | Registrar cantidad consumida de ítems           | Como odontólogo, deseo **registrar la cantidad consumida de insumos** en cada tratamiento para controlar el uso de materiales.                           | 8 | Cutiri Agüero, Fabrizio Alexander | Done |
+| TS01 | Technical  | Endpoint crear ítem inventario                  | Como desarrollador, deseo **implementar el endpoint POST /api/v1/items** para permitir la creación de nuevos ítems en el inventario.                     | 8 | Berrocal Ramirez, Omar Christian | Done |
+| TS02 | Technical  | Endpoint actualizar ítem inventario             | Como desarrollador, deseo **implementar el endpoint PUT /api/v1/items/{id}** para actualizar la información de un ítem existente.                        | 8 | Aponte Cruzado, Andrea Marielena | Done |
+| TS03 | Technical  | Endpoint eliminar ítem inventario               | Como desarrollador, deseo **implementar el endpoint DELETE /api/v1/items/{id}** para eliminar ítems del inventario.                                      | 8 | Belahonia Miranda, Fabrisio | Done |
+| TS04 | Technical  | Endpoint obtener ítem por ID                    | Como desarrollador, deseo **implementar el endpoint GET /api/v1/items/{id}** para obtener la información de un ítem específico.                          | 8 | Bohorquez Lerzundi, Gerardo Sebastian | Done |
+| TS05 | Technical  | Endpoint obtener todos ítems de usuario         | Como desarrollador, deseo **implementar el endpoint GET /api/v1/items** para listar todos los ítems del inventario de un usuario autenticado.            | 8 | Cutiri Agüero, Fabrizio Alexander | Done |
+| TS06 | Technical  | Endpoint crear paciente                         | Como desarrollador, deseo **implementar el endpoint POST /api/v1/patients** para registrar nuevos pacientes en el sistema.                               | 8 | Berrocal Ramirez, Omar Christian | Done |
+| TS07 | Technical  | Endpoint actualizar paciente                    | Como desarrollador, deseo **implementar el endpoint PUT /api/v1/patients/{id}** para actualizar la información de un paciente existente.                 | 8 | Aponte Cruzado, Andrea Marielena | Done |
+| TS08 | Technical  | Endpoint eliminar paciente                      | Como desarrollador, deseo **implementar el endpoint DELETE /api/v1/patients/{id}** para eliminar pacientes inactivos.                                   | 8 | Belahonia Miranda, Fabrisio | Done |
+| TS11 | Technical  | Endpoint añadir historial clínico               | Como desarrollador, deseo **implementar el endpoint POST /api/v1/patients/{patientId}/medical-histories** para añadir historiales clínicos.              | 8 | Bohorquez Lerzundi, Gerardo Sebastian | To-do |
+| TS12 | Technical  | Endpoint obtener historial clínico por paciente | Como desarrollador, deseo **implementar el endpoint GET /api/v1/patients/{patientId}/medical-histories** para obtener los historiales clínicos.          | 8 | Cutiri Agüero, Fabrizio Alexander | Done |
+| TS13 | Technical  | Endpoint crear cita                             | Como desarrollador, deseo **implementar el endpoint POST /api/v1/appointments** para registrar nuevas citas.                                             | 8 | Berrocal Ramirez, Omar Christian | Done |
+| TS14 | Technical  | Endpoint actualizar cita                        | Como desarrollador, deseo **implementar el endpoint PUT /api/v1/appointments/{appointmentId}** para actualizar citas existentes.                         | 8 | Aponte Cruzado, Andrea Marielena | Done |
+| TS15 | Technical  | Endpoint eliminar cita                          | Como desarrollador, deseo **implementar el endpoint DELETE /api/v1/appointments/{appointmentId}** para eliminar citas registradas.                       | 8 | Belahonia Miranda, Fabrisio | Done |
+| TS18 | Technical  | Endpoint obtener cita por ID                    | Como desarrollador, deseo **implementar el endpoint GET /api/v1/appointments/appointment/{id}** para obtener citas por ID.                               | 8 | Bohorquez Lerzundi, Gerardo Sebastian | Done |
+| US03 | User Story | Mostrar Citas                                   | Como odontólogo, deseo **visualizar todas las citas registradas** para tener una vista general de mi agenda.                                            | 5 | Cutiri Agüero, Fabrizio Alexander | Done |
+| US07 | User Story | Buscar Citas                                    | Como odontólogo, deseo **buscar citas por fecha o DNI** para localizar rápidamente una cita específica.                                                 | 5 | Berrocal Ramirez, Omar Christian | Done |
+| US08 | User Story | Gestionar horarios de atención                  | Como odontólogo, deseo **gestionar mis horarios de atención** para definir mi disponibilidad.                                                           | 5 | Aponte Cruzado, Andrea Marielena | Done |
+| US09 | User Story | Pagar tratamiento                               | Como paciente, deseo **pagar mi tratamiento** para completar el proceso de atención odontológica.                                                       | 5 | Belahonia Miranda, Fabrisio | Done |
+| US10 | User Story | Historial de pagos                              | Como paciente, deseo **ver el historial de mis pagos** para llevar un control de mis transacciones.                                                     | 5 | Bohorquez Lerzundi, Gerardo Sebastian | To-do |
+| US14 | User Story | Eliminar Pacientes                              | Como recepcionista, deseo **eliminar pacientes inactivos** para mantener limpia la base de datos.                                                      | 5 | Cutiri Agüero, Fabrizio Alexander | Done |
+| US15 | User Story | Buscar Pacientes                                | Como recepcionista, deseo **buscar pacientes por DNI** para encontrarlos rápidamente en el sistema.                                                    | 5 | Berrocal Ramirez, Omar Christian | Done |
+| US17 | User Story | Eliminar historial clínico                      | Como odontólogo, deseo **eliminar historiales clínicos** cuando sea necesario corregir información.                                                    | 5 | Aponte Cruzado, Andrea Marielena | Done |
+| US18 | User Story | Mostrar historial clínico                       | Como odontólogo, deseo **visualizar los historiales clínicos** de mis pacientes para consultar tratamientos previos.                                   | 5 | Belahonia Miranda, Fabrisio | Done |
+| US23 | User Story | Dashboard de inventario                         | Como administrador, deseo **ver un dashboard de inventario** para monitorear métricas de stock y consumo.                                              | 5 | Bohorquez Lerzundi, Gerardo Sebastian | Done |
+| US24 | User Story | Guardar fecha de ajuste de inventario           | Como administrador, deseo **registrar la fecha de ajuste del inventario** para llevar trazabilidad de movimientos.                                     | 5 | Cutiri Agüero, Fabrizio Alexander | Done |
+| TS09 | Technical  | Endpoint obtener paciente por ID                | Como desarrollador, deseo **implementar el endpoint GET /api/v1/patients/{id}** para obtener los datos de un paciente específico.                       | 5 | Berrocal Ramirez, Omar Christian | Done |
+| TS10 | Technical  | Endpoint obtener todos pacientes de usuario     | Como desarrollador, deseo **implementar el endpoint GET /api/v1/patients** para listar todos los pacientes de un usuario autenticado.                   | 5 | Aponte Cruzado, Andrea Marielena | Done |
+| TS16 | Technical  | Endpoint obtener todas citas de usuario         | Como desarrollador, deseo **implementar el endpoint GET /api/v1/appointments** para listar todas las citas del usuario autenticado.                     | 5 | Belahonia Miranda, Fabrisio | Done |
+| TS17 | Technical  | Endpoint obtener todas citas de paciente        | Como desarrollador, deseo **implementar el endpoint GET /api/v1/appointments/{patientId}** para listar todas las citas de un paciente.                  | 5 | Bohorquez Lerzundi, Gerardo Sebastian | Done |
+| TS19 | Technical  | Endpoint crear factura                          | Como desarrollador, deseo **implementar el endpoint POST /api/v1/invoices** para crear facturas asociadas a tratamientos.                               | 5 | Cutiri Agüero, Fabrizio Alexander | Done |
+| TS20 | Technical  | Endpoint obtener todas facturas de usuario      | Como desarrollador, deseo **implementar el endpoint GET /api/v1/invoices** para obtener todas las facturas del usuario autenticado.                     | 5 | Berrocal Ramirez, Omar Christian | Done |
+| TS21 | Technical  | Endpoint obtener factura por ID de cita         | Como desarrollador, deseo **implementar el endpoint GET /api/v1/invoices/{appointmentId}** para obtener facturas por ID de cita.                        | 5 | Aponte Cruzado, Andrea Marielena | Done |
+| US26 | User Story | Gestión del Perfil                              | Como usuario, deseo **gestionar mi perfil personal** para actualizar mi información y mantenerla actualizada.                                           | 3 | Belahonia Miranda, Fabrisio | Done |
+| US27 | User Story | Visualización del menú principal                | Como visitante, deseo **visualizar el menú principal** para navegar de forma intuitiva por el sitio.                                                   | 3 | Bohorquez Lerzundi, Gerardo Sebastian | Done |
+| US28 | User Story | Navegación por la barra principal               | Como usuario, deseo **navegar entre las secciones del sitio** mediante la barra principal.                                                             | 3 | Cutiri Agüero, Fabrizio Alexander | Done |
+| US29 | User Story | Sección About Us                                | Como visitante, deseo **ver la sección “About Us”** para conocer más sobre la empresa.                                                                 | 3 | Berrocal Ramirez, Omar Christian | Done |
+| US30 | User Story | Sección de Servicios                            | Como visitante, deseo **visualizar los servicios ofrecidos** para conocer las soluciones que brinda Dentify.                                            | 3 | Aponte Cruzado, Andrea Marielena | Done |
+| US31 | User Story | Sección Contact Us                              | Como visitante, deseo **visualizar la sección de contacto** para comunicarme con la clínica.                                                           | 3 | Belahonia Miranda, Fabrisio | Done |
+| US32 | User Story | Formulario de contacto                          | Como visitante, deseo **enviar el formulario de contacto** para realizar consultas o solicitudes.                                                       | 3 | Bohorquez Lerzundi, Gerardo Sebastian | Done |
+| US33 | User Story | Footer informativo                              | Como visitante, deseo **visualizar el footer informativo** con datos legales y enlaces complementarios.                                                | 3 | Cutiri Agüero, Fabrizio Alexander | Done |
+| US01 | User Story | Registrar Usuarios                              | Como usuario, deseo **registrarme en la aplicación** para acceder a los servicios personalizados.                                                      | 3 | Berrocal Ramirez, Omar Christian | Done |
+| US02 | User Story | Iniciar Sesión                                  | Como usuario, deseo **iniciar sesión** para acceder a mi cuenta y funcionalidades personalizadas.                                                      | 3 | Aponte Cruzado, Andrea Marielena | Done |
+| TS22 | Technical  | Endpoint registrar usuario                      | Como desarrollador, deseo **implementar el endpoint POST /api/auth/register** para permitir el registro de nuevos usuarios.                             | 3 | Belahonia Miranda, Fabrisio | Done |
+| TS23 | Technical  | Endpoint iniciar sesión                         | Como desarrollador, deseo **implementar el endpoint POST /api/auth/login** para permitir el inicio de sesión de usuarios registrados.                   | 3 | Bohorquez Lerzundi, Gerardo Sebastian | Done |
 
 
 
@@ -4557,8 +4526,172 @@ El presente acuerdo se rige por las leyes de la República del Perú.
 # Capítulo VI: Product Verification & Validation
 ## 6.1. Testing Suites & Validation
 ### 6.1.1. Core Entities Unit Tests.
+
+En esta sección se presentan las pruebas unitarias desarrolladas para las entidades principales del sistema. El objetivo de estas pruebas es validar que la lógica interna de cada entidad funcione correctamente de forma aislada, garantizando que los constructores, métodos de actualización y validaciones internas se comporten según lo esperado.
+
+Para este propósito se utilizaron las clases de prueba InvoiceTest, InventoryItemTest y PatientTest, las cuales verifican el correcto funcionamiento de los aggregates Invoice, Item y Patient, respectivamente. Estas pruebas se implementaron utilizando JUnit, un framework ampliamente utilizado en entornos Spring Boot para asegurar la calidad del código y detectar errores tempranos durante el desarrollo.
+
+**Patient Test Class**
+
+![patient-test-class.png](Img/patient-test-class.png)
+
+**Create Patient Test**
+
+![create-patient-test.png](Img/create-patient-test.png)
+
+**Update Patient Test**
+
+![update-patient-test.png](Img/update-patient-test.png)
+
+**Patient Tests Passed**
+
+![patient-test-passed.png](Img/patient-test-passed.png)
+
+
+**Invoice Test**
+
+![create-invoice-test.png](Img/create-invoice-test.png)
+
+**Invoice Test Passed**
+
+![invoice-test-passed.png](Img/invoice-test-passed.png)
+
+
+**Inventory Item Test Class**
+
+![inventory-item-test-class.png](Img/inventory-item-test-class.png)
+
+**Create Inventory Item Test**
+
+![create-inventory-item-test.png](Img/create-inventory-item-test.png)
+
+**Update Inventory Item Test**
+
+![update-inventory-item-test.png](Img/update-inventory-item-test.png)
+
+**Inventory Item Tests Passed**
+
+![inventory-item-test-passed.png](Img/inventory-item-test-passed.png)
+
+La ejecución de pruebas unitarias sobre las aggretes principales **(Patient, Invoice, Item)** permite garantizar la consistencia e integridad de los datos a nivel de dominio, antes de interactuar con capas más complejas del sistema como los repositorios o controladores.
+
+Estas pruebas son fundamentales porque:
+
+* Aseguran que la lógica del dominio se comporta de forma predecible y conforme a los requerimientos funcionales.
+
+* Permiten detectar errores en etapas tempranas del desarrollo, reduciendo el costo de corrección y el riesgo de fallos en producción.
+
 ### 6.1.2. Core Integration Tests.
+
+
+Para verificar el correcto funcionamiento del módulo IAM (Identity and Access Management) dentro de Dentify, se desarrolló una prueba de integración denominada registerAndLoginAndValidateTokenFlow.
+Esta prueba asegura la correcta interacción entre los componentes del contexto IAM, incluyendo la capa REST, el servicio de autenticación (AuthCommandServiceImpl), el repositorio (UserRepository), y el proveedor de tokens (JwtServiceImpl).
+
+**El flujo validado incluye:**
+
+1. Registro de un nuevo usuario
+
+- Se utiliza el endpoint POST /api/auth/register enviando un RegisterRequestResource con credenciales y datos básicos.
+
+- Se valida que la respuesta contenga un token JWT de acceso y que el campo username coincida con el usuario creado.
+
+- Se comprueba además que el usuario se haya persistido correctamente en la base de datos a través del UserRepository.
+
+2. Inicio de sesión del usuario recién creado
+
+- Se consume el endpoint POST /api/auth/login con las mismas credenciales.
+
+- Se valida que la autenticación retorne un accessToken y refreshToken válidos.
+
+- El test verifica también que el token sea correctamente generado y pueda ser validado por JwtServiceImpl.
+
+3. Validación del token JWT
+
+- Usando el accessToken obtenido, se ejecuta una llamada autenticada (simulada con MockMvc) a un endpoint protegido, por ejemplo GET /api/auth/me o similar.
+
+- Se espera una respuesta HTTP 200, demostrando que el token es aceptado por el filtro JwtAuthFilter y que el contexto de seguridad fue correctamente establecido.
+
+Codigo Test:
+
+![test1](img/test1.png)
+
+Resultado:
+
+![resulttest1](img/resulttest1.png)
+
 ### 6.1.3. Core Behavior-Driven Development
+
+
+Con el objetivo de validar el comportamiento esperado del sistema **Dentify** desde la perspectiva del **usuario final**, se desarrollaron escenarios de prueba utilizando **Behavior-Driven Development (BDD)**, mediante la sintaxis **Gherkin** e implementación con **Cucumber**.
+
+Las funcionalidades definidas corresponden a tres flujos esenciales del sistema:
+
+* **Autenticación y Usuario**
+* **Gestión de Citas**
+* **Gestión de Pacientes**
+
+Cada flujo representa un proceso clave dentro de la operación del consultorio odontológico digital, garantizando la coherencia entre la experiencia del usuario y la lógica de negocio implementada.
+
+
+#### Escenario probado 1: Autenticación y Usuario
+
+La funcionalidad validada corresponde al flujo de autenticación básica del sistema, cubriendo el registro, inicio de sesión y posterior acceso a las funcionalidades internas de la aplicación.
+
+Este escenario simula una experiencia realista de un odontólogo desde su primer contacto con la plataforma, verificando que pueda registrarse correctamente, autenticarse y acceder al entorno principal del sistema.
+
+En la ejecución se evidenció que:
+
+* Se ejecutaron correctamente todos los pasos definidos en el feature.
+* El escenario pasó sin errores (1 escenario ejecutado – 1 escenario aprobado).
+* Los logs de **Hibernate** mostraron operaciones reales sobre la base de datos (**insert** y **select**), demostrando la correcta interacción con el entorno de prueba.
+
+Este caso garantiza que el proceso de autenticación sea confiable, fluido y seguro, cumpliendo con las políticas de acceso definidas en Dentify.
+
+
+#### Escenario probado 2: Gestión de Citas
+
+La funcionalidad probada cubre el flujo completo de administración de citas, incluyendo la visualización, registro, edición y restricción de modificación de citas pasadas.
+
+El escenario reproduce el comportamiento esperado de un odontólogo autenticado gestionando su agenda diaria, asegurando la integridad de los datos y el cumplimiento de las reglas de negocio.
+
+Durante la prueba se observó que:
+
+* Se ejecutaron satisfactoriamente todos los pasos del escenario.
+* El sistema realizó operaciones **insert**, **update**, **select** y **delete** sobre la base de datos, verificadas mediante logs de **Hibernate**.
+* Los resultados demostraron que la aplicación responde adecuadamente a cada acción del usuario, mostrando mensajes de validación y actualizando la interfaz en tiempo real.
+
+Con este escenario se valida que el módulo de citas funciona de manera estable, brindando una experiencia de uso coherente y eficaz para el personal odontológico.
+
+
+#### Escenario probado 3: Gestión de Pacientes
+
+La funcionalidad evaluada se centra en la administración de pacientes, abarcando la visualización, registro, edición y eliminación de registros en el sistema.
+
+El objetivo principal fue comprobar que las operaciones realizadas desde la interfaz del odontólogo se reflejen correctamente en la base de datos y que los cambios se mantengan consistentes durante todo el proceso.
+
+En la ejecución se confirmó que:
+
+* Todos los pasos definidos en el feature fueron ejecutados exitosamente.
+* El escenario pasó sin errores (1 escenario ejecutado – 1 escenario aprobado).
+* Las operaciones **insert**, **update**, **delete** y **select** se realizaron correctamente, reflejando un flujo de interacción estable entre el sistema y la base de datos.
+
+Este caso valida que el módulo de pacientes de **Dentify** garantiza una gestión confiable de la información clínica y administrativa, asegurando la integridad de los datos registrados.
+
+
+
+#### Herramientas utilizadas
+
+* **Gherkin / Cucumber** → Para la definición y ejecución de los escenarios BDD.
+* **Spring Boot + JUnit + H2 Database** → Para la ejecución controlada de los pasos de prueba en un entorno aislado.
+* **Hibernate ORM** → Para la persistencia y trazabilidad de las operaciones sobre la base de datos durante las pruebas.
+
+
+![CoreBehavior.jpeg](Img/CoreBehavior.jpeg)
+
+
+
+
+    
 ### 6.1.4. Core System Tests.
 
 
