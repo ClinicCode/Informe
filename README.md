@@ -141,6 +141,7 @@ Los integrantes son:
   - [2.2. Entrevistas](#22-entrevistas)
     - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
     - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+  - [Entrevista 1: Martín Salcedo](#entrevista-1-martín-salcedo)
     - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
   - [2.3. Needfinding](#23-needfinding)
     - [2.3.1. User Personas](#231-user-personas)
@@ -208,9 +209,39 @@ Los integrantes son:
     - [5.2.6. RESTful API documentation](#526-restful-api-documentation)
     - [5.2.7. Team Collaboration Insights](#527-team-collaboration-insights)
   - [5.3. Video About-the-Product](#53-video-about-the-product)
+- [Capítulo VI: Product Verification \& Validation](#capítulo-vi-product-verification--validation)
+  - [6.1. Testing Suites \& Validation](#61-testing-suites--validation)
+    - [6.1.1. Core Entities Unit Tests.](#611-core-entities-unit-tests)
+    - [6.1.2. Core Integration Tests.](#612-core-integration-tests)
+    - [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)
+    - [6.1.4. Core System Tests.](#614-core-system-tests)
+- [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)
+  - [7.1. Continuous Integration](#71-continuous-integration)
+    - [7.1.1. Tools and Practices.](#711-tools-and-practices)
+    - [6.1.4. Continuous Integration](#614-continuous-integration)
+      - [Tools and Practices](#tools-and-practices)
+      - [Control de versiones – Git + GitHub](#control-de-versiones--git--github)
+      - [Orquestador CI – GitHub Actions](#orquestador-ci--github-actions)
+      - [Build \& Dependency Management – Maven](#build--dependency-management--maven)
+      - [Pruebas automatizadas – JUnit 5 + Mockito](#pruebas-automatizadas--junit-5--mockito)
+      - [Análisis de código – SonarQube + Checkstyle](#análisis-de-código--sonarqube--checkstyle)
+      - [Escaneo de dependencias](#escaneo-de-dependencias)
+      - [Empaquetado y contenedores](#empaquetado-y-contenedores)
+      - [Registro de artefactos](#registro-de-artefactos)
+      - [Feedback y reporting](#feedback-y-reporting)
+    - [7.1.2. Build \& Test Suite Pipeline Components.](#712-build--test-suite-pipeline-components)
+  - [7.2. Continuous Delivery](#72-continuous-delivery)
+    - [7.2.1. Tools and Practices.](#721-tools-and-practices)
+    - [7.2.2. Stages Deployment Pipeline Components.](#722-stages-deployment-pipeline-components)
+  - [7.3. Continuous deployment](#73-continuous-deployment)
+    - [7.3.1. Tools and Practices.](#731-tools-and-practices)
+    - [7.3.2. Production Deployment Pipeline Components.](#732-production-deployment-pipeline-components)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
+  - [Recursos del Proyecto](#recursos-del-proyecto)
+  - [Evidencias en Video](#evidencias-en-video)
+- [Anexos](#anexos-1)
 
 
 # Student Outcome
@@ -4536,19 +4567,290 @@ El presente acuerdo se rige por las leyes de la República del Perú.
 
 ### 7.1.1. Tools and Practices.
 
+La práctica de **Continuous Integration (CI)** en **Dentify** consiste en integrar con la mayor frecuencia posible los cambios realizados por los desarrolladores en la rama principal del repositorio —generalmente **main**—, verificando de forma automática que dichas modificaciones mantengan la **calidad**, **seguridad** y **funcionalidad** del sistema.
+
+Al automatizar los procesos de compilación, ejecución de pruebas y análisis de código, CI proporciona un **ciclo de retroalimentación rápido**, reduce la acumulación de defectos y fomenta una cultura de **mejora continua y entrega confiable**.
+
+En el contexto del proyecto **Dentify**, desarrollado con **Java 22 y Spring Boot**, la integración continua actúa como un **mecanismo preventivo** ante vulnerabilidades, fallos lógicos y problemas de compatibilidad entre módulos del sistema (como gestión de citas, pacientes y autenticación).
+
+Con este propósito, se implementó un pipeline de CI que cubre todas las fases —desde el **commit** hasta la generación del **artefacto contenedor**—, priorizando los siguientes objetivos:
+
+* **Reproducibilidad:** builds deterministas con dependencias declaradas y entornos estandarizados.
+* **Seguridad temprana (shift left):** detección de vulnerabilidades en código y librerías antes de llegar a producción.
+* **Velocidad y visibilidad:** ejecución paralela de jobs, caché de dependencias y métricas disponibles en tiempo real.
+* **Artefactos listos para CD:** imágenes Docker firmadas y versionadas, listas para despliegue en entornos sucesivos (dev → qa → prod).
+
+A continuación, se describen las herramientas y buenas prácticas adoptadas dentro del pipeline de **Integración Continua de Dentify**.
+
+
+
+#### Control de versiones – Git + GitHub
+
+El código fuente de **Dentify** se gestiona mediante **Git** bajo una estrategia de ramas cortas derivadas de `main`. Cada modificación se versiona y audita (historial, diferencias, autores) garantizando trazabilidad completa.
+
+En **GitHub**, se implementan **Pull Requests** con revisiones obligatorias, políticas de rama y protección de merges.
+Cada push o PR desencadena automáticamente la ejecución del pipeline CI a través de **webhooks**, asegurando que toda contribución sea verificada antes de integrarse a la rama principal.
+
+![github.png](Img/github.png)
+
+
+
+#### Orquestador CI – GitHub Actions
+
+El pipeline de **Dentify** se orquesta mediante **GitHub Actions**, utilizando workflows definidos en YAML directamente dentro del repositorio.
+Los **runners hospedados** ejecutan los jobs en entornos preconfigurados con **JDK 22**, permitiendo paralelizar tareas como compilación, pruebas y análisis de calidad.
+
+Los disparadores `on: [push, pull_request]` garantizan que cada commit genere un build reproducible y resultados inmediatos.
+Además, el uso de **cachés de Maven** reduce significativamente los tiempos de compilación en ejecuciones sucesivas.
+
+
+
+#### Build & Dependency Management – Maven
+
+El proyecto se compila y empaqueta mediante **Maven**, utilizando el comando `mvn -B verify` para validar la build completa.
+Se emplean **toolchains** que fijan la versión exacta de JDK, asegurando que tanto los entornos locales como los runners utilicen configuraciones idénticas.
+
+El archivo **pom.xml** declara versiones explícitas de dependencias, garantizando **builds deterministas** y permitiendo auditorías de licencias, vulnerabilidades o incompatibilidades.
+
+![maven.png](Img/maven.png)
+
+
+#### Pruebas automatizadas – JUnit 5 + Mockito
+
+El pipeline ejecuta **pruebas unitarias** y **de integración** como parte del proceso CI:
+
+* **JUnit 5** y **Mockito** se utilizan para pruebas unitarias en memoria, enfocadas en lógica de negocio (autenticación, gestión de citas, validaciones de pacientes).
+* En un job independiente, se ejecutan pruebas de integración mediante **Testcontainers**, levantando servicios reales como **PostgreSQL** o **RabbitMQ** en contenedores efímeros.
+
+Se establece un **umbral mínimo de cobertura del 80 %**, y las pruebas más lentas se etiquetan con `@Tag("slow")` para permitir paralelización sin afectar el tiempo total del pipeline.
+
+![unit.png](Img/unit.png)
+
+
+#### Análisis de código – SonarQube + Checkstyle
+
+La calidad del código se evalúa mediante **SonarQube**, que centraliza métricas sobre code smells, duplicaciones y vulnerabilidades.
+El job “**Quality Gate**” impide que los merges continúen si se detectan issues de severidad *blocker* o *critical*.
+
+Como medidas complementarias:
+
+* **Checkstyle** verifica el cumplimiento de las normas de estilo.
+* **PMD** detecta patrones de código potencialmente inseguros.
+* **SpotBugs** analiza defectos de ejecución.
+
+Aplicar la política de **fail-fast** en esta etapa evita la acumulación de deuda técnica y promueve la calidad continua del código.
+
+ 
+![sonarqube.png](Img/sonarqube.png)
+
+
+#### Escaneo de dependencias
+
+Cada ejecución del pipeline realiza un escaneo de **vulnerabilidades (CVE)** sobre el árbol de dependencias Maven.
+Si se detecta una librería afectada, la build falla automáticamente y se adjunta un reporte detallado al Pull Request, evitando que código inseguro llegue a producción.
+
+Esta práctica se alinea con el principio de **seguridad desde el diseño (Security by Design)**, priorizando la detección temprana de riesgos.
+
+
+
+#### Empaquetado y contenedores
+
+Una vez superadas las pruebas y validaciones, el sistema **Dentify** se empaqueta dentro de una **imagen Docker multi-arquitectura (amd64/arm64)** utilizando **Buildx**.
+Las imágenes se etiquetan con un esquema de **versionado semántico** y el hash corto del commit (por ejemplo, `v1.3.0-gabcdef`).
+
+Se aplican buenas prácticas como:
+
+* Uso de **imágenes base inmutables** y usuarios **no root**.
+* Ejecución de `docker scan` para verificar vulnerabilidades en las capas base.
+
+De esta forma, se obtiene un artefacto seguro, portable y listo para despliegue en entornos de Continuous Delivery (CD).
+
+![docker.png](Img/docker.png)
+
+
+#### Registro de artefactos
+
+Las imágenes Docker y los archivos `.jar` firmados se publican en un **registro privado** de contenedores, desde donde se promueven entre los distintos entornos (**desarrollo → QA → staging → producción**) sin necesidad de reconstrucción.
+
+Se aplica una política de retención automática para eliminar versiones obsoletas, y las imágenes se **firman digitalmente con Cosign** para garantizar su **integridad y autenticidad**.
+
+
+
+#### Feedback y reporting
+
+El pipeline de **Dentify** incluye mecanismos de visibilidad y retroalimentación continua:
+
+* **Badges de estado** de build y cobertura se muestran en el `README.md`.
+* Cada ejecución del pipeline notifica al canal `#devops` con duración, resultado y métricas de rendimiento (**DORA Metrics**: frecuencia de despliegue, MTTR y ratio de fallos).
+
+Esta transparencia fomenta la cultura **DevOps** dentro del equipo, facilitando una detección temprana de errores y una mejora continua en la calidad del software.
+
+
+
+
 ### 7.1.2. Build & Test Suite Pipeline Components.
+
+
+Una vez que el pipeline de **Integración Continua (CI)** se activa, la primera responsabilidad es transformar el código fuente de **Dentify** en un artefacto confiable, verificable y listo para despliegue.  
+
+Para lograrlo, se orquesta una secuencia de pasos que **compila, prueba, analiza, escanea y empaqueta** la aplicación antes de publicarla en el registro de artefactos.  
+Cada fase del proceso está diseñada para **detectar errores lo más pronto posible** —desde fallos lógicos o violaciones de estilo hasta vulnerabilidades de seguridad—, garantizando que la imagen resultante sea **segura, reproducible e inmutable**.  
+
+A continuación se describe, paso a paso, esta “línea de montaje” de construcción y pruebas implementada en **Dentify**.
+
+| **Paso** | **Qué ocurre** | **Herramientas** | **Resultado** |
+|-----------|----------------|------------------|----------------|
+| **A – Compilación determinista** | El código fuente del sistema (módulos de autenticación, gestión de pacientes, gestión de citas, etc.) se compila con Maven en modo batch utilizando la versión de **JDK 22** definida en `toolchains.xml`. | Maven 3.9, Temurin JDK 22 | Artefacto **fat-JAR reproducible y firmado** (GPG). |
+| **B – Pruebas unitarias** | Se validan las reglas de negocio y la lógica de dominio (registro de odontólogos, validaciones de citas, operaciones CRUD de pacientes) en memoria. Las pruebas se ejecutan en paralelo para mantener el ciclo de retroalimentación por debajo de 90 segundos. | JUnit 5, Mockito, JaCoCo | **Cobertura ≥ 80 %** y badge de cobertura actualizado en el README. |
+| **C – Pruebas de integración** | Se levantan servicios reales —como **PostgreSQL** o **RabbitMQ**— en contenedores efímeros para verificar la correcta interacción entre las capas de la aplicación y la configuración de Spring. | Testcontainers, Spring Boot Test | Validación completa de la interacción entre componentes del sistema y configuración del contexto Spring. |
+| **D – Análisis estático** | Se analizan el código y las dependencias en busca de vulnerabilidades, code smells y violaciones de estilo. El **Quality Gate** bloquea automáticamente los merges si se detectan issues *blocker* o *critical*. | SonarQube, Checkstyle, PMD, SpotBugs | Informe detallado en el Pull Request; la build se marca como fallida si el gate no se supera. |
+| **E – Escaneo de vulnerabilidades (CVEs)** | Se examinan todas las dependencias declaradas en `pom.xml` y las capas base del contenedor para detectar vulnerabilidades conocidas. | OWASP Dependency-Check, Snyk CLI, docker scan | Reporte de CVEs; la build se marca como **Failed** si existen vulnerabilidades de severidad alta. |
+| **F – Empaquetado Docker** | Se construye una imagen **multi-arch (amd64/arm64)** utilizando Buildx, ejecutando el JAR principal bajo un usuario **no root** y aplicando buenas prácticas para reducir la superficie de ataque. | Docker + Buildx, Jib (opcional) | Imagen **versionada** `dentify-backend:vX.Y.Z-<sha>` y **firmada con Cosign**. |
+| **G – Publicación en el registro de artefactos** | La imagen Docker y los JAR firmados se publican en un **registro privado de GitHub Packages** para su promoción entre entornos (dev → qa → staging → prod). Se aplica una **retention policy** automática para limpiar versiones obsoletas. | GitHub CLI, mvn deploy, Cosign | Artefactos **inmutables y verificados**, listos para la fase de **Continuous Delivery (CD)**. |
+| **H – Reportes y notificación** | Se generan automáticamente **badges de estado** (build, cobertura) en el README y se envían notificaciones al canal `#devops` con métricas DORA (tiempo de build, éxito del pipeline, MTTR). | GitHub Actions badges, Slack/Teams Webhook | **Transparencia total** y **alerta temprana** ante fallos o degradación del pipeline. |
+
 
 ## 7.2. Continuous Delivery
 
 ### 7.2.1. Tools and Practices.
 
+La práctica de Continuous Delivery (CD) en Dentify busca automatizar el proceso de entrega desde la integración continua hasta el despliegue en producción, asegurando que cada versión aprobada sea segura, reproducible y verificable.
+El objetivo principal es reducir el tiempo entre el desarrollo y la entrega al usuario final, manteniendo la estabilidad operativa y la coherencia entre entornos.
+
+**Orquestación – Jenkins Pipelines**
+
+La entrega continua se gestiona mediante Jenkins, utilizando pipelines declarativos versionados en el archivo Jenkinsfile.
+Cada ejecución sigue un flujo automatizado de promoción entre entornos (dev → qa → staging → prod), asegurando trazabilidad y control.
+
+Características principales:
+
+- Automatización completa del ciclo build → test → deploy.
+
+- Pipelines multibranch con ejecución paralela.
+
+- Integración con GitHub Webhooks para activación automática.
+
+- Control de versiones y auditoría mediante pipelines declarativos.
+
+**Infraestructura como Código – Helm + Kubernetes**
+
+Los despliegues de Dentify se definen bajo el enfoque de Infrastructure as Code (IaC) utilizando Helm sobre un clúster Kubernetes.
+Cada entorno aplica sus propios parámetros a través de archivos values.yaml, garantizando configuraciones consistentes y reproducibles.
+
+**Gestión de artefactos – GitHub Packages**
+
+Las imágenes Docker generadas durante la fase de CI se almacenan en GitHub Packages como artefactos versionados.
+Esto asegura que el mismo artefacto probado sea desplegado en producción, evitando inconsistencias entre entornos y manteniendo la trazabilidad.
+
+**Seguridad y validación previa al despliegue**
+
+Antes de la promoción de cada versión, el pipeline ejecuta verificaciones automáticas:
+
+- Escaneo de vulnerabilidades con Snyk CLI y docker scan.
+
+- Validación de firmas digitales con Cosign.
+
+- Linting de Helm Charts y verificación sintáctica.
+
+- Pruebas smoke automáticas sobre /actuator/health.
+
+Solo si todas las verificaciones son exitosas, la imagen pasa a la siguiente etapa del pipeline.
+
+**Monitoreo y retroalimentación**
+
+Durante el despliegue, Prometheus y Grafana recopilan métricas del servicio (latencia, errores 5xx, disponibilidad).
+Las alertas se notifican automáticamente al canal #devops de Slack, permitiendo respuestas rápidas y un seguimiento de las métricas DORA (frecuencia de despliegue, tasa de éxito, MTTR).
+
+**Prácticas de entrega confiable**
+
+Para lograr despliegues seguros y sin interrupciones, se aplican las siguientes estrategias:
+
+- Blue-Green Deployment: versiones paralelas blue y green para evitar downtime.
+
+- Canary Releases: exposición gradual del tráfico antes del despliegue completo.
+
+- Rollback Automático: retorno inmediato a la versión anterior ante fallos.
+
+- Feature Flags (Unleash): activación progresiva de nuevas funciones.
+
+Estas prácticas consolidan un pipeline de entrega continua estable, auditable y resiliente, permitiendo que Dentify entregue valor de manera ágil y segura, con despliegues repetibles y controlados en todos los entornos.
+
 ### 7.2.2. Stages Deployment Pipeline Components.
+
+Una vez que la imagen Docker firmada de Dentify se encuentra disponible en el registro privado, el pipeline multibranch de Jenkins toma el control y gestiona su promoción a través de los diferentes entornos: dev, qa, staging y prod.  
+Cada entorno utiliza exactamente el mismo artefacto contenedor, garantizando la inmutabilidad de las versiones y asegurando que cualquier defecto detectado en etapas tempranas sea corregido antes de llegar al usuario final.
+
+**Principios de despliegue continuo:**
+
+- **Promoción inmutable:**  
+  El código no se recompila ni reconfigura entre ambientes; únicamente se aplican valores de configuración específicos mediante **Helm** (`values-<env>.yaml`), asegurando coherencia entre entornos.
+
+- **Validación progresiva:**  
+  Se parte de una prueba *smoke* rápida en `dev`, seguida de pruebas funcionales completas en `qa`, un despliegue canario controlado en `staging`, y finalmente un *blue-green deployment* monitoreado en `prod`.
+
+- **Gates y aprobaciones:**  
+  Las etapas críticas (`qa` y `prod`) requieren intervención humana registrada tanto mediante *input step* en Jenkins como *environment protection* en GitHub para cumplir las políticas de cambio, trazabilidad y auditoría.
+
+- **Rollback automático:**  
+  Si alguna prueba falla, un *health probe* se degrada o un *SLO* monitoreado por **Prometheus** se viola, Jenkins ejecuta automáticamente `kubectl rollout undo`, restaurando la última versión estable en segundos.
+
+**Flujo del Pipeline de Despliegue**
+| Stage | Descripción | Verificaciones | Herramientas | Resultado Esperado |
+|:------|:-------------|:---------------|:--------------|:-------------------|
+| **dev-deploy** | Despliegue inicial del contenedor de Dentify sobre el clúster de desarrollo. Se valida la integridad del build y la disponibilidad del servicio. | - Pruebas smoke (Postman/Newman) < 90 s<br>- Verificación de health endpoint `/actuator/health` | Jenkins, Helm, Docker, Kubernetes | Imagen desplegada correctamente en entorno `dev` |
+| **qa-deploy** | Requiere aprobación del QA Lead. Despliegue automático en entorno de pruebas y ejecución de pruebas funcionales completas. | - Suite de pruebas Cypress (frontend) y JUnit/Testcontainers (backend)<br>- Análisis de cobertura ≥ 80 % | Jenkins, Helm, Cypress, JUnit, SonarQube | Validación funcional y de calidad superada |
+| **staging-canary** | Despliegue canario gradual en entorno staging con monitoreo activo. | - Tráfico 10 % → 50 % → 100 % (pausas de 15 min)<br>- Monitoreo de métricas y logs con Prometheus y Grafana<br>- Rollback automático si algún SLO se viola | Jenkins, Helm, Prometheus, Grafana | Validación de comportamiento en producción controlada |
+| **prod-approval** | Gate manual de aprobación antes de producción. Revisión de métricas, logs y resultados de staging. | - Revisión por DevOps Lead y Product Owner<br>- Validación del *change record* en GitHub Environment `production` | Jenkins, GitHub Environments | Autorización de despliegue en producción |
+| **prod-blue-green** | Despliegue *blue-green* en producción. La nueva versión se levanta como `green` sin tráfico inicial. | - Smoke tests automáticos<br>- Observación por 30 min<br>- Cambio gradual de tráfico 0 % → 100 %<br>- Retención del entorno `blue` por 1 hora para rollback rápido | Jenkins, Helm, Kubernetes, Prometheus | Versión estable promovida a producción |
+| **post-deploy** | Actividades posteriores al despliegue y monitoreo continuo. | - Creación de tag `prod-vX.Y.Z` en GitHub<br>- Activación de *feature flags* en Unleash (100 % rollout)<br>- Publicación automática de métricas DORA y logs en canal `#devops` de Slack | Jenkins, GitHub CLI, Unleash, Slack Webhook | Monitoreo activo y trazabilidad de despliegue completada |
+
+**Resutado del proceso**
+
+El pipeline de Continuous Deployment de *Dentify* asegura que cada versión liberada cumpla con estándares de calidad, seguridad y confiabilidad, minimizando el riesgo de interrupciones en el servicio odontológico digital.  
+El uso combinado de Helm, Jenkins, Prometheus y GitHub Environments permite mantener control total sobre el ciclo de promoción, garantizando que los despliegues sean repetibles, auditables y reversibles en cualquier punto del flujo.
+
+![back.png](Img/7.2.2assets.png)
 
 ## 7.3. Continuous deployment
 
+En el contexto de Dentify, la práctica de Continuous Deployment (CDp) garantiza que cada cambio validado en el pipeline de integración continua llegue automáticamente a producción sin intervención manual. A diferencia de Continuous Delivery, donde el despliegue requiere aprobación humana, en este enfoque cada commit que supera las etapas de compilación, pruebas unitarias, integración, análisis estático y empaquetado se promueve directamente al entorno productivo.
+El orquestador principal es el Multibranch Pipeline de Jenkins, configurado para ejecutar automáticamente el stage deploy-prod al aprobarse la rama principal (main). Este proceso asegura una entrega fluida, repetible y trazable del backend, frontend y aplicaciones móviles de Dentify.
+La automatización está reforzada por pruebas post-deploy, monitoreo activo y políticas de rollback inmediato que minimizan el impacto ante fallos.
+ El objetivo central es reducir el lead time desde la idea hasta la entrega de valor, permitiendo detectar y corregir errores en cuestión de minutos, manteniendo la disponibilidad y la calidad de la experiencia de los usuarios finales.
+
 ### 7.3.1. Tools and Practices.
 
+Para mantener un proceso de despliegue continuo hasta el entorno de producción, es necesario disponer de un conjunto de herramientas y prácticas que aseguren la calidad y estabilidad del sistema en todas sus etapas.
+
+En este proyecto, se establecerá una infraestructura centrada en Jenkins, que actúa como el núcleo de automatización y coordinación de los distintos componentes del flujo de trabajo. A continuación, se describen las herramientas y practicas a utilizar:
+
+* **Sistema de Control de Versiones (Git):** Se utiliza Git como herramienta principal para el control de versiones, permitiendo llevar un seguimiento detallado del código fuente, gestionar ramas de desarrollo y facilitar la colaboración entre los miembros del equipo.
+
+
+* **Automatización de Pruebas (JUnit y Mockito):** Se realizan pruebas automatizadas, incluyendo pruebas unitarias y de integración, con el fin de asegurar que cada cambio en el código mantenga la calidad requerida antes del despliegue. Estas pruebas serán ejecutadas automáticamente dentro del pipeline gestionado por Jenkins.
+
+
+* **Entornos de Desarrollo y Pruebas:** Se dispondrá de entornos que replican las condiciones del entorno de producción. Esto permite validar el comportamiento del sistema en escenarios controlados, reduciendo riesgos e imprevistos durante el despliegue final.
+
+
+* **Pipeline de Despliegue Automatizado (Jenkins):** Se implementará un pipeline de Integración y Despliegue Continuo (CI/CD) mediante Jenkins, que automatiza las fases de compilación, ejecución de pruebas y despliegue en entornos de preproducción y producción. Este enfoque asegura entregas rápidas, consistentes y trazables.
+
 ### 7.3.2. Production Deployment Pipeline Components.
+
+El Production Deployment Pipeline representa la secuencia automatizada de procesos que permiten llevar una aplicación desde su entorno de desarrollo hasta su despliegue en producción de forma segura, eficiente y controlada
+
+A continuación se describen los pasos que conforman este pipeline:
+
+* **Gestion del código fuente:** El proyecto se gestiona en un repositorio de GitHub, donde cada commit o merge a la rama main activa automáticamente la ejecución del pipeline en Jenkins, clonando el repositorio.
+
+
+* **Compilación del Proyecto:** Jenkins realiza el proceso de compilación utilizando Maven, resolviendo las dependencias declaradas en el backend de SpringBoot, y genera archivos ejecutables listos para ser implementados.
+
+
+* **Validación Automatizada:** Jenkins realiza la ejecución de las pruebas unitarias e integrales con JUnit y Mockito para verificar la funcionalidad del sistema. Si alguna prueba falla, el pipeline se detiene y se comunica al equipo de desarrollo.
+
+
+* **Despliegue a Producción:** Una vez validados los pasos previos, Jenkins procede a realizar el despliegue del sistema en el entorno de producción.
 
 
 # Conclusiones
