@@ -4869,6 +4869,7 @@ Osiptel. (2022). Los servicios de telecomunicaciones en los hogares peruanos: En
 | Descripción                          | Enlace                                                                 |
 |--------------------------------------|------------------------------------------------------------------------|
 | Repositorio de Aplicación Móvil      | [GitHub - MobileApp](https://github.com/ClinicCode/dentify-app-mobile) |
+| Despliegue de Aplicación Web         | [Aop Web Deploy](https://dentify-2025.web.app/) |
 | Repositorio de Landing Page          | [GitHub - LandingPage](https://github.com/ClinicCode/dentify-landing-page) |
 | Despliegue de Landing Page           | [Landing Page Deploy](s) |
 | Repositorio de Web Service           | [GitHub - BackEnd](https://github.com/ClinicCode/dentify-backend) |
