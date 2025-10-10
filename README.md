@@ -4873,7 +4873,7 @@ Osiptel. (2022). Los servicios de telecomunicaciones en los hogares peruanos: En
 | Despliegue de Landing Page           | [Landing Page Deploy](s) |
 | Repositorio de Web Service           | [GitHub - BackEnd](https://github.com/ClinicCode/dentify-backend) |
 | Despliegue de Web Service            | [Swagger UI](https://dentify-f0gdbubtaafmdfg9.canadacentral-01.azurewebsites.net/swagger-ui/index.html)|
-| Organización de GitHub               | [TF-AplicacionesMoviles](https://github.com/ClinicCode) |
+| Organización de GitHub               | [TF-Clinic Code](https://github.com/ClinicCode) |
 
 
 ---
