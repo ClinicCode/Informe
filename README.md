@@ -67,10 +67,11 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
 # Project Report Collaboration Insights
 ---
 
-URL del repositorio para el reporte del proyecto:asdasdasd
-<img>
+URL del repositorio para el reporte del proyecto: **https://github.com/ClinicCode**
 
-TB1:
+![Repositorio](Img/Repository.png)
+
+**TB1:**
 
 Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
 
@@ -82,9 +83,27 @@ Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la im
 | Cutiri Agüero, Fabrizio Alexander | Lean UX, User Stories, NeedFinding, Elaboración de PPT |
 | Berrocal Ramirez, Omar Christian | Antecedentes y problemática, User and Technical Stories, Product Backlog, Capítulo IV: Solution Software Design, Elaboración de primera versión del BackEnd |
 
+
+**TB2:**
+
+Para el desarrollo del informe perteneciente a la entrega TB2, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
+
+| Integrante                            | Tareas Asignadas                                                                                                                 |
+|---------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
+| Aponte Cruzado, Andrea Marielena      | Correcion de errores del reporte, Implemented Native mobile application evidence, Tools and practices                            |
+| Belahonia Miranda, Fabrisio           | Sprint Backlog, Core behavior-driver development, Product Backlog, Tools and Practices, Build and test suite, Elaboración de PPT |
+| Bohorquez Lerzundi, Gerardo Sebastian | Acuerdo de servicios, Core integration tests, Stages development, Continuous development                                         |
+| Cutiri Agüero, Fabrizio Alexander     | Application Evidence, Core entities unit test, tools and practices, production deployment pipeline                               |
+| Berrocal Ramirez, Omar Christian      | Collaboration insights, Core system tests                                                                                        |
+
+
 # GitHub Collaboration Insights
 
 GitHub también presenta un timeline de las ramas principales y los procesos de merge a los que se han sometido. Todas las ramas se crearon tomando en cuenta el diseño de GitFlow para una buena organización cuando se usa un software de control de versiones.
+
+![TB1 Commits](Img/TB1-Commits.png)
+
+![Network](Img/Network-TB1.png)
 
 Los integrantes son:
 
