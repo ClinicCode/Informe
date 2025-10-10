@@ -4473,17 +4473,6 @@ En esta sección se incluyen capturas de la **documentación de la API RESTful**
 
 ### 7.1.1. Tools and Practices.
 
-
-Perfecto.
-Aquí tienes el texto completamente adaptado para tu proyecto **Dentify**, manteniendo el tono técnico, formal y estructurado del original, pero contextualizado a un entorno **Java 22 + Spring Boot** orientado a **gestión odontológica**.
-Está listo para insertar directamente en tu documento Markdown bajo la sección **“Continuous Integration – Tools and Practices”**.
-
----
-
-### 6.1.4. Continuous Integration
-
-#### Tools and Practices
-
 La práctica de **Continuous Integration (CI)** en **Dentify** consiste en integrar con la mayor frecuencia posible los cambios realizados por los desarrolladores en la rama principal del repositorio —generalmente **main**—, verificando de forma automática que dichas modificaciones mantengan la **calidad**, **seguridad** y **funcionalidad** del sistema.
 
 Al automatizar los procesos de compilación, ejecución de pruebas y análisis de código, CI proporciona un **ciclo de retroalimentación rápido**, reduce la acumulación de defectos y fomenta una cultura de **mejora continua y entrega confiable**.
