@@ -4595,7 +4595,7 @@ Este caso valida que el módulo de pacientes de **Dentify** garantiza una gesti�
 * **Hibernate ORM** → Para la persistencia y trazabilidad de las operaciones sobre la base de datos durante las pruebas.
 
 
-![CoreBehavior.jpge](Img/CoreBehavior.jpge)
+![CoreBehavior.jpeg](Img/CoreBehavior.jpeg)
 
 
 
