@@ -245,7 +245,7 @@ Los integrantes son:
 - [Anexos](#anexos-1)
 
 
-# Student Outcome
+# ABET - EAC- Student Outcome 4 
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |----|----|----|
