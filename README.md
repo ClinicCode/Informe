@@ -4687,12 +4687,16 @@ Este caso valida que el módulo de pacientes de **Dentify** garantiza una gesti�
 
 
 ![CoreBehavior.jpeg](Img/CoreBehavior.jpeg)
-
-
-
-
     
 ### 6.1.4. Core System Tests.
+
+Prueba de sistema de flujo completo de un usuario.  
+Empieza por el registro, login y luego valida la actualización de datos.  
+Este test valida la respuesta de los *Endpoints* llamados desde las aplicaciones web y mobile.
+
+![chapter6.1.4-1.jpeg](Img/chapter6.1.4-1.jpeg)  
+![chapter6.1.4-2.jpeg](Img/chapter6.1.4-2.jpeg)  
+![chapter6.1.4-3.jpeg](Img/chapter6.1.4-3.jpg)
 
 
 # Capítulo VII: DevOps Practices
