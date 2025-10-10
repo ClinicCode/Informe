@@ -4697,7 +4697,7 @@ Este test valida la respuesta de los *Endpoints* llamados desde las aplicaciones
 ![chapter6.1.4-1.jpeg](Img/chapter6.1.4-1.jpeg)  
 ![chapter6.1.4-2.jpeg](Img/chapter6.1.4-2.jpeg)  
 ![chapter6.1.4-3.jpeg](Img/chapter6.1.4-3.jpg)
-![chapter6.1.4-4.jpeg](Img/chapter6.1.4-4.jpg)
+![chapter6.1.4-4.jpeg](Img/chapter6.1.4-4.jpeg)
 
 # Capítulo VII: DevOps Practices
 
