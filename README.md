@@ -4484,7 +4484,159 @@ En esta sección se incluyen capturas de la **documentación de la API RESTful**
 
 ### 7.1.1. Tools and Practices.
 
+
+Perfecto.
+Aquí tienes el texto completamente adaptado para tu proyecto **Dentify**, manteniendo el tono técnico, formal y estructurado del original, pero contextualizado a un entorno **Java 22 + Spring Boot** orientado a **gestión odontológica**.
+Está listo para insertar directamente en tu documento Markdown bajo la sección **“Continuous Integration – Tools and Practices”**.
+
+---
+
+### 6.1.4. Continuous Integration
+
+#### Tools and Practices
+
+La práctica de **Continuous Integration (CI)** en **Dentify** consiste en integrar con la mayor frecuencia posible los cambios realizados por los desarrolladores en la rama principal del repositorio —generalmente **main**—, verificando de forma automática que dichas modificaciones mantengan la **calidad**, **seguridad** y **funcionalidad** del sistema.
+
+Al automatizar los procesos de compilación, ejecución de pruebas y análisis de código, CI proporciona un **ciclo de retroalimentación rápido**, reduce la acumulación de defectos y fomenta una cultura de **mejora continua y entrega confiable**.
+
+En el contexto del proyecto **Dentify**, desarrollado con **Java 22 y Spring Boot**, la integración continua actúa como un **mecanismo preventivo** ante vulnerabilidades, fallos lógicos y problemas de compatibilidad entre módulos del sistema (como gestión de citas, pacientes y autenticación).
+
+Con este propósito, se implementó un pipeline de CI que cubre todas las fases —desde el **commit** hasta la generación del **artefacto contenedor**—, priorizando los siguientes objetivos:
+
+* **Reproducibilidad:** builds deterministas con dependencias declaradas y entornos estandarizados.
+* **Seguridad temprana (shift left):** detección de vulnerabilidades en código y librerías antes de llegar a producción.
+* **Velocidad y visibilidad:** ejecución paralela de jobs, caché de dependencias y métricas disponibles en tiempo real.
+* **Artefactos listos para CD:** imágenes Docker firmadas y versionadas, listas para despliegue en entornos sucesivos (dev → qa → prod).
+
+A continuación, se describen las herramientas y buenas prácticas adoptadas dentro del pipeline de **Integración Continua de Dentify**.
+
+
+
+#### Control de versiones – Git + GitHub
+
+El código fuente de **Dentify** se gestiona mediante **Git** bajo una estrategia de ramas cortas derivadas de `main`. Cada modificación se versiona y audita (historial, diferencias, autores) garantizando trazabilidad completa.
+
+En **GitHub**, se implementan **Pull Requests** con revisiones obligatorias, políticas de rama y protección de merges.
+Cada push o PR desencadena automáticamente la ejecución del pipeline CI a través de **webhooks**, asegurando que toda contribución sea verificada antes de integrarse a la rama principal.
+
+![github.png](Img/github.png)
+
+
+
+#### Orquestador CI – GitHub Actions
+
+El pipeline de **Dentify** se orquesta mediante **GitHub Actions**, utilizando workflows definidos en YAML directamente dentro del repositorio.
+Los **runners hospedados** ejecutan los jobs en entornos preconfigurados con **JDK 22**, permitiendo paralelizar tareas como compilación, pruebas y análisis de calidad.
+
+Los disparadores `on: [push, pull_request]` garantizan que cada commit genere un build reproducible y resultados inmediatos.
+Además, el uso de **cachés de Maven** reduce significativamente los tiempos de compilación en ejecuciones sucesivas.
+
+
+
+#### Build & Dependency Management – Maven
+
+El proyecto se compila y empaqueta mediante **Maven**, utilizando el comando `mvn -B verify` para validar la build completa.
+Se emplean **toolchains** que fijan la versión exacta de JDK, asegurando que tanto los entornos locales como los runners utilicen configuraciones idénticas.
+
+El archivo **pom.xml** declara versiones explícitas de dependencias, garantizando **builds deterministas** y permitiendo auditorías de licencias, vulnerabilidades o incompatibilidades.
+
+![maven.png](Img/maven.png)
+
+
+#### Pruebas automatizadas – JUnit 5 + Mockito
+
+El pipeline ejecuta **pruebas unitarias** y **de integración** como parte del proceso CI:
+
+* **JUnit 5** y **Mockito** se utilizan para pruebas unitarias en memoria, enfocadas en lógica de negocio (autenticación, gestión de citas, validaciones de pacientes).
+* En un job independiente, se ejecutan pruebas de integración mediante **Testcontainers**, levantando servicios reales como **PostgreSQL** o **RabbitMQ** en contenedores efímeros.
+
+Se establece un **umbral mínimo de cobertura del 80 %**, y las pruebas más lentas se etiquetan con `@Tag("slow")` para permitir paralelización sin afectar el tiempo total del pipeline.
+
+![unit.png](Img/unit.png)
+
+
+#### Análisis de código – SonarQube + Checkstyle
+
+La calidad del código se evalúa mediante **SonarQube**, que centraliza métricas sobre code smells, duplicaciones y vulnerabilidades.
+El job “**Quality Gate**” impide que los merges continúen si se detectan issues de severidad *blocker* o *critical*.
+
+Como medidas complementarias:
+
+* **Checkstyle** verifica el cumplimiento de las normas de estilo.
+* **PMD** detecta patrones de código potencialmente inseguros.
+* **SpotBugs** analiza defectos de ejecución.
+
+Aplicar la política de **fail-fast** en esta etapa evita la acumulación de deuda técnica y promueve la calidad continua del código.
+
+ 
+![sonarqube.png](Img/sonarqube.png)
+
+
+#### Escaneo de dependencias
+
+Cada ejecución del pipeline realiza un escaneo de **vulnerabilidades (CVE)** sobre el árbol de dependencias Maven.
+Si se detecta una librería afectada, la build falla automáticamente y se adjunta un reporte detallado al Pull Request, evitando que código inseguro llegue a producción.
+
+Esta práctica se alinea con el principio de **seguridad desde el diseño (Security by Design)**, priorizando la detección temprana de riesgos.
+
+
+
+#### Empaquetado y contenedores
+
+Una vez superadas las pruebas y validaciones, el sistema **Dentify** se empaqueta dentro de una **imagen Docker multi-arquitectura (amd64/arm64)** utilizando **Buildx**.
+Las imágenes se etiquetan con un esquema de **versionado semántico** y el hash corto del commit (por ejemplo, `v1.3.0-gabcdef`).
+
+Se aplican buenas prácticas como:
+
+* Uso de **imágenes base inmutables** y usuarios **no root**.
+* Ejecución de `docker scan` para verificar vulnerabilidades en las capas base.
+
+De esta forma, se obtiene un artefacto seguro, portable y listo para despliegue en entornos de Continuous Delivery (CD).
+
+![docker.png](Img/docker.png)
+
+
+#### Registro de artefactos
+
+Las imágenes Docker y los archivos `.jar` firmados se publican en un **registro privado** de contenedores, desde donde se promueven entre los distintos entornos (**desarrollo → QA → staging → producción**) sin necesidad de reconstrucción.
+
+Se aplica una política de retención automática para eliminar versiones obsoletas, y las imágenes se **firman digitalmente con Cosign** para garantizar su **integridad y autenticidad**.
+
+
+
+#### Feedback y reporting
+
+El pipeline de **Dentify** incluye mecanismos de visibilidad y retroalimentación continua:
+
+* **Badges de estado** de build y cobertura se muestran en el `README.md`.
+* Cada ejecución del pipeline notifica al canal `#devops` con duración, resultado y métricas de rendimiento (**DORA Metrics**: frecuencia de despliegue, MTTR y ratio de fallos).
+
+Esta transparencia fomenta la cultura **DevOps** dentro del equipo, facilitando una detección temprana de errores y una mejora continua en la calidad del software.
+
+
+
+
 ### 7.1.2. Build & Test Suite Pipeline Components.
+
+
+Una vez que el pipeline de **Integración Continua (CI)** se activa, la primera responsabilidad es transformar el código fuente de **Dentify** en un artefacto confiable, verificable y listo para despliegue.  
+
+Para lograrlo, se orquesta una secuencia de pasos que **compila, prueba, analiza, escanea y empaqueta** la aplicación antes de publicarla en el registro de artefactos.  
+Cada fase del proceso está diseñada para **detectar errores lo más pronto posible** —desde fallos lógicos o violaciones de estilo hasta vulnerabilidades de seguridad—, garantizando que la imagen resultante sea **segura, reproducible e inmutable**.  
+
+A continuación se describe, paso a paso, esta “línea de montaje” de construcción y pruebas implementada en **Dentify**.
+
+| **Paso** | **Qué ocurre** | **Herramientas** | **Resultado** |
+|-----------|----------------|------------------|----------------|
+| **A – Compilación determinista** | El código fuente del sistema (módulos de autenticación, gestión de pacientes, gestión de citas, etc.) se compila con Maven en modo batch utilizando la versión de **JDK 22** definida en `toolchains.xml`. | Maven 3.9, Temurin JDK 22 | Artefacto **fat-JAR reproducible y firmado** (GPG). |
+| **B – Pruebas unitarias** | Se validan las reglas de negocio y la lógica de dominio (registro de odontólogos, validaciones de citas, operaciones CRUD de pacientes) en memoria. Las pruebas se ejecutan en paralelo para mantener el ciclo de retroalimentación por debajo de 90 segundos. | JUnit 5, Mockito, JaCoCo | **Cobertura ≥ 80 %** y badge de cobertura actualizado en el README. |
+| **C – Pruebas de integración** | Se levantan servicios reales —como **PostgreSQL** o **RabbitMQ**— en contenedores efímeros para verificar la correcta interacción entre las capas de la aplicación y la configuración de Spring. | Testcontainers, Spring Boot Test | Validación completa de la interacción entre componentes del sistema y configuración del contexto Spring. |
+| **D – Análisis estático** | Se analizan el código y las dependencias en busca de vulnerabilidades, code smells y violaciones de estilo. El **Quality Gate** bloquea automáticamente los merges si se detectan issues *blocker* o *critical*. | SonarQube, Checkstyle, PMD, SpotBugs | Informe detallado en el Pull Request; la build se marca como fallida si el gate no se supera. |
+| **E – Escaneo de vulnerabilidades (CVEs)** | Se examinan todas las dependencias declaradas en `pom.xml` y las capas base del contenedor para detectar vulnerabilidades conocidas. | OWASP Dependency-Check, Snyk CLI, docker scan | Reporte de CVEs; la build se marca como **Failed** si existen vulnerabilidades de severidad alta. |
+| **F – Empaquetado Docker** | Se construye una imagen **multi-arch (amd64/arm64)** utilizando Buildx, ejecutando el JAR principal bajo un usuario **no root** y aplicando buenas prácticas para reducir la superficie de ataque. | Docker + Buildx, Jib (opcional) | Imagen **versionada** `dentify-backend:vX.Y.Z-<sha>` y **firmada con Cosign**. |
+| **G – Publicación en el registro de artefactos** | La imagen Docker y los JAR firmados se publican en un **registro privado de GitHub Packages** para su promoción entre entornos (dev → qa → staging → prod). Se aplica una **retention policy** automática para limpiar versiones obsoletas. | GitHub CLI, mvn deploy, Cosign | Artefactos **inmutables y verificados**, listos para la fase de **Continuous Delivery (CD)**. |
+| **H – Reportes y notificación** | Se generan automáticamente **badges de estado** (build, cobertura) en el README y se envían notificaciones al canal `#devops` con métricas DORA (tiempo de build, éxito del pipeline, MTTR). | GitHub Actions badges, Slack/Teams Webhook | **Transparencia total** y **alerta temprana** ante fallos o degradación del pipeline. |
+
 
 ## 7.2. Continuous Delivery
 
