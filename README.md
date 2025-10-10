@@ -4529,6 +4529,78 @@ Estas pruebas son fundamentales porque:
 
 ### 6.1.2. Core Integration Tests.
 ### 6.1.3. Core Behavior-Driven Development
+
+
+Con el objetivo de validar el comportamiento esperado del sistema **Dentify** desde la perspectiva del **usuario final**, se desarrollaron escenarios de prueba utilizando **Behavior-Driven Development (BDD)**, mediante la sintaxis **Gherkin** e implementación con **Cucumber**.
+
+Las funcionalidades definidas corresponden a tres flujos esenciales del sistema:
+
+* **Autenticación y Usuario**
+* **Gestión de Citas**
+* **Gestión de Pacientes**
+
+Cada flujo representa un proceso clave dentro de la operación del consultorio odontológico digital, garantizando la coherencia entre la experiencia del usuario y la lógica de negocio implementada.
+
+
+#### Escenario probado 1: Autenticación y Usuario
+
+La funcionalidad validada corresponde al flujo de autenticación básica del sistema, cubriendo el registro, inicio de sesión y posterior acceso a las funcionalidades internas de la aplicación.
+
+Este escenario simula una experiencia realista de un odontólogo desde su primer contacto con la plataforma, verificando que pueda registrarse correctamente, autenticarse y acceder al entorno principal del sistema.
+
+En la ejecución se evidenció que:
+
+* Se ejecutaron correctamente todos los pasos definidos en el feature.
+* El escenario pasó sin errores (1 escenario ejecutado – 1 escenario aprobado).
+* Los logs de **Hibernate** mostraron operaciones reales sobre la base de datos (**insert** y **select**), demostrando la correcta interacción con el entorno de prueba.
+
+Este caso garantiza que el proceso de autenticación sea confiable, fluido y seguro, cumpliendo con las políticas de acceso definidas en Dentify.
+
+
+#### Escenario probado 2: Gestión de Citas
+
+La funcionalidad probada cubre el flujo completo de administración de citas, incluyendo la visualización, registro, edición y restricción de modificación de citas pasadas.
+
+El escenario reproduce el comportamiento esperado de un odontólogo autenticado gestionando su agenda diaria, asegurando la integridad de los datos y el cumplimiento de las reglas de negocio.
+
+Durante la prueba se observó que:
+
+* Se ejecutaron satisfactoriamente todos los pasos del escenario.
+* El sistema realizó operaciones **insert**, **update**, **select** y **delete** sobre la base de datos, verificadas mediante logs de **Hibernate**.
+* Los resultados demostraron que la aplicación responde adecuadamente a cada acción del usuario, mostrando mensajes de validación y actualizando la interfaz en tiempo real.
+
+Con este escenario se valida que el módulo de citas funciona de manera estable, brindando una experiencia de uso coherente y eficaz para el personal odontológico.
+
+
+#### Escenario probado 3: Gestión de Pacientes
+
+La funcionalidad evaluada se centra en la administración de pacientes, abarcando la visualización, registro, edición y eliminación de registros en el sistema.
+
+El objetivo principal fue comprobar que las operaciones realizadas desde la interfaz del odontólogo se reflejen correctamente en la base de datos y que los cambios se mantengan consistentes durante todo el proceso.
+
+En la ejecución se confirmó que:
+
+* Todos los pasos definidos en el feature fueron ejecutados exitosamente.
+* El escenario pasó sin errores (1 escenario ejecutado – 1 escenario aprobado).
+* Las operaciones **insert**, **update**, **delete** y **select** se realizaron correctamente, reflejando un flujo de interacción estable entre el sistema y la base de datos.
+
+Este caso valida que el módulo de pacientes de **Dentify** garantiza una gestión confiable de la información clínica y administrativa, asegurando la integridad de los datos registrados.
+
+
+
+#### Herramientas utilizadas
+
+* **Gherkin / Cucumber** → Para la definición y ejecución de los escenarios BDD.
+* **Spring Boot + JUnit + H2 Database** → Para la ejecución controlada de los pasos de prueba en un entorno aislado.
+* **Hibernate ORM** → Para la persistencia y trazabilidad de las operaciones sobre la base de datos durante las pruebas.
+
+
+![CoreBehavior.jpge](Img/CoreBehavior.jpge)
+
+
+
+
+    
 ### 6.1.4. Core System Tests.
 ### 6.2. Static Testing & Verification
 #### 6.2.1. Static Code Analysis
