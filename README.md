@@ -144,9 +144,6 @@ Los integrantes son:
       - [4.1.3.2. Android Mobile Style Guidelines](#4132-android-mobile-style-guidelines)
   - [4.2. Information Architecture](#42-information-architecture)
     - [4.2.1. Organization Systems](#421-organization-systems)
-      - [Categorización del Contenido](#categorización-del-contenido)
-      - [Secuencia de Contenidos](#secuencia-de-contenidos)
-      - [Agrupación de Funcionalidades](#agrupación-de-funcionalidades)
     - [4.2.2. Labeling Systems](#422-labeling-systems)
     - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
     - [4.2.4. Searching Systems](#424-searching-systems)
@@ -197,25 +194,6 @@ Los integrantes son:
     - [6.1.2. Core Integration Tests](#612-core-integration-tests)
     - [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)
     - [6.1.4. Core System Tests](#614-core-system-tests)
-  - [6.2. Static Testing & Verification](#62-static-testing--verification)
-    - [6.2.1. Static Code Analysis](#621-static-code-analysis)
-      - [6.2.1.1. Coding Standard & Code Conventions](#6211-coding-standard--code-conventions)
-      - [6.2.1.2. Code Quality & Code Security](#6212-code-quality--code-security)
-    - [6.2.2. Reviews](#622-reviews)
-  - [6.3. Validation Interviews](#63-validation-interviews)
-    - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
-    - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
-    - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
-  - [6.4. Auditoría de Experiencias de Usuario](#64-auditoría-de-experiencias-de-usuario)
-    - [6.4.1. Auditoría realizada](#641-auditoría-realizada)
-      - [6.4.1.1. Información del grupo auditado](#6411-información-del-grupo-auditado)
-      - [6.4.1.2. Cronograma de auditoría realizada](#6412-cronograma-de-auditoría-realizada)
-      - [6.4.1.3. Contenido de auditoría realizada](#6413-contenido-de-auditoría-realizada)
-    - [6.4.2. Auditoría recibida](#642-auditoría-recibida)
-      - [6.4.2.1. Información del grupo auditor](#6421-información-del-grupo-auditor)
-      - [6.4.2.2. Cronograma de auditoría recibida](#6422-cronograma-de-auditoría-recibida)
-      - [6.4.2.3. Contenido de auditoría recibida](#6423-contenido-de-auditoría-recibida)
-      - [6.4.2.4. Resumen de modificaciones para subsanar hallazgos](#6424-resumen-de-modificaciones-para-subsanar-hallazgos)
 - [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)
   - [7.1. Continuous Integration](#71-continuous-integration)
     - [7.1.1. Tools and Practices](#711-tools-and-practices)
@@ -4577,27 +4555,6 @@ Este caso valida que el módulo de pacientes de **Dentify** garantiza una gesti�
 
     
 ### 6.1.4. Core System Tests.
-### 6.2. Static Testing & Verification
-#### 6.2.1. Static Code Analysis
-##### 6.2.1.1. Coding Standard & Code Conventions
-##### 6.2.1.2. Code Quality & Code Security
-#### 6.2.2. Reviews
-
-### 6.3. Validation Interviews
-#### 6.3.1. Diseño de Entrevistas
-#### 6.3.2. Registro de Entrevistas
-#### 6.3.3. Evaluaciones según heurísticas
-
-### 6.4. Auditoría de Experiencias de Usuario
-#### 6.4.1. Auditoría realizada
-##### 6.4.1.1. Información del grupo auditado
-##### 6.4.1.2. Cronograma de auditoría realizada
-##### 6.4.1.3. Contenido de auditoría realizada
-#### 6.4.2. Auditoría recibida
-##### 6.4.2.1. Información del grupo auditor
-##### 6.4.2.2. Cronograma de auditoría recibida
-##### 6.4.2.3. Contenido de auditoría recibida
-##### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos
 
 
 # Conclusiones
