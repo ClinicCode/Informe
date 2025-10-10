@@ -2583,66 +2583,38 @@ Entonces el sistema debe mostrar la página principal de la aplicación, validan
 
 ## 3.3. Product Backlog
 
-| #Orden | ID   | User Story                                                                      | Story Points |
-|:-------|:-----|:--------------------------------------------------------------------------------|:-------------|
-| 01     | SS01 | Investigar uso de Mockito para pruebas unitarias                                | 8            |
-| 02     | SS02 | Investigar el uso de Selenium para pruebas automatizadas                        | 8            |
-| 03     | US05 | Añadir citas                                                                    | 8            |
-| 04     | US04 | Editar Citas                                                                    | 8            |
-| 05     | US06 | Eliminar Cita                                                                   | 8            |
-| 06     | US11 | Mostrar Pacientes                                                               | 8            |
-| 07     | US12 | Añadir Pacientes                                                                | 8            |
-| 08     | US13 | Editar Pacientes                                                                | 8            |
-| 09     | US16 | Añadir Historial Clínico                                                        | 8            |
-| 10     | US19 | Visualizar Inventario                                                           | 8            |
-| 11     | US20 | Añadir objeto al inventario                                                     | 8            |
-| 12     | US21 | Editar objeto del inventario                                                    | 8            |
-| 13     | US22 | Eliminar objeto del inventario                                                  | 8            |
-| 14     | US25 | Registrar cantidad consumida de ítems                                           | 8            |
-| 15     | TS01 | Implementar endpoint para crear un ítem de inventario                           | 8            |
-| 16     | TS02 | Implementar endpoint para actualizar un ítem de inventario                      | 8            |
-| 17     | TS03 | Implementar endpoint para eliminar un ítem de inventario                        | 8            |
-| 18     | TS04 | Implementar endpoint para obtener un ítem de inventario por ID                  | 8            |
-| 19     | TS05 | Implementar endpoint para obtener todos los ítems de inventario de un usuario   | 8            |
-| 20     | TS06 | Implementar endpoint para crear un paciente                                     | 8            |
-| 21     | TS07 | Implementar endpoint para actualizar un paciente                                | 8            |
-| 22     | TS08 | Implementar endpoint para eliminar un paciente                                  | 8            |
-| 23     | TS11 | Implementar endpoint para añadir una historia clínica a un paciente             | 8            |
-| 24     | TS12 | Implementar endpoint para obtener historias clínicas por ID de paciente         | 8            |
-| 25     | TS13 | Implementar endpoint para crear una cita                                        | 8            |
-| 26     | TS14 | Implementar endpoint para actualizar una cita                                   | 8            |
-| 27     | TS15 | Implementar endpoint para eliminar una cita                                     | 8            |
-| 28     | TS18 | Implementar endpoint para obtener una cita por ID                               | 8            |
-| 29     | US03 | Mostrar Citas                                                                   | 5            |
-| 30     | US07 | Buscar Citas                                                                    | 5            |
-| 31     | US08 | Gestionar horarios de atención                                                  | 5            |
-| 32     | US09 | Pagar tratamiento                                                               | 5            |
-| 33     | US10 | Historial de pagos                                                              | 5            |
-| 34     | US14 | Eliminar Pacientes                                                              | 5            |
-| 35     | US15 | Buscar Pacientes                                                                | 5            |
-| 36     | US17 | Eliminar historial clínico                                                      | 5            |
-| 37     | US18 | Mostrar historial clínico                                                       | 5            |
-| 38     | US23 | Dashboard de inventario                                                         | 5            |
-| 39     | US24 | Guardar fecha de ajuste de inventario                                           | 5            |
-| 40     | TS09 | Implementar endpoint para obtener un paciente por ID                            |              |
-| 41     | TS10 | Implementar endpoint para obtener todos los pacientes de un usuario autenticado |              |
-| 42     | TS16 | Implementar endpoint para obtener todas las citas del usuario autenticado       |              |
-| 43     | TS17 | Implementar endpoint para obtener todas las citas de un paciente                |              |
-| 44     | TS19 | Implementar endpoint para crear una factura                                     |              |
-| 45     | TS20 | Implementar endpoint para obtener todas las facturas del usuario autenticado    |              |
-| 46     | TS21 | Implementar endpoint para obtener una factura por ID de cita                    |              |
-| 47     | US26 | Gestión del Perfil                                                              | 3            |
-| 48     | US27 | Visualización del menú principal                                                | 3            |
-| 49     | US28 | Navegación por la barra principal                                               | 3            |
-| 50     | US29 | Sección About Us                                                                | 3            |
-| 51     | US30 | Sección de Servicios                                                            | 3            |
-| 52     | US31 | Sección Contact Us                                                              | 3            |
-| 53     | US32 | Formulario de contacto                                                          | 3            |
-| 54     | US33 | Footer informativo                                                              | 3            |
-| 55     | US01 | Registrar Usuarios                                                              | 3            |
-| 56     | US02 | Iniciar Sesión                                                                  | 3            |
-| 57     | TS22 | Implementar endpoint para registrar un usuario                                  | 3            |
-| 58     | TS23 | Implementar endpoint para iniciar sesión                                        | 3            |
+
+| #Orden | ID   | Descripción  | Story Points |
+|:-------|:-----|:--------------------------------------------------|:-------------|
+| 01 | SS01 | Como desarrollador, deseo investigar el uso de **Mockito** para implementar pruebas unitarias efectivas y asegurar la calidad del código. | 8 |
+| 02 | SS02 | Como desarrollador, deseo investigar el uso de **Selenium** para automatizar pruebas de interfaz y garantizar la correcta interacción del usuario con la aplicación. | 8 |
+| 03 | US05 | Como odontólogo, deseo **añadir nuevas citas** al sistema para gestionar mi agenda de atención. | 8 |
+| 04 | US04 | Como odontólogo, deseo **editar la información de una cita existente** para corregir o actualizar datos de mis pacientes. | 8 |
+| 05 | US06 | Como odontólogo, deseo **eliminar una cita** para mantener la agenda libre de registros cancelados o duplicados. | 8 |
+| 06 | US11 | Como recepcionista, deseo **visualizar la lista de pacientes** registrados para gestionar sus atenciones. | 8 |
+| 07 | US12 | Como recepcionista, deseo **añadir nuevos pacientes** al sistema para llevar un control adecuado de sus datos. | 8 |
+| 08 | US13 | Como recepcionista, deseo **editar la información de los pacientes** para mantener los registros actualizados. | 8 |
+| 09 | US16 | Como odontólogo, deseo **añadir el historial clínico de un paciente** para registrar diagnósticos y tratamientos realizados. | 8 |
+| 10 | US19 | Como administrador, deseo **visualizar el inventario general** para conocer el stock disponible de insumos y materiales. | 8 |
+| 11 | US20 | Como administrador, deseo **añadir nuevos objetos al inventario** para mantener actualizado el registro de materiales. | 8 |
+| 12 | US21 | Como administrador, deseo **editar los datos de los objetos del inventario** para reflejar cambios o correcciones. | 8 |
+| 13 | US22 | Como administrador, deseo **eliminar objetos del inventario** cuando ya no estén disponibles o sean obsoletos. | 8 |
+| 14 | US25 | Como odontólogo, deseo **registrar la cantidad consumida de insumos** en cada tratamiento para controlar el uso de materiales. | 8 |
+| 15 | TS01 | Como desarrollador, deseo **implementar el endpoint POST /api/v1/items** para crear nuevos ítems en el inventario. | 8 |
+| 16 | TS02 | Como desarrollador, deseo **implementar el endpoint PUT /api/v1/items/{id}** para actualizar ítems existentes en el inventario. | 8 |
+| 17 | TS03 | Como desarrollador, deseo **implementar el endpoint DELETE /api/v1/items/{id}** para eliminar ítems del inventario. | 8 |
+| 18 | TS04 | Como desarrollador, deseo **implementar el endpoint GET /api/v1/items/{id}** para obtener información de un ítem específico. | 8 |
+| 19 | TS05 | Como desarrollador, deseo **implementar el endpoint GET /api/v1/items** para listar todos los ítems de inventario de un usuario. | 8 |
+| 20 | TS06 | Como desarrollador, deseo **implementar el endpoint POST /api/v1/patients** para registrar nuevos pacientes. | 8 |
+| 21 | TS07 | Como desarrollador, deseo **implementar el endpoint PUT /api/v1/patients/{id}** para actualizar la información de un paciente. | 8 |
+| 22 | TS08 | Como desarrollador, deseo **implementar el endpoint DELETE /api/v1/patients/{id}** para eliminar pacientes inactivos. | 8 |
+| 23 | TS11 | Como desarrollador, deseo **implementar el endpoint POST /api/v1/patients/{patientId}/medical-histories** para añadir historiales clínicos. | 8 |
+| 24 | TS12 | Como desarrollador, deseo **implementar el endpoint GET /api/v1/patients/{patientId}/medical-histories** para obtener los historiales clínicos de un paciente. | 8 |
+| 25 | TS13 | Como desarrollador, deseo **implementar el endpoint POST /api/v1/appointments** para crear nuevas citas. | 8 |
+| 26 | TS14 | Como desarrollador, deseo **implementar el endpoint PUT /api/v1/appointments/{appointmentId}** para actualizar citas existentes. | 8 |
+| 27 | TS15 | Como desarrollador, deseo **implementar el endpoint DELETE /api/v1/appointments/{appointmentId}** para eliminar citas registradas. | 8 |
+| 28 | TS18 | Como desarrollador, deseo **implementar el endpoint GET /api/v1/appoi**
+
 
 ## 3.4. Impact Mapping
 
