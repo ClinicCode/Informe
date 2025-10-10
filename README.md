@@ -258,59 +258,68 @@ Los integrantes son:
   </thead>
   <tbody>
     <tr>
-      <td>
-        4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software
-      </td>
+      <td>4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software</td>
       <td>
         <b>Aponte Cruzado, Andrea Marielena</b><br>
         <b>TB1:</b> Fui parte de la realización de las entrevistas al segmento objetivo y parte de la experimentación para adecuar el diseño gráfico a la web acorde con lo descrito por nuestros usuarios en las entrevistas.<br>
-        <b>TP1:</b> Participé activamente en las etapas de validación y pruebas del sistema, asegurando que los datos de los usuarios fueran tratados con confidencialidad y que la información sensible se manejara bajo buenas prácticas de seguridad. Además, reforcé la colaboración del equipo durante la fase de despliegue, priorizando la ética profesional y la calidad del producto final.<br><br>
+        <b>TP1:</b> Participé activamente en las etapas de validación y pruebas del sistema, asegurando que los datos de los usuarios fueran tratados con confidencialidad y que la información sensible se manejara bajo buenas prácticas de seguridad.<br><br>
         <b>Belahonia Miranda, Fabrisio</b><br>
-        <b>TB1:</b> Como líder del equipo asumí la responsabilidad ética y profesional en el desarrollo del proyecto, asegurando el respeto a la privacidad de los usuarios, la accesibilidad en el diseño UX/UI y la transparencia en cada etapa del Lean UX. Guié al equipo con roles claros, fomentando la colaboración y el compromiso técnico para garantizar un producto de calidad y confiable.<br>
-        <b>TP1:</b> Coordiné la validación de la arquitectura y las pruebas de integración, procurando que las decisiones técnicas mantuvieran el balance entre rendimiento, sostenibilidad y facilidad de mantenimiento. Se evaluaron riesgos económicos y se propusieron mejoras orientadas a la optimización de recursos tecnológicos y energéticos.<br><br>
+        <b>TB1:</b> Como líder del equipo asumí la responsabilidad ética y profesional en el desarrollo del proyecto, asegurando el respeto a la privacidad de los usuarios, la accesibilidad en el diseño UX/UI y la transparencia en cada etapa del Lean UX.<br>
+        <b>TP1:</b> Coordiné la validación de la arquitectura y las pruebas de integración, procurando mantener el equilibrio entre rendimiento, sostenibilidad y facilidad de mantenimiento.<br><br>
         <b>Bohorquez Lerzundi, Gerardo Sebastian</b><br>
-        <b>TB1:</b> En el proyecto mostré responsabilidad ética al aplicar Lean UX, entrevistas y análisis, asegurando un uso adecuado de la información de los usuarios. Además, en el despliegue del backend, base de datos y mobile, mantuve el compromiso profesional con la calidad y funcionamiento del sistema.<br>
-        <b>TP1:</b> Desarrollé componentes críticos del backend y participé en la validación funcional del sistema, garantizando transparencia en la gestión de datos y cumpliendo con principios éticos de desarrollo responsable.<br><br>
+        <b>TB1:</b> Apliqué Lean UX y buenas prácticas de diseño ético, asegurando un uso responsable de la información de los usuarios.<br>
+        <b>TP1:</b> Desarrollé componentes críticos del backend garantizando transparencia en la gestión de datos y principios éticos de desarrollo responsable.<br><br>
         <b>Cutiri Agüero, Fabrizio Alexander</b><br>
-        <b>TB1:</b> Redacté historias de usuario claras y realistas, asegurando que respondan a las necesidades de los usuarios finales, quienes son los odontólogos.<br>
-        <b>TP1:</b> Contribuí a la organización del backlog y validación de historias implementadas, manteniendo la trazabilidad entre requisitos y entregables técnicos, para asegurar la calidad y la coherencia ética del desarrollo.<br><br>
+        <b>TB1:</b> Redacté historias de usuario claras y trazables.<br>
+        <b>TP1:</b> Contribuí a la validación del backlog asegurando coherencia técnica y ética en el desarrollo.<br><br>
         <b>Berrocal Ramirez, Omar Christian</b><br>
-        <b>TB1:</b> Procuré adaptar el diseño del landing page, la aplicación web y mobile acorde a las necesidades de los usuarios finales para que se reflejen nuestras intenciones de manejar el proyecto de la forma más profesional posible.<br>
-        <b>TP1:</b> Supervisé la integración visual y la accesibilidad de las interfaces durante las pruebas de validación, asegurando que el diseño cumpliera con estándares éticos de usabilidad y respeto hacia los usuarios.
+        <b>TB1:</b> Adapté el diseño del landing page, web y mobile según las necesidades de los usuarios finales.<br>
+        <b>TP1:</b> Supervisé la accesibilidad y usabilidad del diseño durante las pruebas finales.
       </td>
       <td>
-        <b>TB1:</b> El proyecto se desarrolló bajo principios de responsabilidad ética y profesional, priorizando la privacidad y seguridad de los datos, la accesibilidad en el diseño UX/UI y la transparencia en los procesos mediante Lean UX. Además, se garantizó un trabajo organizado y colaborativo dentro del equipo, con roles claros y compromiso técnico, lo que permitió asegurar la calidad del producto y el respeto hacia los futuros usuarios de la aplicación.<br><br>
-        <b>TP1:</b> En la segunda fase del proyecto, el equipo mantuvo su compromiso ético y profesional, reforzando la calidad técnica y humana del producto. Se validaron los componentes del sistema garantizando la seguridad de la información, la colaboración transversal y el cumplimiento de los estándares de accesibilidad y transparencia definidos en el diseño original.
-      </td>
-    </tr>
-    <tr>
-      <td>
-        4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales
-      </td>
-      <td>
-        <b>Aponte Cruzado, Andrea Marielena</b><br>
-        <b>TB1:</b> Participé en el análisis de las entrevistas, de manera que podamos adquirir los conocimientos necesarios para el desarrollo de las características de la aplicación web, integrando características importantes para concretar un proyecto más ordenado.<br>
-        <b>TP1:</b> Durante el TP1 participé en la validación de las funcionalidades del sistema, evaluando cómo las decisiones de diseño y desarrollo influían en la experiencia de los usuarios y en la sostenibilidad del producto. Se propusieron mejoras que optimizan recursos tecnológicos y aseguran accesibilidad a largo plazo.<br><br>
-        <b>Belahonia Miranda, Fabrisio</b><br>
-        <b>TB1:</b> Como líder del equipo tomé decisiones considerando impactos sociales, económicos, globales y ambientales. Busqué que la solución generara beneficios reales para los usuarios, fuera sostenible y escalable económicamente, cumpliera estándares internacionales de diseño y contribuyera a reducir el uso de recursos físicos mediante procesos digitales.<br>
-        <b>TP1:</b> Coordiné la validación de la arquitectura y los componentes técnicos, garantizando que las decisiones de despliegue y mantenimiento favorecieran la sostenibilidad, la escalabilidad del sistema y la reducción del impacto ambiental en entornos de uso real.<br><br>
-        <b>Bohorquez Lerzundi, Gerardo Sebastian</b><br>
-        <b>TB1:</b> Aporté en el repositorio colaborativo para integrar versiones web y mobile, tomando decisiones técnicas que optimizan recursos y favorecen el trabajo en equipo. Con ello, consideré el impacto de nuestras soluciones en la productividad y accesibilidad del sistema.<br>
-        <b>TP1:</b> Durante la fase de integración continua, analicé el impacto de las decisiones de desarrollo en el consumo de recursos del sistema, promoviendo prácticas sostenibles y de eficiencia energética.<br><br>
-        <b>Cutiri Agüero, Fabrizio Alexander</b><br>
-        <b>TB1:</b> Organicé el product backlog de manera que se entreguen primero las funcionalidades de mayor impacto para los odontólogos, apoyándome en las entrevistas realizadas para tomar decisiones bien informadas.<br>
-        <b>TP1:</b> Evalué las dependencias técnicas y priorización del backlog considerando el impacto global y social de cada funcionalidad, garantizando que el desarrollo aporte valor medible a los usuarios y promueva la optimización de recursos.<br><br>
-        <b>Berrocal Ramirez, Omar Christian</b><br>
-        <b>TB1:</b> Investigué los antecedentes de la problemática para plantear una solución acorde a nuestro entorno local, analizando cómo se comporta el público objetivo en contextos globales y locales.<br>
-        <b>TP1:</b> Implementé mejoras visuales optimizando el rendimiento de carga y el consumo de datos en la aplicación, considerando el impacto ambiental y la sostenibilidad digital del sistema.
-      </td>
-      <td>
-        <b>TB1:</b> Las decisiones del proyecto se tomaron considerando impactos sociales, económicos, globales y ambientales. La solución busca mejorar la calidad de vida de los usuarios, promover la sostenibilidad y escalabilidad del modelo de negocio, cumplir con estándares internacionales de diseño y accesibilidad, y contribuir a la reducción de recursos físicos mediante la digitalización de procesos.<br><br>
-        <b>TP1:</b> En esta nueva etapa se reforzó la evaluación del impacto global de la solución, garantizando un equilibrio entre sostenibilidad, eficiencia económica y beneficio social. Se tomaron decisiones informadas respecto a arquitectura, despliegue y mantenimiento, priorizando la optimización de recursos y la responsabilidad ambiental del sistema.
+        <b>TB1:</b> El proyecto se desarrolló bajo principios de responsabilidad ética y profesional, priorizando la privacidad, seguridad, accesibilidad y transparencia.<br><br>
+        <b>TP1:</b> Se mantuvo el compromiso ético y profesional en la fase final, garantizando calidad técnica, seguridad de la información y cumplimiento de estándares de accesibilidad y transparencia.
       </td>
     </tr>
   </tbody>
 </table>
+<div style="page-break-before: always;"></div>
+<table>
+  <thead>
+    <tr>
+      <th>Criterio específico</th>
+      <th>Acciones realizadas</th>
+      <th>Conclusiones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales</td>
+      <td>
+        <b>Aponte Cruzado, Andrea Marielena</b><br>
+        <b>TB1:</b> Participé en el análisis de las entrevistas para comprender las necesidades de los usuarios y reflejarlo en el diseño del sistema.<br>
+        <b>TP1:</b> Validé funcionalidades considerando sostenibilidad y accesibilidad a largo plazo.<br><br>
+        <b>Belahonia Miranda, Fabrisio</b><br>
+        <b>TB1:</b> Tomé decisiones que consideraron impactos sociales, económicos y ambientales.<br>
+        <b>TP1:</b> Coordiné decisiones técnicas enfocadas en sostenibilidad y eficiencia.<br><br>
+        <b>Bohorquez Lerzundi, Gerardo Sebastian</b><br>
+        <b>TB1:</b> Aporté a la integración web y mobile optimizando recursos.<br>
+        <b>TP1:</b> Analicé el consumo de recursos promoviendo eficiencia energética.<br><br>
+        <b>Cutiri Agüero, Fabrizio Alexander</b><br>
+        <b>TB1:</b> Priorización del backlog según impacto funcional y social.<br>
+        <b>TP1:</b> Evalué dependencias técnicas considerando valor y sostenibilidad.<br><br>
+        <b>Berrocal Ramirez, Omar Christian</b><br>
+        <b>TB1:</b> Analicé el comportamiento del público objetivo en contextos globales y locales.<br>
+        <b>TP1:</b> Implementé optimizaciones visuales considerando impacto ambiental.
+      </td>
+      <td>
+        <b>TB1:</b> Las decisiones del proyecto se tomaron considerando impactos sociales, económicos, globales y ambientales.<br><br>
+        <b>TP1:</b> Se reforzó la evaluación del impacto global, equilibrando sostenibilidad, eficiencia económica y beneficio social, priorizando la responsabilidad ambiental.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 
 # Capítulo I: Introducción
 
