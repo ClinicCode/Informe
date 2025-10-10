@@ -122,6 +122,7 @@ Los integrantes son:
   - [2.2. Entrevistas](#22-entrevistas)
     - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
     - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+  - [Entrevista 1: Martín Salcedo](#entrevista-1-martín-salcedo)
     - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
   - [2.3. Needfinding](#23-needfinding)
     - [2.3.1. User Personas](#231-user-personas)
@@ -144,6 +145,9 @@ Los integrantes son:
       - [4.1.3.2. Android Mobile Style Guidelines](#4132-android-mobile-style-guidelines)
   - [4.2. Information Architecture](#42-information-architecture)
     - [4.2.1. Organization Systems](#421-organization-systems)
+      - [Categorización del Contenido](#categorización-del-contenido)
+      - [Secuencia de Contenidos](#secuencia-de-contenidos)
+      - [Agrupación de Funcionalidades](#agrupación-de-funcionalidades)
     - [4.2.2. Labeling Systems](#422-labeling-systems)
     - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
     - [4.2.4. Searching Systems](#424-searching-systems)
@@ -188,31 +192,22 @@ Los integrantes son:
     - [5.2.6. RESTful API documentation](#526-restful-api-documentation)
     - [5.2.7. Team Collaboration Insights](#527-team-collaboration-insights)
   - [5.3. Video About-the-Product](#53-video-about-the-product)
-- [Capítulo VI: Product Verification & Validation](#capítulo-vi-product-verification--validation)
-  - [6.1. Testing Suites & Validation](#61-testing-suites--validation)
-    - [6.1.1. Core Entities Unit Tests](#611-core-entities-unit-tests)
-    - [6.1.2. Core Integration Tests](#612-core-integration-tests)
+- [Capítulo VI: Product Verification \& Validation](#capítulo-vi-product-verification--validation)
+  - [6.1. Testing Suites \& Validation](#61-testing-suites--validation)
+    - [6.1.1. Core Entities Unit Tests.](#611-core-entities-unit-tests)
+    - [6.1.2. Core Integration Tests.](#612-core-integration-tests)
     - [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)
-    - [6.1.4. Core System Tests](#614-core-system-tests)
-- [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)
-  - [7.1. Continuous Integration](#71-continuous-integration)
-    - [7.1.1. Tools and Practices](#711-tools-and-practices)
-    - [7.1.2. Build & Test Suite Pipeline Components](#712-build--test-suite-pipeline-components)
-  - [7.2. Continuous Delivery](#72-continuous-delivery)
-    - [7.2.1. Tools and Practices](#721-tools-and-practices)
-    - [7.2.2. Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)
-  - [7.3. Continuous Deployment](#73-continuous-deployment)
-    - [7.3.1. Tools and Practices](#731-tools-and-practices)
-    - [7.3.2. Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)
-  - [7.4. Continuous Monitoring](#74-continuous-monitoring)
-    - [7.4.1. Tools and Practices](#741-tools-and-practices)
-    - [7.4.2. Monitoring Pipeline Components](#742-monitoring-pipeline-components)
-    - [7.4.3. Alerting Pipeline Components](#743-alerting-pipeline-components)
-    - [7.4.4. Notification Pipeline Components](#744-notification-pipeline-components)
-
+      - [Escenario probado 1: Autenticación y Usuario](#escenario-probado-1-autenticación-y-usuario)
+      - [Escenario probado 2: Gestión de Citas](#escenario-probado-2-gestión-de-citas)
+      - [Escenario probado 3: Gestión de Pacientes](#escenario-probado-3-gestión-de-pacientes)
+      - [Herramientas utilizadas](#herramientas-utilizadas)
+    - [6.1.4. Core System Tests.](#614-core-system-tests)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
+  - [Recursos del Proyecto](#recursos-del-proyecto)
+  - [Evidencias en Video](#evidencias-en-video)
+- [Anexos](#anexos-1)
 
 
     
@@ -4481,6 +4476,43 @@ Estas pruebas son fundamentales porque:
 * Permiten detectar errores en etapas tempranas del desarrollo, reduciendo el costo de corrección y el riesgo de fallos en producción.
 
 ### 6.1.2. Core Integration Tests.
+
+
+Para verificar el correcto funcionamiento del módulo IAM (Identity and Access Management) dentro de Dentify, se desarrolló una prueba de integración denominada registerAndLoginAndValidateTokenFlow.
+Esta prueba asegura la correcta interacción entre los componentes del contexto IAM, incluyendo la capa REST, el servicio de autenticación (AuthCommandServiceImpl), el repositorio (UserRepository), y el proveedor de tokens (JwtServiceImpl).
+
+**El flujo validado incluye:**
+
+1. Registro de un nuevo usuario
+
+- Se utiliza el endpoint POST /api/auth/register enviando un RegisterRequestResource con credenciales y datos básicos.
+
+- Se valida que la respuesta contenga un token JWT de acceso y que el campo username coincida con el usuario creado.
+
+- Se comprueba además que el usuario se haya persistido correctamente en la base de datos a través del UserRepository.
+
+2. Inicio de sesión del usuario recién creado
+
+- Se consume el endpoint POST /api/auth/login con las mismas credenciales.
+
+- Se valida que la autenticación retorne un accessToken y refreshToken válidos.
+
+- El test verifica también que el token sea correctamente generado y pueda ser validado por JwtServiceImpl.
+
+3. Validación del token JWT
+
+- Usando el accessToken obtenido, se ejecuta una llamada autenticada (simulada con MockMvc) a un endpoint protegido, por ejemplo GET /api/auth/me o similar.
+
+- Se espera una respuesta HTTP 200, demostrando que el token es aceptado por el filtro JwtAuthFilter y que el contexto de seguridad fue correctamente establecido.
+
+Codigo Test:
+
+![test1](img/test1.png)
+
+Resultado:
+
+![resulttest1](img/resulttest1.png)
+
 ### 6.1.3. Core Behavior-Driven Development
 
 
