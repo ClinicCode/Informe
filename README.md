@@ -4744,6 +4744,14 @@ Este caso valida que el módulo de pacientes de **Dentify** garantiza una gesti�
 ## 6.4. Auditoría de Experiencias de Usuario
 ### 6.4.1. Auditoría realizada.
 #### 6.4.1.1. Información del grupo auditado.
+
+Nombre del grupo: Huellitas conectadas
+Integrantes:
+Navarro Correa César Augusto
+Espinoza Saenz Christian Renato
+Payesa Torres Harrison Hubert
+Ramirez Escalante Carlo Patricio
+
 #### 6.4.1.2. Cronograma de auditoría realizada.
 #### 6.4.1.3. Contenido de auditoría realizada.
 #### 6.4.2. Auditoría recibida.
