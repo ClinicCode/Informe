@@ -5101,6 +5101,17 @@ Asimismo, cada hipótesis se complementa con su Hipótesis Nula, que establece q
 ### 8.2.4. Conditions.
 ### 8.2.5. Scale Calculations and Decisions.
 ### 8.2.6. Methods Selection.
+
+Elegimos una combinación de métodos cualitativos y cuantitativos que equilibra velocidad, costo y fiabilidad.
+
+| Método                                                                 | Prósito                                                                                   |
+|------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
+| Pruebas exploratorias internas                                         | Detectar defectos críticos (P0) que podrían afectar la validez de un experimento.         |
+| Validar escenarios operativos sin riesgo para odontólogos o pacientes. | Validar escenarios operativos sin riesgo                                                  |
+| Sesiones de uso controladas (in-situ)                                  | Observar flujos clave en contexto real de consultorio.                                    |
+| Usability Testing moderado                                             | Observar interacción real y detectar problemas de comprensión.                            |
+| A/B Testing de pequeña escala                                          | Validar rápidamente cuál variante de una interfaz o flujo mejora un comportamiento clave  |
+
 ### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection.
 ### 8.2.8. Web and Mobile Tracking Plan.
 ## 8.3. Experimentation
