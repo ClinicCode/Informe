@@ -4754,6 +4754,91 @@ Ramirez Escalante Carlo Patricio
 
 #### 6.4.1.2. Cronograma de auditoría realizada.
 #### 6.4.1.3. Contenido de auditoría realizada.
+
+### **Tareas a Evaluar**
+
+El alcance de esta evaluación incluye una revisión exhaustiva de la usabilidad en las siguientes tareas clave dentro de la aplicación web:
+* Registro de usuarios y selección de rol
+* Registro de mascotas y llenado de información relevante
+* Registro de refugios y gestión de animales
+* Coherencia entre publicaciones, animales registrados y solicitudes de adopción
+
+### **Descripcion de Problemas**
+
+### **Problema #01: Opciones de rol con fondo transparente que se sobreponen al formulario**
+
+**Severidad:** 2
+
+**Heurística Violada:** Visibilidad del estado del sistema
+
+**Problema:**
+
+Al registrar un usuario, el menú desplegable para seleccionar el rol presenta opciones con fondo transparente, lo que hace que el texto se mezcle con el contenido del formulario. Esto dificulta la lectura, genera incertidumbre y puede llevar a la selección incorrecta de un rol.
+
+**Recomendación:**
+
+Corregir estilos del dropdown: fondo sólido, sombra, z-index adecuado y evitar que contenedores recorten el menú.
+
+<img src="Img/auditoria-heuristica-1.png" alt="" height="400">
+
+### Problema #02: Campos ambiguos “Vacunación” y “Necesidades Especiales” al registrar una mascota
+
+**Severidad:** 3
+
+**Heurísticas violadas:** Correspondencia entre el sistema y el mundo real
+
+**Problema:**
+
+Estos campos no especifican qué tipo de información espera la plataforma. El usuario nuevo no sabe si debe escribir texto, indicar fechas o colocar descripciones específicas. La falta de contexto lleva a respuestas inconsistentes, confusión y datos de baja calidad que pueden afectar procesos como adopción o búsqueda.
+
+**Recomendación:**
+
+Reemplazar campos ambiguos por opciones guiadas (checkboxes, radio buttons, listas predefinidas) y añadir pequeños textos de ayuda o ejemplos.
+
+<img src="Img/auditoria-heuristica-7.png" alt="" height="400">
+
+### Problema #03: Uso del mismo formulario para roles diferentes
+
+**Severidad:** 2
+
+**Heurísticas violadas:** Prevención de errores / Consistencia y estándares
+
+**Problema:**
+
+La plataforma muestra el mismo formulario para todos los roles, aunque algunos campos son irrelevantes o confusos dependiendo del rol seleccionado.  Campos como “Capacidad máxima de mascotas” o “Animales actualmente disponibles” al parecer son específicos para el rol de “Refugio”, sin embargo, también se presentan al registrar un “Adoptante”. De igual forma, el campo “Tipo de Hogar” debería ser especifico para el rol de “Adoptante”, sin embargo, este también se presenta en el rol de “Refugio”.
+Este detalle aumenta la carga cognitiva, confunde al usuario y genera posibles errores o información innecesaria. También puede afectar la intención de completar el registro.
+
+**Recomendación:**
+
+Implementar formularios dinámicos según el rol seleccionado: mostrar solo campos relevantes y validar únicamente la información correspondiente a ese rol.
+
+<img src="Img/auditoria-heuristica-4.png" alt="" height="400">
+
+<img src="Img/auditoria-heuristica-3.png" alt="" height="400">
+
+### Problema #04: Inconsistencia en el registro de refugios (0 animales registrados, pero sí hay publicaciones y solicitudes)
+
+**Severidad:** 04
+
+**Heurísticas violadas:** Visibilidad del estado del sistema/ Prevención de errores
+
+**Problema:**
+
+Al crear un nuevo usuario con rol de refugio, la interfaz muestra que no tiene animales registrados, pero en la sección de publicaciones si aparecen animales, y en la sección de solicitudes también existen registros. Esto representa un desbalance entre los datos reales y lo que la plataforma comunica. Estas inconsistencias afectan gravemente la confianza del usuario. Además, dificulta la comprensión del flujo de adopción y puede generar errores administrativos o información contradictoria.
+
+**Recomendación:**
+
+Revisar la lógica de sincronización entre la entidad “animal”, las publicaciones y las solicitudes.
+Asegurar que el conteo mostrado se base en la misma fuente de verdad y que las operaciones de registro sean atómicas y consistentes.
+
+<img src="Img/nuevo-refugio-creado-auditoria.png" alt="" height="400">
+
+<img src="Img/publicaciones-generadas-sin-aviso.png" alt="" height="400">
+
+<img src="Img/Adopcion-solicitada-sin-aviso.png" alt="" height="400">
+
+
+
 #### 6.4.2. Auditoría recibida.
 #### 6.4.2.1. Información del grupo auditor.
 #### 6.4.2.2. Cronograma de auditoría recibida.
