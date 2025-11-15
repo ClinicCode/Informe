@@ -5066,7 +5066,69 @@ A continuación se describen los pasos que conforman este pipeline:
 
 ### 8.1.1. As-Is Summary.
 ### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims.
+
 ### 8.1.3. Experiment-Ready Questions.
+
+En esta sección se definen las preguntas que guiarán los experimentos de validación de
+la solución. Se distinguen dos tipos:
+
+1. **Preguntas impulsadas por creencias (Belief-led)**  
+   Buscan poner a prueba una creencia concreta del equipo respecto al comportamiento
+   o necesidades de los usuarios.
+
+2. **Preguntas exploratorias**  
+   Buscan generar conocimiento en áreas donde el equipo aún no tiene creencias
+   fuertes, ayudando a descubrir patrones, motivaciones o problemas no anticipados.
+
+Para formularlas se utiliza la técnica de las **“Cinco Ws y una H” (Who, What, Where,
+When, Why, How)**, lo que permite revelar premisas ocultas y construir preguntas
+exploratorias más completas.
+
+**Preguntas impulsadas por creencias (Belief-led)**
+
+- **B1 – WHO / HOW**  
+  *“Creemos que los usuarios objetivo podrán completar el flujo principal de registro y
+  configuración inicial en menos de 10 minutos sin apoyo externo.”*
+
+- **B2 – WHAT / WHY**  
+  *“Creemos que mostrar indicadores visuales simples (colores, iconos, estados) en la
+  pantalla principal reducirá la necesidad de que los usuarios revisen múltiples
+  pantallas para entender si ‘todo está bien’.”*
+
+- **B3 – WHERE / WHEN**  
+  *“Creemos que la mayoría de usuarios accederán a la solución desde un teléfono
+  móvil en contextos de trabajo (consultorios), por lo que el diseño mobile-first
+  será suficiente para la mayoría de tareas diarias.”*
+
+- **B4 – WHY / HOW**  
+  *“Creemos que incorporar mensajes guiados o tutoriales cortos al inicio mejorará la
+  percepción de facilidad de uso en los nuevos usuarios.”*
+
+Estas preguntas se transforman luego en hipótesis medibles dentro de las condiciones
+experimentales y de control.
+
+**Preguntas exploratorias**
+
+- **E1 – WHO / WHAT / WHY**  
+  *“¿Qué tipo de información consideran crítica los usuarios para tomar decisiones
+  rápidas, y por qué la priorizan sobre otros datos?”*
+
+- **E2 – HOW / WHEN**  
+  *“¿Cómo integran actualmente la solución en su rutina diaria y en qué momentos
+  del día les resulta más útil o más difícil usarla?”*
+
+- **E3 – WHERE / HOW**  
+  *“¿En qué contextos (oficina, campo, casa) usan con mayor frecuencia la
+  aplicación y cómo afecta ese contexto a la forma en que interactúan con ella?”*
+
+- **E4 – WHY / HOW**  
+  *“¿Por qué los usuarios abandonan o interrumpen el uso de la aplicación y cómo
+  describen ellos mismos esos momentos de fricción?”*
+
+Estas preguntas exploratorias permiten ampliar la comprensión de las motivaciones,
+barreras y expectativas de los usuarios, alimentando nuevas hipótesis para ciclos de
+validación posteriores.
+
 ### 8.1.4. Question Backlog.
 ### 8.1.5. Experiment Cards.
 ## 8.2. Experiment Design
@@ -5098,7 +5160,91 @@ Asimismo, cada hipótesis se complementa con su Hipótesis Nula, que establece q
 
 
 ### 8.2.3. Measures.
+
 ### 8.2.4. Conditions.
+
+Las condiciones establecen quiénes participarán en los experimentos, bajo qué entorno clínico se realizarán las pruebas, durante cuánto tiempo y cuáles serán los criterios para interpretar los resultados. Estas condiciones permiten asegurar validez, comparabilidad y control estadístico al momento de evaluar nuevas funcionalidades dentro del flujo odontológico.
+
+**Público objetivo**
+El experimento se realizará con perfiles directamente involucrados en la operación clínica:
+- Odontólogos generales y especialistas (endodoncia, ortodoncia, periodoncia, etc.).
+- Asistentes dentales y personal de apoyo en consultorio.
+- Pacientes reales con citas programadas durante el periodo del experimento.
+
+El objetivo es capturar tanto la experiencia clínica (odontólogo/asistente) como la experiencia del paciente.
+
+**Entorno de pruebas**
+- Las pruebas se realizarán en clínicas odontológicas pequeñas y medianas de Lima Metropolitana.
+- Se utilizará una versión *staging* idéntica a producción para evitar variaciones por entorno.
+- Equipos utilizados: computadoras de recepción, PCs de consultorio, tablets y smartphones de pacientes.
+- La rutina clínica se mantendrá sin cambios para evitar sesgos (mismo número de pacientes, mismos procedimientos y horarios).
+
+**Diseño experimental**
+- Se empleará un diseño **A/B por consultorio**:
+  - **Grupo A:** utiliza la nueva funcionalidad.
+  - **Grupo B:** mantiene el flujo actual sin cambios.
+- La asignación será aleatoria mediante feature toggles controlados por backend.
+- Se medirán diferencias en tiempos de atención, errores de registro, carga administrativa y satisfacción.
+
+**Periodo de pruebas**
+- Duración total: **4 semanas**.
+- Semana 1: onboarding, configuración y adaptación.
+- Semanas 2–3: uso activo en flujo clínico real.
+- Semana 4: análisis, entrevistas y cierre del experimento.
+
+**Criterios de inclusión y exclusión**
+
+**Incluir:**
+- Odontólogos activos con agenda durante las 4 semanas.
+- Asistentes que participen en la gestión de pacientes.
+- Pacientes que acepten participar mediante consentimiento informado.
+
+**Excluir:**
+- Personal no involucrado en atención clínica.
+- Cuentas demo o testers del equipo de desarrollo.
+- Pacientes sin actividad clínica durante el periodo de pruebas.
+
+ **Control de variables externas**
+- No se modificarán procesos internos de las clínicas durante el experimento.
+- Se mantendrá la misma carga de trabajo entre grupos (similar número de pacientes y tipo de procedimientos).
+- No se liberarán nuevas funcionalidades simultáneamente.
+- Se monitorearán eventos externos que puedan alterar resultados (feriados, mantenimientos, cortes de energía).
+
+**Consentimiento informado y privacidad**
+- Todos los participantes serán informados del propósito del experimento.
+- Los pacientes firmarán consentimiento informado para el uso de sus datos de manera anonimizada.
+- Los datos clínicos serán tratados cumpliendo la Ley 29733 de protección de datos personales.
+- La información sensible será almacenada y procesada siguiendo protocolos de confidencialidad del sector salud.
+
+**Participación activa y retroalimentación**
+- Se fomentará que odontólogos y asistentes reporten dificultades, errores y oportunidades de mejora.
+- Los pacientes recibirán encuestas breves sobre claridad de recordatorios, facilidad de uso y experiencia general.
+- Se realizarán sesiones semanales de retroalimentación con el personal clínico.
+
+**Muestra representativa**
+Para garantizar confiabilidad estadística se reclutarán:
+- 2–3 clínicas odontológicas de Lima.
+- ~10 odontólogos.
+- ~6 asistentes dentales.
+- 40–60 pacientes durante el periodo experimental.
+
+Esta muestra permite observar patrones reales tanto clínicos como administrativos.
+
+**Medición y evaluación continua**
+Se medirán indicadores clave semanalmente:
+- Tiempo promedio de registro clínico.
+- Tasa de errores en la ficha odontológica.
+- Tasa de asistencia y cancelaciones.
+- Satisfacción del odontólogo y del paciente.
+- Nivel de fricción en el flujo administrativo.
+
+Si se detecta un incremento de errores >5% o fricción significativa, se aplicará una iteración rápida.
+
+**Criterio Go / No-Go**
+
+- **Go:** la funcionalidad se libera si al menos 3 de 4 indicadores principales cumplen su umbral (eficiencia, reducción de errores, satisfacción, disminución del tiempo administrativo).
+- **No-Go:** se ejecutará un sprint de corrección antes de considerar su despliegue en producción.
+
 ### 8.2.5. Scale Calculations and Decisions.
 ### 8.2.6. Methods Selection.
 
