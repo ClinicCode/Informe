@@ -202,6 +202,25 @@ Los integrantes son:
       - [Escenario probado 3: Gestión de Pacientes](#escenario-probado-3-gestión-de-pacientes)
       - [Herramientas utilizadas](#herramientas-utilizadas)
     - [6.1.4. Core System Tests.](#614-core-system-tests)
+- [6.2. Static Testing & Verification](#62-static-testing--verification)
+    - [6.2.1. Static Code Analysis](#621-static-code-analysis)
+     - [6.2.1.1. Coding standard & Code conventions.](#6211-coding-standard--code-conventions)
+     - [6.2.1.2. Code Quality & Code Security.](#6212-code-quality--code-security)
+    - [6.2.2. Reviews](#622-reviews)
+- [6.3. Validation Interviews](#63-validation-interviews)
+    - [6.3.1. Diseño de Entrevistas.](#631-diseño-de-entrevistas)
+    - [6.3.2. Registro de Entrevistas.](#632-registro-de-entrevistas)
+    - [6.3.3. Evaluaciones según heurísticas.](#633-evaluaciones-según-heurísticas)
+- [6.4. Auditoría de Experiencias de Usuario](#64-auditoría-de-experiencias-de-usuario)
+    - [6.4.1. Auditoría realizada.](#641-auditoría-realizada)
+      - [6.4.1.1. Información del grupo auditado.](#6411-información-del-grupo-auditado)
+      - [6.4.1.2. Cronograma de auditoría realizada.](#6412-cronograma-de-auditoría-realizada)
+      - [6.4.1.3. Contenido de auditoría realizada.](#6413-contenido-de-auditoría-realizada)
+    - [6.4.2. Auditoría recibida.](#642-auditoría-recibida)
+      - [6.4.2.1. Información del grupo auditor.](#6421-información-del-grupo-auditor)
+      - [6.4.2.2. Cronograma de auditoría recibida.](#6422-cronograma-de-auditoría-recibida)
+      - [6.4.2.3. Contenido de auditoría recibida.](#6423-contenido-de-auditoría-recibida)
+      - [6.4.2.4. Resumen de modificaciones para subsanar fallas.](#6424-resumen-de-modificaciones-para-subsanar-fallas)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
@@ -4581,12 +4600,166 @@ Este caso valida que el módulo de pacientes de **Dentify** garantiza una gesti�
 
 
 ![CoreBehavior.jpeg](Img/CoreBehavior.jpeg)
-
-
-
-
     
 ### 6.1.4. Core System Tests.
+
+## 6.2. Static testing & Verification
+### 6.2.1. Static Code Analysis
+#### 6.2.1.1. Coding standard & Code conventions.
+#### 6.2.1.2. Code Quality & Code Security.
+### 6.2.2. Reviews
+
+## 6.3.Validation Interviews.
+
+### 6.3.1. Diseño de Entrevistas.
+
+### 6.3.2. Registro de Entrevistas
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <thead>
+    <tr>
+      <th>Segmento</th>
+      <th># Entrevista</th>
+      <th>Nombres</th>
+      <th>Apellidos</th>
+      <th>Edad</th>
+      <th>Distrito</th>
+      <th>Personalidad y características relevantes</th>
+      <th>Tecnología y canales (dispositivos, browser, canales)</th>
+      <th>Screenshot (cuadro de video)</th>
+      <th>URL del video (Stream / Clipchamp)</th>
+      <th>Timing (inicio – fin)</th>
+      <th>Duración</th>
+      <th>Resumen descriptivo de la entrevista</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- ENTREVISTA 1 -->
+    <tr>
+      <td>Segmento 1 – Profesional técnico / especialista</td>
+      <td>Entrevista 1</td>
+      <td>[Nombre]</td>
+      <td>[Apellidos]</td>
+      <td>[Edad]</td>
+      <td>[Distrito]</td>
+      <td>
+        Perfil analítico, comunicativo, enfocado en la eficiencia de sus procesos.
+        Muestra apertura a soluciones digitales que ahorren tiempo y reduzcan errores.
+      </td>
+      <td>
+        Utiliza laptop y smartphone a diario.  
+        Navegador principal: Chrome.  
+        Canales: correo electrónico, WhatsApp, videollamadas (Teams/Meet).
+      </td>
+      <td>
+        <img src="assets/entrevistas/segmento1-entrevista1.png"
+             alt="Cuadro de video Entrevista 1 Segmento 1"
+             width="160" />
+      </td>
+      <td>
+        <a href="https://stream.microsoft.com/tu-video-completo"
+           target="_blank">Ver video (Stream/Clipchamp)</a>
+      </td>
+      <td>00:12:30 – 00:18:10</td>
+      <td>5 min 40 s</td>
+      <td>
+        Percibe la solución como clara y confiable. Valora que se muestren datos reales
+        y ejemplos concretos. Sugiere simplificar algunos flujos claves y pide métricas
+        más detalladas para la toma de decisiones (estadísticas, tendencias, alertas).
+      </td>
+    </tr>
+    <!-- ENTREVISTA 2 -->
+    <tr>
+      <td>Segmento 1 – Profesional técnico / especialista</td>
+      <td>Entrevista 2</td>
+      <td>[Nombre]</td>
+      <td>[Apellidos]</td>
+      <td>[Edad]</td>
+      <td>[Distrito]</td>
+      <td>
+        Persona detallista, muy orientada a procedimientos formales.
+        Valora la trazabilidad, la confiabilidad de los datos y la claridad visual.
+      </td>
+      <td>
+        Usa principalmente laptop en oficina y smartphone fuera de ella.  
+        Navegadores: Chrome y Edge.  
+        Canales: correo corporativo, WhatsApp, llamadas telefónicas.
+      </td>
+      <td>
+        <img src="assets/entrevistas/segmento1-entrevista2.png"
+             alt="Cuadro de video Entrevista 2 Segmento 1"
+             width="160" />
+      </td>
+      <td>
+        <a href="https://stream.microsoft.com/tu-video-completo"
+           target="_blank">Ver video (Stream/Clipchamp)</a>
+      </td>
+      <td>00:18:11 – 00:23:40</td>
+      <td>5 min 29 s</td>
+      <td>
+        Destaca que la navegación es intuitiva, aunque identifica momentos donde
+        hay demasiados pasos para completar una tarea. Recomienda agrupar
+        acciones frecuentes y mejorar los mensajes de ayuda para nuevos usuarios.
+      </td>
+    </tr>
+    <!-- ENTREVISTA 3 -->
+    <tr>
+      <td>Segmento 2 – Usuario operativo / campo</td>
+      <td>Entrevista 3</td>
+      <td>[Nombre]</td>
+      <td>[Apellidos]</td>
+      <td>[Edad]</td>
+      <td>[Distrito]</td>
+      <td>
+        Persona práctica, enfocada en “que funcione rápido”. Prefiere interfaces simples,
+        con pocas opciones por pantalla y lenguaje no técnico.
+      </td>
+      <td>
+        Usa principalmente smartphone Android.  
+        Navega con Chrome.  
+        Canales: WhatsApp, llamadas, en menor medida correo.
+      </td>
+      <td>
+        <img src="assets/entrevistas/segmento2-entrevista3.png"
+             alt="Cuadro de video Entrevista 3 Segmento 2"
+             width="160" />
+      </td>
+      <td>
+        <a href="https://stream.microsoft.com/tu-video-completo"
+           target="_blank">Ver video (Stream/Clipchamp)</a>
+      </td>
+      <td>00:23:41 – 00:28:00</td>
+      <td>4 min 19 s</td>
+      <td>
+        Comenta que entiende rápidamente los botones principales, pero le cuesta
+        identificar algunas funciones más avanzadas. Solicita accesos directos a las
+        tareas que realiza a diario y notificaciones claras cuando algo está mal.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+### 6.3.3. Evaluaciones según heurísticas.
+
+## 6.4. Auditoría de Experiencias de Usuario
+### 6.4.1. Auditoría realizada.
+#### 6.4.1.1. Información del grupo auditado.
+#### 6.4.1.2. Cronograma de auditoría realizada.
+#### 6.4.1.3. Contenido de auditoría realizada.
+#### 6.4.2. Auditoría recibida.
+#### 6.4.2.1. Información del grupo auditor.
+#### 6.4.2.2. Cronograma de auditoría recibida.
+
+| Fecha        | Actividad                                      | Responsable                               |
+|--------------|------------------------------------------------|--------------------------------------------|
+| 25-jun-2025  | Recepción del informe de auditoría externa     | Aponte Cruzado, Andrea Marielena          |
+| 25-jun-2025  | Revisión inicial de hallazgos                  | Belahonia Miranda, Fabrisio               |
+| 25-jun-2025  | Sesión de aclaración y discusión de hallazgos  | Bohorquez Lerzundi, Gerardo Sebastian     |
+| 25-jun-2025  | Priorización de mejoras sugeridas              | Cutiri Agüero, Fabrizio Alexander         |
+| 25-jun-2025  | Aprobación del plan de mejora y próximos pasos | Berrocal Ramirez, Omar Christian          |
+
+#### 6.4.2.3. Contenido de auditoría recibida.
+#### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos.
 
 
 # Conclusiones
