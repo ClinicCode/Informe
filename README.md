@@ -5733,6 +5733,14 @@ En conclusión, el desarrollo del proyecto Dentify permitió integrar de forma c
 
 La implementación de una aplicación móvil desarrollada en Flutter para Android e iOS, complementada con una versión nativa para Android, consolidó una plataforma accesible, fluida y adaptada a las necesidades del usuario final. Estos clientes móviles se integraron de forma segura con un backend robusto en Spring Boot con Java 17/22, el cual expone una API RESTful documentada y desplegada en Azure, respaldada por una arquitectura de microservicios, pruebas automatizadas y un modelo de datos optimizado.
 
+Asimismo, el proceso de verificación y validación confirmó que la solución responde adecuadamente a los flujos reales de trabajo de clínicas odontológicas. A través de pruebas unitarias, integraciones, escenarios BDD, pruebas de sistema y análisis estático, se comprobó la estabilidad técnica y funcional del sistema antes de exponerlo a usuarios reales. Las entrevistas con odontólogos, asistentes y pacientes, junto con las auditorías recibidas y realizadas, permitieron identificar fricciones, validar hipótesis y priorizar mejoras centradas en la experiencia clínica.
+
+El enfoque experimental aplicado durante la validación aportó evidencia cuantitativa y cualitativa sobre eficiencia, reducción de errores en historiales, claridad de recordatorios de citas y facilidad de adopción. La definición rigurosa de condiciones, muestras, criterios Go/No-Go y control de variables aseguró resultados confiables, permitiendo tomar decisiones basadas en datos reales obtenidos en un entorno clínico controlado.
+
+Por otro lado, la incorporación de prácticas de Continuous Delivery, pipelines automáticos, control de calidad, estrategias de despliegue seguro y monitoreo continuo facilitó un ciclo de mejora constante. Esto garantizó que cada release fuese progresiva, estable y libre de regresiones, reforzando la confiabilidad del sistema tanto para profesionales odontológicos como para pacientes.
+
+En conjunto, los resultados obtenidos evidencian que *Dentify* no solo logró cumplir los objetivos funcionales y técnicos planteados, sino que también consolidó una base sólida para su futura expansión. El enfoque modular, la validación estricta y la observación del comportamiento real del usuario permiten proyectar el sistema como una herramienta escalable, confiable y preparada para evolucionar con las necesidades del sector odontológico moderno.
+
 # Bibliografía
 
 Osiptel. (2022). Los servicios de telecomunicaciones en los hogares peruanos: Encuesta Residencial de Servicios de Telecomunicaciones – ERESTEL 2021. https://www.osiptel.gob.pe/media/dujjruwd/erestel-2021.pdf
