@@ -4628,6 +4628,11 @@ Ejecución de acciones con datos inválidos para comprobar que el sistema respon
 ### 6.2.1. Static Code Analysis
 #### 6.2.1.1. Coding standard & Code conventions.
 #### 6.2.1.2. Code Quality & Code Security.
+
+En el proyecto se identificaron puntos básicos a mejorar en calidad y seguridad del código.<br>
+**Calidad**: se halló duplicación de lógica en controladores, poco uso de pruebas unitarias y ausencia de herramientas de análisis estático.<br>
+**Seguridad**: existen credenciales en texto plano, CORS muy abierto y registros que exponen información sensible.
+
 ### 6.2.2. Reviews
 
 ## 6.3.Validation Interviews.
