@@ -4605,24 +4605,24 @@ Este caso valida que el módulo de pacientes de **Dentify** garantiza una gesti�
 
 1. Registro (web/móvil)
 Validación de creación de cuenta y confirmación de que el backend procesa correctamente los datos enviados.
-[imagen](Img/system-test-1.png)
+![imagen](Img/system-test-1.png)
 
 2. Login
 Ingreso con credenciales válidas y verificación de acceso correcto a la pantalla principal.
-[imagen](Img/system-test-2.png)
+![imagen](Img/system-test-2.png)
 
 3. Navegación por pantallas
 Recorrido por las vistas principales de la app para asegurar que todas cargan y funcionan sin errores.
-[imagen1](Img/system-test-3.1.png)
-[imagen2](Img/system-test-3.2.png)
+![imagen1](Img/system-test-3.1.png)
+![imagen2](Img/system-test-3.2.png)
 
 4. Llamadas a API
 Prueba de integración: la app envía solicitudes al backend y recibe respuestas correctas.
-[imagenSwagger](Img/system-test-4.png)
+![imagenSwagger](Img/system-test-4.png)
 
 5. Manejo de errores
 Ejecución de acciones con datos inválidos para comprobar que el sistema responde con mensajes de error controlados.
-[imagen](Img/system-test-5.png)
+![imagen](Img/system-test-5.png)
 
 ## 6.2. Static testing & Verification
 ### 6.2.1. Static Code Analysis
