@@ -5420,6 +5420,9 @@ Elegimos una combinación de métodos cualitativos y cuantitativos que equilibra
 | A/B Testing de pequeña escala                                          | Validar rápidamente cuál variante de una interfaz o flujo mejora un comportamiento clave  |
 
 ### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection.
+
+El análisis de datos en Dentify se centrará en medir la adopción real del sistema, la eficiencia del flujo clínico y la satisfacción del usuario. Para ello, se definirán KPIs como la tasa de primer uso efectivo (odontólogos que completan acciones clave en su primera sesión), el tiempo promedio necesario para registrar pacientes o crear citas, y la exactitud del inventario comparando stock real con el registrado en la aplicación. También se evaluará la retención a 30 días, el nivel de satisfacción mediante NPS y la estabilidad técnica a través del error-rate y fallos operativos registrados en el backend. Estas métricas permitirán priorizar mejoras y validar el impacto de las funcionalidades en la rutina clínica.
+
 ### 8.2.8. Web and Mobile Tracking Plan.
 
 El plan de tracking de Dentify registrará eventos clave del flujo odontológico tanto en la versión web como en la app móvil, enfocándose en acciones como inicio de sesión, creación de citas, registro de pacientes, actualización de historias clínicas, uso de inventario y generación de facturas. El monitoreo se realizará mediante Firebase Analytics (solo para mobile) y los logs del backend, permitiendo analizar adopción, detectar fricción en procesos críticos y evaluar la frecuencia real de uso de cada módulo. Esta información permitirá priorizar mejoras y asegurar que las funcionalidades respondan a las necesidades operativas de la clínica.
