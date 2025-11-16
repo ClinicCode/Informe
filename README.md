@@ -4627,6 +4627,30 @@ Ejecución de acciones con datos inválidos para comprobar que el sistema respon
 ## 6.2. Static testing & Verification
 ### 6.2.1. Static Code Analysis
 #### 6.2.1.1. Coding standard & Code conventions.
+
+En la sección actual, se destacarán los estándares que se aplicarán para las aplicaciones tanto en Front-end, Back-end y Landing Page.
+
+<h3>Naming Conventions</h3>
+
+- Nombres de proyectos, clases: Se usarán nombres cortos.
+- Proyectos: Se usarán mayúsculas
+- Formato: Se usará CamelCase para nombrar los distintos proyectos. Así como el uso de snake_case para las tablas en el back-end.
+
+<h3>Identación y Espaciado</h3>
+
+Se uso tabulación para separar las distintas partes del codigo con el fin de obtener un resultado más comprensible.
+
+<h3>Comentarios</h3>
+
+Se hizo uso de JavaDocs para nombrar distintas partes del codigo. Con el fin de tener cada funcionalidad en el backend clara.
+
+<h3>Organización de archivos</h3>
+
+- Backend: Se organizo en distintas carpetas según bounded context y además siguiendo Domain Driven Design.
+- Frontend: A semejanza del backend se dividio segun bounded context y dentro de ellas según funcionalidad, siguiendo Domain Driven Design.
+- Landing Page: No se hizo una distinción entre carpetas.
+
+
 #### 6.2.1.2. Code Quality & Code Security.
 
 En el proyecto se identificaron puntos básicos a mejorar en calidad y seguridad del código.<br>
