@@ -4639,6 +4639,66 @@ En el proyecto se identificaron puntos básicos a mejorar en calidad y seguridad
 
 ### 6.3.1. Diseño de Entrevistas.
 
+Para validar las necesidades reales del personal odontológico y evaluar la adecuación del producto, se diseñó una guía estructurada de entrevistas dividida por bloques temáticos. Este diseño permite obtener información clara sobre flujo de trabajo, puntos de dolor, expectativas y prioridades del usuario final.
+
+**Preguntas generales**
+
+1. ¿Cuál es tu rol dentro del consultorio?
+2. ¿Qué actividades realizas con mayor frecuencia en tu día a día?
+3. ¿Usas actualmente algún sistema o aplicación para gestionar tu trabajo?
+4. ¿Qué problemas encuentras en los métodos que usas hoy?
+
+**Gestión de pacientes**
+
+5. ¿Cada cuánto registras nuevos pacientes?
+6. ¿Qué información consideras indispensable al registrar un paciente?
+7. ¿Qué tan seguido necesitas actualizar los datos de un paciente?
+8. ¿La búsqueda por DNI te sería útil en tu rutina?
+9. ¿Qué tan importante es acceder rápidamente al historial clínico?
+
+**Gestión de citas**
+
+10. ¿Cómo gestionas las citas actualmente?
+11. ¿Qué problemas encuentras al usar tu método actual?
+12. ¿Te sería útil una vista general de citas por día o semana?
+13. ¿Qué filtros empleas para encontrar citas específicas?
+14. ¿Con qué frecuencia modificas o cancelas citas ya programadas?
+
+**Gestión de inventario**
+
+15. ¿Cómo registras actualmente tus materiales e insumos?
+16. ¿Qué dificultades tienes al llevar inventario manualmente?
+17. ¿Qué información necesitas ver al revisar un producto del inventario?
+18. ¿Cada cuánto actualizas el stock real de los insumos?
+19. ¿Te sería útil registrar con un clic los materiales usados durante una cita?
+
+**Historial clínico**
+
+20. ¿Qué información consideras imprescindible en un historial clínico?
+21. ¿Con qué frecuencia revisas historiales anteriores?
+22. ¿Has tenido problemas buscando historiales antiguos o incompletos?
+23. ¿Qué tan útil sería tener los historiales organizados cronológicamente?
+
+**Pagos y facturación**
+
+24. ¿Cómo registras actualmente los pagos de tus pacientes?
+25. ¿Qué tan rápido necesitas generar una factura después de la cita?
+26. ¿Qué dificultades tienes con tu método de facturación actual?
+27. ¿Te sería útil que la aplicación genere recibos o facturas automáticamente?
+
+**Onboarding, registro e inicio de sesión**
+
+28. ¿Qué información mínima debería pedirse en el registro?
+29. ¿Has tenido problemas alguna vez al aprender a usar un sistema nuevo?
+30. ¿Te ayudaría una guía de primeros pasos la primera vez que entras?
+
+**Landing Page**
+
+31. ¿Consideras importante que exista una página de presentación del sistema?
+32. ¿Qué información buscarías antes de usar o descargar la aplicación?
+33. ¿Qué revisarías primero en una landing? (Precios, beneficios, funcionalidades, etc.)
+34. ¿Qué debería transmitir la página para generar confianza?
+
 ### 6.3.2. Registro de Entrevistas
 
 **Segmento Objetivo:** Odontólogos
