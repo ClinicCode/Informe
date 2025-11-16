@@ -4872,6 +4872,26 @@ Payesa Torres Harrison Hubert<br>
 Ramirez Escalante Carlo Patricio<br>
 
 #### 6.4.1.2. Cronograma de auditoría realizada.
+
+| Actividad de auditoría        | Fecha      | Hora       | Realizado por                        |
+|-------------------------------|------------|------------|--------------------------------------|
+| Solicitud de información      | 14/11/2025 | 1:00 p.m.  | Belahonia Miranda, Fabrisio          |
+| Recepción de información      | 14/11/2025 | 11:00 p.m. | Belahonia Miranda, Fabrisio          |
+| Lectura de la información     | 15/06/2025 | 9:00 a.m.  | Berrocal Ramirez Omar Christian      |
+| Ejecución de auditoría        | 15/06/2025 | 10:00 a.m. | Cutiri Agüero Fabrizio Alexander     |
+| Elaboración del informe       | 15/06/2025 | 11:00 a.m. | Aponte Cruzado, Andrea Marielena     |
+| Envío del informe de auditoría| 15/06/2025 | 1:00 p.m.  | Bohorquez Lerzundi Gerardo Sebastian |
+
+| Nombres y Apellidos                   | Código de alumno |
+|---------------------------------------|------------------|
+| Aponte Cruzado, Andrea Marielena	     | U202224135       |
+| Belahonia Miranda, Fabrisio 	         | U202220219       |
+| Bohorquez Lerzundi Gerardo Sebastian	 | U202224149       |
+| Cutiri Agüero Fabrizio Alexander	     | U201914181       |
+| Berrocal Ramirez Omar Christian       | U20201B529       |
+
+
+
 #### 6.4.1.3. Contenido de auditoría realizada.
 
 ### **Tareas a Evaluar**
