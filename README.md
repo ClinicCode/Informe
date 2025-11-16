@@ -4861,7 +4861,17 @@ Asegurar que el conteo mostrado se base en la misma fuente de verdad y que las o
 
 
 #### 6.4.2. Auditoría recibida.
+
 #### 6.4.2.1. Información del grupo auditor.
+
+Integrantes del grupo:
+
+Aponte Cruzado, Andrea Marielena - U202224135
+Belahonia Miranda, Fabrisio - U202220219
+Bohorquez Lerzundi	Gerardo Sebastian - U202224149
+Cutiri Agüero	Fabrizio Alexander - U201914181
+Berrocal Ramirez	Omar Christian - U20201B529
+
 #### 6.4.2.2. Cronograma de auditoría recibida.
 
 | Fecha        | Actividad                                      | Responsable                               |
