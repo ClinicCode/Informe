@@ -4906,6 +4906,76 @@ Berrocal Ramirez	Omar Christian - U20201B529
 | 25-jun-2025  | Aprobación del plan de mejora y próximos pasos | Berrocal Ramirez, Omar Christian          |
 
 #### 6.4.2.3. Contenido de auditoría recibida.
+
+## **PROBLEMA #1: Falta de detalles en la vista de citas**
+
+**Severidad:** 3
+**Heurística violada:** Visibilidad del estado del sistema
+**Problema:**
+La vista de citas no muestra información suficiente para que el odontólogo entienda rápidamente el contexto de cada cita. Faltan detalles como motivo de consulta, duración, o estado de confirmación. Esto provoca que el usuario necesite entrar a cada cita para obtener información adicional.
+**Recomendación:**
+
+* Agregar descripción breve o motivo de consulta en cada tarjeta.
+* Incluir íconos o colores para indicar estados (confirmada, pendiente, cancelada).
+* Mostrar duración estimada o tipo de atención.
+
+---
+
+## **PROBLEMA #2: Poca claridad en el módulo odontológico (odontograma e historial)**
+
+**Severidad:** 3
+**Heurística violada:** Correspondencia con el mundo real
+**Problema:**
+La sección odontológica no otorga suficiente contexto visual sobre qué parte del tratamiento se está editando o registrando. La interacción con el odontograma no es totalmente intuitiva para usuarios nuevos.
+**Recomendación:**
+
+* Añadir etiquetas visibles y persistentes para cada sección del odontograma.
+* Implementar tooltips que expliquen acciones o piezas dentales.
+* Colocar ejemplos de diagnósticos o tratamientos frecuentes.
+
+---
+
+## **PROBLEMA #3: Vista de historial clínico poco diferenciada**
+
+**Severidad:** 2
+**Heurística violada:** Organización y jerarquía visual
+**Problema:**
+Los registros del historial clínico aparecen muy similares entre sí, lo que hace difícil distinguir atenciones recientes de antiguas.
+**Recomendación:**
+
+* Incorporar separación visual clara entre atenciones.
+* Añadir fecha en formato legible (“6 de agosto, 10:30 a.m.”).
+* Usar colores suaves para diferenciar tipos de tratamiento (endodoncia, profilaxis, control, etc.).
+
+---
+
+## **PROBLEMA #4: Falta de funcionamiento offline para registrar insumos**
+
+**Severidad:** 3
+**Heurística violada:** Control y eficiencia de uso
+**Problema:**
+El sistema no permite registrar el consumo de materiales en modo offline. Si la conexión se pierde, el odontólogo no puede continuar con el registro del tratamiento, generando pérdida de información.
+**Recomendación:**
+
+* Implementar almacenamiento local temporal.
+* Hacer sincronización automática al recuperar Internet.
+* Mostrar indicador “trabajando sin conexión”.
+
+---
+
+## **PROBLEMA #5: Generación de reportes limitada y poco automatizada**
+
+**Severidad:** 2
+**Heurística violada:** Flexibilidad y eficiencia
+**Problema:**
+Los reportes administrativos requieren procesos manuales (filtros, búsquedas, búsquedas repetidas). Esto hace que tareas simples tomen demasiado tiempo.
+**Recomendación:**
+
+* Crear reportes prearmados (mensuales, por paciente, por tipo de tratamiento).
+* Incluir exportación rápida a PDF/Excel.
+* Agregar filtros inteligentes (por doctor, fecha, especialidad).
+
+
 #### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos.
 
 
