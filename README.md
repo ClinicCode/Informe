@@ -4790,12 +4790,12 @@ Concluyó que Dentify agilizaría su trabajo, reduciría su dependencia de Excel
 ### 6.4.1. Auditoría realizada.
 #### 6.4.1.1. Información del grupo auditado.
 
-Nombre del grupo: Huellitas conectadas
-Integrantes:
-Navarro Correa César Augusto
-Espinoza Saenz Christian Renato
-Payesa Torres Harrison Hubert
-Ramirez Escalante Carlo Patricio
+Nombre del grupo: Huellitas conectadas<br>
+Integrantes:<br>
+Navarro Correa César Augusto<br>
+Espinoza Saenz Christian Renato<br>
+Payesa Torres Harrison Hubert<br>
+Ramirez Escalante Carlo Patricio<br>
 
 #### 6.4.1.2. Cronograma de auditoría realizada.
 #### 6.4.1.3. Contenido de auditoría realizada.
