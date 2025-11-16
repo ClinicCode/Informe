@@ -4636,129 +4636,89 @@ Ejecución de acciones con datos inválidos para comprobar que el sistema respon
 
 ### 6.3.2. Registro de Entrevistas
 
-<table border="1" cellspacing="0" cellpadding="6">
-  <thead>
-    <tr>
-      <th>Segmento</th>
-      <th># Entrevista</th>
-      <th>Nombres</th>
-      <th>Apellidos</th>
-      <th>Edad</th>
-      <th>Distrito</th>
-      <th>Personalidad y características relevantes</th>
-      <th>Tecnología y canales (dispositivos, browser, canales)</th>
-      <th>Screenshot (cuadro de video)</th>
-      <th>URL del video (Stream / Clipchamp)</th>
-      <th>Timing (inicio – fin)</th>
-      <th>Duración</th>
-      <th>Resumen descriptivo de la entrevista</th>
-    </tr>
-  </thead>
-  <tbody>
-    <!-- ENTREVISTA 1 -->
-    <tr>
-      <td>Segmento 1 – Profesional técnico / especialista</td>
-      <td>Entrevista 1</td>
-      <td>[Nombre]</td>
-      <td>[Apellidos]</td>
-      <td>[Edad]</td>
-      <td>[Distrito]</td>
-      <td>
-        Perfil analítico, comunicativo, enfocado en la eficiencia de sus procesos.
-        Muestra apertura a soluciones digitales que ahorren tiempo y reduzcan errores.
-      </td>
-      <td>
-        Utiliza laptop y smartphone a diario.  
-        Navegador principal: Chrome.  
-        Canales: correo electrónico, WhatsApp, videollamadas (Teams/Meet).
-      </td>
-      <td>
-        <img src="assets/entrevistas/segmento1-entrevista1.png"
-             alt="Cuadro de video Entrevista 1 Segmento 1"
-             width="160" />
-      </td>
-      <td>
-        <a href="https://stream.microsoft.com/tu-video-completo"
-           target="_blank">Ver video (Stream/Clipchamp)</a>
-      </td>
-      <td>00:12:30 – 00:18:10</td>
-      <td>5 min 40 s</td>
-      <td>
-        Percibe la solución como clara y confiable. Valora que se muestren datos reales
-        y ejemplos concretos. Sugiere simplificar algunos flujos claves y pide métricas
-        más detalladas para la toma de decisiones (estadísticas, tendencias, alertas).
-      </td>
-    </tr>
-    <!-- ENTREVISTA 2 -->
-    <tr>
-      <td>Segmento 1 – Profesional técnico / especialista</td>
-      <td>Entrevista 2</td>
-      <td>[Nombre]</td>
-      <td>[Apellidos]</td>
-      <td>[Edad]</td>
-      <td>[Distrito]</td>
-      <td>
-        Persona detallista, muy orientada a procedimientos formales.
-        Valora la trazabilidad, la confiabilidad de los datos y la claridad visual.
-      </td>
-      <td>
-        Usa principalmente laptop en oficina y smartphone fuera de ella.  
-        Navegadores: Chrome y Edge.  
-        Canales: correo corporativo, WhatsApp, llamadas telefónicas.
-      </td>
-      <td>
-        <img src="assets/entrevistas/segmento1-entrevista2.png"
-             alt="Cuadro de video Entrevista 2 Segmento 1"
-             width="160" />
-      </td>
-      <td>
-        <a href="https://stream.microsoft.com/tu-video-completo"
-           target="_blank">Ver video (Stream/Clipchamp)</a>
-      </td>
-      <td>00:18:11 – 00:23:40</td>
-      <td>5 min 29 s</td>
-      <td>
-        Destaca que la navegación es intuitiva, aunque identifica momentos donde
-        hay demasiados pasos para completar una tarea. Recomienda agrupar
-        acciones frecuentes y mejorar los mensajes de ayuda para nuevos usuarios.
-      </td>
-    </tr>
-    <!-- ENTREVISTA 3 -->
-    <tr>
-      <td>Segmento 2 – Usuario operativo / campo</td>
-      <td>Entrevista 3</td>
-      <td>[Nombre]</td>
-      <td>[Apellidos]</td>
-      <td>[Edad]</td>
-      <td>[Distrito]</td>
-      <td>
-        Persona práctica, enfocada en “que funcione rápido”. Prefiere interfaces simples,
-        con pocas opciones por pantalla y lenguaje no técnico.
-      </td>
-      <td>
-        Usa principalmente smartphone Android.  
-        Navega con Chrome.  
-        Canales: WhatsApp, llamadas, en menor medida correo.
-      </td>
-      <td>
-        <img src="assets/entrevistas/segmento2-entrevista3.png"
-             alt="Cuadro de video Entrevista 3 Segmento 2"
-             width="160" />
-      </td>
-      <td>
-        <a href="https://stream.microsoft.com/tu-video-completo"
-           target="_blank">Ver video (Stream/Clipchamp)</a>
-      </td>
-      <td>00:23:41 – 00:28:00</td>
-      <td>4 min 19 s</td>
-      <td>
-        Comenta que entiende rápidamente los botones principales, pero le cuesta
-        identificar algunas funciones más avanzadas. Solicita accesos directos a las
-        tareas que realiza a diario y notificaciones claras cuando algo está mal.
-      </td>
-    </tr>
-  </tbody>
-</table>
+**Segmento Objetivo:** Odontólogos
+
+
+## Entrevista 1: Martín Salcedo
+
+![entrevista-martin-salcedo](Img/entrevista-martin-salcedo-v.png)
+
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224135_upc_edu_pe/IQB-E-8N3qJKQbH996sMaKNzAddAt5cel4W_k0zdhujbCW4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=3daE5L)
+
+### **Datos del entrevistado**
+- **Nombre:** Martín Salcedo  
+- **Edad:** 25 años  
+- **Distrito:** San Juan de Lurigancho (SJL)  
+- **Timestamp:** 00:00 – 18:31  
+
+### **Resumen de la entrevista (Validación de la aplicación)**  
+Martín probó las funcionalidades iniciales de Dentify, incluyendo autenticación, navegación general, agenda y ficha del paciente. Comentó que la experiencia inicial es fluida, clara y sin fricción. El flujo de visualización de citas y detalles clínicos funciona como espera un odontólogo en consulta.
+
+Destacó como puntos fuertes:
+- Interfaz intuitiva y rápida de entender.
+- Organización clara de la información del paciente.
+- Actualizaciones inmediatas cuando una cita cambia.
+
+Sugirió mejorar:
+- Acceso más directo a la historia clínica.
+- Mayor visibilidad en las alertas y recordatorios.
+- Mejor contraste para uso en consultorios con iluminación variable.
+
+En general, considera que Dentify reduciría solapamientos y mejoraría la organización diaria.
+
+## Entrevista 2: Samuel Mendoza
+
+![entrevista-samuel](Img/entrevista-fabrizio-cutiri.png)
+
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224135_upc_edu_pe/EZYisY-jQ1BNq9ATwS-hVu0BsUCxZC_t448gftlV-aQPFg?e=8vS1tO)
+
+### **Datos del entrevistado**
+- **Nombre:** Samuel Mendoza  
+- **Edad:** 60 años  
+- **Distrito:** Breña  
+- **Timestamp:** 10:35 – 25:55  
+
+### **Resumen de la entrevista (Validación de la aplicación)**  
+El Dr. Mendoza evaluó los módulos de citas, pacientes y navegación principal. Indicó que Dentify es sencillo de usar y que los formularios tienen el nivel justo de información. Consideró que el flujo de registro y actualización de citas es fácil y ordenado.
+
+Observaciones positivas:
+- Flujo claro para registrar, actualizar y revisar citas.
+- Historial del paciente accesible y sin pérdida de datos.
+- Validaciones correctas (no modificar citas pasadas, campos obligatorios, etc.).
+
+Sugerencias de mejora:
+- Aumentar tamaño de letra en secciones clínicas.
+- Mostrar más claramente el estado de pagos.
+- Resumir la historia clínica para evitar demasiado scroll.
+
+Considera que la lógica de negocio implementada coincide con la operación real de un consultorio odontológico y que Dentify podría reemplazar sistemas manuales que actualmente le consumen tiempo.
+
+## Entrevista 3: Elizabeth Huanaco
+
+![entrevista_elizabeth](Img/entrevista_elizabeth.png)
+
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224135_upc_edu_pe/EZYisY-jQ1BNq9ATwS-hVu0BsUCxZC_t448gftlV-aQPFg?e=Pkl74K)
+
+### **Datos del entrevistado**
+- **Nombre:** Elizabeth Huanaco  
+- **Edad:** 25 años  
+- **Distrito:** San Juan de Lurigancho (SJL)  
+- **Timestamp:** 25:55 – 34:24  
+
+### **Resumen de la entrevista (Validación de la aplicación)**  
+Elizabeth validó las pantallas de agenda, paciente, historial y comunicación. Encontró que la organización del contenido es clara y que la navegación es rápida, incluso en sesiones con varios pacientes seguidos.
+
+Comentarios positivos:
+- Información clínica bien estructurada.
+- Flujo rápido de registro de procedimientos.
+- Vista de citas con estados visibles y útiles.
+
+Recomendaciones:
+- Integrar botón de mensajes/recordatorios desde la cita.
+- Agregar plantillas rápidas de tratamientos frecuentes.
+- Permitir subir fotos directamente desde su dispositivo (iPad o cámara).
+
+Concluyó que Dentify agilizaría su trabajo, reduciría su dependencia de Excel y WhatsApp, y facilitaría la gestión integral del consultorio.
 
 ### 6.3.3. Evaluaciones según heurísticas.
 
@@ -4861,10 +4821,9 @@ Asegurar que el conteo mostrado se base en la misma fuente de verdad y que las o
 
 
 #### 6.4.2. Auditoría recibida.
-
 #### 6.4.2.1. Información del grupo auditor.
 
-Integrantes del grupo:
+Integrantes del c
 
 Aponte Cruzado, Andrea Marielena - U202224135
 Belahonia Miranda, Fabrisio - U202220219
