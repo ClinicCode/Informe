@@ -4679,11 +4679,11 @@ Esta prueba asegura la correcta interacción entre los componentes del contexto 
 
 Codigo Test:
 
-![test1](img/test1.png)
+![test1](Img/test1.png)
 
 Resultado:
 
-![resulttest1](img/resulttest1.png)
+![resulttest1](Img/resulttest1.png)
 
 ### 6.1.3. Core Behavior-Driven Development
 
