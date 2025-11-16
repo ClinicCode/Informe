@@ -5364,6 +5364,49 @@ Si se detecta un incremento de errores >5% o fricción significativa, se aplicar
 - **No-Go:** se ejecutará un sprint de corrección antes de considerar su despliegue en producción.
 
 ### 8.2.5. Scale Calculations and Decisions.
+
+Para decidir cuándo una funcionalidad de Dentify está lista para escalar desde pruebas controladas hacia toda la base de usuarios, se establecen criterios cuantitativos y metas mínimas que garantizan estabilidad técnica, valor real para los odontólogos y reducción de fricción operativa. Las decisiones de escalado se basan en los siguientes cálculos e indicadores:
+
+**Índice de Satisfacción del Usuario (ISU):**
+Se mide la percepción de utilidad y facilidad de uso del módulo evaluado.
+
+ISU = ( Usuarios satisfechos / Total encuestados) x 100
+
+**Meta mínima:** ≥ 75% antes de escalar.
+
+**Retención temprana (R30):**
+Evalúa si los odontólogos continúan utilizando la funcionalidad durante el primer mes.
+
+R30 = (Usuarios activos en día 30 / Usuarios que probaron el módulo)x 100
+
+**Meta:** ≥ 60% para considerar que la funcionalidad tiene valor sostenido.
+
+**Tasa de Adopción (TA):**
+Permite estimar qué tan rápido se integra una nueva funcionalidad en la rutina clínica.
+
+TA = (Nuevos usuarios por semana / Usuarios meta)x 100
+
+**Umbral de avance:** crecimiento semanal ≥ 20%.
+
+**Eficiencia Operativa:**
+Se analiza si la funcionalidad reduce tiempo administrativo. Por ejemplo, para citas o inventario:
+
+* **Objetivo:** disminuir al menos 15% el tiempo promedio de registro.
+* **Indicador adicional:** reducción del 10% en errores de digitación o inconsistencias en inventario.
+
+**Criterios Go / No-Go:**
+Una función pasa a la siguiente fase (por ejemplo, de “piloto” a “publicación para todas las clínicas”) solo si cumple:
+
+* Crash-rate < 1%.
+* ISU ≥ 75%.
+* R30 ≥ 60%.
+* Reporte de bugs críticos = 0.
+* Feedback cualitativo positivo en entrevistas (2 de 3 evaluaciones favorables).
+
+En caso de no cumplir los umbrales, la funcionalidad regresa a una fase de iteración, se ajustan los puntos de fricción detectados y se repite el ciclo hasta alcanzar estabilidad. Este enfoque garantiza un crecimiento controlado y basado en evidencia, evitando riesgos para la operación clínica de los usuarios.
+
+
+
 ### 8.2.6. Methods Selection.
 
 Elegimos una combinación de métodos cualitativos y cuantitativos que equilibra velocidad, costo y fiabilidad.
