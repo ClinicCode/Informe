@@ -4759,7 +4759,21 @@ A continuación se describen los pasos que conforman este pipeline:
 * **Despliegue a Producción:** Una vez validados los pasos previos, Jenkins procede a realizar el despliegue del sistema en el entorno de producción.
 
 ## 7.4. Continuous Monitoring
-### 7.4.1. Tools and Practices  omar 
+### 7.4.1. Tools and Practices
+
+Con el fin de asegurar un monitoreo eficiente de la aplicación y sus entornos, se adoptan diversas herramientas y prácticas especializadas:
+
+- **Prometheus**: Es una herramienta de monitoreo y generación de alertas que recolecta métricas en tiempo real desde múltiples servicios. Se emplea para registrar datos clave como tiempos de respuesta y carga del sistema, permitiendo evaluar el rendimiento de la aplicación.
+
+- **Grafana**: Plataforma de visualización de datos que permite construir paneles personalizados basados en las métricas obtenidas por Prometheus. Facilita la interpretación visual de indicadores clave y la detección temprana de posibles fallos.
+
+- **ELK Stack (Elasticsearch, Logstash, Kibana)**: Conjunto de herramientas para el procesamiento y análisis de registros. Elasticsearch permite realizar búsquedas avanzadas, Logstash transforma y organiza los logs, y Kibana proporciona una interfaz gráfica para su análisis visual.
+
+- **New Relic**: Herramienta de monitoreo del rendimiento de aplicaciones (APM) que brinda información en tiempo real sobre el comportamiento de la aplicación y la experiencia del usuario.
+
+- **PagerDuty**: Plataforma especializada en la gestión de incidentes que se encarga de emitir alertas ante fallos críticos en los servicios o en la infraestructura, permitiendo una respuesta rápida.
+
+
 ### 7.4.2. Monitoring Pipeline Components
 
 El monitoreo del pipeline garantiza que cada etapa del CI/CD de Dentify — compilación, pruebas y despliegue — funcione de forma estable y sin interrupciones. Para ello se supervisan tanto el rendimiento del pipeline como la salud del backend en ejecución.<br>
