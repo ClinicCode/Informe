@@ -5131,6 +5131,14 @@ validación posteriores.
 
 ### 8.1.4. Question Backlog.
 ### 8.1.5. Experiment Cards.
+
+| Question                                                                              | Why                                                                                 | What                                                                                     | Hypothesis                                                                                         |
+|---------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
+| ¿Por qué los odontólogos no completan la creación de citas en Dentify?                | El formulario tiene demasiados campos obligatorios, generando fricción y abandono.  | Reducir los campos obligatorios del formulario, dejando solo los esenciales.             | Si reducimos los campos obligatorios, entonces la Tasa de creación de citas aumentará en 20%.      |
+| ¿Por qué los odontólogos no utilizan el módulo de facturación?                        | La facturación es percibida como un proceso manual lento.                           | Automatizar la generación de factura al finalizar una cita.                              | Si automatizamos la factura, entonces la Tasa de facturación aumentará en 15%.                     |
+| ¿Por qué el inventario real del consultorio no coincide con el inventario registrado? | Registrar materiales manualmente es tedioso, por lo que suele omitirse.             | Permitir registrar materiales con un solo clic desde la pantalla de la cita.             | Si simplificamos el registro de materiales, entonces la Exactitud del Inventario aumentará en 10%. |
+| ¿Por qué los odontólogos nuevos no completan su primer paso clave dentro de Dentify?  | Los nuevos usuarios no conocen el flujo básico de inicio y necesitan orientación.   | Añadir un onboarding guiado de tres pasos que explique claramente el flujo inicial.      | Si añadimos un onboarding guiado, entonces la Tasa de Primer Uso Efectivo aumentará en 15%.        |
+| ¿Por qué los odontólogos dejan de usar Dentify después del primer mes?                | No reciben recordatorios relevantes que los motiven a volver a la app.              | Enviar recordatorios automáticos (citas próximas, inventario bajo, tareas pendientes).   | Si enviamos recordatorios relevantes, entonces la Retención a 30 días aumentará en 15%             |
 ## 8.2. Experiment Design
 ### 8.2.1. Hypotheses.
 
