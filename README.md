@@ -5058,6 +5058,50 @@ A continuación se describen los pasos que conforman este pipeline:
 
 * **Despliegue a Producción:** Una vez validados los pasos previos, Jenkins procede a realizar el despliegue del sistema en el entorno de producción.
 
+## 7.4. Continuous Monitoring
+### 7.4.1. Tools and Practices
+
+Con el fin de asegurar un monitoreo eficiente de la aplicación y sus entornos, se adoptan diversas herramientas y prácticas especializadas:
+
+- **Prometheus**: Es una herramienta de monitoreo y generación de alertas que recolecta métricas en tiempo real desde múltiples servicios. Se emplea para registrar datos clave como tiempos de respuesta y carga del sistema, permitiendo evaluar el rendimiento de la aplicación.
+
+- **Grafana**: Plataforma de visualización de datos que permite construir paneles personalizados basados en las métricas obtenidas por Prometheus. Facilita la interpretación visual de indicadores clave y la detección temprana de posibles fallos.
+
+- **ELK Stack (Elasticsearch, Logstash, Kibana)**: Conjunto de herramientas para el procesamiento y análisis de registros. Elasticsearch permite realizar búsquedas avanzadas, Logstash transforma y organiza los logs, y Kibana proporciona una interfaz gráfica para su análisis visual.
+
+- **New Relic**: Herramienta de monitoreo del rendimiento de aplicaciones (APM) que brinda información en tiempo real sobre el comportamiento de la aplicación y la experiencia del usuario.
+
+- **PagerDuty**: Plataforma especializada en la gestión de incidentes que se encarga de emitir alertas ante fallos críticos en los servicios o en la infraestructura, permitiendo una respuesta rápida.
+
+
+### 7.4.2. Monitoring Pipeline Components
+
+El monitoreo del pipeline garantiza que cada etapa del CI/CD de Dentify — compilación, pruebas y despliegue — funcione de forma estable y sin interrupciones. Para ello se supervisan tanto el rendimiento del pipeline como la salud del backend en ejecución.<br>
+| Componente                           | Qué se Monitorea                                                          | Herramientas                                 | Resultado                                      |
+| ------------------------------------ | ------------------------------------------------------------------------- | -------------------------------------------- | ---------------------------------------------- |
+| **Pipeline Metrics**                 | Duración de etapas, fallos de build/test, frecuencia de ejecuciones.      | Jenkins + Logs del pipeline                  | Detecta fallas tempranas y cuellos de botella. |
+| **Server Health**                    | CPU, memoria, disco y consumo durante compilación y pruebas.              | Windows/Linux Metrics / Monitor del servidor | Evita saturación de recursos durante el CI.    |
+| **Backend Health Checks**            | Disponibilidad de API, conexión a la base de datos, estado del servicio.  | Endpoints `/health` o `/actuator`            | Permite actuar rápido ante caídas o fallos.    |
+| **Logs Centralizados**               | Errores del backend, fallos de autenticación, problemas en controladores. | Consola Jenkins + Logs de Spring Boot        | Facilita el diagnóstico después de cada build. |
+| **App Usage Events (mínimo viable)** | Inicio de sesión, errores en formularios, fallos de carga.                | Logs del backend                             | Permite detectar errores de usuario o UI.      |
+
+
+### 7.4.3. Alerting Pipeline Components
+
+El sistema de alertas de Dentify se basa en reglas simples pero efectivas que notifican únicamente cuando una condición requiere acción inmediata. Se configuran alertas por umbral en el backend (latencia alta, aumento de errores 500 y uso elevado de CPU o memoria), y alertas de disponibilidad cuando un servicio no responde en dos verificaciones consecutivas. Desde Jenkins, se generan alertas automáticas ante fallas en etapas del pipeline como compilación, pruebas unitarias o despliegue. Todas las alertas se envían a un canal dedicado del equipo mediante mensajes instantáneos, permitiendo una reacción rápida ante incidentes y asegurando la continuidad del servicio clínico.
+
+### 7.4.4. Notification Pipeline Components.
+
+El sistema de notificaciones de Dentify distribuye los mensajes de alerta a los canales adecuados para asegurar una respuesta rápida y organizada. Para ello, se emplean los siguientes mecanismos:
+
+* **Notificaciones instantáneas internas**: Mensajes automáticos enviados al canal del equipo con detalles del incidente, enlaces a los logs y el estado del pipeline, permitiendo actuar de inmediato.
+
+* **Alertas prioritarias al celular**: Para eventos críticos que comprometen citas, facturación o disponibilidad del sistema, se envía una notificación directa al responsable de guardia para garantizar una intervención urgente.
+
+* **Resumen diario por correo**: Se envían reportes con todas las alertas generadas, su estado y acciones tomadas, permitiendo a los stakeholders técnicos y administrativos mantener visibilidad sobre la estabilidad del sistema.
+
+
+
 
 
 # Capitulo VIII: Experiment-Driven Development
