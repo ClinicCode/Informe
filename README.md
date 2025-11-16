@@ -64,6 +64,8 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
 |---------|-------|-------|-----------------------------|
 | TB1 | 24/04/2025 | Belahonia Miranda, Fabrisio | Realización de:<br>- Capítulo I: Presentación<br>- Capítulo II: Requirements Elicitation & Analysis<br>- Capítulo III: Requirements Specification<br>- Capítulo IV: Solution Software Design |
 | TP1 | 08/10/2025 | Belahonia Miranda, Fabrisio | Actualización y ampliación de:<br>- Capítulo III: Requirements Specification (versión mejorada de To-Be Scenario, User Stories, Product Backlog e Impact Mapping).<br>- Capítulo V: Product Implementation & Deployment.<br>- Capítulo VI: Product Verification & Validation.|
+| TB2 | 16/11/2025 | Belahonia Miranda, Fabrisio |Desarrollo de las secciones asignadas de los Capítulo VI: Product Verification & Validation, Capítulo VII: DevOps Practices y Capítulo VIII: Experiment-Driven Development|
+
 
 # Project Report Collaboration Insights
 ---
@@ -96,6 +98,7 @@ Para el desarrollo del informe perteneciente a la entrega TB2, se dividió la im
 | Bohorquez Lerzundi, Gerardo Sebastian | Acuerdo de servicios, Core integration tests, Stages development, Continuous development                                         |
 | Cutiri Agüero, Fabrizio Alexander     | Application Evidence, Core entities unit test, tools and practices, production deployment pipeline                               |
 | Berrocal Ramirez, Omar Christian      | Collaboration insights, Core system tests                                                                                        |
+
 
 
 # GitHub Collaboration Insights
@@ -260,23 +263,29 @@ Los integrantes son:
       <td>
         <b>Aponte Cruzado, Andrea Marielena</b><br>
         <b>TB1:</b> Fui parte de la realización de las entrevistas al segmento objetivo y parte de la experimentación para adecuar el diseño gráfico a la web acorde con lo descrito por nuestros usuarios en las entrevistas.<br>
-        <b>TP1:</b> Participé activamente en las etapas de validación y pruebas del sistema, asegurando que los datos de los usuarios fueran tratados con confidencialidad y que la información sensible se manejara bajo buenas prácticas de seguridad.<br><br>
+        <b>TP1:</b> Participé activamente en las etapas de validación y pruebas del sistema, asegurando que los datos de los usuarios fueran tratados con confidencialidad y que la información sensible se manejara bajo buenas prácticas de seguridad.<br>
+        <b>TB2:</b> Elaboré Core System Tests, Static Code Analysis y documentación de auditoría recibida, asegurando rigurosidad y trazabilidad técnica.<br><br>
         <b>Belahonia Miranda, Fabrisio</b><br>
         <b>TB1:</b> Como líder del equipo asumí la responsabilidad ética y profesional en el desarrollo del proyecto, asegurando el respeto a la privacidad de los usuarios, la accesibilidad en el diseño UX/UI y la transparencia en cada etapa del Lean UX.<br>
-        <b>TP1:</b> Coordiné la validación de la arquitectura y las pruebas de integración, procurando mantener el equilibrio entre rendimiento, sostenibilidad y facilidad de mantenimiento.<br><br>
+        <b>TP1:</b> Coordiné la validación de la arquitectura y las pruebas de integración, procurando mantener el equilibrio entre rendimiento, sostenibilidad y facilidad de mantenimiento.<br>
+        <b>TB2:</b> Desarrollé auditorías (realizada y recibida), métricas, hipótesis, experimentación y componentes de Deployment/Monitoring, garantizando cumplimiento ético en DevOps.<br><br>
         <b>Bohorquez Lerzundi, Gerardo Sebastian</b><br>
         <b>TB1:</b> Apliqué Lean UX y buenas prácticas de diseño ético, asegurando un uso responsable de la información de los usuarios.<br>
-        <b>TP1:</b> Desarrollé componentes críticos del backend garantizando transparencia en la gestión de datos y principios éticos de desarrollo responsable.<br><br>
+        <b>TP1:</b> Desarrollé componentes críticos del backend garantizando transparencia en la gestión de datos y principios éticos de desarrollo responsable.<br>
+        <b>TB2:</b> Implementé Code Quality & Security, diseño de entrevistas, contenido de auditoría recibida, Build & Test Suite, métricas experimentales y To-Be Product Backlog.<br><br>
         <b>Cutiri Agüero, Fabrizio Alexander</b><br>
         <b>TB1:</b> Redacté historias de usuario claras y trazables.<br>
-        <b>TP1:</b> Contribuí a la validación del backlog asegurando coherencia técnica y ética en el desarrollo.<br><br>
+        <b>TP1:</b> Contribuí a la validación del backlog asegurando coherencia técnica y ética en el desarrollo.<br>
+        <b>TB2:</b> Elaboré información del grupo auditado, contenido de auditorías, resumen de mejoras, Tools & Practices de CI/CD, Hypotheses, Methods Selection y To-Be User Stories.<br><br>
         <b>Berrocal Ramirez, Omar Christian</b><br>
         <b>TB1:</b> Adapté el diseño del landing page, web y mobile según las necesidades de los usuarios finales.<br>
         <b>TP1:</b> Supervisé la accesibilidad y usabilidad del diseño durante las pruebas finales.
+        <b>TB2:</b> Redacté Coding Standards, Reviews, heurísticas, Question Backlog, KPIs analíticos, Monitoring Tools y Anexos, garantizando consistencia y ética en documentación técnica.<br>
       </td>
       <td>
         <b>TB1:</b> El proyecto se desarrolló bajo principios de responsabilidad ética y profesional, priorizando la privacidad, seguridad, accesibilidad y transparencia.<br><br>
         <b>TP1:</b> Se mantuvo el compromiso ético y profesional en la fase final, garantizando calidad técnica, seguridad de la información y cumplimiento de estándares de accesibilidad y transparencia.
+        <b>TB2:</b> El equipo consolidó prácticas éticas en pruebas, auditorías, DevOps y experimentación, asegurando trazabilidad, rigurosidad técnica y documentación alineada a buenas prácticas profesionales.
       </td>
     </tr>
   </tbody>
@@ -296,23 +305,28 @@ Los integrantes son:
       <td>
         <b>Aponte Cruzado, Andrea Marielena</b><br>
         <b>TB1:</b> Participé en el análisis de las entrevistas para comprender las necesidades de los usuarios y reflejarlo en el diseño del sistema.<br>
-        <b>TP1:</b> Validé funcionalidades considerando sostenibilidad y accesibilidad a largo plazo.<br><br>
+        <b>TP1:</b> Validé funcionalidades considerando sostenibilidad y accesibilidad a largo plazo.<br>
+        <b>TB2:</b> Documenté auditorías recibidas y diseñé pruebas e hipótesis, fortaleciendo decisiones basadas en impacto global y uso responsable del sistema.<br><br>
         <b>Belahonia Miranda, Fabrisio</b><br>
         <b>TB1:</b> Tomé decisiones que consideraron impactos sociales, económicos y ambientales.<br>
-        <b>TP1:</b> Coordiné decisiones técnicas enfocadas en sostenibilidad y eficiencia.<br><br>
+        <b>TP1:</b> Coordiné decisiones técnicas enfocadas en sostenibilidad y eficiencia.<br>
+        <b>TB2:</b> Lideré auditorías, métricas y diseño experimental evaluando impacto social y operativo del sistema en entornos clínicos reales.<br><br>
         <b>Bohorquez Lerzundi, Gerardo Sebastian</b><br>
         <b>TB1:</b> Aporté a la integración web y mobile optimizando recursos.<br>
-        <b>TP1:</b> Analicé el consumo de recursos promoviendo eficiencia energética.<br><br>
+        <b>TP1:</b> Analicé el consumo de recursos promoviendo eficiencia energética.<br>
+        <b>TB2:</b> Ejecuté análisis de calidad y seguridad, entrevistas y métricas de escalabilidad considerando riesgos globales y eficiencia operativa.<br><br>
         <b>Cutiri Agüero, Fabrizio Alexander</b><br>
         <b>TB1:</b> Priorización del backlog según impacto funcional y social.<br>
-        <b>TP1:</b> Evalué dependencias técnicas considerando valor y sostenibilidad.<br><br>
+        <b>TP1:</b> Evalué dependencias técnicas considerando valor y sostenibilidad.<br>
+        <b>TB2:</b> Elaboré componentes críticos del diseño experimental (hipótesis, métricas, auditorías), evaluando impacto social y eficiencia del sistema en el entorno clínico.<br><br>
         <b>Berrocal Ramirez, Omar Christian</b><br>
         <b>TB1:</b> Analicé el comportamiento del público objetivo en contextos globales y locales.<br>
-        <b>TP1:</b> Implementé optimizaciones visuales considerando impacto ambiental.
+        <b>TP1:</b> Implementé optimizaciones visuales considerando impacto ambiental.<b>TB2:<b>Redacté estándares, revisiones, KPIs y Question Backlog, integrando criterios globales, sociales y de sostenibilidad en decisiones funcionales y de diseño.
       </td>
       <td>
         <b>TB1:</b> Las decisiones del proyecto se tomaron considerando impactos sociales, económicos, globales y ambientales.<br><br>
-        <b>TP1:</b> Se reforzó la evaluación del impacto global, equilibrando sostenibilidad, eficiencia económica y beneficio social, priorizando la responsabilidad ambiental.
+        <b>TP1:</b> Se reforzó la evaluación del impacto global, equilibrando sostenibilidad, eficiencia económica y beneficio social, priorizando la responsabilidad ambiental.<br><br>
+        <b>TB2:</b> En esta etapa, el equipo aplicó juicios informados basados en auditorías, pruebas, métricas y diseño experimental, garantizando que las decisiones técnicas respondan a efectos reales en la operación clínica, la sostenibilidad y el entorno social.
       </td>
     </tr>
   </tbody>
