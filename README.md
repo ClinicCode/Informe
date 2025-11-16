@@ -5096,6 +5096,47 @@ En síntesis, el modelo actual carece de una plataforma centralizada y moderna q
 
 ### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims.
 
+**Assumptions**
+
+* Se asume que los odontólogos valoran una plataforma que centralice citas, pacientes e inventario en un solo lugar.
+
+* Se cree que la búsqueda rápida por DNI reducirá tiempos de atención y errores de registro.
+
+* Se piensa que los dentistas prefieren una interfaz sencilla y móvil para gestionar pacientes desde cualquier lugar.
+
+* Se supone que la digitalización de historiales clínicos mejorará la continuidad del tratamiento y reducirá pérdidas de información.
+
+**Knowledge Gaps**
+
+* No se conoce qué módulo genera más fricción actualmente: ¿citas, pacientes, inventario o pagos?
+
+* No está claro cuánto tiempo tardan hoy los odontólogos en registrar o modificar una cita manualmente.
+
+* Se desconoce qué tan cómodo se sienten los usuarios con formularios extensos al registrar pacientes.
+
+* No hay datos de qué dispositivos usan más los dentistas (móvil vs. escritorio), lo cual impacta en el diseño UI/UX.
+
+**Ideas**
+
+* Implementar un sistema de recordatorios automáticos vía notificaciones internas para evitar citas perdidas.
+
+* Añadir un registro rápido de insumos consumidos durante la atención para mantener actualizado el inventario.
+
+* Ofrecer dashboards simples con métricas clave: citas del día, pacientes nuevos, insumos por agotarse.
+
+* Crear un onboarding guiado dentro de la app para reducir la curva de aprendizaje de nuevos usuarios.
+
+**Claims**
+
+* Dentify reducirá significativamente la carga administrativa, permitiendo que los odontólogos atiendan más pacientes en menos tiempo.
+
+* La digitalización del historial clínico disminuirá los errores y mejorará la calidad del seguimiento odontológico.
+
+* La gestión automatizada de citas disminuirá ausencias y reprogramaciones, aumentando la productividad.
+
+* Un inventario bien gestionado evitará quiebres de stock y reducirá costos operativos del consultorio.
+
+  
 ### 8.1.3. Experiment-Ready Questions.
 
 En esta sección se definen las preguntas que guiarán los experimentos de validación de
