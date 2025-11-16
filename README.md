@@ -4761,6 +4761,17 @@ A continuación se describen los pasos que conforman este pipeline:
 ## 7.4. Continuous Monitoring
 ### 7.4.1. Tools and Practices  omar 
 ### 7.4.2. Monitoring Pipeline Components
+
+El monitoreo del pipeline garantiza que cada etapa del CI/CD de Dentify — compilación, pruebas y despliegue — funcione de forma estable y sin interrupciones. Para ello se supervisan tanto el rendimiento del pipeline como la salud del backend en ejecución.<br>
+| Componente                           | Qué se Monitorea                                                          | Herramientas                                 | Resultado                                      |
+| ------------------------------------ | ------------------------------------------------------------------------- | -------------------------------------------- | ---------------------------------------------- |
+| **Pipeline Metrics**                 | Duración de etapas, fallos de build/test, frecuencia de ejecuciones.      | Jenkins + Logs del pipeline                  | Detecta fallas tempranas y cuellos de botella. |
+| **Server Health**                    | CPU, memoria, disco y consumo durante compilación y pruebas.              | Windows/Linux Metrics / Monitor del servidor | Evita saturación de recursos durante el CI.    |
+| **Backend Health Checks**            | Disponibilidad de API, conexión a la base de datos, estado del servicio.  | Endpoints `/health` o `/actuator`            | Permite actuar rápido ante caídas o fallos.    |
+| **Logs Centralizados**               | Errores del backend, fallos de autenticación, problemas en controladores. | Consola Jenkins + Logs de Spring Boot        | Facilita el diagnóstico después de cada build. |
+| **App Usage Events (mínimo viable)** | Inicio de sesión, errores en formularios, fallos de carga.                | Logs del backend                             | Permite detectar errores de usuario o UI.      |
+
+
 ### 7.4.3. Alerting Pipeline Components
 
 El sistema de alertas de Dentify se basa en reglas simples pero efectivas que notifican únicamente cuando una condición requiere acción inmediata. Se configuran alertas por umbral en el backend (latencia alta, aumento de errores 500 y uso elevado de CPU o memoria), y alertas de disponibilidad cuando un servicio no responde en dos verificaciones consecutivas. Desde Jenkins, se generan alertas automáticas ante fallas en etapas del pipeline como compilación, pruebas unitarias o despliegue. Todas las alertas se envían a un canal dedicado del equipo mediante mensajes instantáneos, permitiendo una reacción rápida ante incidentes y asegurando la continuidad del servicio clínico.
