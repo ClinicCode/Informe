@@ -5338,6 +5338,8 @@ Elegimos una combinación de métodos cualitativos y cuantitativos que equilibra
 ### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection.
 ### 8.2.8. Web and Mobile Tracking Plan.
 
+El plan de tracking de Dentify registrará eventos clave del flujo odontológico tanto en la versión web como en la app móvil, enfocándose en acciones como inicio de sesión, creación de citas, registro de pacientes, actualización de historias clínicas, uso de inventario y generación de facturas. El monitoreo se realizará mediante Firebase Analytics (solo para mobile) y los logs del backend, permitiendo analizar adopción, detectar fricción en procesos críticos y evaluar la frecuencia real de uso de cada módulo. Esta información permitirá priorizar mejoras y asegurar que las funcionalidades respondan a las necesidades operativas de la clínica.
+<br>
 ## 8.3. Experimentation
 
 ### 8.3.1. To-Be User Stories.
