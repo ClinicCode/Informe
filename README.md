@@ -5072,6 +5072,7 @@ Los reportes administrativos requieren procesos manuales (filtros, búsquedas, b
 
 #### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos.
 
+A partir de la auditoría recibida, se ejecutaron mejoras enfocadas en aumentar la claridad visual, reducir fricción en el flujo clínico y optimizar la eficiencia operativa. Para la vista de citas, se añadió información contextual (motivo, estado y duración), permitiendo una lectura rápida sin ingresar a cada registro. En el módulo odontológico se incorporaron etiquetas persistentes, tooltips y referencias visuales para facilitar el entendimiento del odontograma y el registro clínico. El historial clínico fue reorganizado con mayor jerarquía, fechas legibles y diferenciación por tipo de tratamiento. Además, se desarrolló soporte offline para el registro de insumos, garantizando continuidad del trabajo ante pérdida de conexión. Finalmente, se mejoró la generación de reportes con formatos predefinidos, filtros inteligentes y exportación automática, reduciendo tiempos administrativos.
 
 # Conclusiones
 
