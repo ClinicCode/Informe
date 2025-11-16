@@ -4770,6 +4770,16 @@ Este caso valida que el módulo de pacientes de **Dentify** garantiza una gesti�
     
 ### 6.1.4. Core System Tests.
 
+Prueba de sistema de flujo completo de un usuario.  
+Empieza por el registro, login y luego valida la actualización de datos.  
+Este test valida la respuesta de los Endpoints llamados desde las aplicaciones web y mobile.
+
+![chapter6.1.4-1.jpeg](Img/chapter6.1.4-1.jpeg)  
+![chapter6.1.4-2.jpeg](Img/chapter6.1.4-2.jpeg)  
+![chapter6.1.4-3.jpeg](Img/chapter6.1.4-3.jpg)
+![chapter6.1.4-4.jpeg](Img/chapter6.1.4-4.jpeg)
+
+
 1. Registro (web/móvil)
 Validación de creación de cuenta y confirmación de que el backend procesa correctamente los datos enviados.
 ![imagen](Img/system-test-1.png)
@@ -5240,6 +5250,13 @@ Los reportes administrativos requieren procesos manuales (filtros, búsquedas, b
 #### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos.
 
 A partir de la auditoría recibida, se ejecutaron mejoras enfocadas en aumentar la claridad visual, reducir fricción en el flujo clínico y optimizar la eficiencia operativa. Para la vista de citas, se añadió información contextual (motivo, estado y duración), permitiendo una lectura rápida sin ingresar a cada registro. En el módulo odontológico se incorporaron etiquetas persistentes, tooltips y referencias visuales para facilitar el entendimiento del odontograma y el registro clínico. El historial clínico fue reorganizado con mayor jerarquía, fechas legibles y diferenciación por tipo de tratamiento. Además, se desarrolló soporte offline para el registro de insumos, garantizando continuidad del trabajo ante pérdida de conexión. Finalmente, se mejoró la generación de reportes con formatos predefinidos, filtros inteligentes y exportación automática, reduciendo tiempos administrativos.
+
+
+# Capítulo VII: DevOps Practices
+
+## 7.1. Continuous Integration
+
+### 7.1.1. Tools and Practices.
 
 La práctica de **Continuous Integration (CI)** en **Dentify** consiste en integrar con la mayor frecuencia posible los cambios realizados por los desarrolladores en la rama principal del repositorio —generalmente **main**—, verificando de forma automática que dichas modificaciones mantengan la **calidad**, **seguridad** y **funcionalidad** del sistema.
 
