@@ -4638,20 +4638,19 @@ Ejecución de acciones con datos inválidos para comprobar que el sistema respon
 
 **Segmento Objetivo:** Odontólogos
 
-
-## Entrevista 1: Martín Salcedo
+**Entrevista 1: Martín Salcedo**
 
 ![entrevista-martin-salcedo](Img/entrevista-martin-salcedo-v.png)
 
 [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224135_upc_edu_pe/IQB-E-8N3qJKQbH996sMaKNzAddAt5cel4W_k0zdhujbCW4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=3daE5L)
 
-### **Datos del entrevistado**
+**Datos del entrevistado**
 - **Nombre:** Martín Salcedo  
 - **Edad:** 25 años  
 - **Distrito:** San Juan de Lurigancho (SJL)  
 - **Timestamp:** 00:00 – 18:31  
 
-### **Resumen de la entrevista (Validación de la aplicación)**  
+**Resumen de la entrevista (Validación de la aplicación)**  
 Martín probó las funcionalidades iniciales de Dentify, incluyendo autenticación, navegación general, agenda y ficha del paciente. Comentó que la experiencia inicial es fluida, clara y sin fricción. El flujo de visualización de citas y detalles clínicos funciona como espera un odontólogo en consulta.
 
 Destacó como puntos fuertes:
@@ -4666,19 +4665,19 @@ Sugirió mejorar:
 
 En general, considera que Dentify reduciría solapamientos y mejoraría la organización diaria.
 
-## Entrevista 2: Samuel Mendoza
+**Entrevista 2: Samuel Mendoza**
 
 ![entrevista-samuel](Img/entrevista-fabrizio-cutiri.png)
 
 [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224135_upc_edu_pe/EZYisY-jQ1BNq9ATwS-hVu0BsUCxZC_t448gftlV-aQPFg?e=8vS1tO)
 
-### **Datos del entrevistado**
+**Datos del entrevistado**
 - **Nombre:** Samuel Mendoza  
 - **Edad:** 60 años  
 - **Distrito:** Breña  
 - **Timestamp:** 10:35 – 25:55  
 
-### **Resumen de la entrevista (Validación de la aplicación)**  
+**Resumen de la entrevista (Validación de la aplicación)**  
 El Dr. Mendoza evaluó los módulos de citas, pacientes y navegación principal. Indicó que Dentify es sencillo de usar y que los formularios tienen el nivel justo de información. Consideró que el flujo de registro y actualización de citas es fácil y ordenado.
 
 Observaciones positivas:
@@ -4693,19 +4692,19 @@ Sugerencias de mejora:
 
 Considera que la lógica de negocio implementada coincide con la operación real de un consultorio odontológico y que Dentify podría reemplazar sistemas manuales que actualmente le consumen tiempo.
 
-## Entrevista 3: Elizabeth Huanaco
+**Entrevista 3: Elizabeth Huanaco**
 
 ![entrevista_elizabeth](Img/entrevista_elizabeth.png)
 
 [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224135_upc_edu_pe/EZYisY-jQ1BNq9ATwS-hVu0BsUCxZC_t448gftlV-aQPFg?e=Pkl74K)
 
-### **Datos del entrevistado**
+**Datos del entrevistado**
 - **Nombre:** Elizabeth Huanaco  
 - **Edad:** 25 años  
 - **Distrito:** San Juan de Lurigancho (SJL)  
 - **Timestamp:** 25:55 – 34:24  
 
-### **Resumen de la entrevista (Validación de la aplicación)**  
+**Resumen de la entrevista (Validación de la aplicación)**  
 Elizabeth validó las pantallas de agenda, paciente, historial y comunicación. Encontró que la organización del contenido es clara y que la navegación es rápida, incluso en sesiones con varios pacientes seguidos.
 
 Comentarios positivos:
