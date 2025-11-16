@@ -5200,6 +5200,22 @@ barreras y expectativas de los usuarios, alimentando nuevas hipótesis para cicl
 validación posteriores.
 
 ### 8.1.4. Question Backlog.
+
+El Question Backlog resume las preguntas clave que debemos responder para mejorar Dentify y orientar los próximos experimentos del producto.
+| **Pregunta**                                                                        | **Hipótesis**                                                           | **Prioridad** | **Objetivo**                                      |
+| ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------- | ------------------------------------------------- |
+| ¿Por qué algunos odontólogos no completan el proceso de creación de citas?          | Reducir los campos obligatorios aumentará la tasa de creación de citas. | Alta          | Incrementar en +20% la creación exitosa de citas. |
+| ¿Qué impide que se generen facturas después de una cita?                            | Automatizar la facturación elevará el uso del módulo.                   | Media         | Aumentar la tasa de facturación en +15%.          |
+| ¿Por qué el inventario registrado no coincide con el stock real?                    | Registrar materiales con un solo clic reducirá errores y omisiones.     | Alta          | Mejorar la exactitud del inventario en +10%.      |
+| ¿Entienden los usuarios nuevos el flujo inicial (registrar pacientes, crear citas)? | Un onboarding guiado aumentará el primer uso efectivo.                  | Alta          | Aumentar la activación temprana en +15%.          |
+| ¿Qué causa que odontólogos dejen de usar Dentify después del primer mes?            | Recordatorios automáticos y alertas relevantes mejoran la retención.    | Media         | Incrementar retención 30 días en +10%.            |
+| ¿Qué información consideran indispensable al registrar pacientes?                   | Campos mínimos y búsqueda por DNI reducen fricción.                     | Media         | Reducir tiempo de registro en 20%.                |
+| ¿Cómo afecta la falta de historial clínico organizado a la atención?                | Historial ordenado y cronológico mejora la eficiencia clínica.          | Baja          | Reducir errores de registro en 10%.               |
+| ¿Qué dificultades encuentran los odontólogos al modificar o cancelar citas?         | Filtros y vista semanal/mensual mejoran la gestión de agenda.           | Media         | Reducir modificaciones fallidas en 15%.           |
+| ¿Los asistentes dentales requieren un flujo distinto al del odontólogo?             | Perfiles separados simplifican la carga administrativa.                 | Baja          | Optimizar flujo por rol y reducir errores.        |
+| ¿Qué elementos generan más confianza en la landing page para nuevos clientes?       | Precios claros, beneficios y testimonios aumentarán conversiones.       | Media         | Incrementar leads desde la landing en +20%.       |
+
+
 ### 8.1.5. Experiment Cards.
 
 | Question                                                                              | Why                                                                                 | What                                                                                     | Hypothesis                                                                                         |
