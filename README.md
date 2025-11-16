@@ -5065,6 +5065,35 @@ A continuación se describen los pasos que conforman este pipeline:
 ## 8.1. Experiment Planning
 
 ### 8.1.1. As-Is Summary.
+
+En la actualidad, la mayoría de consultorios odontológicos pequeños y medianos en Lima gestionan sus procesos clínicos y administrativos de manera manual y desintegrada. Las tareas críticas dependen de herramientas básicas y prácticas informales que generan fricción en la operación diaria:
+
+* Agendas y citas manejadas en cuadernos, WhatsApp o llamadas, lo que provoca confusiones, duplicidad de horarios y olvidos.
+
+* Historias clínicas en formato físico, difíciles de consultar, almacenar y actualizar.
+
+* Inventarios gestionados en hojas de Excel independientes, sin alertas, sin control de insumos y con discrepancias frecuentes.
+
+* Facturación y emisión de comprobantes manuales, lo que demora la atención post-consulta y causa omisiones.
+
+* Comunicación con pacientes basada en mensajes individuales, sin recordatorios automáticos ni confirmación estructurada.
+
+* Ausencia de indicadores clínicos o administrativos, lo que obliga a los odontólogos a tomar decisiones reactivas sin datos consolidados.
+
+Este escenario provoca:
+
+* Mayor probabilidad de errores administrativos (citas mal registradas, pacientes no atendidos, inventario desactualizado).
+
+* Pérdida de tiempo operativo, pues el odontólogo realiza tareas manuales en lugar de enfocarse en la atención clínica.
+
+* Baja retención de pacientes, debido a falta de recordatorios, seguimiento o experiencia digital fluida.
+
+* Dificultad para escalar la clínica, ya que la ausencia de digitalización limita procesos, control y eficiencia.
+
+Información dispersa que impide contar con un historial clínico unificado y confiable.
+
+En síntesis, el modelo actual carece de una plataforma centralizada y moderna que integre citas, pacientes, historias clínicas, inventario y facturación en un solo flujo digital. Esta falta de automatización genera sobrecarga operativa, afecta la calidad del servicio al paciente y limita la capacidad de crecimiento de los consultorios odontológicos en Lima Metropolitana.
+
 ### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims.
 
 ### 8.1.3. Experiment-Ready Questions.
