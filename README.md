@@ -4822,6 +4822,44 @@ Concluyó que Dentify agilizaría su trabajo, reduciría su dependencia de Excel
 
 ### 6.3.3. Evaluaciones según heurísticas.
 
+
+**Entrevista 1: Martín Salcedo**
+
+| Heurística | Evaluación |
+|------------|------------|
+| **Claridad de la información** | La información del paciente está bien organizada y los detalles clínicos son claros. |
+| **Facilidad de navegación** | Considera la experiencia fluida, clara y sin fricción. |
+| **Visibilidad del estado del sistema** | Señala que las alertas y recordatorios podrían ser más visibles. |
+| **Accesibilidad** | Menciona problemas de contraste en ambientes con iluminación variable. |
+| **Satisfacción general** | Alta; Dentify ayudaría a evitar solapamientos y mejorar la organización del día. |
+
+---
+
+**Entrevista 2: Dr. Samuel Mendoza**
+
+| Heurística | Evaluación |
+|------------|------------|
+| **Claridad de la información** | Los formularios tienen el nivel justo de información. |
+| **Facilidad de navegación** | Encuentra sencillo el registro y actualización de citas. |
+| **Consistencia** | Valora que no se permitan modificaciones a citas pasadas; flujo coherente. |
+| **Visibilidad del sistema** | Menciona mejorar la claridad del estado de pagos. |
+| **Diseño estético / Minimalismo** | Sugiere reducir scroll en historia clínica. |
+| **Accesibilidad** | Recomienda aumentar tamaño de letra. |
+| **Satisfacción general** | Percibe que Dentify puede reemplazar sistemas manuales y ahorrar tiempo. |
+
+---
+
+**Entrevista 3: Elizabeth Huanaco**
+
+| Heurística | Evaluación |
+|------------|------------|
+| **Claridad de la información** | Información clínica bien estructurada, fácil de leer. |
+| **Facilidad de navegación** | Rápida incluso con varios pacientes; flujo eficiente. |
+| **Visibilidad del sistema** | Los estados de citas son claros y útiles. |
+| **Flexibilidad y eficiencia** | Solicita plantillas rápidas para procedimientos y subida de fotos desde su dispositivo. |
+| **Control y libertad del usuario** | Requiere un botón de mensajes desde la cita. |
+| **Satisfacción general** | Afirma que Dentify reduciría el uso de Excel y WhatsApp y agilizaría su trabajo. |
+
 ## 6.4. Auditoría de Experiencias de Usuario
 ### 6.4.1. Auditoría realizada.
 #### 6.4.1.1. Información del grupo auditado.
