@@ -4659,6 +4659,18 @@ En el proyecto se identificaron puntos básicos a mejorar en calidad y seguridad
 
 ### 6.2.2. Reviews
 
+El objetivo del proceso de revisión de código es asegurar que el software sea de alta calidad, consistente y seguro antes de su despliegue. Este proceso se llevará a cabo tanto de forma colaborativa como automatizada, y consta de las siguientes etapas:
+
+1. **Revisión entre pares**: Un desarrollador examina el código de otro miembro del equipo para identificar posibles errores y asegurar el uso adecuado de las convenciones de codificación.
+
+2. **Análisis automatizado del código**: Herramientas como Jenkins e IntelliJ se encargarán de detectar problemas relacionados con la calidad y la seguridad, verificando el cumplimiento de los estándares establecidos.
+
+3. **Verificación final de calidad**: Antes de su implementación, se validará que el código esté bien estructurado, correctamente documentado y libre de errores graves.
+
+4. **Evaluación de seguridad**: Se analizarán posibles vulnerabilidades en las partes críticas del código utilizando Jenkins y Lighthouse, con el fin de proteger el entorno de producción.
+
+Registro de revisiones: Todas las revisiones serán documentadas, detallando los errores encontrados y las soluciones aplicadas, para promover una mejora continua en el proceso de desarrollo.
+
 ## 6.3.Validation Interviews.
 
 ### 6.3.1. Diseño de Entrevistas.
