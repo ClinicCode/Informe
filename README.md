@@ -6049,6 +6049,14 @@ En conjunto, las entrevistas ofrecen evidencia cualitativa sólida a favor de la
 
 ### 8.4.2. Re-scored and Re-prioritized Question Backlog
 
+| Pregunta                                                                            | Priorización Anterior | Nueva Priorización | Justificación                                                                                      |
+|-------------------------------------------------------------------------------------| --------------------- |--------------------|----------------------------------------------------------------------------------------------------|
+| ¿Por qué algunos odontólogos no completan el proceso de creación de citas?          | Alta                  | **Muy Alta**       | Validación fuerte: todos consideran el formulario largo como fricción principal.                   |
+| ¿Qué impide que se generen facturas después de una cita?                            | Media                 | **Alta**           | Se menciona de forma explícita como necesidad real y frecuente.                                    |
+| ¿Por qué el inventario registrado no coincide con el stock real?                    | Alta                  | **Muy Alta**       | Los entrevistados coinciden en que suelen olvidar registrar materiales y esto afecta su control.   |
+| ¿Entienden los usuarios nuevos el flujo inicial (registrar pacientes, crear citas)? | Alta                  | **Alta**           | Percepción positiva, pero menos urgente que inventario y citas.                                    |
+| ¿Qué causa que odontólogos dejen de usar Dentify después del primer mes?            | Media                 | **Media**          | Es importante, pero su efectividad depende de optimizar primero los flujos esenciales del sistema. |
+
 ## 8.5. Continuous Learning
 
 ### 8.5.1. Shareback Session Artifacts: Learning Workflow
