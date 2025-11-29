@@ -6033,6 +6033,20 @@ En cuanto a la experiencia de nuevos usuarios, recordó que cuando probó otros 
 
 ### 8.4.1. Analysis and Interpretation of Results
 
+El análisis de las tres entrevistas revela patrones consistentes que permiten comprender con claridad las principales barreras operativas que enfrentan los profesionales odontológicos al utilizar el sistema actual. En conjunto, los hallazgos respaldan las hipótesis relacionadas con la fricción en el flujo de trabajo, la carga cognitiva y la necesidad de una mayor orientación dentro de la plataforma.
+
+En primer lugar, todos los participantes coincidieron en que la cantidad excesiva de campos obligatorios durante la creación de una cita genera fricción innecesaria. Tanto los profesionales jóvenes como aquellos con más experiencia describieron este paso como lento, repetitivo y cognitivamente demandante, especialmente en horarios de alta carga asistencial. Esto respalda con fuerza la hipótesis de que reducir los campos obligatorios podría agilizar el proceso e incrementar la probabilidad de que los profesionales completen las citas de manera eficiente y consistente.
+
+En segundo lugar, independientemente de la edad o del nivel de familiaridad tecnológica, existe un punto de dolor claro respecto al proceso de facturación. Los participantes mencionaron que suelen posponerlo u olvidarlo, principalmente porque el flujo actual requiere varios pasos que interrumpen la dinámica clínica natural. Este patrón refuerza la hipótesis de que la facturación automática minimizaría omisiones, mejoraría la precisión y se alinearía mejor con el ritmo real de trabajo en un consultorio dental.
+
+En tercer lugar, las entrevistas confirman que el inventario de materiales casi nunca se actualiza en tiempo real. Todos los participantes admitieron que olvidan o deciden no registrar los insumos después de cada cita debido a que el proceso exige demasiada interacción manual. Esto ha generado discrepancias entre el inventario físico y el registro digital. Por tanto, la hipótesis sobre implementar un registro de materiales con un solo clic se ve fuertemente validada, ya que los entrevistados expresaron que sí adoptarían una solución de mínima interacción.
+
+En relación con el onboarding del sistema, las respuestas fueron consistentes al señalar que los usuarios nuevos —especialmente los menos familiarizados con la tecnología— tienen dificultades para comprender el flujo inicial de la plataforma. Un onboarding guiado fue percibido como beneficioso, no solo porque reduce la curva de aprendizaje, sino también porque establece un orden claro desde el primer uso. Esto coincide estrechamente con la hipótesis de que un mejor onboarding puede mejorar la efectividad temprana en la plataforma.
+
+Finalmente, todos los entrevistados valoraron la idea de recibir recordatorios oportunos y relevantes. Indicaron que suelen depender de la memoria o de herramientas externas para realizar seguimiento de tareas pendientes, citas o responsabilidades administrativas. Los recordatorios automatizados se percibieron como una forma de mejorar la organización, reducir olvidos y mantener un flujo de trabajo consistente, respaldando así la hipótesis de que los recordatorios pueden mejorar la retención a 30 días.
+
+En conjunto, las entrevistas ofrecen evidencia cualitativa sólida a favor de las cinco hipótesis de Dentify. Los puntos de dolor identificados son consistentes entre distintos perfiles profesionales, lo que indica que las soluciones propuestas abordan problemas sistémicos y no preferencias aisladas de usuarios específicos.
+
 ### 8.4.2. Re-scored and Re-prioritized Question Backlog
 
 ## 8.5. Continuous Learning
