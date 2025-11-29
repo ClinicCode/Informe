@@ -5955,9 +5955,79 @@ La priorización del backlog se llevó a cabo considerando el impacto que cada f
 
 ### 8.3.4. To-Be Validation Interviews
 
-#### 8.3.4.1. Diseño de Entrevistas.
+#### 8.3.4.1. Diseño de Entrevistas
 
-#### 8.3.4.2. Registro de Entrevistas.
+#### 8.3.4.2. Registro de Entrevistas
+
+**Segmento Objetivo:** Odontólogos
+
+**Entrevista 1: Martín Salcedo**
+
+![to-be-validation-interview-1.png](Img/to-be-validation-interview-1.png)
+
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224135_upc_edu_pe/IQB-E-8N3qJKQbH996sMaKNzAddAt5cel4W_k0zdhujbCW4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=3daE5L)
+
+**Datos del entrevistado**
+- **Nombre:** Martín Salcedo
+- **Edad:** 25 años
+- **Distrito:** San Juan de Lurigancho (SJL)
+- **Timestamp:** 00:00 – 18:29
+
+**Resumen de la entrevista (Validación de la aplicación)**
+
+El entrevistado es Martín Salcedo, es un odontólogo de 25 años que maneja un flujo alto de pacientes y suele trabajar con citas simultáneas. Al revisar un ejemplo de formulario extenso para creación de citas, afirmó que él solo necesita tres datos principales: nombre del paciente, tipo de cita y horario. Indicó que todo lo demás puede ser completado posteriormente, por lo que un formulario corto no solo sería suficiente, sino que además se adaptaría mejor a la forma en que maneja su agenda.
+
+Sobre el proceso de facturación, señaló que no le gusta perder tiempo generando facturas manualmente y que, en la práctica, esa tarea suele retrasarse o delegarse. Por ello, la automatización le pareció una mejora significativa, pues considera que eliminaría un punto de fricción sin afectar la calidad del proceso.
+
+En relación con el inventario, expresó que registrar materiales uno por uno es completamente incompatible con su ritmo de trabajo. Comentó que en días de alta afluencia simplemente resulta imposible completar el registro manual. Al conocer la propuesta del registro con un clic desde la misma pantalla de la cita, dijo que sería “ideal”, ya que lo haría viable en su día a día.
+
+Acerca del onboarding guiado, manifestó que lo considera útil siempre y cuando sea breve. Para él, un flujo de tres pasos es más que suficiente para entender lo básico. También valoró positivamente la idea de recibir recordatorios de tareas pendientes, señalando que ese tipo de notificaciones sí influyen en su conducta y lo motivarían a usar la aplicación con mayor frecuencia.
+
+
+**Entrevista 2: Samuel Mendoza**
+
+![to-be-validation-interview-2.png](Img/to-be-validation-interview-2.png)
+
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224135_upc_edu_pe/EZYisY-jQ1BNq9ATwS-hVu0BsUCxZC_t448gftlV-aQPFg?e=8vS1tO)
+
+**Datos del entrevistado**
+
+- **Nombre:** Samuel Mendoza
+- **Edad:** 60 años
+- **Distrito:** Breña
+- **Timestamp:** 18:29 - 33:50
+
+**Resumen de la entrevista (Validación de la aplicación)**
+
+La tercera entrevista se realizó a Samuel Mendoza, un odontólogo de 60 años con una trayectoria extensa en la práctica privada. Él comentó que los formularios largos le resultan confusos y que, debido al tiempo que le toma completar demasiados campos obligatorios, suele sentirse frustrado durante la gestión administrativa. Mencionó que, en su experiencia, mientras menos datos se soliciten al inicio, más sencillo le resulta avanzar sin interrumpir su ritmo de trabajo. Por ello, la propuesta de reducir la cantidad de campos obligatorios le pareció especialmente conveniente, pues considera que simplificaría significativamente el proceso.
+
+En cuanto al módulo de facturación, explicó que con frecuencia se olvida de generar las facturas al terminar una consulta, especialmente en días con mayor carga de pacientes. Comentó que, en su caso, la automatización de la factura sería una mejora importante, ya que evitaría omisiones involuntarias y le permitiría mantener una contabilidad más ordenada sin necesidad de recordar pasos adicionales.
+
+Respecto al manejo del inventario, reconoció que casi nunca actualiza los materiales utilizados inmediatamente después de cada cita porque el proceso es manual y le consume tiempo que prefiere dedicar al paciente siguiente. En su consultorio, esto ha provocado inconsistencias frecuentes entre el stock físico y el registro digital. La idea de poder registrar los insumos con un solo clic le pareció una solución que se ajusta mucho más a su realidad, afirmando que sí sería capaz de mantener un registro fiel bajo ese esquema.
+
+En relación con el onboarding guiado, mencionó que, aunque tiene años de experiencia profesional, no siempre se adapta de inmediato a nuevas aplicaciones. Por ese motivo, un flujo inicial sencillo y guiado le ayudaría a entender la lógica del sistema sin necesidad de explorar por ensayo y error. Asimismo, expresó que los recordatorios automáticos serían útiles, especialmente aquellos relacionados con citas próximas o tareas pendientes, ya que podrían ayudarlo a mantener una mejor organización de su consultorio sin depender exclusivamente de su memoria.
+
+**Entrevista 3: Elizabeth Huanaco**
+
+![to-be-validation-interview-3.png](Img/to-be-validation-interview-3.png)
+
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224135_upc_edu_pe/EZYisY-jQ1BNq9ATwS-hVu0BsUCxZC_t448gftlV-aQPFg?e=Pkl74K)
+
+**Datos del entrevistado**
+- **Nombre:** Elizabeth Huanaco
+- **Edad:** 25 años
+- **Distrito:** San Juan de Lurigancho (SJL)
+- **Timestamp:** 33:51 - 42:37
+
+**Resumen de la entrevista (Validación de la aplicación)**
+
+Esta entrevista fue realizada a Elizabeth Huanuco, una odontóloga de 25 años que atiende entre tres y cuatro pacientes por día. Ella comentó que, al intentar crear una cita en cualquier software, suele sentirse abrumada cuando el formulario presenta muchos campos obligatorios. En sus palabras, “a veces empiezo a crear una cita y me aburro porque hay demasiados campos”, enfatizando que para ella, solo deberían pedirse los datos estrictamente esenciales para avanzar. Esta percepción refuerza la idea de que la fricción generada por formularios extensos contribuye al abandono del proceso.
+
+Respecto a la facturación, señaló que normalmente la realiza al final del día, siempre que se acuerde, pues durante la atención de cada paciente no tiene tiempo para hacerlo. Por esa razón, consideró bastante útil la posibilidad de que la factura se genere automáticamente al finalizar la cita, ya que le permitiría evitar olvidos y ahorrar tiempo.
+
+Sobre el manejo del inventario, afirmó que casi nunca registra los materiales utilizados porque el proceso manual es tedioso y le consume tiempo que no tiene entre atención y atención. La propuesta de permitir registrar los insumos con un solo clic le resultó muy conveniente, indicando que con esa funcionalidad sí podría llevar un control más exacto.
+
+En cuanto a la experiencia de nuevos usuarios, recordó que cuando probó otros sistemas no tenía claro qué debía hacer primero, y expresó que un onboarding guiado le habría facilitado el proceso de familiarización. Finalmente, mencionó que los recordatorios automáticos le serían de bastante utilidad, especialmente aquellos relacionados con citas próximas o inventario bajo, pues considera que ese tipo de alertas sí la motivarían a abrir la aplicación con más frecuencia.
 
 ## 8.4. Experiment Aftermath & Analysis
 
