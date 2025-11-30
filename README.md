@@ -6052,6 +6052,12 @@ https://cliniccode.github.io/Landing-Page/
 
 #### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
 
+En esta sección mostraremos evidencias del Mobile Application desplegado.
+
+**Link del Backend:** https:
+
+**Evidencias:**  
+
 ![Imagen 2](./Img/restful1.png)
 ![Imagen 2](./Img/restful2.png)
 ![Imagen 2](./Img/restful3.png)
@@ -6076,6 +6082,90 @@ https://cliniccode.github.io/Landing-Page/
 ### 8.3.4. To-Be Validation Interviews
 
 #### 8.3.4.1. Diseño de Entrevistas
+
+Preguntas generales
+
+¿Cuál es tu rol dentro del consultorio?
+
+¿Qué actividades realizas con mayor frecuencia en tu día a día?
+
+¿Usas actualmente algún sistema o aplicación para gestionar tu trabajo?
+
+¿Qué problemas encuentras en los métodos que usas hoy?
+
+Gestión de pacientes
+
+¿Cada cuánto registras nuevos pacientes?
+
+¿Qué información consideras indispensable al registrar un paciente?
+
+¿Qué tan seguido necesitas actualizar los datos de un paciente?
+
+¿La búsqueda por DNI te sería útil en tu rutina?
+
+¿Qué tan importante es acceder rápidamente al historial clínico de cada paciente?
+
+Gestión de citas
+
+¿Cómo gestionas las citas actualmente?
+
+¿Qué problemas encuentras al usar el método o sistema que tienes hoy?
+
+¿Consideras útil tener una vista general de tus citas del día o de la semana?
+
+¿Qué filtros o formas de búsqueda usas para encontrar citas específicas?
+
+¿Qué tan seguido debes modificar o cancelar citas ya programadas?
+
+Gestión de inventario
+
+¿Cómo registras actualmente tus materiales e insumos?
+
+¿Qué dificultades tienes al llevar inventario manualmente?
+
+¿Qué información necesitas ver cuando revisas un producto del inventario?
+
+¿Cada cuánto actualizas el stock real de los insumos?
+
+¿Te sería útil registrar con un clic los materiales usados durante una cita?
+
+Historial clínico
+
+¿Qué información consideras imprescindible en un historial clínico?
+
+¿Con qué frecuencia revisas historiales anteriores de los pacientes?
+
+¿Has tenido problemas buscando historiales antiguos o incompletos?
+
+¿Qué tan útil sería tener todos los historiales organizados cronológicamente?
+
+Pagos y facturación
+
+¿Cómo registras actualmente los pagos de tus pacientes?
+
+¿Qué tan rápido necesitas generar una factura después de una cita?
+
+¿Qué dificultades tienes con la facturación actual?
+
+¿Consideras útil que la aplicación genere recibos o facturas automáticamente?
+
+Onboarding, registro e inicio de sesión
+
+¿Qué información mínima debería pedirse al registrarse para no hacerlo tedioso?
+
+¿Has tenido problemas alguna vez al aprender a usar un sistema nuevo?
+
+¿Te ayudaría contar con una guía de primeros pasos al entrar por primera vez?
+
+Landing Page (primera impresión del producto)
+
+¿Te parece importante tener una página de presentación que explique la aplicación?
+
+¿Qué información te gustaría encontrar antes de usar o descargar el sistema?
+
+¿Qué buscarías primero en una landing? (Precios, beneficios, funcionalidades, etc.)
+
+¿Qué debería transmitir la página para generar confianza en el sistema?
 
 #### 8.3.4.2. Registro de Entrevistas
 
