@@ -122,7 +122,6 @@ Los integrantes son:
 - [GitHub Collaboration Insights](#github-collaboration-insights)
 - [Contenido](#contenido)
   - [Tabla de contenidos](#tabla-de-contenidos)
-- [Student Outcome](#student-outcome)
 - [Capítulo I: Introducción](#capítulo-i-introducción)
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
@@ -165,6 +164,9 @@ Los integrantes son:
       - [4.1.3.2. Android Mobile Style Guidelines](#4132-android-mobile-style-guidelines)
   - [4.2. Information Architecture](#42-information-architecture)
     - [4.2.1. Organization Systems](#421-organization-systems)
+      - [Categorización del Contenido](#categorización-del-contenido)
+      - [Secuencia de Contenidos](#secuencia-de-contenidos)
+      - [Agrupación de Funcionalidades](#agrupación-de-funcionalidades)
     - [4.2.2. Labeling Systems](#422-labeling-systems)
     - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
     - [4.2.4. Searching Systems](#424-searching-systems)
@@ -185,7 +187,6 @@ Los integrantes son:
     - [4.6.2. Web Applications Wireflow Diagrams](#462-web-applications-wireflow-diagrams)
     - [4.6.3. Web Applications Mock-ups](#463-web-applications-mock-ups)
     - [4.6.4. Web Applications User Flow Diagrams](#464-web-applications-user-flow-diagrams)
-  - [4.7. Web Applications Prototyping](#47-web-applications-prototyping)
   - [4.8. Domain-Driven Software Architecture](#48-domain-driven-software-architecture)
     - [4.8.1. Software Architecture Context Diagram](#481-software-architecture-context-diagram)
     - [4.8.2. Software Architecture Container Diagrams](#482-software-architecture-container-diagrams)
@@ -210,17 +211,20 @@ Los integrantes son:
     - [5.2.6. RESTful API documentation](#526-restful-api-documentation)
     - [5.2.7. Team Collaboration Insights](#527-team-collaboration-insights)
   - [5.3. Video About-the-Product](#53-video-about-the-product)
+  - [5.4  Acuerdo de Servicio SaaS](#54--acuerdo-de-servicio-saas)
 - [Capítulo VI: Product Verification \& Validation](#capítulo-vi-product-verification--validation)
   - [6.1. Testing Suites \& Validation](#61-testing-suites--validation)
     - [6.1.1. Core Entities Unit Tests.](#611-core-entities-unit-tests)
     - [6.1.2. Core Integration Tests.](#612-core-integration-tests)
     - [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)
+      - [Escenario probado 1: Autenticación y Usuario](#escenario-probado-1-autenticación-y-usuario)
+      - [Escenario probado 2: Gestión de Citas](#escenario-probado-2-gestión-de-citas)
+      - [Escenario probado 3: Gestión de Pacientes](#escenario-probado-3-gestión-de-pacientes)
+      - [Herramientas utilizadas](#herramientas-utilizadas)
     - [6.1.4. Core System Tests.](#614-core-system-tests)
 - [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)
   - [7.1. Continuous Integration](#71-continuous-integration)
     - [7.1.1. Tools and Practices.](#711-tools-and-practices)
-    - [6.1.4. Continuous Integration](#614-continuous-integration)
-      - [Tools and Practices](#tools-and-practices)
       - [Control de versiones – Git + GitHub](#control-de-versiones--git--github)
       - [Orquestador CI – GitHub Actions](#orquestador-ci--github-actions)
       - [Build \& Dependency Management – Maven](#build--dependency-management--maven)
@@ -237,6 +241,42 @@ Los integrantes son:
   - [7.3. Continuous deployment](#73-continuous-deployment)
     - [7.3.1. Tools and Practices.](#731-tools-and-practices)
     - [7.3.2. Production Deployment Pipeline Components.](#732-production-deployment-pipeline-components)
+- [Capitulo VIII: Experiment-Driven Development](#capitulo-viii-experiment-driven-development)
+  - [8.1. Experiment Planning](#81-experiment-planning)
+    - [8.1.1. As-Is Summary.](#811-as-is-summary)
+    - [8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims.](#812-raw-material-assumptions-knowledge-gaps-ideas-claims)
+    - [8.1.3. Experiment-Ready Questions.](#813-experiment-ready-questions)
+    - [8.1.4. Question Backlog.](#814-question-backlog)
+    - [8.1.5. Experiment Cards.](#815-experiment-cards)
+  - [8.2. Experiment Design](#82-experiment-design)
+    - [8.2.1. Hypotheses.](#821-hypotheses)
+    - [8.2.2. Domain Business Metrics](#822-domain-business-metrics)
+    - [8.2.3. Measures.](#823-measures)
+    - [8.2.4. Conditions.](#824-conditions)
+    - [8.2.5. Scale Calculations and Decisions.](#825-scale-calculations-and-decisions)
+    - [8.2.6. Methods Selection.](#826-methods-selection)
+    - [8.2.7. Data Analytics: Goals, KPIs and Metrics Selection.](#827-data-analytics-goals-kpis-and-metrics-selection)
+    - [8.2.8. Web and Mobile Tracking Plan.](#828-web-and-mobile-tracking-plan)
+  - [8.3. Experimentation](#83-experimentation)
+    - [8.3.1. To-Be User Stories.](#831-to-be-user-stories)
+    - [8.3.2. To-Be Product Backlog](#832-to-be-product-backlog)
+    - [8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle](#833-pipeline-supported-experiment-driven-to-be-software-platform-lifecycle)
+      - [8.3.3.1. To-Be Sprint Backlogs](#8331-to-be-sprint-backlogs)
+      - [8.3.3.2. Implemented To-Be Landing Page Evidence](#8332-implemented-to-be-landing-page-evidence)
+      - [8.3.3.3. Implemented To-Be Frontend-Web Application Evidence](#8333-implemented-to-be-frontend-web-application-evidence)
+      - [8.3.3.4. Implemented To-Be Native-Mobile Application Evidence](#8334-implemented-to-be-native-mobile-application-evidence)
+      - [8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence](#8335-implemented-to-be-restful-api-andor-serverless-backend-evidence)
+      - [8.3.3.6. Team Collaboration Insights](#8336-team-collaboration-insights)
+    - [8.3.4. To-Be Validation Interviews](#834-to-be-validation-interviews)
+      - [8.3.4.1. Diseño de Entrevistas](#8341-diseño-de-entrevistas)
+      - [8.3.4.2. Registro de Entrevistas](#8342-registro-de-entrevistas)
+  - [8.4. Experiment Aftermath \& Analysis](#84-experiment-aftermath--analysis)
+    - [8.4.1. Analysis and Interpretation of Results](#841-analysis-and-interpretation-of-results)
+    - [8.4.2. Re-scored and Re-prioritized Question Backlog](#842-re-scored-and-re-prioritized-question-backlog)
+  - [8.5. Continuous Learning](#85-continuous-learning)
+    - [8.5.1. Shareback Session Artifacts: Learning Workflow](#851-shareback-session-artifacts-learning-workflow)
+  - [8.6. To-Be Software Platform Pre-launch](#86-to-be-software-platform-pre-launch)
+  - [8.6.1. About-the-Product Intro Video](#861-about-the-product-intro-video)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
@@ -5943,15 +5983,72 @@ La priorización del backlog se llevó a cabo considerando el impacto que cada f
 
 #### 8.3.3.1. To-Be Sprint Backlogs
 
+
+Este sprint integra tanto **User Stories ** como **Technical Stories **, permitiendo una visión completa del trabajo de desarrollo y asegurando alineación entre las necesidades del usuario y la implementación técnica.
+
+| ID   | Tipo       | User Story / Task                               | Descripción ("Como... deseo... para...")                                                                                                                | Estimación (Horas) | Assigned To                           | Status | Justificación desde Experimentos |
+| ---- | ---------- | ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------ | ------------------------------------- | ------ | -------------------------------- |
+| US05 | User Story | Crear Nuevas Citas                              | Como odontólogo, deseo **crear nuevas citas con campos mínimos obligatorios** para reducir fricción y aumentar la tasa de creación exitosa de citas.     | 8 | Bohorquez Lerzundi, Gerardo Sebastian | To-do | Responde a B1: reducir campos obligatorios incrementa creación de citas |
+| US04 | User Story | Editar Citas Existentes                         | Como odontólogo, deseo **editar citas permitiendo cambios rápidos de fecha y hora** para adaptarme a reprogramaciones de pacientes.                     | 5 | Cutiri Agüero, Fabrizio Alexander | To-do | Optimización por E2: integración en rutina diaria del odontólogo |
+| US06 | User Story | Eliminar Citas                                  | Como odontólogo, deseo **eliminar citas futuras con confirmación** para mantener una agenda limpia sin registros duplicados.                           | 6 | Berrocal Ramirez, Omar Christian | To-do | Control de consistencia entre sistema y realidad del consultorio |
+| TS13 | Technical  | Endpoint crear cita optimizado                  | Como desarrollador, deseo **mejorar POST /api/v1/appointments** para validar campos mínimos y retornar respuesta rápida.                               | 2 | Aponte Cruzado, Andrea Marielena | To-do | Soporte técnico a US05 |
+| TS14 | Technical  | Endpoint actualizar cita                        | Como desarrollador, deseo **implementar PUT /api/v1/appointments/{id}** con validación de citas pasadas.                                              | 5 | Belahonia Miranda, Fabrisio | To-do | Soporte técnico a US04 |
+| TS15 | Technical  | Endpoint eliminar cita                          | Como desarrollador, deseo **implementar DELETE /api/v1/appointments/{id}** con lógica de cascada para historiales.                                    | 4 | Bohorquez Lerzundi, Gerardo Sebastian | To-do | Soporte técnico a US06 |
+| US12 | User Story | Añadir Nuevos Pacientes                         | Como recepcionista, deseo **registrar pacientes con búsqueda por DNI** para evitar duplicados y agilizar el proceso.                                  | 3 | Cutiri Agüero, Fabrizio Alexander | To-do | E1: información crítica es búsqueda rápida por DNI |
+| US13 | User Story | Editar Información de Pacientes                 | Como recepcionista, deseo **actualizar datos de pacientes manteniendo historial de cambios** para garantizar información precisa.                     | 8 | Berrocal Ramirez, Omar Christian | To-do | Mejora en precisión de registros |
+| US11 | User Story | Visualizar Lista de Pacientes Registrados       | Como recepcionista, deseo **ver pacientes con filtros por estado o fecha de última visita** para gestionar seguimiento efectivo.                       | 6 | Aponte Cruzado, Andrea Marielena | To-do | B2: indicadores visuales mejoran comprensión rápida |
+| TS06 | Technical  | Endpoint crear paciente con búsqueda DNI        | Como desarrollador, deseo **mejorar POST /api/v1/patients** para validar DNI único y retornar datos de pacientes existentes.                         | 3 | Belahonia Miranda, Fabrisio | To-do | Soporte técnico a US12 |
+| TS07 | Technical  | Endpoint actualizar paciente con auditoría      | Como desarrollador, deseo **implementar PUT /api/v1/patients/{id}** con registro de cambios realizados.                                              | 2 | Bohorquez Lerzundi, Gerardo Sebastian | To-do | Soporte técnico a US13 |
+| TS08 | Technical  | Endpoint eliminar paciente con restricciones    | Como desarrollador, deseo **implementar DELETE /api/v1/patients/{id}** validando que no tengan citas o historiales activos.                          | 5 | Cutiri Agüero, Fabrizio Alexander | To-do | Soporte técnico a US11 |
+| US16 | User Story | Añadir Historiales Clínicos por Paciente        | Como odontólogo, deseo **registrar diagnósticos y tratamientos en un historial cronológico** para consultar rápidamente el tratamiento previo.        | 1 | Berrocal Ramirez, Omar Christian | To-do | E3: contexto de uso requiere acceso rápido a historial |
+| TS11 | Technical  | Endpoint crear historial clínico optimizado     | Como desarrollador, deseo **implementar POST /api/v1/patients/{id}/medical-histories** con validación de datos clínicos.                             | 2 | Aponte Cruzado, Andrea Marielena | To-do | Soporte técnico a US16 |
+| TS12 | Technical  | Endpoint obtener historial clínico por paciente | Como desarrollador, deseo **implementar GET /api/v1/patients/{id}/medical-histories** retornando registros ordenados cronológicamente.                 | 8 | Belahonia Miranda, Fabrisio | To-do | Soporte técnico a US16 |
+| US19 | User Story | Visualizar Inventario Centralizado               | Como administrador, deseo **ver un dashboard del inventario con colores para alertas de stock bajo** para identificar rápidamente insumos críticos.     | 4 | Bohorquez Lerzundi, Gerardo Sebastian | To-do | B2: indicadores visuales reducen necesidad de revisar múltiples pantallas |
+| US20 | User Story | Añadir Ítems al Inventario                       | Como administrador, deseo **añadir insumos con categorización automática** para organizar mejor los materiales.                                        | 8 | Cutiri Agüero, Fabrizio Alexander | To-do | Simplificación vs. registro manual tedioso |
+| US21 | User Story | Editar Ítems del Inventario                      | Como administrador, deseo **actualizar cantidades y precios de insumos** para mantener datos financieros precisos.                                     | 7 | Berrocal Ramirez, Omar Christian | To-do | Control de costos del consultorio |
+| US22 | User Story | Eliminar Ítems Obsoletos                        | Como administrador, deseo **eliminar insumos agotados o vencidos** para limpiar el inventario.                                                        | 3 | Aponte Cruzado, Andrea Marielena | To-do | Precisión en estado real del inventario |
+| US25 | User Story | Registrar Consumo Simplificado de Insumos       | Como odontólogo, deseo **registrar insumos consumidos con un clic desde la pantalla de cita** para mantener inventario automáticamente actualizado.    | 6 | Belahonia Miranda, Fabrisio | To-do | E4: reducir puntos de fricción en consumo manual |
+| TS01 | Technical  | Endpoint crear ítem inventario                  | Como desarrollador, deseo **implementar POST /api/v1/items** con validación de campos y categorización.                                              | 5 | Bohorquez Lerzundi, Gerardo Sebastian | To-do | Soporte técnico a US20 |
+| TS02 | Technical  | Endpoint actualizar ítem inventario             | Como desarrollador, deseo **implementar PUT /api/v1/items/{id}** permitiendo cambios en cantidad y precio.                                           | 6 | Cutiri Agüero, Fabrizio Alexander | To-do | Soporte técnico a US21 |
+| TS03 | Technical  | Endpoint eliminar ítem inventario               | Como desarrollador, deseo **implementar DELETE /api/v1/items/{id}** validando restricciones de citas activas.                                        | 5 | Berrocal Ramirez, Omar Christian | To-do | Soporte técnico a US22 |
+| TS04 | Technical  | Endpoint obtener ítem por ID                    | Como desarrollador, deseo **implementar GET /api/v1/items/{id}** retornando datos completos del insumo.                                              | 6 | Aponte Cruzado, Andrea Marielena | To-do | Consulta rápida en operaciones |
+| TS05 | Technical  | Endpoint listar inventario completo             | Como desarrollador, deseo **implementar GET /api/v1/items** con filtros de categoría y estado de stock.                                              | 4 | Belahonia Miranda, Fabrisio | To-do | Soporte a dashboard US19 |
+| SS01 | Spike      | Investigar automatización de pruebas BDD        | Como desarrollador, deseo **investigar Cucumber/Gherkin** para pruebas de comportamiento en flujos críticos.                                          | 8 | Bohorquez Lerzundi, Gerardo Sebastian | To-do | Validación experimental de escenarios usuario |
+| SS02 | Spike      | Investigar integración de notificaciones        | Como desarrollador, deseo **explorar Firebase Cloud Messaging** para recordatorios automáticos de citas.                                              | 8 | Cutiri Agüero, Fabrizio Alexander | To-do | Reducción de abandonos experimentales |
+
+**Objetivos del Sprint:**
+
+1. **Optimizar flujos críticos:** Reducir campos obligatorios en creación de citas, implementar búsqueda por DNI en pacientes, simplificar registro de consumo de insumos.
+2. **Mejorar visualización:** Implementar dashboards con indicadores visuales para inventario y estado de citas.
+3. **Asegurar consistencia de datos:** Validaciones robustas, auditoría de cambios, integridad referencial.
+4. **Facilitar integración:** Completar endpoints RESTful optimizados y documentación API clara.
+5. **Validar experimentalmente:** Ejecutar pruebas BDD y explorar notificaciones automáticas para mejorar retención de usuarios.
+
+
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence
 
+![Imagen 1](./Img/landing-page-evidence-1.png)
+![Imagen 2](./Img/landing-page-evidence-2.png)
+![Imagen 3](./Img/landing-page-evidence-4.png)
+
+ **Visita la landing page:**  
+https://cliniccode.github.io/Landing-Page/
+
 #### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
+
+![Imagen 1](./Img/Front3.png)
+![Imagen 2](./Img/Front4.png)
+![Imagen 3](./Img/Front1.png)
+![Imagen 4](./Img/Front2.png)
+
 
 #### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
 
 #### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
 
 #### 8.3.3.6. Team Collaboration Insights
+
+
 
 ### 8.3.4. To-Be Validation Interviews
 
