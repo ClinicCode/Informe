@@ -6048,6 +6048,19 @@ https://cliniccode.github.io/Landing-Page/
 
 #### 8.3.3.6. Team Collaboration Insights
 
+ **Insights Informe:**  
+ ![Imagen 1](./Img/InsightsInforme.png)
+
+  **Insights Landing:**  
+ ![Imagen 1](./Img/InsightsLanding.png)
+
+ **Insights Front:**  
+ ![Imagen 1](./Img/InsightsFront.png)
+
+  **Insights Back:**  
+ ![Imagen 1](./Img/InsightsBack.png)
+
+
 
 
 ### 8.3.4. To-Be Validation Interviews
