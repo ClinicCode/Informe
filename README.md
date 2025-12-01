@@ -6,7 +6,7 @@
       <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" width="180"><br><br>
       <strong>Universidad Peruana de Ciencias Aplicadas (UPC)</strong><br>
       <strong>Carrera de Ingeniería de Software</strong><br>
-      <strong>2025-02</strong><br>
+      <strong>2025-20</strong><br>
       <strong>Código del Curso:</strong> 1ASI0732<br>
       <strong>Sección:</strong> 14651<br>
       <strong>NRC:</strong> 1798<br>
@@ -312,6 +312,8 @@ Los integrantes son:
         <b>Cutiri Agüero, Fabrizio Alexander</b><br>
         <b>TB1:</b> Redacté historias de usuario claras y trazables.<br>
         <b>TP1:</b> Contribuí a la validación del backlog asegurando coherencia técnica y ética en el desarrollo.<br><br>
+        <b>TB2:</b> Elaboré información del grupo auditado, contenido de auditorías, resumen de mejoras, Tools & Practices de CI/CD, Hypotheses, Methods Selection y To-Be User Stories.<br><br>
+        <b>TF:</b> Realicé la re-puntuación y re-priorización del question backlog, a partir de los resultados obtenidos en los To-Be Validation Interviews<br><br>
         <b>Berrocal Ramirez, Omar Christian</b><br>
         <b>TB1:</b> Adapté el diseño del landing page, web y mobile según las necesidades de los usuarios finales.<br>
         <b>TP1:</b> Supervisé la accesibilidad y usabilidad del diseño durante las pruebas finales.
@@ -348,6 +350,8 @@ Los integrantes son:
         <b>Cutiri Agüero, Fabrizio Alexander</b><br>
         <b>TB1:</b> Priorización del backlog según impacto funcional y social.<br>
         <b>TP1:</b> Evalué dependencias técnicas considerando valor y sostenibilidad.<br><br>
+        <b>TB2:</b> Elaboré componentes críticos del diseño experimental (hipótesis, métricas, auditorías), evaluando impacto social y eficiencia del sistema en el entorno clínico.<br><br>
+        <b>TF:</b> Realice To-Be Validation Interview y el análisis e interpretación de los resultados, basado en la información obtenida de las entrevistas.<br><br>
         <b>Berrocal Ramirez, Omar Christian</b><br>
         <b>TB1:</b> Analicé el comportamiento del público objetivo en contextos globales y locales.<br>
         <b>TP1:</b> Implementé optimizaciones visuales considerando impacto ambiental.
