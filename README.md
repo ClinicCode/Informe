@@ -6285,6 +6285,49 @@ En conjunto, las entrevistas ofrecen evidencia cualitativa sólida a favor de la
 
 ### 8.5.1. Shareback Session Artifacts: Learning Workflow
 
+El flujo de aprendizaje en ClinicCode está diseñado para convertir la información obtenida durante el desarrollo en mejoras tangibles que fortalezcan la plataforma. A través de sesiones estructuradas, el equipo analiza hallazgos, comparte buenas prácticas y define acciones que optimicen la propuesta de valor, la experiencia del usuario y la solidez técnica del producto.
+
+**Objetivos**
+- Detectar aprendizajes clave relacionados con la digitalización de procesos odontológicos, la automatización de citas y pagos, y la usabilidad de la aplicación móvil.
+- Documentar y difundir buenas prácticas para reducir errores recurrentes y acelerar la toma de decisiones.
+- Mantener la alineación del equipo frente a cambios en el comportamiento de usuarios, tendencias tecnológicas y métricas críticas del negocio.
+
+**Flujo de Trabajo**
+
+**1. Captura de Datos**
+
+**Fuentes:**
+* Feedback de odontólogos y pacientes (encuestas, entrevistas).
+* Métricas de uso de la app (citas agendadas, pagos realizados, tiempo en pantalla).
+* Resultados de pruebas de usabilidad y validación de prototipos.
+**Herramientas:**
+* Formularios en Google Forms para recopilar feedback.
+* Retrospectivas al cierre de cada sprint.
+* Google Analytics / Firebase para análisis de métricas.
+* Espacios colaborativos como Miro y Notion para organizar hallazgos.
+
+
+**2. Análisis y síntesis**
+
+**Documentación:**
+* Registro en Notion de aprendizajes clave, categorizados por áreas (UX, técnico, negocio).
+* Priorización según impacto en la experiencia del paciente y eficiencia operativa del consultorio.
+**Sesiones de alineamiento:**
+* Reuniones internas para revisar hallazgos y definir acciones con base en impacto y viabilidad.
+
+**3. Implementación de mejoras**
+
+* Ajustes en la interfaz de la app (ej.: simplificación del flujo de agendamiento, claridad en métodos de pago).
+* Optimización de herramientas para odontólogos (ej.: acceso rápido a historiales clínicos).
+* Refinamiento de textos y flujos de onboarding para mejorar la incorporación de nuevos usuarios.
+
+
+**4. Retroalimentación continua**
+
+* Evaluación iterativa después de cada sprint o lanzamiento.
+* Monitoreo constante de métricas clave (retención, conversión en pagos, satisfacción del paciente).
+* Documentación de nuevas lecciones para alimentar el ciclo de mejora continua.
+
 ## 8.6. To-Be Software Platform Pre-launch
 
 ## 8.6.1. About-the-Product Intro Video
