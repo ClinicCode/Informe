@@ -5944,8 +5944,6 @@ Entonces el sistema almacenará dicha cantidad como parte del historial de consu
   </tr>
 </table>
 
-
-
 ### 8.3.2. To-Be Product Backlog
 La priorización del backlog se llevó a cabo considerando el impacto que cada funcionalidad puede generar en la experiencia del usuario y el esfuerzo estimado necesario para implementarla. Esta evaluación se apoyó en la evidencia obtenida durante las primeras validaciones con usuarios, incluyendo pruebas de prototipos y entrevistas semiestructuradas.
 
@@ -5983,7 +5981,6 @@ La priorización del backlog se llevó a cabo considerando el impacto que cada f
 
 #### 8.3.3.1. To-Be Sprint Backlogs
 
-
 Este sprint integra tanto **User Stories ** como **Technical Stories **, permitiendo una visión completa del trabajo de desarrollo y asegurando alineación entre las necesidades del usuario y la implementación técnica.
 
 | ID   | Tipo       | User Story / Task                               | Descripción ("Como... deseo... para...")                                                                                                                | Estimación (Horas) | Assigned To                           | Status | Justificación desde Experimentos |
@@ -6015,6 +6012,23 @@ Este sprint integra tanto **User Stories ** como **Technical Stories **, permiti
 | TS05 | Technical  | Endpoint listar inventario completo             | Como desarrollador, deseo **implementar GET /api/v1/items** con filtros de categoría y estado de stock.                                              | 4 | Belahonia Miranda, Fabrisio | To-do | Soporte a dashboard US19 |
 | SS01 | Spike      | Investigar automatización de pruebas BDD        | Como desarrollador, deseo **investigar Cucumber/Gherkin** para pruebas de comportamiento en flujos críticos.                                          | 8 | Bohorquez Lerzundi, Gerardo Sebastian | To-do | Validación experimental de escenarios usuario |
 | SS02 | Spike      | Investigar integración de notificaciones        | Como desarrollador, deseo **explorar Firebase Cloud Messaging** para recordatorios automáticos de citas.                                              | 8 | Cutiri Agüero, Fabrizio Alexander | To-do | Reducción de abandonos experimentales |
+
+### 8.3.3.1. To-Be Sprint Backlogs – Sprint 4
+
+| ID   | Tipo       | User Story / Task                               | Descripción ("Como... deseo... para...")                                                                                                                                  | Estimación (Horas) | Assigned To                           | Status | Justificación desde Experimentos |
+| ---- | ---------- | ----------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ | ------------------------------------- | ------ | -------------------------------- |
+| US05 | User Story | Crear Nuevas Citas                              | Como odontólogo, deseo **crear nuevas citas con campos mínimos** para reducir fricción y aumentar la tasa de creación exitosa de citas.                                                                         | 8 | Bohorquez Lerzundi, Gerardo Sebastian | To-do | B1: reducir campos obligatorios mejora tasa de creación |
+| TS13 | Technical  | Endpoint crear cita optimizado                  | Como desarrollador, deseo **mejorar POST /api/v1/appointments** para validar campos mínimos y retornar respuesta rápida.                                                                                        | 2 | Aponte Cruzado, Andrea Marielena | To-do | Soporte directo a US05 |
+| US04 | User Story | Editar Citas Existentes                         | Como odontólogo, deseo **editar citas permitiendo cambios rápidos** de fecha y hora para adaptarme a reprogramaciones.                                                                                          | 5 | Cutiri Agüero, Fabrizio Alexander | To-do | E2: reprogramación frecuente requiere edición rápida |
+| TS14 | Technical  | Endpoint actualizar cita                        | Como desarrollador, deseo **implementar PUT /api/v1/appointments/{id}** con validación de citas pasadas.                                                                                                        | 5 | Belahonia Miranda, Fabrizio | To-do | Soporte técnico a US04 |
+| US06 | User Story | Eliminar Citas                                  | Como odontólogo, deseo **eliminar citas futuras con confirmación** para mantener una agenda limpia.                                                                                                            | 6 | Berrocal Ramirez, Omar Christian | To-do | Integridad de agenda vs registros inválidos |
+| TS15 | Technical  | Endpoint eliminar cita                          | Como desarrollador, deseo **implementar DELETE /api/v1/appointments/{id}** con lógica de cascada.                                                                                                               | 4 | Bohorquez Lerzundi, Gerardo Sebastian | To-do | Soporte técnico a US06 |
+| US12 | User Story | Añadir Nuevos Pacientes                         | Como recepcionista, deseo **registrar pacientes con búsqueda por DNI** para evitar duplicados y agilizar registro.                                                                                              | 3 | Cutiri Agüero, Fabrizio Alexander | To-do | E1: búsqueda rápida por DNI reduce errores |
+| TS06 | Technical  | Endpoint crear paciente con búsqueda DNI        | Como desarrollador, deseo **mejorar POST /api/v1/patients** para validar DNI único y retornar datos existentes.                                                                                                 | 3 | Belahonia Miranda, Fabrizio | To-do | Soporte técnico a US12 |
+| US11 | User Story | Visualizar Lista de Pacientes Registrados       | Como recepcionista, deseo **ver pacientes con filtros por estado o fecha** para seguimiento efectivo.                                                                                                            | 6 | Aponte Cruzado, Andrea Marielena | To-do | B2: filtros visuales mejoran comprensión |
+| TS08 | Technical  | Endpoint eliminar paciente con restricciones    | Como desarrollador, deseo **implementar DELETE /api/v1/patients/{id}** validando que no tengan citas o historiales activos.                                                                                    | 5 | Cutiri Agüero, Fabrizio Alexander | To-do | Soporte técnico a US11 |
+| US16 | User Story | Añadir Historiales Clínicos por Paciente        | Como odontólogo, deseo **registrar diagnósticos y tratamientos** en historial cronológico.                                                                                                                      | 1 | Berrocal Ramirez, Omar Christian | To-do | E3: consulta rápida del historial |
+| TS11 | Technical  | Endpoint crear historial clínico optimizado     | Como desarrollador, deseo **implementar POST /api/v1/patients/{id}/medical-histories** con validación clínica.                                                                                                  | 2 | Aponte Cruzado, Andrea Marielena | To-do | Soporte técnico a US16 |
 
 **Objetivos del Sprint:**
 
