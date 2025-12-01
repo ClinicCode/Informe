@@ -6285,7 +6285,7 @@ En conjunto, las entrevistas ofrecen evidencia cualitativa sólida a favor de la
 
 ### 8.5.1. Shareback Session Artifacts: Learning Workflow
 
-El flujo de aprendizaje en ClinicCode está diseñado para convertir la información obtenida durante el desarrollo en mejoras tangibles que fortalezcan la plataforma. A través de sesiones estructuradas, el equipo analiza hallazgos, comparte buenas prácticas y define acciones que optimicen la propuesta de valor, la experiencia del usuario y la solidez técnica del producto.
+El flujo de aprendizaje en Denitify está diseñado para convertir la información obtenida durante el desarrollo en mejoras tangibles que fortalezcan la plataforma. A través de sesiones estructuradas, el equipo analiza hallazgos, comparte buenas prácticas y define acciones que optimicen la propuesta de valor, la experiencia del usuario y la solidez técnica del producto.
 
 **Objetivos**
 - Detectar aprendizajes clave relacionados con la digitalización de procesos odontológicos, la automatización de citas y pagos, y la usabilidad de la aplicación móvil.
@@ -6331,6 +6331,10 @@ El flujo de aprendizaje en ClinicCode está diseñado para convertir la informac
 ## 8.6. To-Be Software Platform Pre-launch
 
 ## 8.6.1. About-the-Product Intro Video
+
+| Sección           | Características del video                         | Sobre el contenido                                                          | Enlace                                                         |
+|-------------------|---------------------------------------------------|-----------------------------------------------------------------------------|----------------------------------------------------------------|
+| About the product | **Cantidad de videos:** 1 <br>  | Video relacionado acerca el funcionamiento de la aplicacion y sus funciones | [link del video](https://youtu.be/y0OFtWAXhIQ?si=p9reksAHqN4XnTwx) |
 
 # Conclusiones
 
