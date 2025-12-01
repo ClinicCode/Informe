@@ -303,12 +303,18 @@ Los integrantes son:
         <b>Aponte Cruzado, Andrea Marielena</b><br>
         <b>TB1:</b> Fui parte de la realización de las entrevistas al segmento objetivo y parte de la experimentación para adecuar el diseño gráfico a la web acorde con lo descrito por nuestros usuarios en las entrevistas.<br>
         <b>TP1:</b> Participé activamente en las etapas de validación y pruebas del sistema, asegurando que los datos de los usuarios fueran tratados con confidencialidad y que la información sensible se manejara bajo buenas prácticas de seguridad.<br><br>
+        <b>TB2:</b> Elaboré Core System Tests, Static Code Analysis y documentación de auditoría recibida, asegurando rigurosidad y trazabilidad técnica.<br><br>
+        <b>TF:</b> Realicé la elaboración del To-Be User Stories, To-Be Product Backlog y Sprint Backlogs, asegurando consistencia entre necesidades de los usuarios y decisiones técnicas.<br><br>
         <b>Belahonia Miranda, Fabrisio</b><br>
         <b>TB1:</b> Como líder del equipo asumí la responsabilidad ética y profesional en el desarrollo del proyecto, asegurando el respeto a la privacidad de los usuarios, la accesibilidad en el diseño UX/UI y la transparencia en cada etapa del Lean UX.<br>
         <b>TP1:</b> Coordiné la validación de la arquitectura y las pruebas de integración, procurando mantener el equilibrio entre rendimiento, sostenibilidad y facilidad de mantenimiento.<br><br>
+        <b>TB2:</b> Desarrollé auditorías (realizada y recibida), métricas, hipótesis, experimentación y componentes de Deployment/Monitoring, garantizando cumplimiento ético en DevOps.<br><br>
+        <b>TF:</b> Desarrollé la evidencia de la app móvil y la del backend REST API, aplicando buenas prácticas de seguridad. Diseñé las entrevistas del TF y realicé una evaluación preliminar según heurística, garantizando objetividad y respeto por los entrevistados.<br><br>
         <b>Bohorquez Lerzundi, Gerardo Sebastian</b><br>
         <b>TB1:</b> Apliqué Lean UX y buenas prácticas de diseño ético, asegurando un uso responsable de la información de los usuarios.<br>
         <b>TP1:</b> Desarrollé componentes críticos del backend garantizando transparencia en la gestión de datos y principios éticos de desarrollo responsable.<br><br>
+        <b>TB2:</b> Implementé Code Quality & Security, diseño de entrevistas, contenido de auditoría recibida, Build & Test Suite, métricas experimentales y To-Be Product Backlog.<br><br>
+        <b>TF:</b> Realicé el To-Be Sprint Backlogs y las evidencias del landing page y el frontend web de los experimentos<br><br>
         <b>Cutiri Agüero, Fabrizio Alexander</b><br>
         <b>TB1:</b> Redacté historias de usuario claras y trazables.<br>
         <b>TP1:</b> Contribuí a la validación del backlog asegurando coherencia técnica y ética en el desarrollo.<br><br>
@@ -317,10 +323,13 @@ Los integrantes son:
         <b>Berrocal Ramirez, Omar Christian</b><br>
         <b>TB1:</b> Adapté el diseño del landing page, web y mobile según las necesidades de los usuarios finales.<br>
         <b>TP1:</b> Supervisé la accesibilidad y usabilidad del diseño durante las pruebas finales.
+        <b>TB2:</b> Redacté Coding Standards, Reviews, heurísticas, Question Backlog, KPIs analíticos, Monitoring Tools y Anexos, garantizando consistencia y ética en documentación técnica.<br>
       </td>
       <td>
         <b>TB1:</b> El proyecto se desarrolló bajo principios de responsabilidad ética y profesional, priorizando la privacidad, seguridad, accesibilidad y transparencia.<br><br>
         <b>TP1:</b> Se mantuvo el compromiso ético y profesional en la fase final, garantizando calidad técnica, seguridad de la información y cumplimiento de estándares de accesibilidad y transparencia.
+        <b>TB2:</b> El equipo consolidó prácticas éticas en pruebas, auditorías, DevOps y experimentación, asegurando trazabilidad, rigurosidad técnica y documentación alineada a buenas prácticas profesionales.
+        <b>TF:</b> El equipo aplicó responsabilidad ética y profesional en todas las actividades del TF, desde el diseño de la investigación hasta la implementación técnica. Se tomaron decisiones informadas basadas en evidencia, priorizando accesibilidad, eficiencia, sostenibilidad, transparencia y el respeto por los usuarios.
       </td>
     </tr>
   </tbody>
@@ -341,12 +350,18 @@ Los integrantes son:
         <b>Aponte Cruzado, Andrea Marielena</b><br>
         <b>TB1:</b> Participé en el análisis de las entrevistas para comprender las necesidades de los usuarios y reflejarlo en el diseño del sistema.<br>
         <b>TP1:</b> Validé funcionalidades considerando sostenibilidad y accesibilidad a largo plazo.<br><br>
+        <b>TB2:</b> Documenté auditorías recibidas y diseñé pruebas e hipótesis, fortaleciendo decisiones basadas en impacto global y uso responsable del sistema.<br><br>
+        <b>TF:</b> Tomé decisiones sobre priorización del backlog considerando accesibilidad, sostenibilidad del diseño y beneficios reales para el usuario<br><br>
         <b>Belahonia Miranda, Fabrisio</b><br>
         <b>TB1:</b> Tomé decisiones que consideraron impactos sociales, económicos y ambientales.<br>
         <b>TP1:</b> Coordiné decisiones técnicas enfocadas en sostenibilidad y eficiencia.<br><br>
+        <b>TB2:</b> Lideré auditorías, métricas y diseño experimental evaluando impacto social y operativo del sistema en entornos clínicos reales.<br><br>
+        <b>TF:</b> Tomé decisiones sobre la arquitectura del sistema considerando qué opciones eran más prácticas y sostenibles para el proyecto.<br><br>
         <b>Bohorquez Lerzundi, Gerardo Sebastian</b><br>
         <b>TB1:</b> Aporté a la integración web y mobile optimizando recursos.<br>
         <b>TP1:</b> Analicé el consumo de recursos promoviendo eficiencia energética.<br><br>
+        <b>TB2:</b> Ejecuté análisis de calidad y seguridad, entrevistas y métricas de escalabilidad considerando riesgos globales y eficiencia operativa.<br><br>
+        <b>TF:</b> En el desarrollo del frontend y la Landing Page, evalué el impacto del rendimiento en dispositivos de distintos niveles económicos, optimizando cargas y consumo de recursos.<br><br>
         <b>Cutiri Agüero, Fabrizio Alexander</b><br>
         <b>TB1:</b> Priorización del backlog según impacto funcional y social.<br>
         <b>TP1:</b> Evalué dependencias técnicas considerando valor y sostenibilidad.<br><br>
@@ -359,6 +374,8 @@ Los integrantes son:
       <td>
         <b>TB1:</b> Las decisiones del proyecto se tomaron considerando impactos sociales, económicos, globales y ambientales.<br><br>
         <b>TP1:</b> Se reforzó la evaluación del impacto global, equilibrando sostenibilidad, eficiencia económica y beneficio social, priorizando la responsabilidad ambiental.
+        <b>TB2:</b> En esta etapa, el equipo aplicó juicios informados basados en auditorías, pruebas, métricas y diseño experimental, garantizando que las decisiones técnicas respondan a efectos reales en la operación clínica, la sostenibilidad y el entorno social.
+        <b>TF:</b> El equipo aplicó criterios informados y basados en evidencia para evaluar el impacto global, económico, ambiental y social del sistema. Las decisiones no solo se centraron en funcionalidad, sino también en accesibilidad, sostenibilidad del software, eficiencia energética, costos operativos y valor social. Esto permitió un enfoque responsable donde se equilibraron beneficios técnicos con efectos reales en usuarios, organizaciones y entornos tecnológicos diversos.
       </td>
     </tr>
   </tbody>
