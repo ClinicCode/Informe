@@ -327,8 +327,8 @@ Los integrantes son:
       </td>
       <td>
         <b>TB1:</b> El proyecto se desarrolló bajo principios de responsabilidad ética y profesional, priorizando la privacidad, seguridad, accesibilidad y transparencia.<br><br>
-        <b>TP1:</b> Se mantuvo el compromiso ético y profesional en la fase final, garantizando calidad técnica, seguridad de la información y cumplimiento de estándares de accesibilidad y transparencia.
-        <b>TB2:</b> El equipo consolidó prácticas éticas en pruebas, auditorías, DevOps y experimentación, asegurando trazabilidad, rigurosidad técnica y documentación alineada a buenas prácticas profesionales.
+        <b>TP1:</b> Se mantuvo el compromiso ético y profesional en la fase final, garantizando calidad técnica, seguridad de la información y cumplimiento de estándares de accesibilidad y transparencia.<br><br>
+        <b>TB2:</b> El equipo consolidó prácticas éticas en pruebas, auditorías, DevOps y experimentación, asegurando trazabilidad, rigurosidad técnica y documentación alineada a buenas prácticas profesionales.<br><br>
         <b>TF:</b> El equipo aplicó responsabilidad ética y profesional en todas las actividades del TF, desde el diseño de la investigación hasta la implementación técnica. Se tomaron decisiones informadas basadas en evidencia, priorizando accesibilidad, eficiencia, sostenibilidad, transparencia y el respeto por los usuarios.
       </td>
     </tr>
@@ -373,9 +373,9 @@ Los integrantes son:
       </td>
       <td>
         <b>TB1:</b> Las decisiones del proyecto se tomaron considerando impactos sociales, económicos, globales y ambientales.<br><br>
-        <b>TP1:</b> Se reforzó la evaluación del impacto global, equilibrando sostenibilidad, eficiencia económica y beneficio social, priorizando la responsabilidad ambiental.
-        <b>TB2:</b> En esta etapa, el equipo aplicó juicios informados basados en auditorías, pruebas, métricas y diseño experimental, garantizando que las decisiones técnicas respondan a efectos reales en la operación clínica, la sostenibilidad y el entorno social.
-        <b>TF:</b> El equipo aplicó criterios informados y basados en evidencia para evaluar el impacto global, económico, ambiental y social del sistema. Las decisiones no solo se centraron en funcionalidad, sino también en accesibilidad, sostenibilidad del software, eficiencia energética, costos operativos y valor social. Esto permitió un enfoque responsable donde se equilibraron beneficios técnicos con efectos reales en usuarios, organizaciones y entornos tecnológicos diversos.
+        <b>TP1:</b> Se reforzó la evaluación del impacto global, equilibrando sostenibilidad, eficiencia económica y beneficio social, priorizando la responsabilidad ambiental.<br><br>
+        <b>TB2:</b> En esta etapa, el equipo aplicó juicios informados basados en auditorías, pruebas, métricas y diseño experimental, garantizando que las decisiones técnicas respondan a efectos reales en la operación clínica, la sostenibilidad y el entorno social.<br><br>
+        <b>TF:</b> El equipo aplicó criterios informados y basados en evidencia para evaluar el impacto global, económico, ambiental y social del sistema. Las decisiones no solo se centraron en funcionalidad, sino también en accesibilidad, sostenibilidad del software, eficiencia energética, costos operativos y valor social. Esto permitió un enfoque responsable donde se equilibraron beneficios técnicos con efectos reales en usuarios, organizaciones y entornos tecnológicos diversos.<br><br>
       </td>
     </tr>
   </tbody>
