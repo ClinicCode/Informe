@@ -6288,7 +6288,7 @@ En conjunto, las entrevistas ofrecen evidencia cualitativa sólida a favor de la
 El flujo de aprendizaje en Denitify está diseñado para convertir la información obtenida durante el desarrollo en mejoras tangibles que fortalezcan la plataforma. A través de sesiones estructuradas, el equipo analiza hallazgos, comparte buenas prácticas y define acciones que optimicen la propuesta de valor, la experiencia del usuario y la solidez técnica del producto.
 
 **Objetivos**
-- Detectar aprendizajes clave relacionados con la digitalización de procesos odontológicos, la automatización de citas y pagos, y la usabilidad de la aplicación móvil.
+- Detectar aprendizajes clave relacionados con la digitalización de procesos odontológicos, la automatización de citas y la usabilidad de la aplicación móvil.
 - Documentar y difundir buenas prácticas para reducir errores recurrentes y acelerar la toma de decisiones.
 - Mantener la alineación del equipo frente a cambios en el comportamiento de usuarios, tendencias tecnológicas y métricas críticas del negocio.
 
@@ -6297,9 +6297,10 @@ El flujo de aprendizaje en Denitify está diseñado para convertir la informaci�
 **1. Captura de Datos**
 
 **Fuentes:**
-* Feedback de odontólogos y pacientes (encuestas, entrevistas).
+* Feedback de odontólogos (encuestas, entrevistas).
 * Métricas de uso de la app (citas agendadas, pagos realizados, tiempo en pantalla).
 * Resultados de pruebas de usabilidad y validación de prototipos.
+
 **Herramientas:**
 * Formularios en Google Forms para recopilar feedback.
 * Retrospectivas al cierre de cada sprint.
@@ -6330,6 +6331,25 @@ El flujo de aprendizaje en Denitify está diseñado para convertir la informaci�
 
 ## 8.6. To-Be Software Platform Pre-launch
 
+La fase de pre-lanzamiento de Dentify es un momento crucial para garantizar una transición sin contratiempos hacia la operación oficial de la plataforma. El objetivo principal es asegurar la estabilidad, eficiencia y facilidad de uso del sistema, enfocado en el público clave: odontólogos, responsables de la gestión de sus consultorios.
+
+En esta etapa se prioriza ofrecer una experiencia confiable desde el primer acceso, implementando mejoras técnicas y funcionales que optimicen la interacción y fortalezcan la confianza de los usuarios.
+
+* Gestión de citas
+
+![Gestión de cita](Img/mob1.png)
+![Gestión de cita2](Img/Historial-de-citas-M.png)
+![Gestion 3](Img/Reserva-de-citas-M.png)
+
+* Inventario
+
+![Inventario](Img/mob4.png)
+![Inventario](Img/mob5.png)
+![Inventario](Img/Inventario-M.png)
+
+* Pagos
+
+![Pago](Img/Pagos-pago-exitoso-M.png)
 ## 8.6.1. About-the-Product Intro Video
 
 | Sección           | Características del video                         | Sobre el contenido                                                          | Enlace                                                         |
