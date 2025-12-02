@@ -5112,6 +5112,1296 @@ El sistema de notificaciones de Dentify distribuye los mensajes de alerta a los 
 * **Resumen diario por correo**: Se envían reportes con todas las alertas generadas, su estado y acciones tomadas, permitiendo a los stakeholders técnicos y administrativos mantener visibilidad sobre la estabilidad del sistema.
 
 
+# Capitulo VIII: Experiment-Driven Development
+
+## 8.1. Experiment Planning
+
+### 8.1.1. As-Is Summary.
+
+En la actualidad, la mayoría de consultorios odontológicos pequeños y medianos en Lima gestionan sus procesos clínicos y administrativos de manera manual y desintegrada. Las tareas críticas dependen de herramientas básicas y prácticas informales que generan fricción en la operación diaria:
+
+- Agendas y citas manejadas en cuadernos, WhatsApp o llamadas, lo que provoca confusiones, duplicidad de horarios y olvidos.
+
+- Historias clínicas en formato físico, difíciles de consultar, almacenar y actualizar.
+
+- Inventarios gestionados en hojas de Excel independientes, sin alertas, sin control de insumos y con discrepancias frecuentes.
+
+- Facturación y emisión de comprobantes manuales, lo que demora la atención post-consulta y causa omisiones.
+
+- Comunicación con pacientes basada en mensajes individuales, sin recordatorios automáticos ni confirmación estructurada.
+
+- Ausencia de indicadores clínicos o administrativos, lo que obliga a los odontólogos a tomar decisiones reactivas sin datos consolidados.
+
+Este escenario provoca:
+
+- Mayor probabilidad de errores administrativos (citas mal registradas, pacientes no atendidos, inventario desactualizado).
+
+- Pérdida de tiempo operativo, pues el odontólogo realiza tareas manuales en lugar de enfocarse en la atención clínica.
+
+- Baja retención de pacientes, debido a falta de recordatorios, seguimiento o experiencia digital fluida.
+
+- Dificultad para escalar la clínica, ya que la ausencia de digitalización limita procesos, control y eficiencia.
+
+Información dispersa que impide contar con un historial clínico unificado y confiable.
+
+En síntesis, el modelo actual carece de una plataforma centralizada y moderna que integre citas, pacientes, historias clínicas, inventario y facturación en un solo flujo digital. Esta falta de automatización genera sobrecarga operativa, afecta la calidad del servicio al paciente y limita la capacidad de crecimiento de los consultorios odontológicos en Lima Metropolitana.
+
+### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims.
+
+**Assumptions**
+
+- Se asume que los odontólogos valoran una plataforma que centralice citas, pacientes e inventario en un solo lugar.
+
+- Se cree que la búsqueda rápida por DNI reducirá tiempos de atención y errores de registro.
+
+- Se piensa que los dentistas prefieren una interfaz sencilla y móvil para gestionar pacientes desde cualquier lugar.
+
+- Se supone que la digitalización de historiales clínicos mejorará la continuidad del tratamiento y reducirá pérdidas de información.
+
+**Knowledge Gaps**
+
+- No se conoce qué módulo genera más fricción actualmente: ¿citas, pacientes, inventario o pagos?
+
+- No está claro cuánto tiempo tardan hoy los odontólogos en registrar o modificar una cita manualmente.
+
+- Se desconoce qué tan cómodo se sienten los usuarios con formularios extensos al registrar pacientes.
+
+- No hay datos de qué dispositivos usan más los dentistas (móvil vs. escritorio), lo cual impacta en el diseño UI/UX.
+
+**Ideas**
+
+- Implementar un sistema de recordatorios automáticos vía notificaciones internas para evitar citas perdidas.
+
+- Añadir un registro rápido de insumos consumidos durante la atención para mantener actualizado el inventario.
+
+- Ofrecer dashboards simples con métricas clave: citas del día, pacientes nuevos, insumos por agotarse.
+
+- Crear un onboarding guiado dentro de la app para reducir la curva de aprendizaje de nuevos usuarios.
+
+**Claims**
+
+- Dentify reducirá significativamente la carga administrativa, permitiendo que los odontólogos atiendan más pacientes en menos tiempo.
+
+- La digitalización del historial clínico disminuirá los errores y mejorará la calidad del seguimiento odontológico.
+
+- La gestión automatizada de citas disminuirá ausencias y reprogramaciones, aumentando la productividad.
+
+- Un inventario bien gestionado evitará quiebres de stock y reducirá costos operativos del consultorio.
+
+### 8.1.3. Experiment-Ready Questions.
+
+En esta sección se definen las preguntas que guiarán los experimentos de validación de
+la solución. Se distinguen dos tipos:
+
+1. **Preguntas impulsadas por creencias (Belief-led)**  
+   Buscan poner a prueba una creencia concreta del equipo respecto al comportamiento
+   o necesidades de los usuarios.
+
+2. **Preguntas exploratorias**  
+   Buscan generar conocimiento en áreas donde el equipo aún no tiene creencias
+   fuertes, ayudando a descubrir patrones, motivaciones o problemas no anticipados.
+
+Para formularlas se utiliza la técnica de las **“Cinco Ws y una H” (Who, What, Where,
+When, Why, How)**, lo que permite revelar premisas ocultas y construir preguntas
+exploratorias más completas.
+
+**Preguntas impulsadas por creencias (Belief-led)**
+
+- **B1 – WHO / HOW**  
+  _“Creemos que los usuarios objetivo podrán completar el flujo principal de registro y
+  configuración inicial en menos de 10 minutos sin apoyo externo.”_
+
+- **B2 – WHAT / WHY**  
+  _“Creemos que mostrar indicadores visuales simples (colores, iconos, estados) en la
+  pantalla principal reducirá la necesidad de que los usuarios revisen múltiples
+  pantallas para entender si ‘todo está bien’.”_
+
+- **B3 – WHERE / WHEN**  
+  _“Creemos que la mayoría de usuarios accederán a la solución desde un teléfono
+  móvil en contextos de trabajo (consultorios), por lo que el diseño mobile-first
+  será suficiente para la mayoría de tareas diarias.”_
+
+- **B4 – WHY / HOW**  
+  _“Creemos que incorporar mensajes guiados o tutoriales cortos al inicio mejorará la
+  percepción de facilidad de uso en los nuevos usuarios.”_
+
+Estas preguntas se transforman luego en hipótesis medibles dentro de las condiciones
+experimentales y de control.
+
+**Preguntas exploratorias**
+
+- **E1 – WHO / WHAT / WHY**  
+  _“¿Qué tipo de información consideran crítica los usuarios para tomar decisiones
+  rápidas, y por qué la priorizan sobre otros datos?”_
+
+- **E2 – HOW / WHEN**  
+  _“¿Cómo integran actualmente la solución en su rutina diaria y en qué momentos
+  del día les resulta más útil o más difícil usarla?”_
+
+- **E3 – WHERE / HOW**  
+  _“¿En qué contextos (oficina, campo, casa) usan con mayor frecuencia la
+  aplicación y cómo afecta ese contexto a la forma en que interactúan con ella?”_
+
+- **E4 – WHY / HOW**  
+  _“¿Por qué los usuarios abandonan o interrumpen el uso de la aplicación y cómo
+  describen ellos mismos esos momentos de fricción?”_
+
+Estas preguntas exploratorias permiten ampliar la comprensión de las motivaciones,
+barreras y expectativas de los usuarios, alimentando nuevas hipótesis para ciclos de
+validación posteriores.
+
+### 8.1.4. Question Backlog.
+
+El Question Backlog resume las preguntas clave que debemos responder para mejorar Dentify y orientar los próximos experimentos del producto.
+| **Pregunta** | **Hipótesis** | **Prioridad** | **Objetivo** |
+| ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------- | ------------------------------------------------- |
+| ¿Por qué algunos odontólogos no completan el proceso de creación de citas? | Reducir los campos obligatorios aumentará la tasa de creación de citas. | Alta | Incrementar en +20% la creación exitosa de citas. |
+| ¿Qué impide que se generen facturas después de una cita? | Automatizar la facturación elevará el uso del módulo. | Media | Aumentar la tasa de facturación en +15%. |
+| ¿Por qué el inventario registrado no coincide con el stock real? | Registrar materiales con un solo clic reducirá errores y omisiones. | Alta | Mejorar la exactitud del inventario en +10%. |
+| ¿Entienden los usuarios nuevos el flujo inicial (registrar pacientes, crear citas)? | Un onboarding guiado aumentará el primer uso efectivo. | Alta | Aumentar la activación temprana en +15%. |
+| ¿Qué causa que odontólogos dejen de usar Dentify después del primer mes? | Recordatorios automáticos y alertas relevantes mejoran la retención. | Media | Incrementar retención 30 días en +10%. |
+| ¿Qué información consideran indispensable al registrar pacientes? | Campos mínimos y búsqueda por DNI reducen fricción. | Media | Reducir tiempo de registro en 20%. |
+| ¿Cómo afecta la falta de historial clínico organizado a la atención? | Historial ordenado y cronológico mejora la eficiencia clínica. | Baja | Reducir errores de registro en 10%. |
+| ¿Qué dificultades encuentran los odontólogos al modificar o cancelar citas? | Filtros y vista semanal/mensual mejoran la gestión de agenda. | Media | Reducir modificaciones fallidas en 15%. |
+| ¿Los asistentes dentales requieren un flujo distinto al del odontólogo? | Perfiles separados simplifican la carga administrativa. | Baja | Optimizar flujo por rol y reducir errores. |
+| ¿Qué elementos generan más confianza en la landing page para nuevos clientes? | Precios claros, beneficios y testimonios aumentarán conversiones. | Media | Incrementar leads desde la landing en +20%. |
+
+### 8.1.5. Experiment Cards.
+
+| Question                                                                              | Why                                                                                | What                                                                                   | Hypothesis                                                                                         |
+| ------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| ¿Por qué los odontólogos no completan la creación de citas en Dentify?                | El formulario tiene demasiados campos obligatorios, generando fricción y abandono. | Reducir los campos obligatorios del formulario, dejando solo los esenciales.           | Si reducimos los campos obligatorios, entonces la Tasa de creación de citas aumentará en 20%.      |
+| ¿Por qué los odontólogos no utilizan el módulo de facturación?                        | La facturación es percibida como un proceso manual lento.                          | Automatizar la generación de factura al finalizar una cita.                            | Si automatizamos la factura, entonces la Tasa de facturación aumentará en 15%.                     |
+| ¿Por qué el inventario real del consultorio no coincide con el inventario registrado? | Registrar materiales manualmente es tedioso, por lo que suele omitirse.            | Permitir registrar materiales con un solo clic desde la pantalla de la cita.           | Si simplificamos el registro de materiales, entonces la Exactitud del Inventario aumentará en 10%. |
+| ¿Por qué los odontólogos nuevos no completan su primer paso clave dentro de Dentify?  | Los nuevos usuarios no conocen el flujo básico de inicio y necesitan orientación.  | Añadir un onboarding guiado de tres pasos que explique claramente el flujo inicial.    | Si añadimos un onboarding guiado, entonces la Tasa de Primer Uso Efectivo aumentará en 15%.        |
+| ¿Por qué los odontólogos dejan de usar Dentify después del primer mes?                | No reciben recordatorios relevantes que los motiven a volver a la app.             | Enviar recordatorios automáticos (citas próximas, inventario bajo, tareas pendientes). | Si enviamos recordatorios relevantes, entonces la Retención a 30 días aumentará en 15%             |
+
+## 8.2. Experiment Design
+
+### 8.2.1. Hypotheses.
+
+Para transformar los hallazgos del Question Backlog en conocimiento accionable, se establece un conjunto de hipótesis testables. Cada una conecta una intervención específica del producto con un resultado observable y cuantificable, lo que permite evaluarlas dentro de un sprint de experimentación de corta duración.
+
+Estas hipótesis se presentan como declaraciones de creencia inicial, generadas con la expectativa de ser puestas a prueba, no asumidas como verdaderas. Por ello, cada una es falsificable, medible y testeable, lo que facilita determinar si los cambios observados se deben realmente a la intervención o simplemente al azar.
+
+Asimismo, cada hipótesis se complementa con su Hipótesis Nula, que establece que no ocurrirá el efecto esperado o que no existirá una diferencia significativa, garantizando un marco de evaluación riguroso y una base sólida para la toma de decisiones basada en evidencia.
+
+| Question                                                                                                                             | Belief                                                                                                                                             | Hypothesis                                                                                                                                                                                                                             | Null Hypothesis                                                                                                                           |
+| ------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| ¿Por qué algunos odontólogos no completan el proceso de creación de citas?                                                           | El formulario actual tiene demasiados campos obligatorios, lo que causa fricción y abandono del proceso.                                           | Si reducimos la cantidad de campos obligatorios en el formulario de creación de citas, entonces más odontólogos completarán el flujo, medido por un aumento del 20% en la Tasa de creación de citas.                                   | Reducir los campos obligatorios no generará cambios significativos en la Tasa de creación de citas.                                       |
+| ¿Por qué los odontólogos no generan facturas después de las citas?                                                                   | Los odontólogos perciben la generación de factura como un proceso manual lento que no encaja en su rutina post-cita.                               | Si automatizamos la generación de factura al finalizar una cita, entonces aumentará el uso del módulo de facturación, medido por un incremento del 15% en la Tasa de facturación.                                                      | La automatización de la factura no tendrá efectos significativos en la Tasa de facturación                                                |
+| ¿Por qué el inventario real del consultorio no coincide con el inventario registrado en Dentify?                                     | El registro manual de materiales es tedioso, por lo que los odontólogos suelen omitirlo durante las citas.                                         | Si permitimos registrar materiales usados con un solo clic desde la pantalla de la cita, entonces mejorará la exactitud del inventario, medido por un aumento del 10% en la Exactitud del inventario.                                  | Simplificar el registro de materiales no tendrá efecto significativo en la Exactitud del inventario.                                      |
+| ¿Por qué muchos odontólogos nuevos no completan su primer paso clave dentro de Dentify, como registrar un paciente o crear una cita? | Creemos que los nuevos usuarios desconocen cuál es el flujo básico para iniciar (registrar pacientes y crear citas) y necesitan orientación clara. | Si añadimos un onboarding guiado de tres pasos, entonces aumentará el primer uso efectivo, medido por un incremento del 15% en la Tasa de Primer Uso Efectivo (usuarios que completan al menos una acción clave en su primera sesión). | El onboarding guiado no tendrá efecto significativo en la Tasa de Primer Uso Efectivo y cualquier variación estará explicada por el azar. |
+| ¿Por qué los odontólogos dejan de usar Dentify después del primer mes?                                                               | Creemos que los usuarios no reciben recordatorios relevantes (citas próximas o stock bajo) que les generen motivación para volver a la app.        | Si enviamos recordatorios automáticos de citas y alertas de stock bajo, entonces aumentará la retención, medida por un incremento del 10% en la Retención a 30 días.                                                                   | Los recordatorios automáticos no tendrán impacto significativo en la Retención a 30 días y cualquier variación se deberá al azar.         |
+
+### 8.2.2. Domain Business Metrics
+
+| Métrica                            | Descripción                                                                                                                                                                                                                                                        | Fórmula                                               | Recolección                                                                                    | Meta                                                           |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------- | ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
+| Tasa de Primer Uso Efectivo (TPUE) | Mide el porcentaje de odontólogos que, después de registrarse, realizan las acciones mínimas necesarias para considerar que han comenzado a utilizar el sistema de forma efectiva (p. ej., crear una cita, registrar un paciente o completar una historia clínica) | ![business-metrics-1.png](Img/business-metrics-1.png) | Detección automática basada en eventos clave dentro de las primeras interacciones del usuario. | 60% de activación en el primer mes                             |
+| Tasa de Creación de Citas (TCC)    | Mide la adopción de la gestión de citas                                                                                                                                                                                                                            | ![business-metrics-2.png](Img/business-metrics-2.png) | Logs de creación de citas en API y base de datos.                                              | 5 citas por semana por odontólogo                              |
+| Tasa de Facturación                | Indica qué porcentaje de las citas finalizadas generan una factura posterior.                                                                                                                                                                                      | ![business-metrics-3.png](Img/business-metrics-3.png) | Revisión de estado de cita + registros en la entidad Factura.                                  | 40% en la primera versión                                      |
+| Exactitud del inventario           | Mide si el inventario registrado coincide con las existencias reales.                                                                                                                                                                                              | ![business-metrics-4.png](Img/business-metrics-4.png) | Comparación periódica entre stock digital y stock físico mediante auditorías.                  | Exactitud mayor al 80%                                         |
+| Retención del odontólogo (30 días) | Indica qué porcentaje continúa usando Dentify después del primer mes.                                                                                                                                                                                              | ![business-metrics-5.png](Img/business-metrics-5.png) | Seguimiento de actividad por user_id en logs.                                                  | Porcentaje de odontologos que permanecen en el app mayor a 60% |
+
+### 8.2.3. Measures.
+
+Para validar las hipótesis definidas en Dentify, se establecen las siguientes medidas centradas en la verificación funcional, adopción clínica y experiencia del odontólogo:
+
+● **Medidas de verificación funcional**
+
+-Evalúan si las nuevas funciones operan correctamente dentro del flujo clínico.
+
+-Funcionamiento del flujo de creación de citas.
+
+-Correcta automatización de facturación.
+
+-Registro de materiales desde la pantalla de cita.
+
+● **Medidas de adopción**
+
+-Miden si los odontólogos integran las funcionalidades en su rutina.
+
+-Tasa de creación de citas (TCC).
+
+-Tasa de facturación posterior a cita.
+
+-Uso semanal del módulo de inventario.
+
+● **Medidas de experiencia de usuario (UX)**
+
+-Determinan facilidad, claridad y reducción de fricción.
+
+-Tiempo para completar un flujo (cita, factura, inventario).
+
+-Errores en la historia clínica.
+
+-Satisfacción reportada (escala 1–5).
+
+● **Medidas de retención**
+
+-Evalúan continuidad del uso.
+
+-Retención a 30 días.
+
+-Frecuencia de uso por odontólogo.
+
+### 8.2.4. Conditions.
+
+Las condiciones establecen quiénes participarán en los experimentos, bajo qué entorno clínico se realizarán las pruebas, durante cuánto tiempo y cuáles serán los criterios para interpretar los resultados. Estas condiciones permiten asegurar validez, comparabilidad y control estadístico al momento de evaluar nuevas funcionalidades dentro del flujo odontológico.
+
+**Público objetivo**
+El experimento se realizará con perfiles directamente involucrados en la operación clínica:
+
+- Odontólogos generales y especialistas (endodoncia, ortodoncia, periodoncia, etc.).
+- Asistentes dentales y personal de apoyo en consultorio.
+- Pacientes reales con citas programadas durante el periodo del experimento.
+
+El objetivo es capturar tanto la experiencia clínica (odontólogo/asistente) como la experiencia del paciente.
+
+**Entorno de pruebas**
+
+- Las pruebas se realizarán en clínicas odontológicas pequeñas y medianas de Lima Metropolitana.
+- Se utilizará una versión _staging_ idéntica a producción para evitar variaciones por entorno.
+- Equipos utilizados: computadoras de recepción, PCs de consultorio, tablets y smartphones de pacientes.
+- La rutina clínica se mantendrá sin cambios para evitar sesgos (mismo número de pacientes, mismos procedimientos y horarios).
+
+**Diseño experimental**
+
+- Se empleará un diseño **A/B por consultorio**:
+  - **Grupo A:** utiliza la nueva funcionalidad.
+  - **Grupo B:** mantiene el flujo actual sin cambios.
+- La asignación será aleatoria mediante feature toggles controlados por backend.
+- Se medirán diferencias en tiempos de atención, errores de registro, carga administrativa y satisfacción.
+
+**Periodo de pruebas**
+
+- Duración total: **4 semanas**.
+- Semana 1: onboarding, configuración y adaptación.
+- Semanas 2–3: uso activo en flujo clínico real.
+- Semana 4: análisis, entrevistas y cierre del experimento.
+
+**Criterios de inclusión y exclusión**
+
+**Incluir:**
+
+- Odontólogos activos con agenda durante las 4 semanas.
+- Asistentes que participen en la gestión de pacientes.
+- Pacientes que acepten participar mediante consentimiento informado.
+
+**Excluir:**
+
+- Personal no involucrado en atención clínica.
+- Cuentas demo o testers del equipo de desarrollo.
+- Pacientes sin actividad clínica durante el periodo de pruebas.
+
+  **Control de variables externas**
+
+- No se modificarán procesos internos de las clínicas durante el experimento.
+- Se mantendrá la misma carga de trabajo entre grupos (similar número de pacientes y tipo de procedimientos).
+- No se liberarán nuevas funcionalidades simultáneamente.
+- Se monitorearán eventos externos que puedan alterar resultados (feriados, mantenimientos, cortes de energía).
+
+**Consentimiento informado y privacidad**
+
+- Todos los participantes serán informados del propósito del experimento.
+- Los pacientes firmarán consentimiento informado para el uso de sus datos de manera anonimizada.
+- Los datos clínicos serán tratados cumpliendo la Ley 29733 de protección de datos personales.
+- La información sensible será almacenada y procesada siguiendo protocolos de confidencialidad del sector salud.
+
+**Participación activa y retroalimentación**
+
+- Se fomentará que odontólogos y asistentes reporten dificultades, errores y oportunidades de mejora.
+- Los pacientes recibirán encuestas breves sobre claridad de recordatorios, facilidad de uso y experiencia general.
+- Se realizarán sesiones semanales de retroalimentación con el personal clínico.
+
+**Muestra representativa**
+Para garantizar confiabilidad estadística se reclutarán:
+
+- 2–3 clínicas odontológicas de Lima.
+- ~10 odontólogos.
+- ~6 asistentes dentales.
+- 40–60 pacientes durante el periodo experimental.
+
+Esta muestra permite observar patrones reales tanto clínicos como administrativos.
+
+**Medición y evaluación continua**
+Se medirán indicadores clave semanalmente:
+
+- Tiempo promedio de registro clínico.
+- Tasa de errores en la ficha odontológica.
+- Tasa de asistencia y cancelaciones.
+- Satisfacción del odontólogo y del paciente.
+- Nivel de fricción en el flujo administrativo.
+
+Si se detecta un incremento de errores >5% o fricción significativa, se aplicará una iteración rápida.
+
+**Criterio Go / No-Go**
+
+- **Go:** la funcionalidad se libera si al menos 3 de 4 indicadores principales cumplen su umbral (eficiencia, reducción de errores, satisfacción, disminución del tiempo administrativo).
+- **No-Go:** se ejecutará un sprint de corrección antes de considerar su despliegue en producción.
+
+### 8.2.5. Scale Calculations and Decisions.
+
+Para decidir cuándo una funcionalidad de Dentify está lista para escalar desde pruebas controladas hacia toda la base de usuarios, se establecen criterios cuantitativos y metas mínimas que garantizan estabilidad técnica, valor real para los odontólogos y reducción de fricción operativa. Las decisiones de escalado se basan en los siguientes cálculos e indicadores:
+
+**Índice de Satisfacción del Usuario (ISU):**
+Se mide la percepción de utilidad y facilidad de uso del módulo evaluado.
+
+ISU = ( Usuarios satisfechos / Total encuestados) x 100
+
+**Meta mínima:** ≥ 75% antes de escalar.
+
+**Retención temprana (R30):**
+Evalúa si los odontólogos continúan utilizando la funcionalidad durante el primer mes.
+
+R30 = (Usuarios activos en día 30 / Usuarios que probaron el módulo)x 100
+
+**Meta:** ≥ 60% para considerar que la funcionalidad tiene valor sostenido.
+
+**Tasa de Adopción (TA):**
+Permite estimar qué tan rápido se integra una nueva funcionalidad en la rutina clínica.
+
+TA = (Nuevos usuarios por semana / Usuarios meta)x 100
+
+**Umbral de avance:** crecimiento semanal ≥ 20%.
+
+**Eficiencia Operativa:**
+Se analiza si la funcionalidad reduce tiempo administrativo. Por ejemplo, para citas o inventario:
+
+- **Objetivo:** disminuir al menos 15% el tiempo promedio de registro.
+- **Indicador adicional:** reducción del 10% en errores de digitación o inconsistencias en inventario.
+
+**Criterios Go / No-Go:**
+Una función pasa a la siguiente fase (por ejemplo, de “piloto” a “publicación para todas las clínicas”) solo si cumple:
+
+- Crash-rate < 1%.
+- ISU ≥ 75%.
+- R30 ≥ 60%.
+- Reporte de bugs críticos = 0.
+- Feedback cualitativo positivo en entrevistas (2 de 3 evaluaciones favorables).
+
+En caso de no cumplir los umbrales, la funcionalidad regresa a una fase de iteración, se ajustan los puntos de fricción detectados y se repite el ciclo hasta alcanzar estabilidad. Este enfoque garantiza un crecimiento controlado y basado en evidencia, evitando riesgos para la operación clínica de los usuarios.
+
+### 8.2.6. Methods Selection.
+
+Elegimos una combinación de métodos cualitativos y cuantitativos que equilibra velocidad, costo y fiabilidad.
+
+| Método                                                                 | Prósito                                                                                  |
+| ---------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| Pruebas exploratorias internas                                         | Detectar defectos críticos (P0) que podrían afectar la validez de un experimento.        |
+| Validar escenarios operativos sin riesgo para odontólogos o pacientes. | Validar escenarios operativos sin riesgo                                                 |
+| Sesiones de uso controladas (in-situ)                                  | Observar flujos clave en contexto real de consultorio.                                   |
+| Usability Testing moderado                                             | Observar interacción real y detectar problemas de comprensión.                           |
+| A/B Testing de pequeña escala                                          | Validar rápidamente cuál variante de una interfaz o flujo mejora un comportamiento clave |
+
+### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection.
+
+El análisis de datos en Dentify se centrará en medir la adopción real del sistema, la eficiencia del flujo clínico y la satisfacción del usuario. Para ello, se definirán KPIs como la tasa de primer uso efectivo (odontólogos que completan acciones clave en su primera sesión), el tiempo promedio necesario para registrar pacientes o crear citas, y la exactitud del inventario comparando stock real con el registrado en la aplicación. También se evaluará la retención a 30 días, el nivel de satisfacción mediante NPS y la estabilidad técnica a través del error-rate y fallos operativos registrados en el backend. Estas métricas permitirán priorizar mejoras y validar el impacto de las funcionalidades en la rutina clínica.
+
+### 8.2.8. Web and Mobile Tracking Plan.
+
+El plan de tracking de Dentify registrará eventos clave del flujo odontológico tanto en la versión web como en la app móvil, enfocándose en acciones como inicio de sesión, creación de citas, registro de pacientes, actualización de historias clínicas, uso de inventario y generación de facturas. El monitoreo se realizará mediante Firebase Analytics (solo para mobile) y los logs del backend, permitiendo analizar adopción, detectar fricción en procesos críticos y evaluar la frecuencia real de uso de cada módulo. Esta información permitirá priorizar mejoras y asegurar que las funcionalidades respondan a las necesidades operativas de la clínica.
+<br>
+
+## 8.3. Experimentation
+
+### 8.3.1. To-Be User Stories.
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US04</td>
+    <td>Odontólogo</td>
+    <td>Media</td>
+    <td>EP02</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Editar Cita</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como odontólogo, <br>quiero poder editar la información de una cita ya registrada <br>para corregir errores o adaptarla a cambios de disponibilidad.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: Modificación exitosa de una cita<br><br>
+Dado que el odontólogo visualiza una cita futura<br>
+Cuando edite los campos permitidos (fecha, hora, tratamiento, profesional)<br>
+Entonces la información se actualizará correctamente en el sistema.<br>
+Escenario 2: Cita pasada no editable<br><br>
+Dado que una cita ya ha pasado<br>
+Cuando el asistente intente editarla<br>
+Entonces el sistema mostrará un mensaje indicando que no puede ser modificada.<br>
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US05</td>
+    <td>Odontólogo</td>
+    <td>Alta</td>
+    <td>EP02</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Añadir citas</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">	Como odontólogo, <br>quiero registrar nuevas citas <br>para poder agendar la atención de los pacientes.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: Registro de una nueva cita<br><br>
+Dado que el odontólogo ha iniciado sesión<br>
+Y se encuentra en la sección de citas<br>
+Cuando seleccione la opción para añadir nueva cita<br>
+Y complete los campos requeridos como paciente, fecha y hora<br>
+Y confirme el registro<br>
+Entonces la aplicación guardará la nueva cita y la mostrará en la lista de citas registradas.<br>
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US08</td>
+    <td>Odontólogo</td>
+    <td>Media</td>
+    <td>EP02</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Gestionar horarios de atención</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como odontólogo, <br>quisiera gestionar los horarios de atención de mi consultorio con las citas ya agendadas <br>para poder optimizar la disponibilidad de los especialistas.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: Ver horarios de atención con citas agendadas<br><br>
+Dado que soy un odontólogo autenticado en el sistema<br>
+Cuando accedo a la sección de gestión de horarios de atención<br>
+Entonces debo poder ver los horarios disponibles y ocupados, con las citas agendadas reflejadas en la agenda.<br><br>
+Escenario 2: Editar horarios de atención<br><br>
+Dado que soy un odontólogo autenticado en el sistema<br>
+Cuando modifico los horarios de atención de un especialista<br>
+Entonces el sistema debe actualizar automáticamente la disponibilidad y bloquear esos horarios para nuevas reservas si ya están ocupados por citas.<br>  
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US09</td>
+    <td>Odontólogo</td>
+    <td>Media</td>
+    <td>EP05</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Pagar tratamiento</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como paciente, <br>quiero pagar mi tratamiento desde la plataforma <br>para mayor comodidad y rapidez en el proceso de atención.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: Pago exitoso desde la plataforma<br><br>
+Dado que el paciente ha iniciado sesión y tiene un tratamiento pendiente de pago<br>
+Cuando acceda a la sección de pagos y complete los datos de su tarjeta<br>
+Entonces el sistema procesará el pago y mostrará una confirmación.<br><br>
+Escenario 2: Error en el pago<br><br>
+Dado que el paciente intenta pagar<br>
+Cuando ocurra un error en la transacción (fondos insuficientes, datos inválidos, etc.)<br>
+Entonces el sistema mostrará un mensaje de error y permitirá reintentar el pago.<br><br>
+Escenario 3: Ver historial de pagos<br><br>
+Dado que el paciente ha realizado pagos anteriores<br>
+Cuando acceda a la sección de historial<br>
+Entonces podrá visualizar el detalle de los pagos realizados y sus estados.<br>
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US11</td>
+    <td>Odontólogo</td>
+    <td>Alta</td>
+    <td>EP03</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Mostrar pacientes</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como personal del consultorio, <br>quiero visualizar la lista de pacientes registrados <br>para consultar y gestionar sus datos.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: Visualización de pacientes registrados<br><br>
+Dado que el personal ha iniciado sesión en la aplicación
+Y accede a la sección de pacientes
+Cuando se cargue la pantalla
+Entonces la aplicación mostrará una lista con los datos de todos los pacientes registrados.
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US12</td>
+    <td>Odontólogo</td>
+    <td>Alta</td>
+    <td>EP03</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Añadir pacientes</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como personal del consultorio, <br>quiero registrar nuevos pacientes <br>para poder gestionarlos en las citas y tratamientos.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: Registro de paciente<br><br>
+Dado que el personal accede a la sección de pacientes
+Cuando complete el formulario con los datos del nuevo paciente
+Y presione "Guardar"
+Entonces la aplicación registrará al paciente y lo mostrará en la lista.
+    </td>
+
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US16</td>
+    <td>Odontólog</td>
+    <td>Alta</td>
+    <td>EP03</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Añadir historial clínico</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como personal del consultorio, <br>quiero registrar un nuevo historial clínico <br>para tener un seguimiento detallado del paciente.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: Registro de historial clínico<br><br>
+Dado que el personal accede al perfil de un paciente
+Cuando seleccione "Añadir historial clínico"
+Y complete los campos requeridos
+Y presione "Guardar"
+Entonces la aplicación almacenará el nuevo historial vinculado al paciente.
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US19</td>
+    <td>Odontólogo</td>
+    <td>Alta</td>
+    <td>EP04</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Visualizar Inventario</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como personal del consultorio, <br>quiero acceder al inventario general <br>para revisar la disponibilidad de materiales y equipos.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: Visualización del inventario<br><br>
+Dado que el personal se encuentra correctamente logueado en la apliacion.
+Cuando acceda al módulo de inventario
+Entonces la aplicación mostrará la lista de todos los objetos registrados con su stock disponible.
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US20</td>
+    <td>Odontólogo</td>
+    <td>Alta</td>
+    <td>EP04</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Añadir objeto al inventario</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como personal del consultorio, <br>quiero añadir nuevos objetos al inventario <br>para mantener actualizado el stock disponible.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: Registro de nuevo objeto<br><br>
+Dado que el personal accede al módulo de inventario
+Cuando seleccione "Añadir objeto"
+Y complete los campos requeridos (nombre, tipo, cantidad)
+Entonces la aplicación registrará el objeto en el inventario.
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US21</td>
+    <td>Odontólogo</td>
+    <td>Alta</td>
+    <td>EP03</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Editar objeto de inventario</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como personal del consultorio, <br>quiero modificar los datos de un objeto del inventario <br>para reflejar información correcta y actualizada.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: Modificación de objeto del inventario<br><br>
+Dado que el personal accede a la sección de inventario
+Cuando seleccione un objeto de la lista
+Y actualice su información
+Y presione "Guardar cambios"
+Entonces la aplicación guardará la información modificada del objeto.
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US23</td>
+    <td>Odontólogo</td>
+    <td>Media</td>
+    <td>EP04</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Dashboard de inventario</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como personal del consultorio, <br>quiero visualizar un resumen del inventario <br>para tomar decisiones sobre abastecimiento.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: Visualización del dashboard<br><br>
+Dado que el personal accede a la seccion de inventario
+Cuando seleccione la opción de "Dashboard"
+Entonces la aplicación mostrará gráficos y métricas de stock, consumo y disponibilidad.
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US25</td>
+    <td>Odontólogo</td>
+    <td>Alta</td>
+    <td>EP04</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Registrar cantidad consumida de ítems</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como personal del consultorio, <br>quiero registrar la cantidad de objetos usados en cada tratamiento <br>para llevar un control detallado de insumos.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Escenario 1: Registro de consumo de objetos<br><br>
+Dado que se realiza una facturación asociada a un tratamiento
+Cuando se especifique la cantidad utilizada de cada objeto
+Entonces el sistema almacenará dicha cantidad como parte del historial de consumo.</td>
+  </tr>
+</table>
+
+### 8.3.2. To-Be Product Backlog
+
+La priorización del backlog se llevó a cabo considerando el impacto que cada funcionalidad puede generar en la experiencia del usuario y el esfuerzo estimado necesario para implementarla. Esta evaluación se apoyó en la evidencia obtenida durante las primeras validaciones con usuarios, incluyendo pruebas de prototipos y entrevistas semiestructuradas.
+
+| Orden | ID   | Descripción To-Be                                                                       | Story Points | Módulo               |
+| ----- | ---- | --------------------------------------------------------------------------------------- | ------------ | -------------------- |
+| 01    | US05 | Como odontólogo, deseo **crear nuevas citas** para organizar mi agenda de atención.     | 8            | Citas                |
+| 02    | US04 | Como odontólogo, deseo **editar citas existentes** para corregir datos o reagendarlas.  | 5            | Citas                |
+| 03    | US06 | Como odontólogo, deseo **eliminar citas** para mantener mi agenda limpia y actualizada. | 6            | Citas                |
+| 04    | TS13 | Implementar el endpoint **POST /api/v1/appointments** para crear citas.                 | 2            | Backend Citas        |
+| 05    | TS14 | Implementar el endpoint **PUT /api/v1/appointments/{id}** para actualizar citas.        | 5            | Backend Citas        |
+| 06    | TS15 | Implementar el endpoint **DELETE /api/v1/appointments/{id}** para eliminar citas.       | 4            | Backend Citas        |
+| 07    | US12 | Como recepcionista, deseo **añadir nuevos pacientes** al sistema.                       | 3            | Pacientes            |
+| 08    | US13 | Como recepcionista, deseo **editar la información de pacientes**.                       | 8            | Pacientes            |
+| 09    | US11 | Como recepcionista, deseo **visualizar la lista de pacientes registrados**.             | 6            | Pacientes            |
+| 10    | TS06 | Implementar **POST /api/v1/patients** para registrar pacientes.                         | 3            | Backend Pacientes    |
+| 11    | TS07 | Implementar **PUT /api/v1/patients/{id}** para actualizar pacientes.                    | 2            | Backend Pacientes    |
+| 12    | TS08 | Implementar **DELETE /api/v1/patients/{id}** para eliminar pacientes inactivos.         | 5            | Backend Pacientes    |
+| 13    | US16 | Como odontólogo, deseo **añadir historiales clínicos** por paciente.                    | 1            | Historial Clínico    |
+| 14    | TS11 | Implementar **POST /api/v1/patients/{id}/medical-histories**.                           | 2            | Backend Historial    |
+| 15    | TS12 | Implementar **GET /api/v1/patients/{id}/medical-histories**.                            | 8            | Backend Historial    |
+| 16    | US19 | Como administrador, deseo **visualizar el inventario** para conocer stock disponible.   | 4            | Inventario           |
+| 17    | US20 | Como administrador, deseo **añadir nuevos ítems** al inventario.                        | 8            | Inventario           |
+| 18    | US21 | Como administrador, deseo **editar ítems** del inventario.                              | 7            | Inventario           |
+| 19    | US22 | Como administrador, deseo **eliminar ítems** obsoletos o agotados.                      | 3            | Inventario           |
+| 20    | US25 | Como odontólogo, deseo **registrar insumos consumidos** en un tratamiento.              | 6            | Inventario / Clínica |
+| 21    | TS01 | Implementar **POST /api/v1/items** para crear ítems.                                    | 5            | Backend Inventario   |
+| 22    | TS02 | Implementar **PUT /api/v1/items/{id}** para actualizar ítems.                           | 6            | Backend Inventario   |
+| 23    | TS03 | Implementar **DELETE /api/v1/items/{id}** para eliminar ítems.                          | 5            | Backend Inventario   |
+| 24    | TS04 | Implementar **GET /api/v1/items/{id}** para obtener un ítem.                            | 6            | Backend Inventario   |
+| 25    | TS05 | Implementar **GET /api/v1/items** para listar inventario.                               | 4            | Backend Inventario   |
+| 26    | SS01 | Investigar **Mockito** para pruebas unitarias efectivas en Dentify.                     | 3            | QA / Testing         |
+| 27    | SS02 | Investigar **Selenium** para pruebas automáticas de interfaz.                           | 2            | QA / Testing         |
+
+### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
+
+#### 8.3.3.1. To-Be Sprint Backlogs
+
+Este sprint integra tanto **User Stories ** como **Technical Stories **, permitiendo una visión completa del trabajo de desarrollo y asegurando alineación entre las necesidades del usuario y la implementación técnica.
+
+| ID   | Tipo       | User Story / Task                               | Descripción ("Como... deseo... para...")                                                                                                             | Estimación (Horas) | Assigned To                           | Status | Justificación desde Experimentos                                          |
+| ---- | ---------- | ----------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ | ------------------------------------- | ------ | ------------------------------------------------------------------------- |
+| US05 | User Story | Crear Nuevas Citas                              | Como odontólogo, deseo **crear nuevas citas con campos mínimos obligatorios** para reducir fricción y aumentar la tasa de creación exitosa de citas. | 8                  | Bohorquez Lerzundi, Gerardo Sebastian | To-do  | Responde a B1: reducir campos obligatorios incrementa creación de citas   |
+| US04 | User Story | Editar Citas Existentes                         | Como odontólogo, deseo **editar citas permitiendo cambios rápidos de fecha y hora** para adaptarme a reprogramaciones de pacientes.                  | 5                  | Cutiri Agüero, Fabrizio Alexander     | To-do  | Optimización por E2: integración en rutina diaria del odontólogo          |
+| US06 | User Story | Eliminar Citas                                  | Como odontólogo, deseo **eliminar citas futuras con confirmación** para mantener una agenda limpia sin registros duplicados.                         | 6                  | Berrocal Ramirez, Omar Christian      | To-do  | Control de consistencia entre sistema y realidad del consultorio          |
+| TS13 | Technical  | Endpoint crear cita optimizado                  | Como desarrollador, deseo **mejorar POST /api/v1/appointments** para validar campos mínimos y retornar respuesta rápida.                             | 2                  | Aponte Cruzado, Andrea Marielena      | To-do  | Soporte técnico a US05                                                    |
+| TS14 | Technical  | Endpoint actualizar cita                        | Como desarrollador, deseo **implementar PUT /api/v1/appointments/{id}** con validación de citas pasadas.                                             | 5                  | Belahonia Miranda, Fabrisio           | To-do  | Soporte técnico a US04                                                    |
+| TS15 | Technical  | Endpoint eliminar cita                          | Como desarrollador, deseo **implementar DELETE /api/v1/appointments/{id}** con lógica de cascada para historiales.                                   | 4                  | Bohorquez Lerzundi, Gerardo Sebastian | To-do  | Soporte técnico a US06                                                    |
+| US12 | User Story | Añadir Nuevos Pacientes                         | Como recepcionista, deseo **registrar pacientes con búsqueda por DNI** para evitar duplicados y agilizar el proceso.                                 | 3                  | Cutiri Agüero, Fabrizio Alexander     | To-do  | E1: información crítica es búsqueda rápida por DNI                        |
+| US13 | User Story | Editar Información de Pacientes                 | Como recepcionista, deseo **actualizar datos de pacientes manteniendo historial de cambios** para garantizar información precisa.                    | 8                  | Berrocal Ramirez, Omar Christian      | To-do  | Mejora en precisión de registros                                          |
+| US11 | User Story | Visualizar Lista de Pacientes Registrados       | Como recepcionista, deseo **ver pacientes con filtros por estado o fecha de última visita** para gestionar seguimiento efectivo.                     | 6                  | Aponte Cruzado, Andrea Marielena      | To-do  | B2: indicadores visuales mejoran comprensión rápida                       |
+| TS06 | Technical  | Endpoint crear paciente con búsqueda DNI        | Como desarrollador, deseo **mejorar POST /api/v1/patients** para validar DNI único y retornar datos de pacientes existentes.                         | 3                  | Belahonia Miranda, Fabrisio           | To-do  | Soporte técnico a US12                                                    |
+| TS07 | Technical  | Endpoint actualizar paciente con auditoría      | Como desarrollador, deseo **implementar PUT /api/v1/patients/{id}** con registro de cambios realizados.                                              | 2                  | Bohorquez Lerzundi, Gerardo Sebastian | To-do  | Soporte técnico a US13                                                    |
+| TS08 | Technical  | Endpoint eliminar paciente con restricciones    | Como desarrollador, deseo **implementar DELETE /api/v1/patients/{id}** validando que no tengan citas o historiales activos.                          | 5                  | Cutiri Agüero, Fabrizio Alexander     | To-do  | Soporte técnico a US11                                                    |
+| US16 | User Story | Añadir Historiales Clínicos por Paciente        | Como odontólogo, deseo **registrar diagnósticos y tratamientos en un historial cronológico** para consultar rápidamente el tratamiento previo.       | 1                  | Berrocal Ramirez, Omar Christian      | To-do  | E3: contexto de uso requiere acceso rápido a historial                    |
+| TS11 | Technical  | Endpoint crear historial clínico optimizado     | Como desarrollador, deseo **implementar POST /api/v1/patients/{id}/medical-histories** con validación de datos clínicos.                             | 2                  | Aponte Cruzado, Andrea Marielena      | To-do  | Soporte técnico a US16                                                    |
+| TS12 | Technical  | Endpoint obtener historial clínico por paciente | Como desarrollador, deseo **implementar GET /api/v1/patients/{id}/medical-histories** retornando registros ordenados cronológicamente.               | 8                  | Belahonia Miranda, Fabrisio           | To-do  | Soporte técnico a US16                                                    |
+| US19 | User Story | Visualizar Inventario Centralizado              | Como administrador, deseo **ver un dashboard del inventario con colores para alertas de stock bajo** para identificar rápidamente insumos críticos.  | 4                  | Bohorquez Lerzundi, Gerardo Sebastian | To-do  | B2: indicadores visuales reducen necesidad de revisar múltiples pantallas |
+| US20 | User Story | Añadir Ítems al Inventario                      | Como administrador, deseo **añadir insumos con categorización automática** para organizar mejor los materiales.                                      | 8                  | Cutiri Agüero, Fabrizio Alexander     | To-do  | Simplificación vs. registro manual tedioso                                |
+| US21 | User Story | Editar Ítems del Inventario                     | Como administrador, deseo **actualizar cantidades y precios de insumos** para mantener datos financieros precisos.                                   | 7                  | Berrocal Ramirez, Omar Christian      | To-do  | Control de costos del consultorio                                         |
+| US22 | User Story | Eliminar Ítems Obsoletos                        | Como administrador, deseo **eliminar insumos agotados o vencidos** para limpiar el inventario.                                                       | 3                  | Aponte Cruzado, Andrea Marielena      | To-do  | Precisión en estado real del inventario                                   |
+| US25 | User Story | Registrar Consumo Simplificado de Insumos       | Como odontólogo, deseo **registrar insumos consumidos con un clic desde la pantalla de cita** para mantener inventario automáticamente actualizado.  | 6                  | Belahonia Miranda, Fabrisio           | To-do  | E4: reducir puntos de fricción en consumo manual                          |
+| TS01 | Technical  | Endpoint crear ítem inventario                  | Como desarrollador, deseo **implementar POST /api/v1/items** con validación de campos y categorización.                                              | 5                  | Bohorquez Lerzundi, Gerardo Sebastian | To-do  | Soporte técnico a US20                                                    |
+| TS02 | Technical  | Endpoint actualizar ítem inventario             | Como desarrollador, deseo **implementar PUT /api/v1/items/{id}** permitiendo cambios en cantidad y precio.                                           | 6                  | Cutiri Agüero, Fabrizio Alexander     | To-do  | Soporte técnico a US21                                                    |
+| TS03 | Technical  | Endpoint eliminar ítem inventario               | Como desarrollador, deseo **implementar DELETE /api/v1/items/{id}** validando restricciones de citas activas.                                        | 5                  | Berrocal Ramirez, Omar Christian      | To-do  | Soporte técnico a US22                                                    |
+| TS04 | Technical  | Endpoint obtener ítem por ID                    | Como desarrollador, deseo **implementar GET /api/v1/items/{id}** retornando datos completos del insumo.                                              | 6                  | Aponte Cruzado, Andrea Marielena      | To-do  | Consulta rápida en operaciones                                            |
+| TS05 | Technical  | Endpoint listar inventario completo             | Como desarrollador, deseo **implementar GET /api/v1/items** con filtros de categoría y estado de stock.                                              | 4                  | Belahonia Miranda, Fabrisio           | To-do  | Soporte a dashboard US19                                                  |
+| SS01 | Spike      | Investigar automatización de pruebas BDD        | Como desarrollador, deseo **investigar Cucumber/Gherkin** para pruebas de comportamiento en flujos críticos.                                         | 8                  | Bohorquez Lerzundi, Gerardo Sebastian | To-do  | Validación experimental de escenarios usuario                             |
+| SS02 | Spike      | Investigar integración de notificaciones        | Como desarrollador, deseo **explorar Firebase Cloud Messaging** para recordatorios automáticos de citas.                                             | 8                  | Cutiri Agüero, Fabrizio Alexander     | To-do  | Reducción de abandonos experimentales                                     |
+
+**Objetivos del Sprint:**
+
+1. **Optimizar flujos críticos:** Reducir campos obligatorios en creación de citas, implementar búsqueda por DNI en pacientes, simplificar registro de consumo de insumos.
+2. **Mejorar visualización:** Implementar dashboards con indicadores visuales para inventario y estado de citas.
+3. **Asegurar consistencia de datos:** Validaciones robustas, auditoría de cambios, integridad referencial.
+4. **Facilitar integración:** Completar endpoints RESTful optimizados y documentación API clara.
+5. **Validar experimentalmente:** Ejecutar pruebas BDD y explorar notificaciones automáticas para mejorar retención de usuarios.
+
+
+#### 8.3.3.2. Implemented To-Be Landing Page Evidence
+
+![Imagen 1](./Img/landing-page-evidence-1.png)
+![Imagen 2](./Img/landing-page-evidence-2.png)
+![Imagen 3](./Img/landing-page-evidence-4.png)
+
+ **Visita la landing page:**  
+https://cliniccode.github.io/Landing-Page/
+
+#### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
+
+![Imagen 1](./Img/Front3.png)
+![Imagen 2](./Img/Front4.png)
+![Imagen 3](./Img/Front1.png)
+![Imagen 4](./Img/Front2.png)
+
+
+#### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
+![Imagen 1](./Img/mob1.png)
+![Imagen 2](./Img/mob2.png)
+![Imagen 2](./Img/mob3.png)
+![Imagen 2](./Img/mob4.png)
+![Imagen 2](./Img/mob5.png)
+![Imagen 2](./Img/mob6.png)
+
+#### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
+
+En esta sección mostraremos evidencias del Mobile Application desplegado.
+
+**Link del Backend:** https:
+
+**Evidencias:**  
+
+![Imagen 2](./Img/restful1.png)
+![Imagen 2](./Img/restful2.png)
+![Imagen 2](./Img/restful3.png)
+
+#### 8.3.3.6. Team Collaboration Insights
+
+ **Insights Informe:**  
+ ![Imagen 1](./Img/InsightsInforme.png)
+
+  **Insights Landing:**  
+ ![Imagen 1](./Img/InsightsLanding.png)
+
+ **Insights Front:**  
+ ![Imagen 1](./Img/InsightsFront.png)
+
+  **Insights Back:**  
+ ![Imagen 1](./Img/InsightsBack.png)
+
+
+
+
+### 8.3.4. To-Be Validation Interviews
+
+#### 8.3.4.1. Diseño de Entrevistas
+
+Preguntas generales
+
+¿Cuál es tu rol dentro del consultorio?
+
+¿Qué actividades realizas con mayor frecuencia en tu día a día?
+
+¿Usas actualmente algún sistema o aplicación para gestionar tu trabajo?
+
+¿Qué problemas encuentras en los métodos que usas hoy?
+
+Gestión de pacientes
+
+¿Cada cuánto registras nuevos pacientes?
+
+¿Qué información consideras indispensable al registrar un paciente?
+
+¿Qué tan seguido necesitas actualizar los datos de un paciente?
+
+¿La búsqueda por DNI te sería útil en tu rutina?
+
+¿Qué tan importante es acceder rápidamente al historial clínico de cada paciente?
+
+Gestión de citas
+
+¿Cómo gestionas las citas actualmente?
+
+¿Qué problemas encuentras al usar el método o sistema que tienes hoy?
+
+¿Consideras útil tener una vista general de tus citas del día o de la semana?
+
+¿Qué filtros o formas de búsqueda usas para encontrar citas específicas?
+
+¿Qué tan seguido debes modificar o cancelar citas ya programadas?
+
+Gestión de inventario
+
+¿Cómo registras actualmente tus materiales e insumos?
+
+¿Qué dificultades tienes al llevar inventario manualmente?
+
+¿Qué información necesitas ver cuando revisas un producto del inventario?
+
+¿Cada cuánto actualizas el stock real de los insumos?
+
+¿Te sería útil registrar con un clic los materiales usados durante una cita?
+
+Historial clínico
+
+¿Qué información consideras imprescindible en un historial clínico?
+
+¿Con qué frecuencia revisas historiales anteriores de los pacientes?
+
+¿Has tenido problemas buscando historiales antiguos o incompletos?
+
+¿Qué tan útil sería tener todos los historiales organizados cronológicamente?
+
+Pagos y facturación
+
+¿Cómo registras actualmente los pagos de tus pacientes?
+
+¿Qué tan rápido necesitas generar una factura después de una cita?
+
+¿Qué dificultades tienes con la facturación actual?
+
+¿Consideras útil que la aplicación genere recibos o facturas automáticamente?
+
+Onboarding, registro e inicio de sesión
+
+¿Qué información mínima debería pedirse al registrarse para no hacerlo tedioso?
+
+¿Has tenido problemas alguna vez al aprender a usar un sistema nuevo?
+
+¿Te ayudaría contar con una guía de primeros pasos al entrar por primera vez?
+
+Landing Page (primera impresión del producto)
+
+¿Te parece importante tener una página de presentación que explique la aplicación?
+
+¿Qué información te gustaría encontrar antes de usar o descargar el sistema?
+
+¿Qué buscarías primero en una landing? (Precios, beneficios, funcionalidades, etc.)
+
+¿Qué debería transmitir la página para generar confianza en el sistema?
+
+#### 8.3.4.2. Registro de Entrevistas
+
+**Segmento Objetivo:** Odontólogos
+
+**Entrevista 1: Martín Salcedo**
+
+![to-be-validation-interview-1.png](Img/to-be-validation-interview-1.png)
+
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224135_upc_edu_pe/IQB-E-8N3qJKQbH996sMaKNzAddAt5cel4W_k0zdhujbCW4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=3daE5L)
+
+**Datos del entrevistado**
+- **Nombre:** Martín Salcedo
+- **Edad:** 25 años
+- **Distrito:** San Juan de Lurigancho (SJL)
+- **Timestamp:** 00:00 – 18:29
+
+**Resumen de la entrevista (Validación de la aplicación)**
+
+El entrevistado es Martín Salcedo, es un odontólogo de 25 años que maneja un flujo alto de pacientes y suele trabajar con citas simultáneas. Al revisar un ejemplo de formulario extenso para creación de citas, afirmó que él solo necesita tres datos principales: nombre del paciente, tipo de cita y horario. Indicó que todo lo demás puede ser completado posteriormente, por lo que un formulario corto no solo sería suficiente, sino que además se adaptaría mejor a la forma en que maneja su agenda.
+
+Sobre el proceso de facturación, señaló que no le gusta perder tiempo generando facturas manualmente y que, en la práctica, esa tarea suele retrasarse o delegarse. Por ello, la automatización le pareció una mejora significativa, pues considera que eliminaría un punto de fricción sin afectar la calidad del proceso.
+
+En relación con el inventario, expresó que registrar materiales uno por uno es completamente incompatible con su ritmo de trabajo. Comentó que en días de alta afluencia simplemente resulta imposible completar el registro manual. Al conocer la propuesta del registro con un clic desde la misma pantalla de la cita, dijo que sería “ideal”, ya que lo haría viable en su día a día.
+
+Acerca del onboarding guiado, manifestó que lo considera útil siempre y cuando sea breve. Para él, un flujo de tres pasos es más que suficiente para entender lo básico. También valoró positivamente la idea de recibir recordatorios de tareas pendientes, señalando que ese tipo de notificaciones sí influyen en su conducta y lo motivarían a usar la aplicación con mayor frecuencia.
+
+
+**Entrevista 2: Samuel Mendoza**
+
+![to-be-validation-interview-2.png](Img/to-be-validation-interview-2.png)
+
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224135_upc_edu_pe/EZYisY-jQ1BNq9ATwS-hVu0BsUCxZC_t448gftlV-aQPFg?e=8vS1tO)
+
+**Datos del entrevistado**
+
+- **Nombre:** Samuel Mendoza
+- **Edad:** 60 años
+- **Distrito:** Breña
+- **Timestamp:** 18:29 - 33:50
+
+**Resumen de la entrevista (Validación de la aplicación)**
+
+La tercera entrevista se realizó a Samuel Mendoza, un odontólogo de 60 años con una trayectoria extensa en la práctica privada. Él comentó que los formularios largos le resultan confusos y que, debido al tiempo que le toma completar demasiados campos obligatorios, suele sentirse frustrado durante la gestión administrativa. Mencionó que, en su experiencia, mientras menos datos se soliciten al inicio, más sencillo le resulta avanzar sin interrumpir su ritmo de trabajo. Por ello, la propuesta de reducir la cantidad de campos obligatorios le pareció especialmente conveniente, pues considera que simplificaría significativamente el proceso.
+
+En cuanto al módulo de facturación, explicó que con frecuencia se olvida de generar las facturas al terminar una consulta, especialmente en días con mayor carga de pacientes. Comentó que, en su caso, la automatización de la factura sería una mejora importante, ya que evitaría omisiones involuntarias y le permitiría mantener una contabilidad más ordenada sin necesidad de recordar pasos adicionales.
+
+Respecto al manejo del inventario, reconoció que casi nunca actualiza los materiales utilizados inmediatamente después de cada cita porque el proceso es manual y le consume tiempo que prefiere dedicar al paciente siguiente. En su consultorio, esto ha provocado inconsistencias frecuentes entre el stock físico y el registro digital. La idea de poder registrar los insumos con un solo clic le pareció una solución que se ajusta mucho más a su realidad, afirmando que sí sería capaz de mantener un registro fiel bajo ese esquema.
+
+En relación con el onboarding guiado, mencionó que, aunque tiene años de experiencia profesional, no siempre se adapta de inmediato a nuevas aplicaciones. Por ese motivo, un flujo inicial sencillo y guiado le ayudaría a entender la lógica del sistema sin necesidad de explorar por ensayo y error. Asimismo, expresó que los recordatorios automáticos serían útiles, especialmente aquellos relacionados con citas próximas o tareas pendientes, ya que podrían ayudarlo a mantener una mejor organización de su consultorio sin depender exclusivamente de su memoria.
+
+**Entrevista 3: Elizabeth Huanaco**
+
+![to-be-validation-interview-3.png](Img/to-be-validation-interview-3.png)
+
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224135_upc_edu_pe/EZYisY-jQ1BNq9ATwS-hVu0BsUCxZC_t448gftlV-aQPFg?e=Pkl74K)
+
+**Datos del entrevistado**
+- **Nombre:** Elizabeth Huanaco
+- **Edad:** 25 años
+- **Distrito:** San Juan de Lurigancho (SJL)
+- **Timestamp:** 33:51 - 42:37
+
+**Resumen de la entrevista (Validación de la aplicación)**
+
+Esta entrevista fue realizada a Elizabeth Huanuco, una odontóloga de 25 años que atiende entre tres y cuatro pacientes por día. Ella comentó que, al intentar crear una cita en cualquier software, suele sentirse abrumada cuando el formulario presenta muchos campos obligatorios. En sus palabras, “a veces empiezo a crear una cita y me aburro porque hay demasiados campos”, enfatizando que para ella, solo deberían pedirse los datos estrictamente esenciales para avanzar. Esta percepción refuerza la idea de que la fricción generada por formularios extensos contribuye al abandono del proceso.
+
+Respecto a la facturación, señaló que normalmente la realiza al final del día, siempre que se acuerde, pues durante la atención de cada paciente no tiene tiempo para hacerlo. Por esa razón, consideró bastante útil la posibilidad de que la factura se genere automáticamente al finalizar la cita, ya que le permitiría evitar olvidos y ahorrar tiempo.
+
+Sobre el manejo del inventario, afirmó que casi nunca registra los materiales utilizados porque el proceso manual es tedioso y le consume tiempo que no tiene entre atención y atención. La propuesta de permitir registrar los insumos con un solo clic le resultó muy conveniente, indicando que con esa funcionalidad sí podría llevar un control más exacto.
+
+En cuanto a la experiencia de nuevos usuarios, recordó que cuando probó otros sistemas no tenía claro qué debía hacer primero, y expresó que un onboarding guiado le habría facilitado el proceso de familiarización. Finalmente, mencionó que los recordatorios automáticos le serían de bastante utilidad, especialmente aquellos relacionados con citas próximas o inventario bajo, pues considera que ese tipo de alertas sí la motivarían a abrir la aplicación con más frecuencia.
+
+## 8.4. Experiment Aftermath & Analysis
+
+### 8.4.1. Analysis and Interpretation of Results
+
+El análisis de las tres entrevistas revela patrones consistentes que permiten comprender con claridad las principales barreras operativas que enfrentan los profesionales odontológicos al utilizar el sistema actual. En conjunto, los hallazgos respaldan las hipótesis relacionadas con la fricción en el flujo de trabajo, la carga cognitiva y la necesidad de una mayor orientación dentro de la plataforma.
+
+En primer lugar, todos los participantes coincidieron en que la cantidad excesiva de campos obligatorios durante la creación de una cita genera fricción innecesaria. Tanto los profesionales jóvenes como aquellos con más experiencia describieron este paso como lento, repetitivo y cognitivamente demandante, especialmente en horarios de alta carga asistencial. Esto respalda con fuerza la hipótesis de que reducir los campos obligatorios podría agilizar el proceso e incrementar la probabilidad de que los profesionales completen las citas de manera eficiente y consistente.
+
+En segundo lugar, independientemente de la edad o del nivel de familiaridad tecnológica, existe un punto de dolor claro respecto al proceso de facturación. Los participantes mencionaron que suelen posponerlo u olvidarlo, principalmente porque el flujo actual requiere varios pasos que interrumpen la dinámica clínica natural. Este patrón refuerza la hipótesis de que la facturación automática minimizaría omisiones, mejoraría la precisión y se alinearía mejor con el ritmo real de trabajo en un consultorio dental.
+
+En tercer lugar, las entrevistas confirman que el inventario de materiales casi nunca se actualiza en tiempo real. Todos los participantes admitieron que olvidan o deciden no registrar los insumos después de cada cita debido a que el proceso exige demasiada interacción manual. Esto ha generado discrepancias entre el inventario físico y el registro digital. Por tanto, la hipótesis sobre implementar un registro de materiales con un solo clic se ve fuertemente validada, ya que los entrevistados expresaron que sí adoptarían una solución de mínima interacción.
+
+En relación con el onboarding del sistema, las respuestas fueron consistentes al señalar que los usuarios nuevos —especialmente los menos familiarizados con la tecnología— tienen dificultades para comprender el flujo inicial de la plataforma. Un onboarding guiado fue percibido como beneficioso, no solo porque reduce la curva de aprendizaje, sino también porque establece un orden claro desde el primer uso. Esto coincide estrechamente con la hipótesis de que un mejor onboarding puede mejorar la efectividad temprana en la plataforma.
+
+Finalmente, todos los entrevistados valoraron la idea de recibir recordatorios oportunos y relevantes. Indicaron que suelen depender de la memoria o de herramientas externas para realizar seguimiento de tareas pendientes, citas o responsabilidades administrativas. Los recordatorios automatizados se percibieron como una forma de mejorar la organización, reducir olvidos y mantener un flujo de trabajo consistente, respaldando así la hipótesis de que los recordatorios pueden mejorar la retención a 30 días.
+
+En conjunto, las entrevistas ofrecen evidencia cualitativa sólida a favor de las cinco hipótesis de Dentify. Los puntos de dolor identificados son consistentes entre distintos perfiles profesionales, lo que indica que las soluciones propuestas abordan problemas sistémicos y no preferencias aisladas de usuarios específicos.
+
+### 8.4.2. Re-scored and Re-prioritized Question Backlog
+
+| Pregunta                                                                            | Priorización Anterior | Nueva Priorización | Justificación                                                                                      |
+|-------------------------------------------------------------------------------------| --------------------- |--------------------|----------------------------------------------------------------------------------------------------|
+| ¿Por qué algunos odontólogos no completan el proceso de creación de citas?          | Alta                  | **Muy Alta**       | Validación fuerte: todos consideran el formulario largo como fricción principal.                   |
+| ¿Qué impide que se generen facturas después de una cita?                            | Media                 | **Alta**           | Se menciona de forma explícita como necesidad real y frecuente.                                    |
+| ¿Por qué el inventario registrado no coincide con el stock real?                    | Alta                  | **Muy Alta**       | Los entrevistados coinciden en que suelen olvidar registrar materiales y esto afecta su control.   |
+| ¿Entienden los usuarios nuevos el flujo inicial (registrar pacientes, crear citas)? | Alta                  | **Alta**           | Percepción positiva, pero menos urgente que inventario y citas.                                    |
+| ¿Qué causa que odontólogos dejen de usar Dentify después del primer mes?            | Media                 | **Media**          | Es importante, pero su efectividad depende de optimizar primero los flujos esenciales del sistema. |
+
+## 8.5. Continuous Learning
+
+### 8.5.1. Shareback Session Artifacts: Learning Workflow
+
+El flujo de aprendizaje en Denitify está diseñado para convertir la información obtenida durante el desarrollo en mejoras tangibles que fortalezcan la plataforma. A través de sesiones estructuradas, el equipo analiza hallazgos, comparte buenas prácticas y define acciones que optimicen la propuesta de valor, la experiencia del usuario y la solidez técnica del producto.
+
+**Objetivos**
+- Detectar aprendizajes clave relacionados con la digitalización de procesos odontológicos, la automatización de citas y la usabilidad de la aplicación móvil.
+- Documentar y difundir buenas prácticas para reducir errores recurrentes y acelerar la toma de decisiones.
+- Mantener la alineación del equipo frente a cambios en el comportamiento de usuarios, tendencias tecnológicas y métricas críticas del negocio.
+
+**Flujo de Trabajo**
+
+**1. Captura de Datos**
+
+**Fuentes:**
+* Feedback de odontólogos (encuestas, entrevistas).
+* Métricas de uso de la app (citas agendadas, pagos realizados, tiempo en pantalla).
+* Resultados de pruebas de usabilidad y validación de prototipos.
+
+**Herramientas:**
+* Formularios en Google Forms para recopilar feedback.
+* Retrospectivas al cierre de cada sprint.
+* Google Analytics / Firebase para análisis de métricas.
+* Espacios colaborativos como Miro y Notion para organizar hallazgos.
+
+
+**2. Análisis y síntesis**
+
+**Documentación:**
+* Registro en Notion de aprendizajes clave, categorizados por áreas (UX, técnico, negocio).
+* Priorización según impacto en la experiencia del paciente y eficiencia operativa del consultorio.
+**Sesiones de alineamiento:**
+* Reuniones internas para revisar hallazgos y definir acciones con base en impacto y viabilidad.
+
+**3. Implementación de mejoras**
+
+* Ajustes en la interfaz de la app (ej.: simplificación del flujo de agendamiento, claridad en métodos de pago).
+* Optimización de herramientas para odontólogos (ej.: acceso rápido a historiales clínicos).
+* Refinamiento de textos y flujos de onboarding para mejorar la incorporación de nuevos usuarios.
+
+
+**4. Retroalimentación continua**
+
+* Evaluación iterativa después de cada sprint o lanzamiento.
+* Monitoreo constante de métricas clave (retención, conversión en pagos, satisfacción del paciente).
+* Documentación de nuevas lecciones para alimentar el ciclo de mejora continua.
+
+## 8.6. To-Be Software Platform Pre-launch
+
+La fase de pre-lanzamiento de Dentify es un momento crucial para garantizar una transición sin contratiempos hacia la operación oficial de la plataforma. El objetivo principal es asegurar la estabilidad, eficiencia y facilidad de uso del sistema, enfocado en el público clave: odontólogos, responsables de la gestión de sus consultorios.
+
+En esta etapa se prioriza ofrecer una experiencia confiable desde el primer acceso, implementando mejoras técnicas y funcionales que optimicen la interacción y fortalezcan la confianza de los usuarios.
+
+* Gestión de citas
+
+![Gestión de cita](Img/mob1.png)
+![Gestión de cita2](Img/Historial-de-citas-M.png)
+![Gestion 3](Img/Reserva-de-citas-M.png)
+
+* Inventario
+
+![Inventario](Img/mob4.png)
+![Inventario](Img/mob5.png)
+![Inventario](Img/Inventario-M.png)
+
+* Pagos
+
+![Pago](Img/Pagos-pago-exitoso-M.png)
+## 8.6.1. About-the-Product Intro Video
+
+| Sección           | Características del video                         | Sobre el contenido                                                          | Enlace                                                         |
+|-------------------|---------------------------------------------------|-----------------------------------------------------------------------------|----------------------------------------------------------------|
+| About the product | **Cantidad de videos:** 1 <br>  | Video relacionado acerca el funcionamiento de la aplicacion y sus funciones | [link del video](https://youtu.be/y0OFtWAXhIQ?si=p9reksAHqN4XnTwx) |
+
+# Conclusiones
+
+En conclusión, el desarrollo del proyecto Dentify permitió integrar de forma coherente distintas disciplinas de ingeniería de software bajo un enfoque moderno y orientado al dominio. La aplicación de principios de Domain-Driven Design (DDD) y arquitecturas modulares posibilitó una mejor organización, escalabilidad y mantenibilidad del sistema, garantizando que cada componente, desde las entidades de negocio hasta las capas de infraestructura, mantuviera una separación clara de responsabilidades y una alta cohesión interna.
+
+La implementación de una aplicación móvil desarrollada en Flutter para Android, complementada con una versión nativa para Android, consolidó una plataforma accesible, fluida y adaptada a las necesidades del usuario final. Estos clientes móviles se integraron de forma segura con un backend robusto en Spring Boot con Java 17/22, el cual expone una API RESTful documentada y desplegada en Azure, respaldada por una arquitectura de microservicios, pruebas automatizadas y un modelo de datos optimizado.
+
+Asimismo, el proceso de verificación y validación confirmó que la solución responde adecuadamente a los flujos reales de trabajo de clínicas odontológicas. A través de pruebas unitarias, integraciones, escenarios BDD, pruebas de sistema y análisis estático, se comprobó la estabilidad técnica y funcional del sistema antes de exponerlo a usuarios reales. Las entrevistas con odontólogos, asistentes y pacientes, junto con las auditorías recibidas y realizadas, permitieron identificar fricciones, validar hipótesis y priorizar mejoras centradas en la experiencia clínica.
+
+El enfoque experimental aplicado durante la validación aportó evidencia cuantitativa y cualitativa sobre eficiencia, reducción de errores en historiales, claridad de recordatorios de citas y facilidad de adopción. La definición rigurosa de condiciones, muestras, criterios Go/No-Go y control de variables aseguró resultados confiables, permitiendo tomar decisiones basadas en datos reales obtenidos en un entorno clínico controlado.
+
+Por otro lado, la incorporación de prácticas de Continuous Delivery, pipelines automáticos, control de calidad, estrategias de despliegue seguro y monitoreo continuo facilitó un ciclo de mejora constante. Esto garantizó que cada release fuese progresiva, estable y libre de regresiones, reforzando la confiabilidad del sistema tanto para profesionales odontológicos como para pacientes.
+
+En conjunto, los resultados obtenidos evidencian que _Dentify_ no solo logró cumplir los objetivos funcionales y técnicos planteados, sino que también consolidó una base sólida para su futura expansión. El enfoque modular, la validación estricta y la observación del comportamiento real del usuario permiten proyectar el sistema como una herramienta escalable, confiable y preparada para evolucionar con las necesidades del sector odontológico moderno.
+
+# Bibliografía
+
+Osiptel. (2022). Los servicios de telecomunicaciones en los hogares peruanos: Encuesta Residencial de Servicios de Telecomunicaciones – ERESTEL 2021. https://www.osiptel.gob.pe/media/dujjruwd/erestel-2021.pdf
+
+# Anexos
+
+## Recursos del Proyecto
+
+| Descripción                     | Enlace                                                                                                  |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| Repositorio de Aplicación Móvil | [GitHub - MobileApp](https://github.com/ClinicCode/dentify-app-mobile)                                  |
+| Despliegue de Aplicación Web    | [Aop Web Deploy](https://dentify-2025.web.app/)                                                         |
+| Repositorio de Landing Page     | [GitHub - LandingPage](https://github.com/ClinicCode/dentify-landing-page)                              |
+| Despliegue de Landing Page      | [Landing Page Deploy](s)                                                                                |
+| Repositorio de Web Service      | [GitHub - BackEnd](https://github.com/ClinicCode/dentify-backend)                                       |
+| Despliegue de Web Service       | [Swagger UI](https://dentify-f0gdbubtaafmdfg9.canadacentral-01.azurewebsites.net/swagger-ui/index.html) |
+| Organización de GitHub          | [TF-Clinic Code](https://github.com/ClinicCode)                                                         |
+
+---
+
+## Evidencias en Video
+
+| Sección                  | Características del video                                                                                                                             | Enlace                                 |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
+| _Needfinding Interviews_ | _Cantidad de videos:_ 1 <br> _Nomenclatura:_ upc-pre-202520-1asi0732-14651-ClinicCode-needfinding-sprint-1 <br> _Formato:_ mp4 <br> _Duración:_ 34:28 | [Ver Video](https://shorturl.at/P0n32) |
+
+# Anexos
 
 
 
