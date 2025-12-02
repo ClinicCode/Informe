@@ -5037,10 +5037,8 @@ El uso combinado de Helm, Jenkins, Prometheus y GitHub Environments permite mant
 
 ## 7.3. Continuous deployment
 
-En el contexto de Dentify, la práctica de Continuous Deployment (CDp) garantiza que cada cambio validado en el pipeline de integración continua llegue automáticamente a producción sin intervención manual. A diferencia de Continuous Delivery, donde el despliegue requiere aprobación humana, en este enfoque cada commit que supera las etapas de compilación, pruebas unitarias, integración, análisis estático y empaquetado se promueve directamente al entorno productivo.
-El orquestador principal es el Multibranch Pipeline de Jenkins, configurado para ejecutar automáticamente el stage deploy-prod al aprobarse la rama principal (main). Este proceso asegura una entrega fluida, repetible y trazable del backend, frontend y aplicaciones móviles de Dentify.
-La automatización está reforzada por pruebas post-deploy, monitoreo activo y políticas de rollback inmediato que minimizan el impacto ante fallos.
-El objetivo central es reducir el lead time desde la idea hasta la entrega de valor, permitiendo detectar y corregir errores en cuestión de minutos, manteniendo la disponibilidad y la calidad de la experiencia de los usuarios finales.
+
+### 7.1.2. Build & Test Suite Pipeline Components.
 
 ### 7.3.1. Tools and Practices.
 
