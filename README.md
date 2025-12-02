@@ -211,7 +211,7 @@ Los integrantes son:
     - [5.2.6. RESTful API documentation](#526-restful-api-documentation)
     - [5.2.7. Team Collaboration Insights](#527-team-collaboration-insights)
   - [5.3. Video About-the-Product](#53-video-about-the-product)
-  - [5.4 Acuerdo de Servicio SaaS](#54--acuerdo-de-servicio-saas)
+  - [5.4  Acuerdo de Servicio SaaS](#54--acuerdo-de-servicio-saas)
 - [Capítulo VI: Product Verification \& Validation](#capítulo-vi-product-verification--validation)
   - [6.1. Testing Suites \& Validation](#61-testing-suites--validation)
     - [6.1.1. Core Entities Unit Tests.](#611-core-entities-unit-tests)
@@ -5506,10 +5506,8 @@ El uso combinado de Helm, Jenkins, Prometheus y GitHub Environments permite mant
 
 ## 7.3. Continuous deployment
 
-En el contexto de Dentify, la práctica de Continuous Deployment (CDp) garantiza que cada cambio validado en el pipeline de integración continua llegue automáticamente a producción sin intervención manual. A diferencia de Continuous Delivery, donde el despliegue requiere aprobación humana, en este enfoque cada commit que supera las etapas de compilación, pruebas unitarias, integración, análisis estático y empaquetado se promueve directamente al entorno productivo.
-El orquestador principal es el Multibranch Pipeline de Jenkins, configurado para ejecutar automáticamente el stage deploy-prod al aprobarse la rama principal (main). Este proceso asegura una entrega fluida, repetible y trazable del backend, frontend y aplicaciones móviles de Dentify.
-La automatización está reforzada por pruebas post-deploy, monitoreo activo y políticas de rollback inmediato que minimizan el impacto ante fallos.
-El objetivo central es reducir el lead time desde la idea hasta la entrega de valor, permitiendo detectar y corregir errores en cuestión de minutos, manteniendo la disponibilidad y la calidad de la experiencia de los usuarios finales.
+
+### 7.1.2. Build & Test Suite Pipeline Components.
 
 ### 7.3.1. Tools and Practices.
 
@@ -5538,6 +5536,50 @@ A continuación se describen los pasos que conforman este pipeline:
 - **Validación Automatizada:** Jenkins realiza la ejecución de las pruebas unitarias e integrales con JUnit y Mockito para verificar la funcionalidad del sistema. Si alguna prueba falla, el pipeline se detiene y se comunica al equipo de desarrollo.
 
 - **Despliegue a Producción:** Una vez validados los pasos previos, Jenkins procede a realizar el despliegue del sistema en el entorno de producción.
+
+
+## 7.4. Continuous Monitoring
+### 7.4.1. Tools and Practices
+
+Con el fin de asegurar un monitoreo eficiente de la aplicación y sus entornos, se adoptan diversas herramientas y prácticas especializadas:
+
+- **Prometheus**: Es una herramienta de monitoreo y generación de alertas que recolecta métricas en tiempo real desde múltiples servicios. Se emplea para registrar datos clave como tiempos de respuesta y carga del sistema, permitiendo evaluar el rendimiento de la aplicación.
+
+- **Grafana**: Plataforma de visualización de datos que permite construir paneles personalizados basados en las métricas obtenidas por Prometheus. Facilita la interpretación visual de indicadores clave y la detección temprana de posibles fallos.
+
+- **ELK Stack (Elasticsearch, Logstash, Kibana)**: Conjunto de herramientas para el procesamiento y análisis de registros. Elasticsearch permite realizar búsquedas avanzadas, Logstash transforma y organiza los logs, y Kibana proporciona una interfaz gráfica para su análisis visual.
+
+- **New Relic**: Herramienta de monitoreo del rendimiento de aplicaciones (APM) que brinda información en tiempo real sobre el comportamiento de la aplicación y la experiencia del usuario.
+
+- **PagerDuty**: Plataforma especializada en la gestión de incidentes que se encarga de emitir alertas ante fallos críticos en los servicios o en la infraestructura, permitiendo una respuesta rápida.
+
+
+### 7.4.2. Monitoring Pipeline Components
+
+El monitoreo del pipeline garantiza que cada etapa del CI/CD de Dentify — compilación, pruebas y despliegue — funcione de forma estable y sin interrupciones. Para ello se supervisan tanto el rendimiento del pipeline como la salud del backend en ejecución.<br>
+| Componente                           | Qué se Monitorea                                                          | Herramientas                                 | Resultado                                      |
+| ------------------------------------ | ------------------------------------------------------------------------- | -------------------------------------------- | ---------------------------------------------- |
+| **Pipeline Metrics**                 | Duración de etapas, fallos de build/test, frecuencia de ejecuciones.      | Jenkins + Logs del pipeline                  | Detecta fallas tempranas y cuellos de botella. |
+| **Server Health**                    | CPU, memoria, disco y consumo durante compilación y pruebas.              | Windows/Linux Metrics / Monitor del servidor | Evita saturación de recursos durante el CI.    |
+| **Backend Health Checks**            | Disponibilidad de API, conexión a la base de datos, estado del servicio.  | Endpoints `/health` o `/actuator`            | Permite actuar rápido ante caídas o fallos.    |
+| **Logs Centralizados**               | Errores del backend, fallos de autenticación, problemas en controladores. | Consola Jenkins + Logs de Spring Boot        | Facilita el diagnóstico después de cada build. |
+| **App Usage Events (mínimo viable)** | Inicio de sesión, errores en formularios, fallos de carga.                | Logs del backend                             | Permite detectar errores de usuario o UI.      |
+
+
+### 7.4.3. Alerting Pipeline Components
+
+El sistema de alertas de Dentify se basa en reglas simples pero efectivas que notifican únicamente cuando una condición requiere acción inmediata. Se configuran alertas por umbral en el backend (latencia alta, aumento de errores 500 y uso elevado de CPU o memoria), y alertas de disponibilidad cuando un servicio no responde en dos verificaciones consecutivas. Desde Jenkins, se generan alertas automáticas ante fallas en etapas del pipeline como compilación, pruebas unitarias o despliegue. Todas las alertas se envían a un canal dedicado del equipo mediante mensajes instantáneos, permitiendo una reacción rápida ante incidentes y asegurando la continuidad del servicio clínico.
+
+### 7.4.4. Notification Pipeline Components.
+
+El sistema de notificaciones de Dentify distribuye los mensajes de alerta a los canales adecuados para asegurar una respuesta rápida y organizada. Para ello, se emplean los siguientes mecanismos:
+
+* **Notificaciones instantáneas internas**: Mensajes automáticos enviados al canal del equipo con detalles del incidente, enlaces a los logs y el estado del pipeline, permitiendo actuar de inmediato.
+
+* **Alertas prioritarias al celular**: Para eventos críticos que comprometen citas, facturación o disponibilidad del sistema, se envía una notificación directa al responsable de guardia para garantizar una intervención urgente.
+
+* **Resumen diario por correo**: Se envían reportes con todas las alertas generadas, su estado y acciones tomadas, permitiendo a los stakeholders técnicos y administrativos mantener visibilidad sobre la estabilidad del sistema.
+
 
 # Capitulo VIII: Experiment-Driven Development
 
@@ -5933,14 +5975,464 @@ El plan de tracking de Dentify registrará eventos clave del flujo odontológico
 
 ## 8.3. Experimentation
 
-### 8.3.1. To-Be User Stories
+### 8.3.1. To-Be User Stories.
 
-| Epic / Story ID | Título                         | Descripción                                                                  | Criterios de Aceptación                                                                                                                            | Relacionado con (Epic ID) |
-| --------------- | ------------------------------ | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
-| US27            | Chatbot con IA                 | Como usuario deseo interactuar con un chatbot con IA para resolver dudas.    | Dado que el usuario desea obtener ayuda, cuando abre el chatbot y escribe su consulta, entonces recibe una respuesta inmediata generada por la IA. | E02                       |
-| US28            | Gestión de Pagos e Inventario  | Como administrador deseo gestionar pagos e inventario desde un módulo único. | Dado que el administrador abre el módulo, cuando registra pagos o modifica inventario, entonces el sistema guarda los cambios correctamente.       | E03                       |
-| US29            | Panel exclusivo para pacientes | Como paciente deseo acceder a un panel privado para gestionar mis datos.     | Dado que el paciente inicia sesión, cuando accede a su panel, entonces puede ver sus citas, recetas y datos personales.                            | E04                       |
-| US30            | Reporte de historial en PDF    | Como paciente deseo descargar mi historial de atenciones en PDF.             | Dado que el paciente accede a su historial, cuando hace click en “Descargar PDF”, entonces se genera y descarga el archivo con su información.     | E05                       |
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US04</td>
+    <td>Odontólogo</td>
+    <td>Media</td>
+    <td>EP02</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Editar Cita</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como odontólogo, <br>quiero poder editar la información de una cita ya registrada <br>para corregir errores o adaptarla a cambios de disponibilidad.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: Modificación exitosa de una cita<br><br>
+Dado que el odontólogo visualiza una cita futura<br>
+Cuando edite los campos permitidos (fecha, hora, tratamiento, profesional)<br>
+Entonces la información se actualizará correctamente en el sistema.<br>
+Escenario 2: Cita pasada no editable<br><br>
+Dado que una cita ya ha pasado<br>
+Cuando el asistente intente editarla<br>
+Entonces el sistema mostrará un mensaje indicando que no puede ser modificada.<br>
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US05</td>
+    <td>Odontólogo</td>
+    <td>Alta</td>
+    <td>EP02</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Añadir citas</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">	Como odontólogo, <br>quiero registrar nuevas citas <br>para poder agendar la atención de los pacientes.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: Registro de una nueva cita<br><br>
+Dado que el odontólogo ha iniciado sesión<br>
+Y se encuentra en la sección de citas<br>
+Cuando seleccione la opción para añadir nueva cita<br>
+Y complete los campos requeridos como paciente, fecha y hora<br>
+Y confirme el registro<br>
+Entonces la aplicación guardará la nueva cita y la mostrará en la lista de citas registradas.<br>
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US08</td>
+    <td>Odontólogo</td>
+    <td>Media</td>
+    <td>EP02</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Gestionar horarios de atención</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como odontólogo, <br>quisiera gestionar los horarios de atención de mi consultorio con las citas ya agendadas <br>para poder optimizar la disponibilidad de los especialistas.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: Ver horarios de atención con citas agendadas<br><br>
+Dado que soy un odontólogo autenticado en el sistema<br>
+Cuando accedo a la sección de gestión de horarios de atención<br>
+Entonces debo poder ver los horarios disponibles y ocupados, con las citas agendadas reflejadas en la agenda.<br><br>
+Escenario 2: Editar horarios de atención<br><br>
+Dado que soy un odontólogo autenticado en el sistema<br>
+Cuando modifico los horarios de atención de un especialista<br>
+Entonces el sistema debe actualizar automáticamente la disponibilidad y bloquear esos horarios para nuevas reservas si ya están ocupados por citas.<br>  
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US09</td>
+    <td>Odontólogo</td>
+    <td>Media</td>
+    <td>EP05</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Pagar tratamiento</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como paciente, <br>quiero pagar mi tratamiento desde la plataforma <br>para mayor comodidad y rapidez en el proceso de atención.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: Pago exitoso desde la plataforma<br><br>
+Dado que el paciente ha iniciado sesión y tiene un tratamiento pendiente de pago<br>
+Cuando acceda a la sección de pagos y complete los datos de su tarjeta<br>
+Entonces el sistema procesará el pago y mostrará una confirmación.<br><br>
+Escenario 2: Error en el pago<br><br>
+Dado que el paciente intenta pagar<br>
+Cuando ocurra un error en la transacción (fondos insuficientes, datos inválidos, etc.)<br>
+Entonces el sistema mostrará un mensaje de error y permitirá reintentar el pago.<br><br>
+Escenario 3: Ver historial de pagos<br><br>
+Dado que el paciente ha realizado pagos anteriores<br>
+Cuando acceda a la sección de historial<br>
+Entonces podrá visualizar el detalle de los pagos realizados y sus estados.<br>
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US11</td>
+    <td>Odontólogo</td>
+    <td>Alta</td>
+    <td>EP03</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Mostrar pacientes</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como personal del consultorio, <br>quiero visualizar la lista de pacientes registrados <br>para consultar y gestionar sus datos.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: Visualización de pacientes registrados<br><br>
+Dado que el personal ha iniciado sesión en la aplicación
+Y accede a la sección de pacientes
+Cuando se cargue la pantalla
+Entonces la aplicación mostrará una lista con los datos de todos los pacientes registrados.
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US12</td>
+    <td>Odontólogo</td>
+    <td>Alta</td>
+    <td>EP03</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Añadir pacientes</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como personal del consultorio, <br>quiero registrar nuevos pacientes <br>para poder gestionarlos en las citas y tratamientos.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: Registro de paciente<br><br>
+Dado que el personal accede a la sección de pacientes
+Cuando complete el formulario con los datos del nuevo paciente
+Y presione "Guardar"
+Entonces la aplicación registrará al paciente y lo mostrará en la lista.
+    </td>
+
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US16</td>
+    <td>Odontólog</td>
+    <td>Alta</td>
+    <td>EP03</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Añadir historial clínico</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como personal del consultorio, <br>quiero registrar un nuevo historial clínico <br>para tener un seguimiento detallado del paciente.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: Registro de historial clínico<br><br>
+Dado que el personal accede al perfil de un paciente
+Cuando seleccione "Añadir historial clínico"
+Y complete los campos requeridos
+Y presione "Guardar"
+Entonces la aplicación almacenará el nuevo historial vinculado al paciente.
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US19</td>
+    <td>Odontólogo</td>
+    <td>Alta</td>
+    <td>EP04</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Visualizar Inventario</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como personal del consultorio, <br>quiero acceder al inventario general <br>para revisar la disponibilidad de materiales y equipos.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: Visualización del inventario<br><br>
+Dado que el personal se encuentra correctamente logueado en la apliacion.
+Cuando acceda al módulo de inventario
+Entonces la aplicación mostrará la lista de todos los objetos registrados con su stock disponible.
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US20</td>
+    <td>Odontólogo</td>
+    <td>Alta</td>
+    <td>EP04</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Añadir objeto al inventario</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como personal del consultorio, <br>quiero añadir nuevos objetos al inventario <br>para mantener actualizado el stock disponible.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: Registro de nuevo objeto<br><br>
+Dado que el personal accede al módulo de inventario
+Cuando seleccione "Añadir objeto"
+Y complete los campos requeridos (nombre, tipo, cantidad)
+Entonces la aplicación registrará el objeto en el inventario.
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US21</td>
+    <td>Odontólogo</td>
+    <td>Alta</td>
+    <td>EP03</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Editar objeto de inventario</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como personal del consultorio, <br>quiero modificar los datos de un objeto del inventario <br>para reflejar información correcta y actualizada.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: Modificación de objeto del inventario<br><br>
+Dado que el personal accede a la sección de inventario
+Cuando seleccione un objeto de la lista
+Y actualice su información
+Y presione "Guardar cambios"
+Entonces la aplicación guardará la información modificada del objeto.
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US23</td>
+    <td>Odontólogo</td>
+    <td>Media</td>
+    <td>EP04</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Dashboard de inventario</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como personal del consultorio, <br>quiero visualizar un resumen del inventario <br>para tomar decisiones sobre abastecimiento.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: Visualización del dashboard<br><br>
+Dado que el personal accede a la seccion de inventario
+Cuando seleccione la opción de "Dashboard"
+Entonces la aplicación mostrará gráficos y métricas de stock, consumo y disponibilidad.
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US25</td>
+    <td>Odontólogo</td>
+    <td>Alta</td>
+    <td>EP04</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Registrar cantidad consumida de ítems</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como personal del consultorio, <br>quiero registrar la cantidad de objetos usados en cada tratamiento <br>para llevar un control detallado de insumos.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Escenario 1: Registro de consumo de objetos<br><br>
+Dado que se realiza una facturación asociada a un tratamiento
+Cuando se especifique la cantidad utilizada de cada objeto
+Entonces el sistema almacenará dicha cantidad como parte del historial de consumo.</td>
+  </tr>
+</table>
 
 ### 8.3.2. To-Be Product Backlog
 
@@ -6020,13 +6512,14 @@ Este sprint integra tanto **User Stories ** como **Technical Stories **, permiti
 4. **Facilitar integración:** Completar endpoints RESTful optimizados y documentación API clara.
 5. **Validar experimentalmente:** Ejecutar pruebas BDD y explorar notificaciones automáticas para mejorar retención de usuarios.
 
+
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence
 
 ![Imagen 1](./Img/landing-page-evidence-1.png)
 ![Imagen 2](./Img/landing-page-evidence-2.png)
 ![Imagen 3](./Img/landing-page-evidence-4.png)
 
-**Visita la landing page:**  
+ **Visita la landing page:**  
 https://cliniccode.github.io/Landing-Page/
 
 #### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
@@ -6036,8 +6529,8 @@ https://cliniccode.github.io/Landing-Page/
 ![Imagen 3](./Img/Front1.png)
 ![Imagen 4](./Img/Front2.png)
 
-#### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
 
+#### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
 ![Imagen 1](./Img/mob1.png)
 ![Imagen 2](./Img/mob2.png)
 ![Imagen 2](./Img/mob3.png)
@@ -6051,7 +6544,7 @@ En esta sección mostraremos evidencias del Mobile Application desplegado.
 
 **Link del Backend:** https:
 
-**Evidencias:**
+**Evidencias:**  
 
 ![Imagen 2](./Img/restful1.png)
 ![Imagen 2](./Img/restful2.png)
@@ -6059,17 +6552,20 @@ En esta sección mostraremos evidencias del Mobile Application desplegado.
 
 #### 8.3.3.6. Team Collaboration Insights
 
-**Insights Informe:**  
+ **Insights Informe:**  
  ![Imagen 1](./Img/InsightsInforme.png)
 
-**Insights Landing:**  
+  **Insights Landing:**  
  ![Imagen 1](./Img/InsightsLanding.png)
 
-**Insights Front:**  
+ **Insights Front:**  
  ![Imagen 1](./Img/InsightsFront.png)
 
-**Insights Back:**  
+  **Insights Back:**  
  ![Imagen 1](./Img/InsightsBack.png)
+
+
+
 
 ### 8.3.4. To-Be Validation Interviews
 
@@ -6170,7 +6666,6 @@ Landing Page (primera impresión del producto)
 [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224135_upc_edu_pe/IQB-E-8N3qJKQbH996sMaKNzAddAt5cel4W_k0zdhujbCW4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=3daE5L)
 
 **Datos del entrevistado**
-
 - **Nombre:** Martín Salcedo
 - **Edad:** 25 años
 - **Distrito:** San Juan de Lurigancho (SJL)
@@ -6185,6 +6680,7 @@ Sobre el proceso de facturación, señaló que no le gusta perder tiempo generan
 En relación con el inventario, expresó que registrar materiales uno por uno es completamente incompatible con su ritmo de trabajo. Comentó que en días de alta afluencia simplemente resulta imposible completar el registro manual. Al conocer la propuesta del registro con un clic desde la misma pantalla de la cita, dijo que sería “ideal”, ya que lo haría viable en su día a día.
 
 Acerca del onboarding guiado, manifestó que lo considera útil siempre y cuando sea breve. Para él, un flujo de tres pasos es más que suficiente para entender lo básico. También valoró positivamente la idea de recibir recordatorios de tareas pendientes, señalando que ese tipo de notificaciones sí influyen en su conducta y lo motivarían a usar la aplicación con mayor frecuencia.
+
 
 **Entrevista 2: Samuel Mendoza**
 
@@ -6216,7 +6712,6 @@ En relación con el onboarding guiado, mencionó que, aunque tiene años de expe
 [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224135_upc_edu_pe/EZYisY-jQ1BNq9ATwS-hVu0BsUCxZC_t448gftlV-aQPFg?e=Pkl74K)
 
 **Datos del entrevistado**
-
 - **Nombre:** Elizabeth Huanaco
 - **Edad:** 25 años
 - **Distrito:** San Juan de Lurigancho (SJL)
@@ -6253,7 +6748,7 @@ En conjunto, las entrevistas ofrecen evidencia cualitativa sólida a favor de la
 ### 8.4.2. Re-scored and Re-prioritized Question Backlog
 
 | Pregunta                                                                            | Priorización Anterior | Nueva Priorización | Justificación                                                                                      |
-| ----------------------------------------------------------------------------------- | --------------------- | ------------------ | -------------------------------------------------------------------------------------------------- |
+|-------------------------------------------------------------------------------------| --------------------- |--------------------|----------------------------------------------------------------------------------------------------|
 | ¿Por qué algunos odontólogos no completan el proceso de creación de citas?          | Alta                  | **Muy Alta**       | Validación fuerte: todos consideran el formulario largo como fricción principal.                   |
 | ¿Qué impide que se generen facturas después de una cita?                            | Media                 | **Alta**           | Se menciona de forma explícita como necesidad real y frecuente.                                    |
 | ¿Por qué el inventario registrado no coincide con el stock real?                    | Alta                  | **Muy Alta**       | Los entrevistados coinciden en que suelen olvidar registrar materiales y esto afecta su control.   |
@@ -6264,9 +6759,76 @@ En conjunto, las entrevistas ofrecen evidencia cualitativa sólida a favor de la
 
 ### 8.5.1. Shareback Session Artifacts: Learning Workflow
 
+El flujo de aprendizaje en Denitify está diseñado para convertir la información obtenida durante el desarrollo en mejoras tangibles que fortalezcan la plataforma. A través de sesiones estructuradas, el equipo analiza hallazgos, comparte buenas prácticas y define acciones que optimicen la propuesta de valor, la experiencia del usuario y la solidez técnica del producto.
+
+**Objetivos**
+- Detectar aprendizajes clave relacionados con la digitalización de procesos odontológicos, la automatización de citas y la usabilidad de la aplicación móvil.
+- Documentar y difundir buenas prácticas para reducir errores recurrentes y acelerar la toma de decisiones.
+- Mantener la alineación del equipo frente a cambios en el comportamiento de usuarios, tendencias tecnológicas y métricas críticas del negocio.
+
+**Flujo de Trabajo**
+
+**1. Captura de Datos**
+
+**Fuentes:**
+* Feedback de odontólogos (encuestas, entrevistas).
+* Métricas de uso de la app (citas agendadas, pagos realizados, tiempo en pantalla).
+* Resultados de pruebas de usabilidad y validación de prototipos.
+
+**Herramientas:**
+* Formularios en Google Forms para recopilar feedback.
+* Retrospectivas al cierre de cada sprint.
+* Google Analytics / Firebase para análisis de métricas.
+* Espacios colaborativos como Miro y Notion para organizar hallazgos.
+
+
+**2. Análisis y síntesis**
+
+**Documentación:**
+* Registro en Notion de aprendizajes clave, categorizados por áreas (UX, técnico, negocio).
+* Priorización según impacto en la experiencia del paciente y eficiencia operativa del consultorio.
+**Sesiones de alineamiento:**
+* Reuniones internas para revisar hallazgos y definir acciones con base en impacto y viabilidad.
+
+**3. Implementación de mejoras**
+
+* Ajustes en la interfaz de la app (ej.: simplificación del flujo de agendamiento, claridad en métodos de pago).
+* Optimización de herramientas para odontólogos (ej.: acceso rápido a historiales clínicos).
+* Refinamiento de textos y flujos de onboarding para mejorar la incorporación de nuevos usuarios.
+
+
+**4. Retroalimentación continua**
+
+* Evaluación iterativa después de cada sprint o lanzamiento.
+* Monitoreo constante de métricas clave (retención, conversión en pagos, satisfacción del paciente).
+* Documentación de nuevas lecciones para alimentar el ciclo de mejora continua.
+
 ## 8.6. To-Be Software Platform Pre-launch
 
+La fase de pre-lanzamiento de Dentify es un momento crucial para garantizar una transición sin contratiempos hacia la operación oficial de la plataforma. El objetivo principal es asegurar la estabilidad, eficiencia y facilidad de uso del sistema, enfocado en el público clave: odontólogos, responsables de la gestión de sus consultorios.
+
+En esta etapa se prioriza ofrecer una experiencia confiable desde el primer acceso, implementando mejoras técnicas y funcionales que optimicen la interacción y fortalezcan la confianza de los usuarios.
+
+* Gestión de citas
+
+![Gestión de cita](Img/mob1.png)
+![Gestión de cita2](Img/Historial-de-citas-M.png)
+![Gestion 3](Img/Reserva-de-citas-M.png)
+
+* Inventario
+
+![Inventario](Img/mob4.png)
+![Inventario](Img/mob5.png)
+![Inventario](Img/Inventario-M.png)
+
+* Pagos
+
+![Pago](Img/Pagos-pago-exitoso-M.png)
 ## 8.6.1. About-the-Product Intro Video
+
+| Sección           | Características del video                         | Sobre el contenido                                                          | Enlace                                                         |
+|-------------------|---------------------------------------------------|-----------------------------------------------------------------------------|----------------------------------------------------------------|
+| About the product | **Cantidad de videos:** 1 <br>  | Video relacionado acerca el funcionamiento de la aplicacion y sus funciones | [link del video](https://youtu.be/y0OFtWAXhIQ?si=p9reksAHqN4XnTwx) |
 
 # Conclusiones
 
@@ -6309,3 +6871,7 @@ Osiptel. (2022). Los servicios de telecomunicaciones en los hogares peruanos: En
 | _Needfinding Interviews_ | _Cantidad de videos:_ 1 <br> _Nomenclatura:_ upc-pre-202520-1asi0732-14651-ClinicCode-needfinding-sprint-1 <br> _Formato:_ mp4 <br> _Duración:_ 34:28 | [Ver Video](https://shorturl.at/P0n32) |
 
 # Anexos
+
+
+
+
