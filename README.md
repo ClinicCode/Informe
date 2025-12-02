@@ -4758,6 +4758,7 @@ A continuación se describen los pasos que conforman este pipeline:
 
 * **Despliegue a Producción:** Una vez validados los pasos previos, Jenkins procede a realizar el despliegue del sistema en el entorno de producción.
 
+
 ## 7.4. Continuous Monitoring
 ### 7.4.1. Tools and Practices
 
