@@ -5076,7 +5076,9 @@ A continuación se describen los pasos que conforman este pipeline:
 
 ### 8.1.1. As-Is Summary.
 
-En la actualidad, la mayoría de consultorios odontológicos pequeños y medianos en Lima gestionan sus procesos clínicos y administrativos de manera manual y desintegrada. Las tareas críticas dependen de herramientas básicas y prácticas informales que generan fricción en la operación diaria:
+
+## 7.4. Continuous Monitoring
+### 7.4.1. Tools and Practices
 
 - Agendas y citas manejadas en cuadernos, WhatsApp o llamadas, lo que provoca confusiones, duplicidad de horarios y olvidos.
 
