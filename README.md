@@ -1,90 +1,108 @@
-
 # COURSE PROJECT
 
 ---
+<div align="center">
+  <p align="center">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" width="180"><br><br>
+      <strong>Universidad Peruana de Ciencias Aplicadas (UPC)</strong><br>
+      <strong>Carrera de Ingeniería de Software</strong><br>
+      <strong>2025-20</strong><br>
+      <strong>Código del Curso:</strong> 1ASI0732<br>
+      <strong>Sección:</strong> 14651<br>
+      <strong>NRC:</strong> 1798<br>
+      <strong>Diseños de Experimentos de Ingeniería de Software</strong><br><br>
+      <strong>Profesor: Juan Tinoco Licas</strong><br><br>
+      <strong>Informe del Trabajo Final</strong><br><br>
+  </p>
 
-<p align="center">
-    <strong>Universidad Peruana de Ciencias Aplicadas (UPC)</strong><br>    
-    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img><br>
-    <strong>Carrera de Ingeniería de Software - Ciclo V</strong><br><br>
-    <strong>DISEÑO - 4370</strong><br>
-    <br><strong>Profesor:Juan Tinoco Licas </strong><br>
-    <br><strong>INFORME DEL TRABAJO FINAL</strong><br>
-</p>
-
-<p align="center">
-    <strong>Startup del Proyecto:ClinicCode </strong><br>
-    <strong>Producto:Dentify </strong><br>
-</p>
-
-<div>
-    <h3 align="center">Team Members:</h3>
+  <p align="center">
+      <strong>Startup del Proyecto: ClinicCode</strong><br>
+      <strong>Producto: Dentify</strong><br><br>
+  </p>
+    <h3 align="center">Integrantes</h3>
 </div>
-
-<div>
-    <table align="center">
-        <tr>
-            <th style="text-align:center;">Member</th>
-            <th style="text-align:center;">Code</th>
-        </tr>
-        <tr>
-            <td>Aponte Cruzado, Andrea Marielena</td>
-            <td>U202224135</td>
-        </tr>
-        <tr>
-            <td>Belahonia Miranda, Fabrisio  </td>
-            <td>U202220219</td>
-        </tr>
-        <tr>
-            <td>Bohorquez Lerzundi	Gerardo Sebastian</td>
-            <td>U202224149</td>
-        </tr>
-        <tr>
-            <td>Cutiri Agüero	Fabrizio Alexander</td>
-            <td>U201914181</td>
-        </tr>
-        <tr>
-            <td>Berrocal Ramirez	Omar Christian</td>
-            <td>U20201B529</td>
-        </tr>
-    </table>
-    </div>
-
-<p align="center">
-<br><strong>2025-02</strong></p>
 <br>
 
+<table border="1" style="margin: 0 auto; text-align: center; width: 45%;">
+    <tr>
+            <td style="padding: 8px;">Aponte Cruzado, Andrea Marielena</td>
+            <td style="padding: 8px;">U202224135</td>
+        </tr>
+        <tr>
+            <td style="padding: 8px;">Belahonia Miranda, Fabrizio</td>
+            <td style="padding: 8px;">U202220219</td>
+        </tr>
+        <tr>
+            <td style="padding: 8px;">Bohorquez Lerzundi, Gerardo Sebastian</td>
+            <td style="padding: 8px;">U202224149</td>
+        </tr>
+        <tr>
+            <td style="padding: 8px;">Cutiri Agüero, Fabrizio Alexander</td>
+            <td style="padding: 8px;">U201914181</td>
+        </tr>
+        <tr>
+            <td style="padding: 8px;">Berrocal Ramirez, Omar Christian</td>
+            <td style="padding: 8px;">U20201B529</td>
+        </tr>
+</table>
+
+<br>
+
+<div style="text-align: center;">
+  <b>Noviembre, 2025</b>
+</div>
+
+</div>
 ---
 
 # Registro de Versiones del Informe
 
 El objetivo de esta sección es resumir las modificaciones relevantes que se realizan al informe durante el ciclo de vida del proyecto. Esta sección inicia en una página nueva y se incluye un cuadro con la siguiente estructura:
 
-| Versión | Fecha | Autor | Descripción de modificación |
-|---------|-------|-------|-----------------------------|
-| TB1 | 24/04/2025 | Belahonia Miranda, Fabrisio  | Realización de:<br>- Capítulo I: Presentación<br>- Capítulo II: Requirements Elicitation & Analysis<br>- Capítulo III: Requirements Specification<br>- Capítulo IV: Solution Software Design |
+| Versión | Fecha      | Autor                       | Descripción de modificación                                                                                                                                                                                                                                                   |
+| ------- | ---------- | --------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| TB1     | 24/04/2025 | Belahonia Miranda, Fabrisio | Realización de:<br>- Capítulo I: Presentación<br>- Capítulo II: Requirements Elicitation & Analysis<br>- Capítulo III: Requirements Specification<br>- Capítulo IV: Solution Software Design                                                                                  |
+| TP1     | 08/10/2025 | Belahonia Miranda, Fabrisio | Actualización y ampliación de:<br>- Capítulo III: Requirements Specification (versión mejorada de To-Be Scenario, User Stories, Product Backlog e Impact Mapping).<br>- Capítulo V: Product Implementation & Deployment.<br>- Capítulo VI: Product Verification & Validation. |
 
 # Project Report Collaboration Insights
+
 ---
 
-URL del repositorio para el reporte del proyecto: https://github.com/ClinicCode/Informe
+URL del repositorio para el reporte del proyecto: **https://github.com/ClinicCode**
 
-TB1:
-![githubu.png](Img/githuub.png)
+![Repositorio](Img/Repository.png)
+
+**TB1:**
 
 Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
 
-| Integrante | Tareas Asignadas |
-|------------|-----------------|
-| Aponte Cruzado, Andrea Marielena | Analisis Competitivo y User Stories |
-| Belahonia Miranda, Fabrisio | Entrevistas, Análisis de entrevistas y Needfinding, As to Be escenario, Elaboración de PPT |
-| Bohorquez Lerzundi, Gerardo Sebastian | Lean UX, Entrevistas, Análisis de entrevistas y Needfinding, Impact Map |
-| Cutiri Agüero, Fabrizio Alexander | Lean UX, User Stories, NeedFinding, Elaboración de PPT |
-| Berrocal Ramirez, Omar Christian | Antecedentes y problemática, User and Technical Stories, Product Backlog, Capítulo IV: Solution Software Design, Elaboración de primera versión del BackEnd |
+| Integrante                            | Tareas Asignadas                                                                                                                                            |
+| ------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Aponte Cruzado, Andrea Marielena      | Analisis Competitivo y User Stories                                                                                                                         |
+| Belahonia Miranda, Fabrisio           | Entrevistas, Análisis de entrevistas y Needfinding, As to Be escenario, Elaboración de PPT                                                                  |
+| Bohorquez Lerzundi, Gerardo Sebastian | Lean UX, Entrevistas, Análisis de entrevistas y Needfinding, Impact Map                                                                                     |
+| Cutiri Agüero, Fabrizio Alexander     | Lean UX, User Stories, NeedFinding, Elaboración de PPT                                                                                                      |
+| Berrocal Ramirez, Omar Christian      | Antecedentes y problemática, User and Technical Stories, Product Backlog, Capítulo IV: Solution Software Design, Elaboración de primera versión del BackEnd |
+
+**TB2:**
+
+Para el desarrollo del informe perteneciente a la entrega TB2, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
+
+| Integrante                            | Tareas Asignadas                                                                                                                 |
+| ------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| Aponte Cruzado, Andrea Marielena      | Correcion de errores del reporte, Implemented Native mobile application evidence, Tools and practices                            |
+| Belahonia Miranda, Fabrisio           | Sprint Backlog, Core behavior-driver development, Product Backlog, Tools and Practices, Build and test suite, Elaboración de PPT |
+| Bohorquez Lerzundi, Gerardo Sebastian | Acuerdo de servicios, Core integration tests, Stages development, Continuous development                                         |
+| Cutiri Agüero, Fabrizio Alexander     | Application Evidence, Core entities unit test, tools and practices, production deployment pipeline                               |
+| Berrocal Ramirez, Omar Christian      | Collaboration insights, Core system tests                                                                                        |
 
 # GitHub Collaboration Insights
 
 GitHub también presenta un timeline de las ramas principales y los procesos de merge a los que se han sometido. Todas las ramas se crearon tomando en cuenta el diseño de GitFlow para una buena organización cuando se usa un software de control de versiones.
+
+![TB1 Commits](Img/TB1-Commits.png)
+
+![Network](Img/Network-TB1.png)
 
 Los integrantes son:
 
@@ -95,14 +113,15 @@ Los integrantes son:
 - Berrocal Ramirez, Omar Christian(OmBRz)
 
 # Contenido
+
 ## Tabla de contenidos
+
 - [COURSE PROJECT](#course-project)
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
 - [GitHub Collaboration Insights](#github-collaboration-insights)
 - [Contenido](#contenido)
   - [Tabla de contenidos](#tabla-de-contenidos)
-- [Student Outcome](#student-outcome)
 - [Capítulo I: Introducción](#capítulo-i-introducción)
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
@@ -192,17 +211,20 @@ Los integrantes son:
     - [5.2.6. RESTful API documentation](#526-restful-api-documentation)
     - [5.2.7. Team Collaboration Insights](#527-team-collaboration-insights)
   - [5.3. Video About-the-Product](#53-video-about-the-product)
+  - [5.4  Acuerdo de Servicio SaaS](#54--acuerdo-de-servicio-saas)
 - [Capítulo VI: Product Verification \& Validation](#capítulo-vi-product-verification--validation)
   - [6.1. Testing Suites \& Validation](#61-testing-suites--validation)
     - [6.1.1. Core Entities Unit Tests.](#611-core-entities-unit-tests)
     - [6.1.2. Core Integration Tests.](#612-core-integration-tests)
     - [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)
+      - [Escenario probado 1: Autenticación y Usuario](#escenario-probado-1-autenticación-y-usuario)
+      - [Escenario probado 2: Gestión de Citas](#escenario-probado-2-gestión-de-citas)
+      - [Escenario probado 3: Gestión de Pacientes](#escenario-probado-3-gestión-de-pacientes)
+      - [Herramientas utilizadas](#herramientas-utilizadas)
     - [6.1.4. Core System Tests.](#614-core-system-tests)
 - [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)
   - [7.1. Continuous Integration](#71-continuous-integration)
     - [7.1.1. Tools and Practices.](#711-tools-and-practices)
-    - [6.1.4. Continuous Integration](#614-continuous-integration)
-      - [Tools and Practices](#tools-and-practices)
       - [Control de versiones – Git + GitHub](#control-de-versiones--git--github)
       - [Orquestador CI – GitHub Actions](#orquestador-ci--github-actions)
       - [Build \& Dependency Management – Maven](#build--dependency-management--maven)
@@ -219,6 +241,42 @@ Los integrantes son:
   - [7.3. Continuous deployment](#73-continuous-deployment)
     - [7.3.1. Tools and Practices.](#731-tools-and-practices)
     - [7.3.2. Production Deployment Pipeline Components.](#732-production-deployment-pipeline-components)
+- [Capitulo VIII: Experiment-Driven Development](#capitulo-viii-experiment-driven-development)
+  - [8.1. Experiment Planning](#81-experiment-planning)
+    - [8.1.1. As-Is Summary.](#811-as-is-summary)
+    - [8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims.](#812-raw-material-assumptions-knowledge-gaps-ideas-claims)
+    - [8.1.3. Experiment-Ready Questions.](#813-experiment-ready-questions)
+    - [8.1.4. Question Backlog.](#814-question-backlog)
+    - [8.1.5. Experiment Cards.](#815-experiment-cards)
+  - [8.2. Experiment Design](#82-experiment-design)
+    - [8.2.1. Hypotheses.](#821-hypotheses)
+    - [8.2.2. Domain Business Metrics](#822-domain-business-metrics)
+    - [8.2.3. Measures.](#823-measures)
+    - [8.2.4. Conditions.](#824-conditions)
+    - [8.2.5. Scale Calculations and Decisions.](#825-scale-calculations-and-decisions)
+    - [8.2.6. Methods Selection.](#826-methods-selection)
+    - [8.2.7. Data Analytics: Goals, KPIs and Metrics Selection.](#827-data-analytics-goals-kpis-and-metrics-selection)
+    - [8.2.8. Web and Mobile Tracking Plan.](#828-web-and-mobile-tracking-plan)
+  - [8.3. Experimentation](#83-experimentation)
+    - [8.3.1. To-Be User Stories.](#831-to-be-user-stories)
+    - [8.3.2. To-Be Product Backlog](#832-to-be-product-backlog)
+    - [8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle](#833-pipeline-supported-experiment-driven-to-be-software-platform-lifecycle)
+      - [8.3.3.1. To-Be Sprint Backlogs](#8331-to-be-sprint-backlogs)
+      - [8.3.3.2. Implemented To-Be Landing Page Evidence](#8332-implemented-to-be-landing-page-evidence)
+      - [8.3.3.3. Implemented To-Be Frontend-Web Application Evidence](#8333-implemented-to-be-frontend-web-application-evidence)
+      - [8.3.3.4. Implemented To-Be Native-Mobile Application Evidence](#8334-implemented-to-be-native-mobile-application-evidence)
+      - [8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence](#8335-implemented-to-be-restful-api-andor-serverless-backend-evidence)
+      - [8.3.3.6. Team Collaboration Insights](#8336-team-collaboration-insights)
+    - [8.3.4. To-Be Validation Interviews](#834-to-be-validation-interviews)
+      - [8.3.4.1. Diseño de Entrevistas](#8341-diseño-de-entrevistas)
+      - [8.3.4.2. Registro de Entrevistas](#8342-registro-de-entrevistas)
+  - [8.4. Experiment Aftermath \& Analysis](#84-experiment-aftermath--analysis)
+    - [8.4.1. Analysis and Interpretation of Results](#841-analysis-and-interpretation-of-results)
+    - [8.4.2. Re-scored and Re-prioritized Question Backlog](#842-re-scored-and-re-prioritized-question-backlog)
+  - [8.5. Continuous Learning](#85-continuous-learning)
+    - [8.5.1. Shareback Session Artifacts: Learning Workflow](#851-shareback-session-artifacts-learning-workflow)
+  - [8.6. To-Be Software Platform Pre-launch](#86-to-be-software-platform-pre-launch)
+  - [8.6.1. About-the-Product Intro Video](#861-about-the-product-intro-video)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
@@ -226,14 +284,102 @@ Los integrantes son:
   - [Evidencias en Video](#evidencias-en-video)
 - [Anexos](#anexos-1)
 
+<div style="page-break-before: always;"></div>
 
-    
-# Student Outcome
+<h1>ABET - EAC - Student Outcome 4</h1>
 
-| Criterio específico | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | Conclusiones |
-|----|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----|
-|4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software | **Aponte Cruzado, Andrea Marielena**<br>**TB1:** Fui parte de la realización de las entrevistas al segmento objetivo y parte de la experimentación para adecuar el diseño gráfico a la web acorde con lo descrito por nuestros usuarios en las entrevistas.<br>**Belahonia Miranda, Fabrisio**<br>**TB1:** Como líder del equipo asumí la responsabilidad ética y profesional en el desarrollo del proyecto, asegurando el respeto a la privacidad de los usuarios, la accesibilidad en el diseño UX/UI y la transparencia en cada etapa del Lean UX. Guié al equipo con roles claros, fomentando la colaboración y el compromiso técnico para garantizar un producto de calidad y confiable. <br>**Bohorquez Lerzundi, Gerardo Sebastian**<br>**Cutiri Agüero, Fabrizio Alexander**<br>**TB1** <br><br> Redacté historias de usuario claras y realistas, asegurando que respondan a las necesidades de los usuarios finales, quienes son los odontólogos. <br><br>**Berrocal Ramirez, Omar Christian**<br/>**TB1**<br/>Procuré adaptar el diseño del landing page, la apliación web y mobile acorde a las necesidades de los usuarios finales para que se reflejen nuestras intenciones de manejar el proyecto de la forma más profesional posible.                                                                                                                                 | **TB1:** El proyecto se desarrolló bajo principios de responsabilidad ética y profesional, priorizando la privacidad y seguridad de los datos, la accesibilidad en el diseño UX/UI y la transparencia en los procesos mediante Lean UX. Además, se garantizó un trabajo organizado y colaborativo dentro del equipo, con roles claros y compromiso técnico, lo que permitió asegurar la calidad del producto y el respeto hacia los futuros usuarios de la aplicación. |
-|4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales| **Aponte Cruzado, Andrea Marielena**<br> **TB1:** Participé en el análisis de las entrevistas, de manera que podamos adquirir los conocimientos necesarios para el desarrollo de las características de la aplicación web, integrando características importantes para concretar un proyecto más ordenado. <br> **Belahonia Miranda, Fabrisio**<br>**TB1:** Como líder del equipo tomé decisiones considerando impactos sociales, económicos, globales y ambientales. Busqué que la solución generara beneficios reales para los usuarios, fuera sostenible y escalable económicamente, cumpliera estándares internacionales de diseño y contribuyera a reducir el uso de recursos físicos mediante procesos digitales, promoviendo así un desarrollo más responsable y con menor huella ambiental.<br>**Bohorquez Lerzundi, Gerardo Sebastian**<br><br>**Cutiri Agüero, Fabrizio Alexander**<br><br>**TB1** <br><br>  Organicé el product backlog de manera que se entreguen primero las funcionalidades de mayor impacto para los odontólogos. Para ello, me apoye de las entrevistas realizadas, con el objetivo de tomar desiciones bien informadas <br><br>**Berrocal Ramirez, Omar Christian**<br/>**TB1**<br/>Investigué los antecedente de la problemática para  plantear una solución acorde a nuestro entorno local. Para ello tuve que ver como se comporta el publico objetivo en un contexto global y un contexto local. | **TB1:** Las decisiones del proyecto se tomaron considerando impactos sociales, económicos, globales y ambientales. La solución busca mejorar la calidad de vida de los usuarios, promover la sostenibilidad y escalabilidad del modelo de negocio, cumplir con estándares internacionales de diseño y accesibilidad, y contribuir a la reducción de recursos físicos mediante la digitalización de procesos. De este modo, se asegura un desarrollo responsable que responde a las necesidades actuales y futuras de distintos contextos.|
+<table>
+  <thead>
+    <tr>
+      <th>Criterio específico</th>
+      <th>Acciones realizadas</th>
+      <th>Conclusiones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software</td>
+      <td>
+        <b>Aponte Cruzado, Andrea Marielena</b><br>
+        <b>TB1:</b> Fui parte de la realización de las entrevistas al segmento objetivo y parte de la experimentación para adecuar el diseño gráfico a la web acorde con lo descrito por nuestros usuarios en las entrevistas.<br>
+        <b>TP1:</b> Participé activamente en las etapas de validación y pruebas del sistema, asegurando que los datos de los usuarios fueran tratados con confidencialidad y que la información sensible se manejara bajo buenas prácticas de seguridad.<br><br>
+        <b>TB2:</b> Elaboré Core System Tests, Static Code Analysis y documentación de auditoría recibida, asegurando rigurosidad y trazabilidad técnica.<br><br>
+        <b>TF:</b> Realicé la elaboración del To-Be User Stories, To-Be Product Backlog y Sprint Backlogs, asegurando consistencia entre necesidades de los usuarios y decisiones técnicas.<br><br>
+        <b>Belahonia Miranda, Fabrisio</b><br>
+        <b>TB1:</b> Como líder del equipo asumí la responsabilidad ética y profesional en el desarrollo del proyecto, asegurando el respeto a la privacidad de los usuarios, la accesibilidad en el diseño UX/UI y la transparencia en cada etapa del Lean UX.<br>
+        <b>TP1:</b> Coordiné la validación de la arquitectura y las pruebas de integración, procurando mantener el equilibrio entre rendimiento, sostenibilidad y facilidad de mantenimiento.<br><br>
+        <b>TB2:</b> Desarrollé auditorías (realizada y recibida), métricas, hipótesis, experimentación y componentes de Deployment/Monitoring, garantizando cumplimiento ético en DevOps.<br><br>
+        <b>TF:</b> Desarrollé la evidencia de la app móvil y la del backend REST API, aplicando buenas prácticas de seguridad. Diseñé las entrevistas del TF y realicé una evaluación preliminar según heurística, garantizando objetividad y respeto por los entrevistados.<br><br>
+        <b>Bohorquez Lerzundi, Gerardo Sebastian</b><br>
+        <b>TB1:</b> Apliqué Lean UX y buenas prácticas de diseño ético, asegurando un uso responsable de la información de los usuarios.<br>
+        <b>TP1:</b> Desarrollé componentes críticos del backend garantizando transparencia en la gestión de datos y principios éticos de desarrollo responsable.<br><br>
+        <b>TB2:</b> Implementé Code Quality & Security, diseño de entrevistas, contenido de auditoría recibida, Build & Test Suite, métricas experimentales y To-Be Product Backlog.<br><br>
+        <b>TF:</b> Realicé el To-Be Sprint Backlogs y las evidencias del landing page y el frontend web de los experimentos<br><br>
+        <b>Cutiri Agüero, Fabrizio Alexander</b><br>
+        <b>TB1:</b> Redacté historias de usuario claras y trazables.<br>
+        <b>TP1:</b> Contribuí a la validación del backlog asegurando coherencia técnica y ética en el desarrollo.<br><br>
+        <b>TB2:</b> Elaboré información del grupo auditado, contenido de auditorías, resumen de mejoras, Tools & Practices de CI/CD, Hypotheses, Methods Selection y To-Be User Stories.<br><br>
+        <b>TF:</b> Realicé la re-puntuación y re-priorización del question backlog, a partir de los resultados obtenidos en los To-Be Validation Interviews<br><br>
+        <b>Berrocal Ramirez, Omar Christian</b><br>
+        <b>TB1:</b> Adapté el diseño del landing page, web y mobile según las necesidades de los usuarios finales.<br>
+        <b>TP1:</b> Supervisé la accesibilidad y usabilidad del diseño durante las pruebas finales.
+        <b>TB2:</b> Redacté Coding Standards, Reviews, heurísticas, Question Backlog, KPIs analíticos, Monitoring Tools y Anexos, garantizando consistencia y ética en documentación técnica.<br>
+      </td>
+      <td>
+        <b>TB1:</b> El proyecto se desarrolló bajo principios de responsabilidad ética y profesional, priorizando la privacidad, seguridad, accesibilidad y transparencia.<br><br>
+        <b>TP1:</b> Se mantuvo el compromiso ético y profesional en la fase final, garantizando calidad técnica, seguridad de la información y cumplimiento de estándares de accesibilidad y transparencia.<br><br>
+        <b>TB2:</b> El equipo consolidó prácticas éticas en pruebas, auditorías, DevOps y experimentación, asegurando trazabilidad, rigurosidad técnica y documentación alineada a buenas prácticas profesionales.<br><br>
+        <b>TF:</b> El equipo aplicó responsabilidad ética y profesional en todas las actividades del TF, desde el diseño de la investigación hasta la implementación técnica. Se tomaron decisiones informadas basadas en evidencia, priorizando accesibilidad, eficiencia, sostenibilidad, transparencia y el respeto por los usuarios.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<div style="page-break-before: always;"></div>
+<table>
+  <thead>
+    <tr>
+      <th>Criterio específico</th>
+      <th>Acciones realizadas</th>
+      <th>Conclusiones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales</td>
+      <td>
+        <b>Aponte Cruzado, Andrea Marielena</b><br>
+        <b>TB1:</b> Participé en el análisis de las entrevistas para comprender las necesidades de los usuarios y reflejarlo en el diseño del sistema.<br>
+        <b>TP1:</b> Validé funcionalidades considerando sostenibilidad y accesibilidad a largo plazo.<br><br>
+        <b>TB2:</b> Documenté auditorías recibidas y diseñé pruebas e hipótesis, fortaleciendo decisiones basadas en impacto global y uso responsable del sistema.<br><br>
+        <b>TF:</b> Tomé decisiones sobre priorización del backlog considerando accesibilidad, sostenibilidad del diseño y beneficios reales para el usuario<br><br>
+        <b>Belahonia Miranda, Fabrisio</b><br>
+        <b>TB1:</b> Tomé decisiones que consideraron impactos sociales, económicos y ambientales.<br>
+        <b>TP1:</b> Coordiné decisiones técnicas enfocadas en sostenibilidad y eficiencia.<br><br>
+        <b>TB2:</b> Lideré auditorías, métricas y diseño experimental evaluando impacto social y operativo del sistema en entornos clínicos reales.<br><br>
+        <b>TF:</b> Tomé decisiones sobre la arquitectura del sistema considerando qué opciones eran más prácticas y sostenibles para el proyecto.<br><br>
+        <b>Bohorquez Lerzundi, Gerardo Sebastian</b><br>
+        <b>TB1:</b> Aporté a la integración web y mobile optimizando recursos.<br>
+        <b>TP1:</b> Analicé el consumo de recursos promoviendo eficiencia energética.<br><br>
+        <b>TB2:</b> Ejecuté análisis de calidad y seguridad, entrevistas y métricas de escalabilidad considerando riesgos globales y eficiencia operativa.<br><br>
+        <b>TF:</b> En el desarrollo del frontend y la Landing Page, evalué el impacto del rendimiento en dispositivos de distintos niveles económicos, optimizando cargas y consumo de recursos.<br><br>
+        <b>Cutiri Agüero, Fabrizio Alexander</b><br>
+        <b>TB1:</b> Priorización del backlog según impacto funcional y social.<br>
+        <b>TP1:</b> Evalué dependencias técnicas considerando valor y sostenibilidad.<br><br>
+        <b>TB2:</b> Elaboré componentes críticos del diseño experimental (hipótesis, métricas, auditorías), evaluando impacto social y eficiencia del sistema en el entorno clínico.<br><br>
+        <b>TF:</b> Realice To-Be Validation Interview y el análisis e interpretación de los resultados, basado en la información obtenida de las entrevistas.<br><br>
+        <b>Berrocal Ramirez, Omar Christian</b><br>
+        <b>TB1:</b> Analicé el comportamiento del público objetivo en contextos globales y locales.<br>
+        <b>TP1:</b> Implementé optimizaciones visuales considerando impacto ambiental.
+      </td>
+      <td>
+        <b>TB1:</b> Las decisiones del proyecto se tomaron considerando impactos sociales, económicos, globales y ambientales.<br><br>
+        <b>TP1:</b> Se reforzó la evaluación del impacto global, equilibrando sostenibilidad, eficiencia económica y beneficio social, priorizando la responsabilidad ambiental.<br><br>
+        <b>TB2:</b> En esta etapa, el equipo aplicó juicios informados basados en auditorías, pruebas, métricas y diseño experimental, garantizando que las decisiones técnicas respondan a efectos reales en la operación clínica, la sostenibilidad y el entorno social.<br><br>
+        <b>TF:</b> El equipo aplicó criterios informados y basados en evidencia para evaluar el impacto global, económico, ambiental y social del sistema. Las decisiones no solo se centraron en funcionalidad, sino también en accesibilidad, sostenibilidad del software, eficiencia energética, costos operativos y valor social. Esto permitió un enfoque responsable donde se equilibraron beneficios técnicos con efectos reales en usuarios, organizaciones y entornos tecnológicos diversos.<br><br>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 # Capítulo I: Introducción
 
@@ -251,21 +397,21 @@ En esta sección se presenta la descripción del startup y los perfiles de los m
 
 **Valores**:
 
-* Compromiso con la calidad y la excelencia
+- Compromiso con la calidad y la excelencia
 
-*  Innovación continua
+- Innovación continua
 
-* Responsabilidad social
+- Responsabilidad social
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-|                           Photo                           | Description                                                                                                                                                                                                                                                                                                                                                                                                                 |
-|:---------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        ![Andrea](Img/foto-andrea.jpeg)        | **Nombre y Apellido:** Andrea Aponte Cruzado  <br> **Carrera:** Ingeniería de Software (6to ciclo) <br> **Acerca de:** Estoy cursando el sexto ciclo de la carrera y me considero una persona apasionada por los proyectos tecnológicos y a gran escala. Tengo experiencia en algunos lenguajes de programación y la realización de prpuyectos ágiles.                                                                                                                                                                                |
-|                ![Fabrisio](Img/fafa.jpeg)                 | **Nombre y Apellido:** Fabrisio Belahonia Miranda <br> **Carrera:** Ingeniería de Software (7mo ciclo) <br> **Acerca de:** Voy cursando el 7to ciclo de mi carrera, y me considero una persona responsable, ordenado, empático. Me interesa el área de Ciberseguridad y tengo experiencia con Linux, Redes, Cloud, etc** .                                                                                                  |
-| ![foto-fabrizio-cutiri.png](Img/foto-fabrizio-cutiri.png) | **Nombre y Apellido:** Fabrizio Alexander Cutiri Agüero  <br> **Carrera:** Ingeniería de Software (8to ciclo) <br> **Acerca de:** Me considero una persona responsable, puntual y capaz de adaptarse a diferentes situaciones. Elegí esta carrera porque me apasiona la tecnología y disfruto diseñar y desarrollar aplicaciones innovadoras que ayuden a las personas y empresas a solucionar sus problemas.               |
-|    ![Sebastian](Img/Sebastian.png)     | **Nombre y Apellido:** Sebastian Bohorquez Lerzundi <br> **Carrera:** Ingeniería de Software  <br> **Acerca de:** Me considero una persona responsable y organizada al trabajar en proyectos. Suelo colaborar activamente con mi grupo, aportando ideas y apoyando en lo que se necesite. Me adapto con facilidad y mantengo una actitud comprometida para alcanzar los objetivos en conjunto.                                                                                                                                                                                                                                                                                                 |
-|             ![Omar](Img/Omar-integrante.jpg)              | **Nombre y Apellido:** Omar Christian Berrocal Ramirez <br> **Carrera:** Ingeniería de Software <br> **Acerca de:** Me considero una persona capaz de lograr sus metas y objetivos con el enfoque correcto y mucha disciplina. Elegí esta carrera porque desde la infancia tuve intección con la tecnología y me gusta descubrir nuevas cosas respecto a esta. |
+|                           Photo                           | Description                                                                                                                                                                                                                                                                                                                                                                                                  |
+| :-------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|              ![Andrea](Img/foto-andrea.jpeg)              | **Nombre y Apellido:** Andrea Aponte Cruzado <br> **Carrera:** Ingeniería de Software (6to ciclo) <br> **Acerca de:** Estoy cursando el sexto ciclo de la carrera y me considero una persona apasionada por los proyectos tecnológicos y a gran escala. Tengo experiencia en algunos lenguajes de programación y la realización de prpuyectos ágiles.                                                        |
+|                ![Fabrisio](Img/fafa.jpeg)                 | **Nombre y Apellido:** Fabrisio Belahonia Miranda <br> **Carrera:** Ingeniería de Software (7mo ciclo) <br> **Acerca de:** Voy cursando el 7to ciclo de mi carrera, y me considero una persona responsable, ordenado, empático. Me interesa el área de Ciberseguridad y tengo experiencia con Linux, Redes, Cloud, etc\*\* .                                                                                 |
+| ![foto-fabrizio-cutiri.png](Img/foto-fabrizio-cutiri.png) | **Nombre y Apellido:** Fabrizio Alexander Cutiri Agüero <br> **Carrera:** Ingeniería de Software (8to ciclo) <br> **Acerca de:** Me considero una persona responsable, puntual y capaz de adaptarse a diferentes situaciones. Elegí esta carrera porque me apasiona la tecnología y disfruto diseñar y desarrollar aplicaciones innovadoras que ayuden a las personas y empresas a solucionar sus problemas. |
+|              ![Sebastian](Img/Sebastian.png)              | **Nombre y Apellido:** Sebastian Bohorquez Lerzundi <br> **Carrera:** Ingeniería de Software <br> **Acerca de:** Me considero una persona responsable y organizada al trabajar en proyectos. Suelo colaborar activamente con mi grupo, aportando ideas y apoyando en lo que se necesite. Me adapto con facilidad y mantengo una actitud comprometida para alcanzar los objetivos en conjunto.                |
+|             ![Omar](Img/Omar-integrante.jpg)              | **Nombre y Apellido:** Omar Christian Berrocal Ramirez <br> **Carrera:** Ingeniería de Software <br> **Acerca de:** Me considero una persona capaz de lograr sus metas y objetivos con el enfoque correcto y mucha disciplina. Elegí esta carrera porque desde la infancia tuve intección con la tecnología y me gusta descubrir nuevas cosas respecto a esta.                                               |
 
 ## 1.2. Solution Profile
 
@@ -283,9 +429,7 @@ Por su parte, Osiptel (2022) indica que el uso de dispositivos móviles creció 
 
 Pese a estos avances, muchos consultorios y clínicas dentales —sobre todo los más pequeños— continúan gestionando sus operaciones con métodos manuales o sistemas obsoletos. Esto provoca errores en la programación de citas, pérdida de información clínica y una experiencia deficiente para los pacientes. Además, la falta de capacitación en el uso de herramientas digitales y la percepción de que son costosas y difíciles de implementar limitan su adopción. Como resultado, la eficiencia operativa y la calidad del servicio se ven comprometidas.
 
-
 **Análisis del problema (5W + 2H)**
-
 
 **WHAT (Qué):**
 El problema principal es la gestión ineficiente de los consultorios dentales, lo que ocasiona fallas en la programación de citas, pérdida de historiales médicos, extravío de documentos financieros y demoras en la atención, afectando la experiencia del paciente.
@@ -307,7 +451,6 @@ La dependencia de métodos tradicionales, junto con la escasa inversión en tecn
 
 **HOW MUCH (Cuánto):**
 El impacto es significativo: disminuye la eficiencia operativa, reduce la satisfacción del paciente y afecta la rentabilidad del negocio. Los consultorios que operan con sistemas poco efectivos corren el riesgo de perder pacientes, reputación y asumir mayores costos derivados de errores y procesos ineficientes.
-
 
 ### 1.2.2. Lean UX Process
 
@@ -343,50 +486,47 @@ Para mitigar este riesgo, ofreceremos demostraciones del software y un soporte c
 
 **Assumptions Worksheet**
 
-* **¿Quién es el usuario?** Dentistas que administran sus propios consultorios y buscan una aplicación moderna y eficiente para optimizar su gestión diaria.
+- **¿Quién es el usuario?** Dentistas que administran sus propios consultorios y buscan una aplicación moderna y eficiente para optimizar su gestión diaria.
 
-* **¿Dónde encaja nuestro producto en su trabajo o vida?** La aplicación móvil se integra en la rutina de los odontólogos, permitiéndoles organizar citas, acceder a historiales clínicos y gestionar pagos. Además, ofrece la función offline, útil en situaciones sin conexión a internet.
+- **¿Dónde encaja nuestro producto en su trabajo o vida?** La aplicación móvil se integra en la rutina de los odontólogos, permitiéndoles organizar citas, acceder a historiales clínicos y gestionar pagos. Además, ofrece la función offline, útil en situaciones sin conexión a internet.
 
-* **¿Qué problemas tiene nuestro producto que debe resolver?** La principal dificultad es la adopción de nuevas tecnologías, ya que algunos profesionales muestran resistencia al uso de plataformas digitales para la gestión de información.
+- **¿Qué problemas tiene nuestro producto que debe resolver?** La principal dificultad es la adopción de nuevas tecnologías, ya que algunos profesionales muestran resistencia al uso de plataformas digitales para la gestión de información.
 
-* **¿Cuándo y cómo se usa el producto?** Su uso es diario, en actividades como la programación de citas, la revisión de historiales médicos y la facturación de pagos.
+- **¿Cuándo y cómo se usa el producto?** Su uso es diario, en actividades como la programación de citas, la revisión de historiales médicos y la facturación de pagos.
 
-* **¿Qué características son importantes?**
+- **¿Qué características son importantes?**
 
-    * Accesibilidad desde distintos dispositivos móviles.
+  - Accesibilidad desde distintos dispositivos móviles.
 
-    * Integración con sistemas de pago.
+  - Integración con sistemas de pago.
 
-    * Interfaz amigable e intuitiva.
+  - Interfaz amigable e intuitiva.
 
-* **¿Cómo debe verse y comportarse el producto?** La aplicación debe transmitir una imagen profesional, limpia y confiable, alineada con el sector salud. Además, debe ser rápida, intuitiva y sencilla de navegar, garantizando una experiencia fluida para el usuario.
-
+- **¿Cómo debe verse y comportarse el producto?** La aplicación debe transmitir una imagen profesional, limpia y confiable, alineada con el sector salud. Además, debe ser rápida, intuitiva y sencilla de navegar, garantizando una experiencia fluida para el usuario.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-* Creemos que, al incorporar nuevas herramientas para la gestión de citas, historiales clínicos y pagos en línea, se incrementará la eficiencia de los consultorios y mejorará la experiencia de los pacientes. Sabremos que hemos alcanzado este objetivo cuando logremos evidenciar una mejor organización en la programación de citas y en la facturación de pagos.
+- Creemos que, al incorporar nuevas herramientas para la gestión de citas, historiales clínicos y pagos en línea, se incrementará la eficiencia de los consultorios y mejorará la experiencia de los pacientes. Sabremos que hemos alcanzado este objetivo cuando logremos evidenciar una mejor organización en la programación de citas y en la facturación de pagos.
 
-* Creemos que, al implementar la generación automática de facturas, el proceso de facturación será más ágil y sencillo. Sabremos que estamos cumpliendo con este propósito cuando logremos reducir en más de un 80 % el tiempo destinado a la emisión de facturas.
+- Creemos que, al implementar la generación automática de facturas, el proceso de facturación será más ágil y sencillo. Sabremos que estamos cumpliendo con este propósito cuando logremos reducir en más de un 80 % el tiempo destinado a la emisión de facturas.
 
-* Creemos que, al añadir un modo offline, se facilitará el uso de la aplicación para la visualización de estadísticas y la gestión de citas sin necesidad de conexión a internet. Sabremos que alcanzamos este objetivo cuando se reduzcan significativamente los problemas de conectividad, especialmente en zonas con acceso limitado a la red.
+- Creemos que, al añadir un modo offline, se facilitará el uso de la aplicación para la visualización de estadísticas y la gestión de citas sin necesidad de conexión a internet. Sabremos que alcanzamos este objetivo cuando se reduzcan significativamente los problemas de conectividad, especialmente en zonas con acceso limitado a la red.
 
 #### 1.2.2.4. Lean UX Canvas
 
 <img src="Img/Lean-UX-Canvas.jpg">
 
-
-
 ## 1.3. Segmentos objetivo
 
 En esta sección se describen los perfiles específicos del público objetivo de nuestro producto. Estos grupos comparten características demográficas, conductuales y motivacionales que los diferencian de otros segmentos del mercado, lo que permite diseñar estrategias más precisas para atender sus necesidades.
 
-* **Segmento demográfico**: Odontólogos con ingresos medios, con la capacidad de invertir en herramientas y sistemas que optimicen la gestión de sus pacientes.
+- **Segmento demográfico**: Odontólogos con ingresos medios, con la capacidad de invertir en herramientas y sistemas que optimicen la gestión de sus pacientes.
 
-* **Segmento geográfico**: Profesionales que ejercen en zonas urbanas y cuentan con una base considerable de pacientes.
+- **Segmento geográfico**: Profesionales que ejercen en zonas urbanas y cuentan con una base considerable de pacientes.
 
-* **Segmento psicográfico**: Dentistas interesados en modernizar sus prácticas y ofrecer un servicio de mayor calidad a sus pacientes.
+- **Segmento psicográfico**: Dentistas interesados en modernizar sus prácticas y ofrecer un servicio de mayor calidad a sus pacientes.
 
-* **Segmento conductual**: Profesionales que buscan soluciones digitales que les permitan optimizar la programación y gestión de citas.
+- **Segmento conductual**: Profesionales que buscan soluciones digitales que les permitan optimizar la programación y gestión de citas.
 
 # Capítulo II: Requirements Elicitation & Analysis
 
@@ -395,7 +535,6 @@ En esta sección se describen los perfiles específicos del público objetivo de
 El objetivo de esta sección es identificar a los principales competidores directos que cuentan con modelos de negocio basados en productos digitales similares, así como a los competidores indirectos que brindan soluciones parcialmente comparables.
 
 ### 2.1.1. Análisis competitivo
-
 
 <table border="1px">
         <thead>
@@ -509,7 +648,6 @@ El objetivo de esta sección es identificar a los principales competidores direc
         </tbody>
     </table>
 
-
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
 - Proporcionaremos una interfaz intuitiva que facilite el uso del software, con una navegación fluida y rápida, además de soporte personalizado para garantizar una adopción eficiente y una alta satisfacción del usuario.
@@ -557,6 +695,7 @@ Esta sección recopila la información obtenida a partir de entrevistas realizad
 [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224135_upc_edu_pe/EZYisY-jQ1BNq9ATwS-hVu0BsUCxZC_t448gftlV-aQPFg?e=uAfZnm&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MC41MX19)
 
 **Datos del entrevistado**
+
 - **Nombre:** Martín Salcedo
 - **Edad:** 25 años
 - **Distrito:** San Juan de Lurigancho (SJL)
@@ -571,12 +710,12 @@ Martín trabaja en un consultorio con 10 años de operación. La agenda la manej
 
 [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224135_upc_edu_pe/EZYisY-jQ1BNq9ATwS-hVu0BsUCxZC_t448gftlV-aQPFg?e=8vS1tO&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NjM0LjEyfX0%3D)
 
-
 **Datos del entrevistado**
-* **Nombre:** Samuel Mendoza
-* **Edad:** 60 años
-* **Distrito de Residencia:** Breña
-* **Timestamp:** 10:35 - 25:55
+
+- **Nombre:** Samuel Mendoza
+- **Edad:** 60 años
+- **Distrito de Residencia:** Breña
+- **Timestamp:** 10:35 - 25:55
 
 **Resumen de la entrevista:**
 
@@ -597,77 +736,76 @@ Finalmente, señala estar dispuesto a pagar por un sistema de gestión completo 
 
 [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224135_upc_edu_pe/EZYisY-jQ1BNq9ATwS-hVu0BsUCxZC_t448gftlV-aQPFg?e=Pkl74K&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTU2MS4wNn19)
 
-
 **Datos del entrevistado**
+
 - **Nombre:** Elizabeth Huanaco
 - **Edad:** 25 años
 - **Distrito:** San Juan de Lurigancho (SJL)
 - **Timestamp** 25:55 - 34:24
-
 
 **Resumen**:
 Es ortodoncista y atiende en un consultorio propio con poco más de un año de operación, ubicado en una zona céntrica y de fácil acceso. Atiende entre 20 y 25 pacientes por semana. Maneja su agenda con una aplicación, aunque le resulta poco intuitiva y le gustaría que funcionara también sin conexión. El principal problema son las cancelaciones de último momento, que desorganizan la jornada. La comunicación con pacientes suele ser por WhatsApp y considera útil centralizarla.
 
 Combina registros digitales con algunos documentos impresos y controla ingresos con Excel, lo que le resulta engorroso. Le gustaría contar con funciones como recordatorios automáticos por WhatsApp/SMS, historias clínicas digitales integradas y un sistema de pagos en la misma plataforma. Usa iPad, laptop y Google Workspace para organizarse. Respalda la información en la nube y considera fundamental la seguridad de los datos. Estaría dispuesto a pagar entre 15 y 25 dólares mensuales por una solución que realmente le optimice el trabajo.
 
-
-
 ### 2.2.3. Análisis de entrevistas
 
 1. **Resumen**  
-Profesionales que atienden en consultorios con operación estable. La agenda suele ser gestionada por personal administrativo; parte de la programación llega al odontólogo por Google Calendar (según el caso). Buscan reducir no-shows y solapes, centralizar información clínica/operativa y contar con reportes simples. Valoran seguridad y permisos por rol.
+   Profesionales que atienden en consultorios con operación estable. La agenda suele ser gestionada por personal administrativo; parte de la programación llega al odontólogo por Google Calendar (según el caso). Buscan reducir no-shows y solapes, centralizar información clínica/operativa y contar con reportes simples. Valoran seguridad y permisos por rol.
 
 2. **Edad**  
-Rango observado: 25–60. Valor representativo: 43 (media aritmética).
+   Rango observado: 25–60. Valor representativo: 43 (media aritmética).
 
-| Entrevistado     | Edad |
-|---|---:|
-| Martín Salcedo   | 25 |
-| Samuel Mendoza   | 60 |
+| Entrevistado             |   Edad |
+| ------------------------ | -----: |
+| Martín Salcedo           |     25 |
+| Samuel Mendoza           |     60 |
 | **Valor representativo** | **43** |
 
 3. **Personalidad (arquetipo UX)**  
-Distribución mixta entre **Rational** (eficiencia/automatización) y **Guardián** (orden/seguridad). Valor representativo: **Mixto (Rational–Guardián)**.
+   Distribución mixta entre **Rational** (eficiencia/automatización) y **Guardián** (orden/seguridad). Valor representativo: **Mixto (Rational–Guardián)**.
 
-| Entrevistado    | Personalidad |
-|---|---|
-| Martín Salcedo  | Rational (eficiencia, automatización) |
-| Samuel Mendoza  | Guardián (cumplimiento, seguridad) |
-| **Representativo** | **Mixto Rational–Guardián** |
+| Entrevistado       | Personalidad                          |
+| ------------------ | ------------------------------------- |
+| Martín Salcedo     | Rational (eficiencia, automatización) |
+| Samuel Mendoza     | Guardián (cumplimiento, seguridad)    |
+| **Representativo** | **Mixto Rational–Guardián**           |
 
 4. **Dispositivos y canales**
 
-| Ítem        | Cobertura |
-|---|---|
-| Smartphone  | 100% |
-| Laptop/PC   | 100% |
-| Tablet      | 0–50% |
-| WhatsApp    | 100% |
-| Teléfono    | 100% |
-| Email       | 100% |
+| Ítem       | Cobertura |
+| ---------- | --------- |
+| Smartphone | 100%      |
+| Laptop/PC  | 100%      |
+| Tablet     | 0–50%     |
+| WhatsApp   | 100%      |
+| Teléfono   | 100%      |
+| Email      | 100%      |
 
 5. **Herramientas actuales**
 
 | Herramienta / Práctica                   | Presencia |
-|---|---|
-| Agenda por administrativo                | 100% |
-| Google Calendar (sincronización directa) | 50% |
-| App básica de registro/agenda            | 50% |
-| Historias clínicas digitales completas   | 0–50% |
-| Inventario integrado por procedimiento   | 0% |
+| ---------------------------------------- | --------- |
+| Agenda por administrativo                | 100%      |
+| Google Calendar (sincronización directa) | 50%       |
+| App básica de registro/agenda            | 50%       |
+| Historias clínicas digitales completas   | 0–50%     |
+| Inventario integrado por procedimiento   | 0%        |
 
-6. **Dolores representativos**  
-1) Reprogramaciones tardías.  
-2) Falta de sincronización inmediata con calendario.  
-3) Ausencia de vista unificada (paciente–procedimiento–insumos–pago).  
-4) Permisos/seguridad y trazabilidad de cambios limitados.  
+6. **Dolores representativos**
+
+1) Reprogramaciones tardías.
+2) Falta de sincronización inmediata con calendario.
+3) Ausencia de vista unificada (paciente–procedimiento–insumos–pago).
+4) Permisos/seguridad y trazabilidad de cambios limitados.
 5) Reportes operativos básicos o inexistentes.
 
-7. **Requisitos prioritarios**  
-- Integración con Google Calendar.  
-- Recordatorios/confirmaciones automáticas (WhatsApp/SMS/email).  
-- Historia clínica + checklist de insumos por procedimiento en una sola vista.  
-- Roles y permisos: con auditoría.  
+7. **Requisitos prioritarios**
+
+- Integración con Google Calendar.
+- Recordatorios/confirmaciones automáticas (WhatsApp/SMS/email).
+- Historia clínica + checklist de insumos por procedimiento en una sola vista.
+- Roles y permisos: con auditoría.
 - Reportes: utilización de agenda, tiempos muertos, productividad.
 
 ## 2.3. Needfinding
@@ -737,9 +875,7 @@ A continuación, se presenta una matriz de tareas enfocada en el odontólogo ind
   </tbody>
 </table>
 
-
 Del análisis de la matriz de tareas de Carlos Hijar Santa María, se destaca que las actividades más frecuentes y de mayor importancia están relacionadas directamente con la atención al paciente y la gestión financiera: agendar citas, hacer seguimiento de tratamientos, revisar ingresos y comunicarse con los pacientes. Estas tareas son claves en su rutina diaria y representan puntos críticos que una solución digital debe priorizar. Asimismo, aunque tareas como recordar tratamientos periódicos, revisar insumos y equipos, y revisar estado general del consultorio no se realizan con tanta frecuencia, sí tienen un nivel de importancia alto, lo que indica oportunidades para automatización o recordatorios que aumenten la eficiencia y reduzcan errores.
-
 
 ### 2.3.3. User Journey Mapping
 
@@ -795,7 +931,6 @@ Solución digital diseñada para asistir en la administración diaria del consul
 **Continuing Education (Educación continua):**
 Programas formativos y cursos especializados orientados a que los profesionales odontológicos actualicen y amplíen sus conocimientos, asegurando la aplicación de técnicas modernas y el uso de tecnologías actuales en su práctica clínica.
 
-
 # Capítulo III: Requirements Specification
 
 ## 3.1. To-Be Scenario Mapping
@@ -809,7 +944,7 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán administrar su 
 **Epics**
 
 | Epic ID | Title                   | Description                                                                                    |
-|---------|-------------------------|------------------------------------------------------------------------------------------------|
+| ------- | ----------------------- | ---------------------------------------------------------------------------------------------- |
 | EP01    | Autenticación y Usuario | Gestiona el acceso seguro de los usuarios al sistema mediante inicio de sesión y logout.       |
 | EP02    | Gestión de Citas        | Permite crear, modificar, eliminar y gestionar recordatorios de citas de manera eficiente.     |
 | EP03    | Gestión de Pacientes    | Controla el registro, modificación, visualización y eliminación de pacientes e historiales.    |
@@ -3119,66 +3254,36 @@ Entonces el sistema debe mostrar la página principal de la aplicación, validan
 
 ## 3.3. Product Backlog
 
-| #Orden | ID   | User Story                                                                      | Story Points |
-|:-------|:-----|:--------------------------------------------------------------------------------|:-------------|
-| 01     | SS01 | Investigar uso de Mockito para pruebas unitarias                                | 8            |
-| 02     | SS02 | Investigar el uso de Selenium para pruebas automatizadas                        | 8            |
-| 03     | US05 | Añadir citas                                                                    | 8            |
-| 04     | US04 | Editar Citas                                                                    | 8            |
-| 05     | US06 | Eliminar Cita                                                                   | 8            |
-| 06     | US11 | Mostrar Pacientes                                                               | 8            |
-| 07     | US12 | Añadir Pacientes                                                                | 8            |
-| 08     | US13 | Editar Pacientes                                                                | 8            |
-| 09     | US16 | Añadir Historial Clínico                                                        | 8            |
-| 10     | US19 | Visualizar Inventario                                                           | 8            |
-| 11     | US20 | Añadir objeto al inventario                                                     | 8            |
-| 12     | US21 | Editar objeto del inventario                                                    | 8            |
-| 13     | US22 | Eliminar objeto del inventario                                                  | 8            |
-| 14     | US25 | Registrar cantidad consumida de ítems                                           | 8            |
-| 15     | TS01 | Implementar endpoint para crear un ítem de inventario                           | 8            |
-| 16     | TS02 | Implementar endpoint para actualizar un ítem de inventario                      | 8            |
-| 17     | TS03 | Implementar endpoint para eliminar un ítem de inventario                        | 8            |
-| 18     | TS04 | Implementar endpoint para obtener un ítem de inventario por ID                  | 8            |
-| 19     | TS05 | Implementar endpoint para obtener todos los ítems de inventario de un usuario   | 8            |
-| 20     | TS06 | Implementar endpoint para crear un paciente                                     | 8            |
-| 21     | TS07 | Implementar endpoint para actualizar un paciente                                | 8            |
-| 22     | TS08 | Implementar endpoint para eliminar un paciente                                  | 8            |
-| 23     | TS11 | Implementar endpoint para añadir una historia clínica a un paciente             | 8            |
-| 24     | TS12 | Implementar endpoint para obtener historias clínicas por ID de paciente         | 8            |
-| 25     | TS13 | Implementar endpoint para crear una cita                                        | 8            |
-| 26     | TS14 | Implementar endpoint para actualizar una cita                                   | 8            |
-| 27     | TS15 | Implementar endpoint para eliminar una cita                                     | 8            |
-| 28     | TS18 | Implementar endpoint para obtener una cita por ID                               | 8            |
-| 29     | US03 | Mostrar Citas                                                                   | 5            |
-| 30     | US07 | Buscar Citas                                                                    | 5            |
-| 31     | US08 | Gestionar horarios de atención                                                  | 5            |
-| 32     | US09 | Pagar tratamiento                                                               | 5            |
-| 33     | US10 | Historial de pagos                                                              | 5            |
-| 34     | US14 | Eliminar Pacientes                                                              | 5            |
-| 35     | US15 | Buscar Pacientes                                                                | 5            |
-| 36     | US17 | Eliminar historial clínico                                                      | 5            |
-| 37     | US18 | Mostrar historial clínico                                                       | 5            |
-| 38     | US23 | Dashboard de inventario                                                         | 5            |
-| 39     | US24 | Guardar fecha de ajuste de inventario                                           | 5            |
-| 40     | TS09 | Implementar endpoint para obtener un paciente por ID                            |              |
-| 41     | TS10 | Implementar endpoint para obtener todos los pacientes de un usuario autenticado |              |
-| 42     | TS16 | Implementar endpoint para obtener todas las citas del usuario autenticado       |              |
-| 43     | TS17 | Implementar endpoint para obtener todas las citas de un paciente                |              |
-| 44     | TS19 | Implementar endpoint para crear una factura                                     |              |
-| 45     | TS20 | Implementar endpoint para obtener todas las facturas del usuario autenticado    |              |
-| 46     | TS21 | Implementar endpoint para obtener una factura por ID de cita                    |              |
-| 47     | US26 | Gestión del Perfil                                                              | 3            |
-| 48     | US27 | Visualización del menú principal                                                | 3            |
-| 49     | US28 | Navegación por la barra principal                                               | 3            |
-| 50     | US29 | Sección About Us                                                                | 3            |
-| 51     | US30 | Sección de Servicios                                                            | 3            |
-| 52     | US31 | Sección Contact Us                                                              | 3            |
-| 53     | US32 | Formulario de contacto                                                          | 3            |
-| 54     | US33 | Footer informativo                                                              | 3            |
-| 55     | US01 | Registrar Usuarios                                                              | 3            |
-| 56     | US02 | Iniciar Sesión                                                                  | 3            |
-| 57     | TS22 | Implementar endpoint para registrar un usuario                                  | 3            |
-| 58     | TS23 | Implementar endpoint para iniciar sesión                                        | 3            |
+| #Orden | ID   | Descripción                                                                                                                                                          | Story Points |
+| :----- | :--- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------- |
+| 01     | SS01 | Como desarrollador, deseo investigar el uso de **Mockito** para implementar pruebas unitarias efectivas y asegurar la calidad del código.                            | 8            |
+| 02     | SS02 | Como desarrollador, deseo investigar el uso de **Selenium** para automatizar pruebas de interfaz y garantizar la correcta interacción del usuario con la aplicación. | 8            |
+| 03     | US05 | Como odontólogo, deseo **añadir nuevas citas** al sistema para gestionar mi agenda de atención.                                                                      | 8            |
+| 04     | US04 | Como odontólogo, deseo **editar la información de una cita existente** para corregir o actualizar datos de mis pacientes.                                            | 8            |
+| 05     | US06 | Como odontólogo, deseo **eliminar una cita** para mantener la agenda libre de registros cancelados o duplicados.                                                     | 8            |
+| 06     | US11 | Como recepcionista, deseo **visualizar la lista de pacientes** registrados para gestionar sus atenciones.                                                            | 8            |
+| 07     | US12 | Como recepcionista, deseo **añadir nuevos pacientes** al sistema para llevar un control adecuado de sus datos.                                                       | 8            |
+| 08     | US13 | Como recepcionista, deseo **editar la información de los pacientes** para mantener los registros actualizados.                                                       | 8            |
+| 09     | US16 | Como odontólogo, deseo **añadir el historial clínico de un paciente** para registrar diagnósticos y tratamientos realizados.                                         | 8            |
+| 10     | US19 | Como administrador, deseo **visualizar el inventario general** para conocer el stock disponible de insumos y materiales.                                             | 8            |
+| 11     | US20 | Como administrador, deseo **añadir nuevos objetos al inventario** para mantener actualizado el registro de materiales.                                               | 8            |
+| 12     | US21 | Como administrador, deseo **editar los datos de los objetos del inventario** para reflejar cambios o correcciones.                                                   | 8            |
+| 13     | US22 | Como administrador, deseo **eliminar objetos del inventario** cuando ya no estén disponibles o sean obsoletos.                                                       | 8            |
+| 14     | US25 | Como odontólogo, deseo **registrar la cantidad consumida de insumos** en cada tratamiento para controlar el uso de materiales.                                       | 8            |
+| 15     | TS01 | Como desarrollador, deseo **implementar el endpoint POST /api/v1/items** para crear nuevos ítems en el inventario.                                                   | 8            |
+| 16     | TS02 | Como desarrollador, deseo **implementar el endpoint PUT /api/v1/items/{id}** para actualizar ítems existentes en el inventario.                                      | 8            |
+| 17     | TS03 | Como desarrollador, deseo **implementar el endpoint DELETE /api/v1/items/{id}** para eliminar ítems del inventario.                                                  | 8            |
+| 18     | TS04 | Como desarrollador, deseo **implementar el endpoint GET /api/v1/items/{id}** para obtener información de un ítem específico.                                         | 8            |
+| 19     | TS05 | Como desarrollador, deseo **implementar el endpoint GET /api/v1/items** para listar todos los ítems de inventario de un usuario.                                     | 8            |
+| 20     | TS06 | Como desarrollador, deseo **implementar el endpoint POST /api/v1/patients** para registrar nuevos pacientes.                                                         | 8            |
+| 21     | TS07 | Como desarrollador, deseo **implementar el endpoint PUT /api/v1/patients/{id}** para actualizar la información de un paciente.                                       | 8            |
+| 22     | TS08 | Como desarrollador, deseo **implementar el endpoint DELETE /api/v1/patients/{id}** para eliminar pacientes inactivos.                                                | 8            |
+| 23     | TS11 | Como desarrollador, deseo **implementar el endpoint POST /api/v1/patients/{patientId}/medical-histories** para añadir historiales clínicos.                          | 8            |
+| 24     | TS12 | Como desarrollador, deseo **implementar el endpoint GET /api/v1/patients/{patientId}/medical-histories** para obtener los historiales clínicos de un paciente.       | 8            |
+| 25     | TS13 | Como desarrollador, deseo **implementar el endpoint POST /api/v1/appointments** para crear nuevas citas.                                                             | 8            |
+| 26     | TS14 | Como desarrollador, deseo **implementar el endpoint PUT /api/v1/appointments/{appointmentId}** para actualizar citas existentes.                                     | 8            |
+| 27     | TS15 | Como desarrollador, deseo **implementar el endpoint DELETE /api/v1/appointments/{appointmentId}** para eliminar citas registradas.                                   | 8            |
+| 28     | TS18 | Como desarrollador, deseo **implementar el endpoint GET /api/v1/appoi**                                                                                              |
 
 ## 3.4. Impact Mapping
 
@@ -3213,7 +3318,6 @@ La paleta de colores se basa en tonos de celeste y azul, que transmiten confianz
 La tipografía que se usará principalmente, dada su legibilidad, estilo y versatilidad, es Roboto.
 
 ![tipography](Img/tipografía.png)
-
 
 ### 4.1.2. Web Style Guidelines
 
@@ -3254,23 +3358,21 @@ El nombre Dentify comunica innovación y profesionalismo, con un enfoque especí
 
 La aplicación utiliza un tono profesional, claro y confiable, manteniendo una comunicación cálida y accesible. Se evita el uso excesivo de lenguaje técnico, priorizando expresiones simples que se adapten al estilo directo y fluido de iOS, facilitando la comprensión en pantallas pequeñas.
 
-
 **Spacing**
 
 Se aplica un sistema de espaciado coherente para mantener la interfaz ordenada:
+
 - 19.5px entre secciones principales
 - 18px de padding en botones y componentes
-- Interlineado de 1.5x en textos extensos 
+- Interlineado de 1.5x en textos extensos
 
 Este diseño mejora la legibilidad y la navegación en dispositivos iOS, respetando las guías de accesibilidad de Apple
-
 
 **Íconos**
 
 Los íconos están diseñados para cumplir funciones específicas y se alinean con la identidad visual de Dentify. Su estilo es simple y claro, optimizado para pantallas Retina, asegurando una experiencia fluida y coherente en iOS.
 
 ![iconos](Img/íconos.png)
-
 
 **Consistencia**
 
@@ -3295,7 +3397,6 @@ El nombre Dentify comunica innovación, profesionalismo y un enfoque especializa
 **Tono de Comunicación en la App Móvil**
 Se ha definido un tono profesional, claro y confiable, manteniendo cercanía con el usuario. Se evita el uso excesivo de lenguaje técnico, priorizando expresiones accesibles que faciliten la comprensión en dispositivos móviles, donde la lectura debe ser rápida y efectiva.
 
-
 **Spacing**
 En la app móvil se aplica un sistema de espaciado coherente:
 
@@ -3316,7 +3417,6 @@ Se eliminan elementos innecesarios para que la interfaz sea clara y funcional, p
 **Comunicación**
 Se incluyen confirmaciones visuales tras cada acción del usuario, brindando retroalimentación clara sobre el estado del proceso y asegurando que sus acciones se han realizado correctamente.
 
-
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems
@@ -3328,6 +3428,7 @@ La interfaz de Dentify organiza sus secciones principales —como “Reserva de 
 Las secciones como “Nosotros”, “Servicios”, “Información” y “Contáctenos” se presentan con encabezados grandes y llamados a la acción claros, facilitando la navegación del visitante. En “Servicios”, se utilizan íconos representativos y botones que conducen a más detalles sobre soluciones destacadas como Dentify.
 
 #### Categorización del Contenido
+
 **App Móvil (Dentify)**
 Las funcionalidades están organizadas en categorías intuitivas como “Citas”, “Pagos” y “Historial”, lo que permite al usuario encontrar rápidamente lo que necesita. Por ejemplo, funciones específicas como “Gestión de Inventario” se agrupan en una sección administrativa, accesible únicamente para usuarios premium.
 
@@ -3335,6 +3436,7 @@ Las funcionalidades están organizadas en categorías intuitivas como “Citas�
 El contenido se distribuye en secciones informativas bien definidas. “Nosotros” reúne la historia y el equipo; “Servicios” detalla las soluciones ofrecidas; y en “Información”, los temas están organizados por áreas como eficiencia clínica o gestión de citas, lo que facilita su exploración.
 
 #### Secuencia de Contenidos
+
 **App Móvil (Dentify)**
 La experiencia de uso sigue una secuencia lógica: tras iniciar sesión, el usuario accede al menú principal y luego a funciones frecuentes como reservas o consultas. Por ejemplo, al ingresar, se muestra en primer plano la opción “Reserva de Citas”, lo que permite una navegación fluida y enfocada.
 
@@ -3342,6 +3444,7 @@ La experiencia de uso sigue una secuencia lógica: tras iniciar sesión, el usua
 La estructura del sitio sigue un orden progresivo: comienza con la presentación de la empresa, continúa con los servicios y finaliza en la sección de contacto. Esto permite que el visitante conozca primero las soluciones disponibles, luego acceda a información detallada y finalmente encuentre cómo comunicarse.
 
 #### Agrupación de Funcionalidades
+
 **App Móvil (Dentify)**
 Las funciones están agrupadas por áreas de uso para mejorar la experiencia. Por ejemplo, “Perfil” incluye configuraciones personales; “Citas” reúne programación, recordatorios y seguimiento. Los métodos de pago y facturación se integran en “Pagos”, mientras que la información médica del paciente se organiza dentro de “Historial”.
 
@@ -3363,13 +3466,13 @@ Se han aplicado estrategias de posicionamiento en tiendas de aplicaciones median
 Se han definido elementos clave como:
 
 - **Título de la App:**
-“Dentify - Gestión Dental Móvil por ClinicCode”
+  “Dentify - Gestión Dental Móvil por ClinicCode”
 
 - **Descripción de la App:**
-“Organiza tus citas, tratamientos y pacientes desde una sola app. Dentify optimiza la administración de tu consultorio dental desde cualquier lugar.”
+  “Organiza tus citas, tratamientos y pacientes desde una sola app. Dentify optimiza la administración de tu consultorio dental desde cualquier lugar.”
 
 - **Palabras Clave:**
-“app dental, gestión de citas, consultorio móvil, odontología digital, Dentify ClinicCode”
+  “app dental, gestión de citas, consultorio móvil, odontología digital, Dentify ClinicCode”
 
 ### 4.2.4. Searching Systems
 
@@ -3388,16 +3491,19 @@ Un ejemplo se encuentra en la sección “Información”, donde los usuarios pu
 Menú Principal:
 
 **Aplicación Móvil (Dentify)**
+
 - El menú principal ha sido diseñado para ser intuitivo y accesible desde cualquier pantalla mediante un botón desplegable (hamburger menu), que ofrece acceso directo a funciones clave como “Citas”, “Pagos” e “Historial”. Este menú se adapta a pantallas pequeñas y prioriza la facilidad de uso en movimiento.
 - Ejemplo: Los usuarios premium pueden acceder rápidamente al soporte técnico desde cualquier sección, ya sea mediante un ícono fijo en el menú o accesos rápidos en la pantalla principal.
 
 **Landing Page (ClinicCode)**
+
 - Se utiliza un menú superior fijo que permanece visible al hacer scroll, con enlaces a las secciones principales del sitio. Está optimizado para dispositivos móviles, con íconos representativos y un diseño compacto.
 - Ejemplo: En la vista móvil, el menú muestra íconos claros para acceder a “Nosotros”, “Servicios” y al chat de ayuda, mejorando la navegación desde smartphones.
 
 ## 4.3. Landing Page UI Design
 
 ### 4.3.1. Landing Page Wireframe
+
 Nosotros
 
 ![Nosotros](Img/Nosotros.png)
@@ -3426,9 +3532,8 @@ Contáctenos
 
 ### 4.4.1. Mobile Applications Wireframes
 
-
-
 **Autenticación**
+
 <div align="center">
   <img src="Img/login_wm.png" width="300">
   <img src="Img/register_wm.png" width="300">
@@ -3439,12 +3544,14 @@ Contáctenos
 </div>
 
 **Menú principal**
+
 <div align="center">
   <img src="Img/menu_wm.png" width="300">
   <img src="Img/dashboard_wm.png" width="300">
 </div>
 
 **Gestión de citas**
+
 <div align="center">
   <img src="Img/lista_citas_wm.png" width="300">
   <img src="Img/anadir_cita_wm.png" width="300">
@@ -3455,6 +3562,7 @@ Contáctenos
 </div>
 
 **Gestión de pacientes**
+
 <div align="center">
   <img src="Img/lista_pacientes_wm.png" width="300">
   <img src="Img/añadir_pacientes_wm.png" width="300">
@@ -3465,12 +3573,14 @@ Contáctenos
 </div>
 
 **Inventario**
+
 <div align="center">
   <img src="Img/lista_inventario_wm.png" width="300">
   <img src="Img/añadir_inventario_wm.png" width="300">
 </div>
 
 **Pagos**
+
 <div align="center">
   <img src="Img/registrar_pagos_wm.png" width="300">
   <img src="Img/facturas_pagos_wm.png" width="300">
@@ -3480,40 +3590,32 @@ Contáctenos
   <img src="Img/lista_pagos_wm.png" width="300">
 </div>
 
-
-
-
-
 ### 4.4.2. Mobile Applications Wireflow Diagrams
 
 **Enlace Figma**:https://www.figma.com/design/WRThFO0TXiuoNfXCPJvR26/Dise%C3%B1o-web?node-id=0-1&p=f&t=gM1Z07iNNkLSpL0t-0
 
-
-
 **User Goal: Autentificación**
-![Autentificación](Img/autentificacion_wf.png)  
+![Autentificación](Img/autentificacion_wf.png)
 
 **User Goal: Gestión de Citas**
-![Gestión de Citas](Img/gestion_citas_wf.png)  
+![Gestión de Citas](Img/gestion_citas_wf.png)
 
 **User Goal: Gestión de Pacientes**
-![Gestión de Pacientes](Img/gestion_pacientes_wf.png) 
+![Gestión de Pacientes](Img/gestion_pacientes_wf.png)
 
 **User Goal: Gestión de Inventario**
-![Gestión de Inventario](Img/gestion_inventario_wf.png)  
+![Gestión de Inventario](Img/gestion_inventario_wf.png)
 
 **User Goal: Perfil**
-![Perfil](Img/perfil_wf.png)  
+![Perfil](Img/perfil_wf.png)
 
 **User Goal: Gestión de pagos**
-![Gestión de Pagos](Img/pagos_wf.png)  
-
-
+![Gestión de Pagos](Img/pagos_wf.png)
 
 ### 4.4.3. Mobile Applications Mock-ups
 
-
 **Autenticación**
+
 <div align="center">
   <img src="Img/Login.png" width="250">
   <img src="Img/Register.png" width="250">
@@ -3526,11 +3628,13 @@ Contáctenos
 </div>
 
 **Menú principal**
+
 <div align="center">
   <img src="Img/Menu-inicio.png" width="250">
 </div>
 
 **Gestión de Citas**
+
 <div align="center">
   <img src="Img/Gestión de Citas1.png" width="250">
   <img src="Img/Gestión de Citas2.png" width="250">
@@ -3551,6 +3655,7 @@ Contáctenos
 </div>
 
 **Gestión de Pacientes**
+
 <div align="center">
   <img src="Img/Gestión de Pacientes1.png" width="250">
   <img src="Img/Gestión de Pacientes2.png" width="250">
@@ -3568,6 +3673,7 @@ Contáctenos
 </div>
 
 **Gestión de Inventario**
+
 <div align="center">
   <img src="Img/Gestión de Inventario1.png" width="250">
   <img src="Img/Gestión de Inventario2.png" width="250">
@@ -3579,6 +3685,7 @@ Contáctenos
 </div>
 
 **Pagos**
+
 <div align="center">
   <img src="Img/Pagos1.png" width="250">
   <img src="Img/Pagos2.png" width="250">
@@ -3594,54 +3701,49 @@ Contáctenos
   <img src="Img/Pagos8.png" width="250">
 </div>
 
-
-
-
 ### 4.4.4. Mobile Applications User Flow Diagrams
 
 **Enlace Figma:**https://www.figma.com/design/WRThFO0TXiuoNfXCPJvR26/Dise%C3%B1o-web?node-id=0-1&p=f&t=gM1Z07iNNkLSpL0t-0
 
-
 **User Goal: Actualizar datos**
-Cuando el usuario accede a Dentify, primero debe iniciar sesión. Una vez autenticado, puede ingresar a su perfil y modificar su información personal. Esto incluye actualizar nombre, correo electrónico o contraseña, así como añadir o editar datos adicionales como teléfono o dirección.  
+Cuando el usuario accede a Dentify, primero debe iniciar sesión. Una vez autenticado, puede ingresar a su perfil y modificar su información personal. Esto incluye actualizar nombre, correo electrónico o contraseña, así como añadir o editar datos adicionales como teléfono o dirección.
 
 ![Actualizar datos](Img/Actualizar_datos.png)
 
 ---
 
 **User Goal: Cita**
-Dentro de la aplicación, el usuario tiene acceso a la sección de citas. Allí puede revisar las citas programadas, registrar nuevas o modificar las ya existentes. También cuenta con la opción de cancelar citas en caso necesario.  
+Dentro de la aplicación, el usuario tiene acceso a la sección de citas. Allí puede revisar las citas programadas, registrar nuevas o modificar las ya existentes. También cuenta con la opción de cancelar citas en caso necesario.
 
 ![Cita](Img/Cita.png)
 
 ---
 
 **User Goal: Inventario**
-El usuario puede entrar a la sección de inventario para gestionar los productos de la clínica. Desde este apartado, es posible consultar el stock, añadir nuevos artículos, actualizarlos o eliminarlos cuando dejen de ser necesarios.  
+El usuario puede entrar a la sección de inventario para gestionar los productos de la clínica. Desde este apartado, es posible consultar el stock, añadir nuevos artículos, actualizarlos o eliminarlos cuando dejen de ser necesarios.
 
 ![Inventario](Img/Inventario.png)
 
 ---
 
 **User Goal: Paciente**
-En la sección de pacientes, el usuario puede visualizar la lista de pacientes registrados, incorporar nuevos registros o editar la información de los existentes. Además, es posible eliminar aquellos pacientes que ya no deban estar en la base de datos.  
+En la sección de pacientes, el usuario puede visualizar la lista de pacientes registrados, incorporar nuevos registros o editar la información de los existentes. Además, es posible eliminar aquellos pacientes que ya no deban estar en la base de datos.
 
 ![Paciente](Img/Paciente.png)
 
 ---
 
 **User Goal: Pagos**
-La sección de pagos permite al usuario visualizar las citas pendientes de cobro, registrar abonos y emitir facturas de manera sencilla. Asimismo, se puede acceder al historial completo de pagos realizados.  
+La sección de pagos permite al usuario visualizar las citas pendientes de cobro, registrar abonos y emitir facturas de manera sencilla. Asimismo, se puede acceder al historial completo de pagos realizados.
 
 ![Pagos](Img/Pagos.png)
 
 ---
 
 **User Goal: Registro**
-Si el usuario no cuenta con una cuenta, puede registrarse proporcionando información básica como nombre, correo electrónico y contraseña. Una vez completado este proceso, podrá iniciar sesión y acceder a todas las funcionalidades de Dentify.  
+Si el usuario no cuenta con una cuenta, puede registrarse proporcionando información básica como nombre, correo electrónico y contraseña. Una vez completado este proceso, podrá iniciar sesión y acceder a todas las funcionalidades de Dentify.
 
 ![Registro](Img/Registro.png)
-
 
 ## 4.5. Mobile Applications Prototyping
 
@@ -3651,14 +3753,11 @@ Para los prototipos de interfaz móvil seguimos tres principios: claridad, dise�
 
 ![Prototype_and](Img/proto_and.jpeg)
 
-
 enlace video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220219_upc_edu_pe/EbJoZdhwlExGrvIfSN5N46EBJRw4FjQdlb-FgEm34LfOlg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=7cCrz3
-
 
 ### 4.5.2. iOS Mobile Applications Prototyping
 
 ![Prototype_ios](Img/proto_ios.jpeg)
-
 
 enlace video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220219_upc_edu_pe/Ec_n0eCxhQVEkZFIHxqYhx0BZZof_YXNNdaZhlLz4DeuTQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=WrSRqG
 
@@ -3667,17 +3766,20 @@ enlace video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220219_upc_e
 ### 4.6.1. Web Applications Wireframes
 
 **Autenticación**
+
 <div align="center">
   <img src="Img/Registro-W.png" width="600" />
   <img src="Img/Inicio-sesión-W.png" width="600" />
 </div>
 
 **Dashboard (inicio)**
+
 <div align="center">
   <img src="Img/Dashboard.png" width="800" />
 </div>
 
 **Inventario**
+
 <div align="center">
   <img src="Img/Inventario-W.png" width="800" />
 </div>
@@ -3693,6 +3795,7 @@ enlace video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220219_upc_e
 </div>
 
 **Configuración & Perfil**
+
 <div align="center">
   <img src="Img/Perfil-W.png" width="600" />
   <img src="Img/Perfil-2-W.png" width="600" />
@@ -3703,6 +3806,7 @@ enlace video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220219_upc_e
 </div>
 
 **Pagos & Facturación**
+
 <div align="center">
   <img src="Img/Pagos-citas-a-pagar-W.png" width="600" />
   <img src="Img/Pagos-citas-a-pagar-2-W.png" width="600" />
@@ -3720,6 +3824,7 @@ enlace video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220219_upc_e
 </div>
 
 **Gestión de Citas de pacientes**
+
 <div align="center">
   <img src="Img/Reserva-de-citas-W.png" width="800" />
 </div>
@@ -3733,16 +3838,17 @@ enlace video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220219_upc_e
 </div>
 
 **Notificaciones**
+
 <div align="center">
   <img src="Img/Notificaciones-W.png" width="800" />
 </div>
-
 
 ### 4.6.2. Web Applications Wireflow Diagrams
 
 **Enlace Figma:** <https://www.figma.com/design/WRThFO0TXiuoNfXCPJvR26/Dise%C3%B1o-web?node-id=0-1&p=f&t=gM1Z07iNNkLSpL0t-0>
 
 **User Goal: Autenticación & Perfil**
+
 <div align="center">
   <img src="Img/registro-y-autenticación.png" alt="User Flow: Registro y Autenticación" width="800" />
 </div>
@@ -3751,21 +3857,25 @@ enlace video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220219_upc_e
 </div>
 
 **User Goal: Gestión de Citas (programar / modificar / cancelar)**
+
 <div align="center">
   <img src="Img/gestion-de-citas.png" alt="User Flow: Gestión de Citas (programar, modificar, cancelar)" width="800" />
 </div>
 
 **User Goal: Gestión de Pacientes (listar / crear / editar / eliminar)**
+
 <div align="center">
   <img src="Img/gestion-de-pacientes.png" alt="User Flow: Gestión de Pacientes (listar, crear, editar, eliminar)" width="800" />
 </div>
 
 **User Goal: Pagos & Facturación**
+
 <div align="center">
   <img src="Img/gestion-de-pagos.png" alt="User Flow: Pagos y Facturación" width="600" />
 </div>
 
 **User Goal: Gestión de Inventario**
+
 <div align="center">
   <img src="Img/inventario-wireflow.png" alt="User Flow: Gestión de Inventario" width="800" />
 </div>
@@ -3773,17 +3883,20 @@ enlace video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220219_upc_e
 ### 4.6.3. Web Applications Mock-ups
 
 **Autenticación**
+
 <div align="center">
   <img src="Img/Inicio-de-sesion-M.png" alt="Mockup: Inicio de sesión" width="600" />
   <img src="Img/Registro-M.png" alt="Mockup: Registro" width="600" />
 </div>
 
 **Dashboard (inicio)**
+
 <div align="center">
   <img src="Img/Dashboard-M.png" alt="Mockup: Dashboard" width="800" />
 </div>
 
 **Perfil**
+
 <div align="center">
   <img src="Img/Perfil-M.png" alt="Mockup: Perfil" width="600" />
   <img src="Img/Perfil-editar-información-personal-M.png" alt="Mockup: Editar información personal" width="600" />
@@ -3797,6 +3910,7 @@ enlace video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220219_upc_e
 </div>
 
 **Gestión de Citas**
+
 <div align="center">
   <img src="Img/Reserva-de-citas-M.png" alt="Mockup: Reservar cita" width="600" />
   <img src="Img/Modificar-citas-M.png" alt="Mockup: Modificar cita" width="600" />
@@ -3811,6 +3925,7 @@ enlace video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220219_upc_e
 </div>
 
 **Pagos & Facturación**
+
 <div align="center">
   <img src="Img/Pagos-citas-a-pagar-M.png" alt="Mockup: Citas a pagar" width="600" />
   <img src="Img/Pagos-seleccionar-cita-M.png" alt="Mockup: Seleccionar cita a pagar" width="600" />
@@ -3828,6 +3943,7 @@ enlace video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220219_upc_e
 </div>
 
 **Inventario**
+
 <div align="center">
   <img src="Img/Inventario-M.png" alt="Mockup: Inventario (listado)" width="800" />
 </div>
@@ -3878,7 +3994,6 @@ En **Pagos**, el usuario ve citas pendientes de cobro, selecciona ítems, regist
 Si aún no tiene cuenta, el usuario se registra ingresando nombre, correo y contraseña; luego podrá iniciar sesión y acceder a todas las funciones.  
 ![Registro y Autenticación](Img/registro-y-autentizacion.png)
 
-
 **4.7. Web Applications Prototyping**
 
 Para los prototipos de interfaz web en escritorio seguimos tres principios: claridad, eficiencia y diseño adaptable. Utilizamos layouts de grilla y paneles que organizan funciones clave (registro de procesos y reportes), tablas filtrables y una jerarquía tipográfica limpia para comprender de inmediato. Aseguramos consistencia entre resoluciones, soporte de accesibilidad (navegación por teclado, estados de foco visibles) y mostramos solo los datos críticos para cada perfil, reduciendo ruido visual y mejorando la productividad.
@@ -3896,7 +4011,6 @@ Dentify es una plataforma de gestión clínica odontológica que centraliza la a
 <div align="center">
 <img src="Img/ContextDiagram.png" alt="Context-Diagram">
 </div>
-
 
 ### 4.8.2. Software Architecture Container Diagrams
 
@@ -3931,7 +4045,7 @@ En esta presente imagen se detalla la descripción y funcionalidad de los compon
 
 ---
 
- 1. **BillingService (Servicio de Facturación)**
+1.  **BillingService (Servicio de Facturación)**
 
 - **Descripción**: Este componente maneja todo lo relacionado con la facturación dentro del sistema. Procesa las facturas generadas en función de los servicios prestados en la clínica dental.
 - **Responsabilidades**:
@@ -3945,7 +4059,7 @@ En esta presente imagen se detalla la descripción y funcionalidad de los compon
 
 ---
 
- 2. **InventoryService (Servicio de Inventario)**
+2.  **InventoryService (Servicio de Inventario)**
 
 - **Descripción**: Este componente administra el inventario de la clínica dental, controlando los productos y su disponibilidad.
 - **Responsabilidades**:
@@ -3958,7 +4072,7 @@ En esta presente imagen se detalla la descripción y funcionalidad de los compon
 
 ---
 
- 3. **IAMService (Servicio de Gestión de Autenticación e Identidad)**
+3.  **IAMService (Servicio de Gestión de Autenticación e Identidad)**
 
 - **Descripción**: El componente IAMService gestiona la autenticación y autorización de usuarios dentro de la plataforma.
 - **Responsabilidades**:
@@ -3970,7 +4084,7 @@ En esta presente imagen se detalla la descripción y funcionalidad de los compon
 
 ---
 
- 4. **ManagementService (Servicio de Gestión de Pacientes y Citas)**
+4.  **ManagementService (Servicio de Gestión de Pacientes y Citas)**
 
 - **Descripción**: Este componente gestiona los datos de las citas y pacientes dentro de la clínica dental.
 - **Responsabilidades**:
@@ -3982,7 +4096,7 @@ En esta presente imagen se detalla la descripción y funcionalidad de los compon
 
 ---
 
- 5. **LogInventoryService (Servicio de Registro de Inventario)**
+5.  **LogInventoryService (Servicio de Registro de Inventario)**
 
 - **Descripción**: Este componente registra las acciones que afectan el inventario, tales como la venta de productos o el consumo dentro de la clínica.
 - **Responsabilidades**:
@@ -3995,7 +4109,7 @@ En esta presente imagen se detalla la descripción y funcionalidad de los compon
 
 ---
 
- 6. **InventoryController (Controlador de Inventario)**
+6.  **InventoryController (Controlador de Inventario)**
 
 - **Descripción**: Este componente expone los puntos finales (endpoints) de la API REST relacionados con el inventario.
 - **Responsabilidades**:
@@ -4007,7 +4121,7 @@ En esta presente imagen se detalla la descripción y funcionalidad de los compon
 
 ---
 
- 7. **ManagementController (Controlador de Gestión de Pacientes y Citas)**
+7.  **ManagementController (Controlador de Gestión de Pacientes y Citas)**
 
 - **Descripción**: Este componente expone los puntos finales (endpoints) de la API REST relacionados con la gestión de citas y pacientes.
 - **Responsabilidades**:
@@ -4018,7 +4132,7 @@ En esta presente imagen se detalla la descripción y funcionalidad de los compon
 
 ---
 
- 8. **IAMController (Controlador de Gestión de Autenticación)**
+8.  **IAMController (Controlador de Gestión de Autenticación)**
 
 - **Descripción**: Este componente expone los puntos finales (endpoints) de la API REST responsables de la autenticación y registro de usuarios.
 - **Responsabilidades**:
@@ -4030,7 +4144,7 @@ En esta presente imagen se detalla la descripción y funcionalidad de los compon
 
 ---
 
- 9. **BillingController (Controlador de Facturación)**
+9.  **BillingController (Controlador de Facturación)**
 
 - **Descripción**: Este componente expone los puntos finales (endpoints) de la API REST relacionados con la facturación.
 - **Responsabilidades**:
@@ -4050,26 +4164,26 @@ En esta presente imagen se detalla la descripción y funcionalidad de los compon
 
 ### 4.9.2. Class Dictionary
 
-| Clase                  | Descripción                                   | Atributos principales |
-|-------------------------|-----------------------------------------------|-----------------------|
-| **BillingController**   | Expone endpoints de facturación.              | Métodos: `createInvoice()`, `getInvoice()` |
-| **InventoryController** | Maneja endpoints de inventario.               | Métodos: `getInventory()`, `updateInventory()` |
-| **ManagementController**| Endpoints para pacientes y citas.             | Métodos: `createAppointment()`, `managePatients()` |
-| **IAMController**       | Controlador para autenticación.               | Métodos: `login()`, `register()` |
-| **BillingService**      | Lógica de facturación.                        | Métodos: `processInvoice()`, `updateStock()` |
-| **InventoryService**    | Lógica de inventario.                         | Métodos: `manageProducts()`, `updateStock()` |
-| **ManagementService**   | Manejo de pacientes y citas.                  | Métodos: `manageAppointments()`, `managePatients()` |
-| **IAMService**          | Autenticación y usuarios.                     | Métodos: `authenticateUser()`, `manageAccounts()` |
-| **LogInventoryService** | Registro de movimientos de inventario.        | Métodos: `registerChange()`, `getLog()` |
-| **Invoice**             | Representa una factura.                       | `id`, `date`, `total` |
-| **Patient**             | Representa un paciente.                       | `id`, `name`, `email`, `phone` |
-| **Appointment**         | Representa una cita.                          | `id`, `date`, `status` |
-| **Product**             | Producto de inventario.                       | `id`, `name`, `stock`, `price` |
-| **User**                | Usuario autenticado.                          | `id`, `name`, `email`, `password` |
-| **LogInventory**        | Registro de inventario.                       | `id`, `action`, `date` |
-
+| Clase                    | Descripción                            | Atributos principales                               |
+| ------------------------ | -------------------------------------- | --------------------------------------------------- |
+| **BillingController**    | Expone endpoints de facturación.       | Métodos: `createInvoice()`, `getInvoice()`          |
+| **InventoryController**  | Maneja endpoints de inventario.        | Métodos: `getInventory()`, `updateInventory()`      |
+| **ManagementController** | Endpoints para pacientes y citas.      | Métodos: `createAppointment()`, `managePatients()`  |
+| **IAMController**        | Controlador para autenticación.        | Métodos: `login()`, `register()`                    |
+| **BillingService**       | Lógica de facturación.                 | Métodos: `processInvoice()`, `updateStock()`        |
+| **InventoryService**     | Lógica de inventario.                  | Métodos: `manageProducts()`, `updateStock()`        |
+| **ManagementService**    | Manejo de pacientes y citas.           | Métodos: `manageAppointments()`, `managePatients()` |
+| **IAMService**           | Autenticación y usuarios.              | Métodos: `authenticateUser()`, `manageAccounts()`   |
+| **LogInventoryService**  | Registro de movimientos de inventario. | Métodos: `registerChange()`, `getLog()`             |
+| **Invoice**              | Representa una factura.                | `id`, `date`, `total`                               |
+| **Patient**              | Representa un paciente.                | `id`, `name`, `email`, `phone`                      |
+| **Appointment**          | Representa una cita.                   | `id`, `date`, `status`                              |
+| **Product**              | Producto de inventario.                | `id`, `name`, `stock`, `price`                      |
+| **User**                 | Usuario autenticado.                   | `id`, `name`, `email`, `password`                   |
+| **LogInventory**         | Registro de inventario.                | `id`, `action`, `date`                              |
 
 ## 4.10. Database Design
+
 ### 4.10.1. Relational/Non-Relational Database Diagram
 
 <div align="center">
@@ -4090,18 +4204,17 @@ Para asegurar una colaboración eficiente y mantener la calidad en el desarrollo
 
 **Requirements Management:**
 
-**UxPressia:** Utilizamos esta herramienta para elaborar los distintos artefactos de Needfinding como son el User persona, Journey Map, Empathy Map e Impact Maps. 
+**UxPressia:** Utilizamos esta herramienta para elaborar los distintos artefactos de Needfinding como son el User persona, Journey Map, Empathy Map e Impact Maps.
 
 Referencia: [https://uxpressia.com](https://uxpressia.com)
 
 <img src="Img/uxpressia-icon.png" alt="UxPressia" height="150"/>
 
-**Miro:** Esta plataforma en línea nos ayudó a desarrollar los cuadros de As-Is y To-Be Scenary Map 
+**Miro:** Esta plataforma en línea nos ayudó a desarrollar los cuadros de As-Is y To-Be Scenary Map
 
 Referencia: [https://miro.com/es/](https://miro.com/es/)
 
 <img src="Img/miro-icon.png" alt="Miro" height="150"/>
-
 
 **Product UX/UI Design**
 
@@ -4113,7 +4226,7 @@ Referencia: [https://www.figma.com/es-es/](https://www.figma.com/es-es/)
 
 **Software Development**
 
-**WebStorm:** (Instalación local): Utilizado como entorno de desarrollo para trabajar con HTML, CSS y JavaScript. 
+**WebStorm:** (Instalación local): Utilizado como entorno de desarrollo para trabajar con HTML, CSS y JavaScript.
 
 Referencia: [https://www.jetbrains.com/es-es/webstorm/](https://www.jetbrains.com/es-es/webstorm/)
 
@@ -4141,7 +4254,7 @@ Referencia: [https://code.visualstudio.com](https://code.visualstudio.com)
 
 En la gestión de proyectos y colaboración del equipo se utilizaron:
 
-**Jira:** Esta es una plataforma especializada en la gestión de proyecto, la cual utilizamos para asignar tareas a realizar por cada integrante del equipo. 
+**Jira:** Esta es una plataforma especializada en la gestión de proyecto, la cual utilizamos para asignar tareas a realizar por cada integrante del equipo.
 
 Referencia: [https://www.atlassian.com/es/software/jira](https://www.atlassian.com/es/software/jira)
 
@@ -4159,17 +4272,15 @@ Referencia: [https://git-scm.com/](https://git-scm.com/)
 
 <img src="Img/git-icon.png" alt="Git" height="150"/>
 
-
-
 **Software Documentation**
 
-**GitHub:** Esta plataforma tambien fue utilizada para el desarrollo del informe mediante archivos MarkDown(.md) 
+**GitHub:** Esta plataforma tambien fue utilizada para el desarrollo del informe mediante archivos MarkDown(.md)
 
 Referencia: [https://github.com/](https://github.com/)
 
 <img src="Img/github-icon.png" alt="GitHub" height="150"/>
 
-**Vertabelo:** Herramienta utilizada para el diseño, creación y documentación colaborativa de bases de datos. 
+**Vertabelo:** Herramienta utilizada para el diseño, creación y documentación colaborativa de bases de datos.
 
 Referencia: [https://vertabelo.com/](https://vertabelo.com/)
 
@@ -4189,13 +4300,13 @@ Referencia: [https://firebase.google.com/?hl=es-419](https://firebase.google.com
 
 <img src="Img/firebase-icon.png" alt="Firebase" height="150"/>
 
-**Azure:** Este es un servicio en la nube de Microsoft, el cual usamos para desplegar el backend junto con la documentación en Swagger 
+**Azure:** Este es un servicio en la nube de Microsoft, el cual usamos para desplegar el backend junto con la documentación en Swagger
 
 Referencia: [https://azure.microsoft.com/es-es](https://azure.microsoft.com/es-es)
 
 <img src="Img/azure-icon.png" alt="Azure" height="150"/>
 
-**GithubPages:** Esta es una herramienta de GitHub para alojar sitios web estáticos. Lo utilizamos para desplegar el landing page. 
+**GithubPages:** Esta es una herramienta de GitHub para alojar sitios web estáticos. Lo utilizamos para desplegar el landing page.
 
 Referencia: [https://docs.github.com/es/pages](https://docs.github.com/es/pages)
 
@@ -4206,6 +4317,7 @@ Referencia: [https://docs.github.com/es/pages](https://docs.github.com/es/pages)
 La gestión del código fuente es una parte fundamental en el desarrollo colaborativo de software, ya que permite un control eficiente sobre las modificaciones realizadas en el proyecto a lo largo de su ciclo de vida. En esta sección, se describe el sistema de control de versiones implementado en el proyecto Dentify, utilizando GitHub como plataforma principal. Además, se detallan las convenciones de trabajo adoptadas por el equipo, como el modelo GitFlow, el versionado semántico (Semantic Versioning) y las convenciones de commit mediante Conventional Commits. Estas prácticas aseguran un desarrollo ordenado y una integración continua efectiva entre los miembros del equipo.
 
 **URL de los Repositorios:**
+
 - Organización: [https://github.com/ClinicCode](https://github.com/ClinicCode)
 - Reporte: [https://github.com/ClinicCode/Informe](https://github.com/ClinicCode/Informe)
 - Landing Page: [https://github.com/ClinicCode/dentify-landing-page](https://github.com/ClinicCode/dentify-landing-page)
@@ -4226,14 +4338,17 @@ Para mantener un flujo organizado en el desarrollo y facilitar la colaboración,
 **Convenciones de commits:**
 
 Para la escritura de commits, se sigue la convención 'Conventional Commits', el cual cuenta con un formato estándar para facilitar la lectura y entendimiento del historial de cambios dentro del proyecto.
+
 ```
     <type>[optional scope]: <description>
-    
+
     [optional body]
-    
+
     [optional footer(s)]
 ```
+
 - Type:
+
   - feat: Añadir una nueva característica.
   - fix: Correción de errores.
   - docs: Modificaciones en la documentación.
@@ -4241,18 +4356,22 @@ Para la escritura de commits, se sigue la convención 'Conventional Commits', el
   - refactor: Modificaciones que no añaden características y/o errores.
   - test: Adición/Modificación de pruebas.
 
-
 - Scope: Brinda información extra acerca del área del código afectado.
+
 ```
    feat(auth): add register functionality.
 ```
+
 **Ejemplos básicos de commits:**
+
 ```
    feat(login): add organizer authentication module.
 ```
+
 ```
    fix(payment): resolve payment security issue.
 ```
+
 ```
    docs(README): update index instructions.
 ```
@@ -4273,11 +4392,11 @@ Indentación y consistencia: Aunque HTML admite mayúsculas y minúsculas en ele
 
 El código CSS se desarrolló bajo la convención BEM y lineamientos de estilo para mantener claridad y organización. Algunos puntos destacados:
 
-* Clases descriptivas y en inglés, siempre en formato kebab-case, lo que facilita su comprensión.
+- Clases descriptivas y en inglés, siempre en formato kebab-case, lo que facilita su comprensión.
 
-* Transiciones en botones, añadiendo efectos suaves que enriquecen la experiencia del usuario.
+- Transiciones en botones, añadiendo efectos suaves que enriquecen la experiencia del usuario.
 
-* Fuentes personalizadas, integradas mediante @font-face siguiendo las recomendaciones para la gestión tipográfica en CSS.
+- Fuentes personalizadas, integradas mediante @font-face siguiendo las recomendaciones para la gestión tipográfica en CSS.
 
 **JavaScript**
 
@@ -4317,7 +4436,7 @@ El despliegue del landing page se realizó en GitHub Pages, siguiendo los siguie
 
 ![deploy-landing-page-step-2.png](Img/deploy-landing-page-step-2.png)
 
-3. **Seleccinar la rama y carpeta para el despliegue:** Por último, seleccionar la rama main y la carpeta por defecto **(root)** para realizar el despliegue. 
+3. **Seleccinar la rama y carpeta para el despliegue:** Por último, seleccionar la rama main y la carpeta por defecto **(root)** para realizar el despliegue.
 
 ![deploy-landing-page-step-3.png](Img/deploy-landing-page-step-3.png)
 
@@ -4325,70 +4444,68 @@ El despliegue del landing page se realizó en GitHub Pages, siguiendo los siguie
 
 ### 5.2.1. Sprint Backlogs
 
-El objetivo principal de este Sprint es desarrollar la primera versión funcional de Dentify, priorizando la implementación del Landing Page, la estructura inicial del Frontend Web y Mobile Apps, y la integración básica del Backend. Este Sprint busca validar las funcionalidades esenciales, garantizar la consistencia del diseño UX/UI y establecer la base para iteraciones futuras.
+El objetivo principal de este Sprint es desarrollar la primera versión funcional de **Dentify**, priorizando la implementación del **Landing Page**, la **estructura inicial del Frontend Web y Mobile Apps**, y la **integración básica del Backend**. Este Sprint busca validar las funcionalidades esenciales, garantizar la consistencia del diseño UX/UI y establecer la base para iteraciones futuras.
 
-
-| ID   | Tipo       | User Story / Task                               | Description                                         | Estimación (Horas) | Assigned To                           | Status |
-| ---- | ---------- | ----------------------------------------------- | --------------------------------------------------- | ------------------ | ------------------------------------- | ------ |
-| SS01 | Spike      | Investigar uso de Mockito                       | Integrar Mockito para pruebas unitarias             | 8                  | Aponte Cruzado, Andrea Marielena      | Done  |
-| SS02 | Spike      | Investigar uso de Selenium                      | Pruebas automatizadas con Selenium                  | 8                  | Belahonia Miranda, Fabrisio           | Done |
-| US05 | User Story | Añadir Citas                                    | Registrar nuevas citas en el sistema                | 8                  | Bohorquez Lerzundi, Gerardo Sebastian | Done |
-| US04 | User Story | Editar Citas                                    | Modificar información de una cita existente         | 8                  | Cutiri Agüero, Fabrizio Alexander     | Done  |
-| US06 | User Story | Eliminar Cita                                   | Eliminar citas del sistema                          | 8                  | Berrocal Ramirez, Omar Christian      | Done  |
-| US11 | User Story | Mostrar Pacientes                               | Visualizar lista de pacientes                       | 8                  | Aponte Cruzado, Andrea Marielena      | Done  |
-| US12 | User Story | Añadir Pacientes                                | Registrar nuevos pacientes                          | 8                  | Belahonia Miranda, Fabrisio           | Done |
-| US13 | User Story | Editar Pacientes                                | Modificar datos de pacientes                        | 8                  | Bohorquez Lerzundi, Gerardo Sebastian | Done  |
-| US16 | User Story | Añadir Historial Clínico                        | Registrar historial clínico de pacientes            | 8                  | Cutiri Agüero, Fabrizio Alexander     | Done  |
-| US19 | User Story | Visualizar Inventario                           | Ver inventario general                              | 8                  | Berrocal Ramirez, Omar Christian      |    Done  |
-| US20 | User Story | Añadir objeto al inventario                     | Registrar nuevos objetos en inventario              | 8                  | Aponte Cruzado, Andrea Marielena      | Done   |
-| US21 | User Story | Editar objeto del inventario                    | Modificar datos de objetos en inventario            | 8                  | Belahonia Miranda, Fabrisio           | Done   |
-| US22 | User Story | Eliminar objeto del inventario                  | Eliminar objetos del inventario                     | 8                  | Bohorquez Lerzundi, Gerardo Sebastian | Done   |
-| US25 | User Story | Registrar cantidad consumida de ítems           | Registrar insumos usados por tratamiento            | 8                  | Cutiri Agüero, Fabrizio Alexander     | Done   |
-| TS01 | Technical  | Endpoint crear ítem inventario                  | POST /api/v1/items                                  | 8                  | Berrocal Ramirez, Omar Christian      | Done   |
-| TS02 | Technical  | Endpoint actualizar ítem inventario             | PUT /api/v1/items/{id}                              | 8                  | Aponte Cruzado, Andrea Marielena      | Done   |
-| TS03 | Technical  | Endpoint eliminar ítem inventario               | DELETE /api/v1/items/{id}                           | 8                  | Belahonia Miranda, Fabrisio           | Done   |
-| TS04 | Technical  | Endpoint obtener ítem por ID                    | GET /api/v1/items/{id}                              | 8                  | Bohorquez Lerzundi, Gerardo Sebastian | Done   |
-| TS05 | Technical  | Endpoint obtener todos ítems de usuario         | GET /api/v1/items                                   | 8                  | Cutiri Agüero, Fabrizio Alexander     | Done   |
-| TS06 | Technical  | Endpoint crear paciente                         | POST /api/v1/patients                               | 8                  | Berrocal Ramirez, Omar Christian      | Done   |
-| TS07 | Technical  | Endpoint actualizar paciente                    | PUT /api/v1/patients/{id}                           | 8                  | Aponte Cruzado, Andrea Marielena      | Done   |
-| TS08 | Technical  | Endpoint eliminar paciente                      | DELETE /api/v1/patients/{id}                        | 8                  | Belahonia Miranda, Fabrisio           | Done   |
-| TS11 | Technical  | Endpoint añadir historial clínico               | POST /api/v1/patients/{patientId}/medical-histories | 8                  | Bohorquez Lerzundi, Gerardo Sebastian | To-do  |
-| TS12 | Technical  | Endpoint obtener historial clínico por paciente | GET /api/v1/patients/{patientId}/medical-histories  | 8                  | Cutiri Agüero, Fabrizio Alexander     | Done   |
-| TS13 | Technical  | Endpoint crear cita                             | POST /api/v1/appointments                           | 8                  | Berrocal Ramirez, Omar Christian      | Done   |
-| TS14 | Technical  | Endpoint actualizar cita                        | PUT /api/v1/appointments/{appointmentId}            | 8                  | Aponte Cruzado, Andrea Marielena      | Done   |
-| TS15 | Technical  | Endpoint eliminar cita                          | DELETE /api/v1/appointments/{appointmentId}         | 8                  | Belahonia Miranda, Fabrisio           | Done   |
-| TS18 | Technical  | Endpoint obtener cita por ID                    | GET /api/v1/appointments/appointment/{id}           | 8                  | Bohorquez Lerzundi, Gerardo Sebastian | Done   |
-| US03 | User Story | Mostrar Citas                                   | Visualizar todas las citas registradas              | 5                  | Cutiri Agüero, Fabrizio Alexander     | Done   |
-| US07 | User Story | Buscar Citas                                    | Buscar citas por fecha o DNI                        | 5                  | Berrocal Ramirez, Omar Christian      | Done   |
-| US08 | User Story | Gestionar horarios de atención                  | Ver y editar horarios de atención                   | 5                  | Aponte Cruzado, Andrea Marielena      | Done   |
-| US09 | User Story | Pagar tratamiento                               | Procesar pagos de tratamientos                      | 5                  | Belahonia Miranda, Fabrisio           | Done   |
-| US10 | User Story | Historial de pagos                              | Visualizar historial de pagos                       | 5                  | Bohorquez Lerzundi, Gerardo Sebastian | To-do  |
-| US14 | User Story | Eliminar Pacientes                              | Eliminar pacientes inactivos                        | 5                  | Cutiri Agüero, Fabrizio Alexander     | Done   |
-| US15 | User Story | Buscar Pacientes                                | Buscar pacientes por DNI                            | 5                  | Berrocal Ramirez, Omar Christian      | Done   |
-| US17 | User Story | Eliminar historial clínico                      | Eliminar historial clínico de paciente              | 5                  | Aponte Cruzado, Andrea Marielena      | Done   |
-| US18 | User Story | Mostrar historial clínico                       | Visualizar historial clínico                        | 5                  | Belahonia Miranda, Fabrisio           | Done   |
-| US23 | User Story | Dashboard de inventario                         | Visualizar métricas de inventario                   | 5                  | Bohorquez Lerzundi, Gerardo Sebastian | Done   |
-| US24 | User Story | Guardar fecha de ajuste de inventario           | Registrar fecha de movimientos en inventario        | 5                  | Cutiri Agüero, Fabrizio Alexander     | Done   |
-| TS09 | Technical  | Endpoint obtener paciente por ID                | GET /api/v1/patients/{id}                           | 5                  | Berrocal Ramirez, Omar Christian      | Done   |
-| TS10 | Technical  | Endpoint obtener todos pacientes de usuario     | GET /api/v1/patients                                | 5                  | Aponte Cruzado, Andrea Marielena      | Done   |
-| TS16 | Technical  | Endpoint obtener todas citas de usuario         | GET /api/v1/appointments                            | 5                  | Belahonia Miranda, Fabrisio           | Done   |
-| TS17 | Technical  | Endpoint obtener todas citas de paciente        | GET /api/v1/appointments/{patientId}                | 5                  | Bohorquez Lerzundi, Gerardo Sebastian | Done   |
-| TS19 | Technical  | Endpoint crear factura                          | POST /api/v1/invoices                               | 5                  | Cutiri Agüero, Fabrizio Alexander     | Done   |
-| TS20 | Technical  | Endpoint obtener todas facturas de usuario      | GET /api/v1/invoices                                | 5                  | Berrocal Ramirez, Omar Christian      | Done   |
-| TS21 | Technical  | Endpoint obtener factura por ID de cita         | GET /api/v1/invoices/{appointmentId}                | 5                  | Aponte Cruzado, Andrea Marielena      | Done   |
-| US26 | User Story | Gestión del Perfil                              | Visualizar y editar perfil                          | 3                  | Belahonia Miranda, Fabrisio           | Done   |
-| US27 | User Story | Visualización del menú principal                | Ver menú del landing page                           | 3                  | Bohorquez Lerzundi, Gerardo Sebastian | Done   |
-| US28 | User Story | Navegación por la barra principal               | Navegar entre secciones                             | 3                  | Cutiri Agüero, Fabrizio Alexander     | Done   |
-| US29 | User Story | Sección About Us                                | Ver información sobre la empresa                    | 3                  | Berrocal Ramirez, Omar Christian      | Done   |
-| US30 | User Story | Sección de Servicios                            | Visualizar servicios ofrecidos                      | 3                  | Aponte Cruzado, Andrea Marielena      | Done   |
-| US31 | User Story | Sección Contact Us                              | Visualizar datos de contacto                        | 3                  | Belahonia Miranda, Fabrisio           | Done   |
-| US32 | User Story | Formulario de contacto                          | Enviar formulario de contacto                       | 3                  | Bohorquez Lerzundi, Gerardo Sebastian | Done   |
-| US33 | User Story | Footer informativo                              | Ver información legal/complementaria                | 3                  | Cutiri Agüero, Fabrizio Alexander     | Done   |
-| US01 | User Story | Registrar Usuarios                              | Registro de usuarios en la app                      | 3                  | Berrocal Ramirez, Omar Christian      | Done   |
-| US02 | User Story | Iniciar Sesión                                  | Login de usuarios                                   | 3                  | Aponte Cruzado, Andrea Marielena      | Done   |
-| TS22 | Technical  | Endpoint registrar usuario                      | POST /api/auth/register                             | 3                  | Belahonia Miranda, Fabrisio           | Done   |
-| TS23 | Technical  | Endpoint iniciar sesión                         | POST /api/auth/login                                | 3                  | Bohorquez Lerzundi, Gerardo Sebastian |  Done  |
-
+| ID   | Tipo       | User Story / Task                               | Descripción (“Como... deseo... para...”)                                                                                                        | Estimación (Horas) | Assigned To                           | Status |
+| ---- | ---------- | ----------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ | ------------------------------------- | ------ |
+| SS01 | Spike      | Investigar uso de Mockito                       | Como desarrollador, deseo investigar el uso de **Mockito** para crear pruebas unitarias efectivas y asegurar la calidad del código.             | 8                  | Aponte Cruzado, Andrea Marielena      | Done   |
+| SS02 | Spike      | Investigar uso de Selenium                      | Como desarrollador, deseo explorar **Selenium** para automatizar pruebas de interfaz y validar el flujo de usuario.                             | 8                  | Belahonia Miranda, Fabrisio           | Done   |
+| US05 | User Story | Añadir Citas                                    | Como odontólogo, deseo **añadir nuevas citas** al sistema para gestionar mi agenda de atención.                                                 | 8                  | Bohorquez Lerzundi, Gerardo Sebastian | Done   |
+| US04 | User Story | Editar Citas                                    | Como odontólogo, deseo **editar la información de una cita existente** para corregir o actualizar datos de mis pacientes.                       | 8                  | Cutiri Agüero, Fabrizio Alexander     | Done   |
+| US06 | User Story | Eliminar Cita                                   | Como odontólogo, deseo **eliminar una cita** para mantener la agenda libre de registros cancelados o duplicados.                                | 8                  | Berrocal Ramirez, Omar Christian      | Done   |
+| US11 | User Story | Mostrar Pacientes                               | Como recepcionista, deseo **visualizar la lista de pacientes registrados** para gestionar sus atenciones.                                       | 8                  | Aponte Cruzado, Andrea Marielena      | Done   |
+| US12 | User Story | Añadir Pacientes                                | Como recepcionista, deseo **añadir nuevos pacientes** al sistema para llevar un control adecuado de sus datos.                                  | 8                  | Belahonia Miranda, Fabrisio           | Done   |
+| US13 | User Story | Editar Pacientes                                | Como recepcionista, deseo **editar la información de los pacientes** para mantener los registros actualizados.                                  | 8                  | Bohorquez Lerzundi, Gerardo Sebastian | Done   |
+| US16 | User Story | Añadir Historial Clínico                        | Como odontólogo, deseo **añadir el historial clínico de un paciente** para registrar diagnósticos y tratamientos realizados.                    | 8                  | Cutiri Agüero, Fabrizio Alexander     | Done   |
+| US19 | User Story | Visualizar Inventario                           | Como administrador, deseo **visualizar el inventario general** para conocer el stock disponible de insumos y materiales.                        | 8                  | Berrocal Ramirez, Omar Christian      | Done   |
+| US20 | User Story | Añadir objeto al inventario                     | Como administrador, deseo **añadir nuevos objetos al inventario** para mantener actualizado el registro de materiales.                          | 8                  | Aponte Cruzado, Andrea Marielena      | Done   |
+| US21 | User Story | Editar objeto del inventario                    | Como administrador, deseo **editar los datos de los objetos del inventario** para reflejar cambios o correcciones.                              | 8                  | Belahonia Miranda, Fabrisio           | Done   |
+| US22 | User Story | Eliminar objeto del inventario                  | Como administrador, deseo **eliminar objetos del inventario** cuando ya no estén disponibles o sean obsoletos.                                  | 8                  | Bohorquez Lerzundi, Gerardo Sebastian | Done   |
+| US25 | User Story | Registrar cantidad consumida de ítems           | Como odontólogo, deseo **registrar la cantidad consumida de insumos** en cada tratamiento para controlar el uso de materiales.                  | 8                  | Cutiri Agüero, Fabrizio Alexander     | Done   |
+| TS01 | Technical  | Endpoint crear ítem inventario                  | Como desarrollador, deseo **implementar el endpoint POST /api/v1/items** para permitir la creación de nuevos ítems en el inventario.            | 8                  | Berrocal Ramirez, Omar Christian      | Done   |
+| TS02 | Technical  | Endpoint actualizar ítem inventario             | Como desarrollador, deseo **implementar el endpoint PUT /api/v1/items/{id}** para actualizar la información de un ítem existente.               | 8                  | Aponte Cruzado, Andrea Marielena      | Done   |
+| TS03 | Technical  | Endpoint eliminar ítem inventario               | Como desarrollador, deseo **implementar el endpoint DELETE /api/v1/items/{id}** para eliminar ítems del inventario.                             | 8                  | Belahonia Miranda, Fabrisio           | Done   |
+| TS04 | Technical  | Endpoint obtener ítem por ID                    | Como desarrollador, deseo **implementar el endpoint GET /api/v1/items/{id}** para obtener la información de un ítem específico.                 | 8                  | Bohorquez Lerzundi, Gerardo Sebastian | Done   |
+| TS05 | Technical  | Endpoint obtener todos ítems de usuario         | Como desarrollador, deseo **implementar el endpoint GET /api/v1/items** para listar todos los ítems del inventario de un usuario autenticado.   | 8                  | Cutiri Agüero, Fabrizio Alexander     | Done   |
+| TS06 | Technical  | Endpoint crear paciente                         | Como desarrollador, deseo **implementar el endpoint POST /api/v1/patients** para registrar nuevos pacientes en el sistema.                      | 8                  | Berrocal Ramirez, Omar Christian      | Done   |
+| TS07 | Technical  | Endpoint actualizar paciente                    | Como desarrollador, deseo **implementar el endpoint PUT /api/v1/patients/{id}** para actualizar la información de un paciente existente.        | 8                  | Aponte Cruzado, Andrea Marielena      | Done   |
+| TS08 | Technical  | Endpoint eliminar paciente                      | Como desarrollador, deseo **implementar el endpoint DELETE /api/v1/patients/{id}** para eliminar pacientes inactivos.                           | 8                  | Belahonia Miranda, Fabrisio           | Done   |
+| TS11 | Technical  | Endpoint añadir historial clínico               | Como desarrollador, deseo **implementar el endpoint POST /api/v1/patients/{patientId}/medical-histories** para añadir historiales clínicos.     | 8                  | Bohorquez Lerzundi, Gerardo Sebastian | To-do  |
+| TS12 | Technical  | Endpoint obtener historial clínico por paciente | Como desarrollador, deseo **implementar el endpoint GET /api/v1/patients/{patientId}/medical-histories** para obtener los historiales clínicos. | 8                  | Cutiri Agüero, Fabrizio Alexander     | Done   |
+| TS13 | Technical  | Endpoint crear cita                             | Como desarrollador, deseo **implementar el endpoint POST /api/v1/appointments** para registrar nuevas citas.                                    | 8                  | Berrocal Ramirez, Omar Christian      | Done   |
+| TS14 | Technical  | Endpoint actualizar cita                        | Como desarrollador, deseo **implementar el endpoint PUT /api/v1/appointments/{appointmentId}** para actualizar citas existentes.                | 8                  | Aponte Cruzado, Andrea Marielena      | Done   |
+| TS15 | Technical  | Endpoint eliminar cita                          | Como desarrollador, deseo **implementar el endpoint DELETE /api/v1/appointments/{appointmentId}** para eliminar citas registradas.              | 8                  | Belahonia Miranda, Fabrisio           | Done   |
+| TS18 | Technical  | Endpoint obtener cita por ID                    | Como desarrollador, deseo **implementar el endpoint GET /api/v1/appointments/appointment/{id}** para obtener citas por ID.                      | 8                  | Bohorquez Lerzundi, Gerardo Sebastian | Done   |
+| US03 | User Story | Mostrar Citas                                   | Como odontólogo, deseo **visualizar todas las citas registradas** para tener una vista general de mi agenda.                                    | 5                  | Cutiri Agüero, Fabrizio Alexander     | Done   |
+| US07 | User Story | Buscar Citas                                    | Como odontólogo, deseo **buscar citas por fecha o DNI** para localizar rápidamente una cita específica.                                         | 5                  | Berrocal Ramirez, Omar Christian      | Done   |
+| US08 | User Story | Gestionar horarios de atención                  | Como odontólogo, deseo **gestionar mis horarios de atención** para definir mi disponibilidad.                                                   | 5                  | Aponte Cruzado, Andrea Marielena      | Done   |
+| US09 | User Story | Pagar tratamiento                               | Como paciente, deseo **pagar mi tratamiento** para completar el proceso de atención odontológica.                                               | 5                  | Belahonia Miranda, Fabrisio           | Done   |
+| US10 | User Story | Historial de pagos                              | Como paciente, deseo **ver el historial de mis pagos** para llevar un control de mis transacciones.                                             | 5                  | Bohorquez Lerzundi, Gerardo Sebastian | To-do  |
+| US14 | User Story | Eliminar Pacientes                              | Como recepcionista, deseo **eliminar pacientes inactivos** para mantener limpia la base de datos.                                               | 5                  | Cutiri Agüero, Fabrizio Alexander     | Done   |
+| US15 | User Story | Buscar Pacientes                                | Como recepcionista, deseo **buscar pacientes por DNI** para encontrarlos rápidamente en el sistema.                                             | 5                  | Berrocal Ramirez, Omar Christian      | Done   |
+| US17 | User Story | Eliminar historial clínico                      | Como odontólogo, deseo **eliminar historiales clínicos** cuando sea necesario corregir información.                                             | 5                  | Aponte Cruzado, Andrea Marielena      | Done   |
+| US18 | User Story | Mostrar historial clínico                       | Como odontólogo, deseo **visualizar los historiales clínicos** de mis pacientes para consultar tratamientos previos.                            | 5                  | Belahonia Miranda, Fabrisio           | Done   |
+| US23 | User Story | Dashboard de inventario                         | Como administrador, deseo **ver un dashboard de inventario** para monitorear métricas de stock y consumo.                                       | 5                  | Bohorquez Lerzundi, Gerardo Sebastian | Done   |
+| US24 | User Story | Guardar fecha de ajuste de inventario           | Como administrador, deseo **registrar la fecha de ajuste del inventario** para llevar trazabilidad de movimientos.                              | 5                  | Cutiri Agüero, Fabrizio Alexander     | Done   |
+| TS09 | Technical  | Endpoint obtener paciente por ID                | Como desarrollador, deseo **implementar el endpoint GET /api/v1/patients/{id}** para obtener los datos de un paciente específico.               | 5                  | Berrocal Ramirez, Omar Christian      | Done   |
+| TS10 | Technical  | Endpoint obtener todos pacientes de usuario     | Como desarrollador, deseo **implementar el endpoint GET /api/v1/patients** para listar todos los pacientes de un usuario autenticado.           | 5                  | Aponte Cruzado, Andrea Marielena      | Done   |
+| TS16 | Technical  | Endpoint obtener todas citas de usuario         | Como desarrollador, deseo **implementar el endpoint GET /api/v1/appointments** para listar todas las citas del usuario autenticado.             | 5                  | Belahonia Miranda, Fabrisio           | Done   |
+| TS17 | Technical  | Endpoint obtener todas citas de paciente        | Como desarrollador, deseo **implementar el endpoint GET /api/v1/appointments/{patientId}** para listar todas las citas de un paciente.          | 5                  | Bohorquez Lerzundi, Gerardo Sebastian | Done   |
+| TS19 | Technical  | Endpoint crear factura                          | Como desarrollador, deseo **implementar el endpoint POST /api/v1/invoices** para crear facturas asociadas a tratamientos.                       | 5                  | Cutiri Agüero, Fabrizio Alexander     | Done   |
+| TS20 | Technical  | Endpoint obtener todas facturas de usuario      | Como desarrollador, deseo **implementar el endpoint GET /api/v1/invoices** para obtener todas las facturas del usuario autenticado.             | 5                  | Berrocal Ramirez, Omar Christian      | Done   |
+| TS21 | Technical  | Endpoint obtener factura por ID de cita         | Como desarrollador, deseo **implementar el endpoint GET /api/v1/invoices/{appointmentId}** para obtener facturas por ID de cita.                | 5                  | Aponte Cruzado, Andrea Marielena      | Done   |
+| US26 | User Story | Gestión del Perfil                              | Como usuario, deseo **gestionar mi perfil personal** para actualizar mi información y mantenerla actualizada.                                   | 3                  | Belahonia Miranda, Fabrisio           | Done   |
+| US27 | User Story | Visualización del menú principal                | Como visitante, deseo **visualizar el menú principal** para navegar de forma intuitiva por el sitio.                                            | 3                  | Bohorquez Lerzundi, Gerardo Sebastian | Done   |
+| US28 | User Story | Navegación por la barra principal               | Como usuario, deseo **navegar entre las secciones del sitio** mediante la barra principal.                                                      | 3                  | Cutiri Agüero, Fabrizio Alexander     | Done   |
+| US29 | User Story | Sección About Us                                | Como visitante, deseo **ver la sección “About Us”** para conocer más sobre la empresa.                                                          | 3                  | Berrocal Ramirez, Omar Christian      | Done   |
+| US30 | User Story | Sección de Servicios                            | Como visitante, deseo **visualizar los servicios ofrecidos** para conocer las soluciones que brinda Dentify.                                    | 3                  | Aponte Cruzado, Andrea Marielena      | Done   |
+| US31 | User Story | Sección Contact Us                              | Como visitante, deseo **visualizar la sección de contacto** para comunicarme con la clínica.                                                    | 3                  | Belahonia Miranda, Fabrisio           | Done   |
+| US32 | User Story | Formulario de contacto                          | Como visitante, deseo **enviar el formulario de contacto** para realizar consultas o solicitudes.                                               | 3                  | Bohorquez Lerzundi, Gerardo Sebastian | Done   |
+| US33 | User Story | Footer informativo                              | Como visitante, deseo **visualizar el footer informativo** con datos legales y enlaces complementarios.                                         | 3                  | Cutiri Agüero, Fabrizio Alexander     | Done   |
+| US01 | User Story | Registrar Usuarios                              | Como usuario, deseo **registrarme en la aplicación** para acceder a los servicios personalizados.                                               | 3                  | Berrocal Ramirez, Omar Christian      | Done   |
+| US02 | User Story | Iniciar Sesión                                  | Como usuario, deseo **iniciar sesión** para acceder a mi cuenta y funcionalidades personalizadas.                                               | 3                  | Aponte Cruzado, Andrea Marielena      | Done   |
+| TS22 | Technical  | Endpoint registrar usuario                      | Como desarrollador, deseo **implementar el endpoint POST /api/auth/register** para permitir el registro de nuevos usuarios.                     | 3                  | Belahonia Miranda, Fabrisio           | Done   |
+| TS23 | Technical  | Endpoint iniciar sesión                         | Como desarrollador, deseo **implementar el endpoint POST /api/auth/login** para permitir el inicio de sesión de usuarios registrados.           | 3                  | Bohorquez Lerzundi, Gerardo Sebastian | Done   |
 
 ### 5.2.2. Implemented Landing Page Evidence
 
@@ -4408,12 +4525,9 @@ En esta sección mostraremos evidencias del landing page desplegado.
 
 En esta sección mostraremos evidencias del Frontend desplegado.
 
-
 **Link del Frontend:** https://dentify-frontend.web.app/login
 
-![des_front.png](Img/des_front.png)  
-
-
+![des_front.png](Img/des_front.png)
 
 ### 5.2.4. Implemented Native-Mobile Application Evidence
 
@@ -4421,7 +4535,7 @@ En esta sección mostraremos evidencias del Mobile Application desplegado.
 
 **Evidencias:**  
 ![mov_des.png](Img/mov_des.png)  
-![Mobile_evidence.jpg](Img/Mobile_evidence.jpg) 
+![Mobile_evidence.jpg](Img/Mobile_evidence.jpg)
 
 ### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
@@ -4434,38 +4548,262 @@ En esta sección mostraremos evidencias del Mobile Application desplegado.
 ![REST_BACK2.png](Img/REST_BACK2.png)  
 ![REST_BACK3.png](Img/REST_BACK3.png)  
 ![REST_BACK4.png](Img/REST_BACK4.png)  
-![REST_BACK5.png](Img/REST_BACK5.png) 
-
+![REST_BACK5.png](Img/REST_BACK5.png)
 
 ### 5.2.6. RESTful API documentation
 
-En esta sección se incluyen capturas de la **documentación de la API RESTful**.  
+En esta sección se incluyen capturas de la **documentación de la API RESTful**.
 
 **Evidencias:**  
 ![doc1.png](Img/doc1.png)  
-![doc2.png](Img/doc2.png) 
-
+![doc2.png](Img/doc2.png)
 
 ### 5.2.7. Team Collaboration Insights
 
-
-| Alumno                              | Actividad                                                                                       |
-|-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Aponte Cruzado, Andrea Marielena    | Capítulo I: Startup Profile (1.1, 1.2 y 1.3).                                                   |
-| Belahonia Miranda, Fabrisio         | Capítulo II: Requirements Elicitation & Analysis (2.1 – 2.4).                                   |
+| Alumno                                | Actividad                                                                                                     |
+| ------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| Aponte Cruzado, Andrea Marielena      | Capítulo I: Startup Profile (1.1, 1.2 y 1.3).                                                                 |
+| Belahonia Miranda, Fabrisio           | Capítulo II: Requirements Elicitation & Analysis (2.1 – 2.4).                                                 |
 | Bohorquez Lerzundi, Gerardo Sebastian | Capítulo IV: Product Design (Documentación y elaboración de Landing Page y Mobile Applications UX/UI Design). |
-| Cutiri Agüero, Fabrizio Alexander   | Capítulo V: Product Implementation & Deployment (5.1 – 5.2).                                    |
-| Berrocal Ramirez, Omar Christian    | Capítulo IV: Domain-Driven Software Architecture y Database Design (4.8 – 4.10).                |
+| Cutiri Agüero, Fabrizio Alexander     | Capítulo V: Product Implementation & Deployment (5.1 – 5.2).                                                  |
+| Berrocal Ramirez, Omar Christian      | Capítulo IV: Domain-Driven Software Architecture y Database Design (4.8 – 4.10).                              |
 
 ## 5.3. Video About-the-Product
 
+## 5.4 Acuerdo de Servicio SaaS
+
+**Términos y Condiciones de Uso - Plataforma Dentify**
+
+1. Aceptación de los Términos
+   El acceso y uso de la plataforma Dentify, desarrollada por la startup Dentify Technologies, implica la aceptación plena y sin reservas de los presentes términos y condiciones.
+   Si el usuario no está de acuerdo con estos términos, deberá abstenerse de utilizar la plataforma.<br><br>
+
+2. Naturaleza del Servicio
+   Dentify es una solución tecnológica ofrecida bajo el modelo Software as a Service (SaaS), que permite a clínicas y consultorios odontológicos gestionar pacientes, citas, historiales clínicos, tratamientos, pagos e inventario médico en tiempo real, a través de una plataforma web y aplicaciones móviles seguras y fáciles de usar.<br><br>
+
+3. Derechos de los Usuarios
+   Los usuarios de Dentify tienen derecho a:
+
+- Acceder al sistema mediante credenciales válidas y personalizadas.
+- Utilizar las funcionalidades contratadas de acuerdo con el plan de suscripción activo (por ejemplo, versiones freemium o premium).
+- Recibir soporte técnico dentro de los canales y horarios establecidos por Dentify Technologies.
+- Mantener la propiedad, integridad y confidencialidad de los datos registrados en la plataforma, conforme a la Política de Privacidad vigente y la legislación aplicable sobre protección de datos personales.
+
+<br><br>
+
+4. Obligaciones del Usuario
+   Al utilizar la plataforma, los usuarios se comprometen a:
+
+- Proporcionar información veraz, completa y actualizada durante el registro y uso de la plataforma.
+
+- Hacer un uso responsable del sistema, evitando prácticas que comprometan la integridad, disponibilidad o seguridad del servicio.
+
+- No compartir sus credenciales de acceso con terceros ni permitir accesos no autorizados.
+
+- Utilizar Dentify únicamente para fines profesionales y conforme a la legislación vigente y a los presentes términos.
+
+5. Restricciones de Uso
+   Se prohíbe expresamente:
+
+- Realizar ingeniería inversa, descompilación, extracción o modificación del software.
+
+- Utilizar la plataforma para actividades ilegales, fraudulentas o que afecten a otros usuarios o al funcionamiento del sistema.
+
+- Exceder los límites de uso definidos por el plan contratado, incluyendo número de usuarios, pacientes o consultas simultáneas.
+
+- Utilizar los servicios de Dentify con fines distintos a los autorizados por la empresa.
+
+6. Suspensión y Terminación del Servicio
+   Dentify Technologies se reserva el derecho de suspender temporal o permanentemente el acceso del usuario en los siguientes casos:
+
+- Incumplimiento de los presentes términos y condiciones.
+
+- Uso indebido o que comprometa la seguridad o estabilidad del sistema.
+
+- Solicitud expresa del titular de la cuenta.<br><br>
+
+  En caso de suspensión o cancelación, Dentify podrá conservar los datos del usuario por el período que determine la normativa vigente o la política de retención de datos.
+
+7. Propiedad Intelectual
+   Todos los derechos sobre el software, interfaces, código fuente, diseño, logotipos, marca comercial y contenidos de Dentify pertenecen exclusivamente a Dentify Technologies.
+   Queda prohibida su reproducción, distribución o uso no autorizado bajo cualquier forma o medio.<br><br>
+
+8. Modificaciones de los Términos
+   Dentify Technologies se reserva el derecho de modificar o actualizar los presentes términos en cualquier momento.
+   Las modificaciones serán comunicadas a los usuarios a través del portal web, notificaciones dentro de la plataforma o por correo electrónico.
+   El uso continuado del servicio después de dichos cambios implica la aceptación de los nuevos términos.<br><br>
+
+9. Legislación Aplicable
+   El presente acuerdo se rige por las leyes de la República del Perú.
+   Cualquier controversia relacionada con el uso de la plataforma Dentify será sometida a la jurisdicción de los tribunales competentes del Distrito Judicial de Lima Metropolitana.
+
 # Capítulo VI: Product Verification & Validation
+
 ## 6.1. Testing Suites & Validation
+
 ### 6.1.1. Core Entities Unit Tests.
+
+En esta sección se presentan las pruebas unitarias desarrolladas para las entidades principales del sistema. El objetivo de estas pruebas es validar que la lógica interna de cada entidad funcione correctamente de forma aislada, garantizando que los constructores, métodos de actualización y validaciones internas se comporten según lo esperado.
+
+Para este propósito se utilizaron las clases de prueba InvoiceTest, InventoryItemTest y PatientTest, las cuales verifican el correcto funcionamiento de los aggregates Invoice, Item y Patient, respectivamente. Estas pruebas se implementaron utilizando JUnit, un framework ampliamente utilizado en entornos Spring Boot para asegurar la calidad del código y detectar errores tempranos durante el desarrollo.
+
+**Patient Test Class**
+
+![patient-test-class.png](Img/patient-test-class.png)
+
+**Create Patient Test**
+
+![create-patient-test.png](Img/create-patient-test.png)
+
+**Update Patient Test**
+
+![update-patient-test.png](Img/update-patient-test.png)
+
+**Patient Tests Passed**
+
+![patient-test-passed.png](Img/patient-test-passed.png)
+
+**Invoice Test**
+
+![create-invoice-test.png](Img/create-invoice-test.png)
+
+**Invoice Test Passed**
+
+![invoice-test-passed.png](Img/invoice-test-passed.png)
+
+**Inventory Item Test Class**
+
+![inventory-item-test-class.png](Img/inventory-item-test-class.png)
+
+**Create Inventory Item Test**
+
+![create-inventory-item-test.png](Img/create-inventory-item-test.png)
+
+**Update Inventory Item Test**
+
+![update-inventory-item-test.png](Img/update-inventory-item-test.png)
+
+**Inventory Item Tests Passed**
+
+![inventory-item-test-passed.png](Img/inventory-item-test-passed.png)
+
+La ejecución de pruebas unitarias sobre las aggretes principales **(Patient, Invoice, Item)** permite garantizar la consistencia e integridad de los datos a nivel de dominio, antes de interactuar con capas más complejas del sistema como los repositorios o controladores.
+
+Estas pruebas son fundamentales porque:
+
+- Aseguran que la lógica del dominio se comporta de forma predecible y conforme a los requerimientos funcionales.
+
+- Permiten detectar errores en etapas tempranas del desarrollo, reduciendo el costo de corrección y el riesgo de fallos en producción.
+
 ### 6.1.2. Core Integration Tests.
+
+Para verificar el correcto funcionamiento del módulo IAM (Identity and Access Management) dentro de Dentify, se desarrolló una prueba de integración denominada registerAndLoginAndValidateTokenFlow.
+Esta prueba asegura la correcta interacción entre los componentes del contexto IAM, incluyendo la capa REST, el servicio de autenticación (AuthCommandServiceImpl), el repositorio (UserRepository), y el proveedor de tokens (JwtServiceImpl).
+
+**El flujo validado incluye:**
+
+1. Registro de un nuevo usuario
+
+- Se utiliza el endpoint POST /api/auth/register enviando un RegisterRequestResource con credenciales y datos básicos.
+
+- Se valida que la respuesta contenga un token JWT de acceso y que el campo username coincida con el usuario creado.
+
+- Se comprueba además que el usuario se haya persistido correctamente en la base de datos a través del UserRepository.
+
+2. Inicio de sesión del usuario recién creado
+
+- Se consume el endpoint POST /api/auth/login con las mismas credenciales.
+
+- Se valida que la autenticación retorne un accessToken y refreshToken válidos.
+
+- El test verifica también que el token sea correctamente generado y pueda ser validado por JwtServiceImpl.
+
+3. Validación del token JWT
+
+- Usando el accessToken obtenido, se ejecuta una llamada autenticada (simulada con MockMvc) a un endpoint protegido, por ejemplo GET /api/auth/me o similar.
+
+- Se espera una respuesta HTTP 200, demostrando que el token es aceptado por el filtro JwtAuthFilter y que el contexto de seguridad fue correctamente establecido.
+
+Codigo Test:
+
+![test1](img/test1.png)
+
+Resultado:
+
+![resulttest1](img/resulttest1.png)
+
 ### 6.1.3. Core Behavior-Driven Development
+
+Con el objetivo de validar el comportamiento esperado del sistema **Dentify** desde la perspectiva del **usuario final**, se desarrollaron escenarios de prueba utilizando **Behavior-Driven Development (BDD)**, mediante la sintaxis **Gherkin** e implementación con **Cucumber**.
+
+Las funcionalidades definidas corresponden a tres flujos esenciales del sistema:
+
+- **Autenticación y Usuario**
+- **Gestión de Citas**
+- **Gestión de Pacientes**
+
+Cada flujo representa un proceso clave dentro de la operación del consultorio odontológico digital, garantizando la coherencia entre la experiencia del usuario y la lógica de negocio implementada.
+
+#### Escenario probado 1: Autenticación y Usuario
+
+La funcionalidad validada corresponde al flujo de autenticación básica del sistema, cubriendo el registro, inicio de sesión y posterior acceso a las funcionalidades internas de la aplicación.
+
+Este escenario simula una experiencia realista de un odontólogo desde su primer contacto con la plataforma, verificando que pueda registrarse correctamente, autenticarse y acceder al entorno principal del sistema.
+
+En la ejecución se evidenció que:
+
+- Se ejecutaron correctamente todos los pasos definidos en el feature.
+- El escenario pasó sin errores (1 escenario ejecutado – 1 escenario aprobado).
+- Los logs de **Hibernate** mostraron operaciones reales sobre la base de datos (**insert** y **select**), demostrando la correcta interacción con el entorno de prueba.
+
+Este caso garantiza que el proceso de autenticación sea confiable, fluido y seguro, cumpliendo con las políticas de acceso definidas en Dentify.
+
+#### Escenario probado 2: Gestión de Citas
+
+La funcionalidad probada cubre el flujo completo de administración de citas, incluyendo la visualización, registro, edición y restricción de modificación de citas pasadas.
+
+El escenario reproduce el comportamiento esperado de un odontólogo autenticado gestionando su agenda diaria, asegurando la integridad de los datos y el cumplimiento de las reglas de negocio.
+
+Durante la prueba se observó que:
+
+- Se ejecutaron satisfactoriamente todos los pasos del escenario.
+- El sistema realizó operaciones **insert**, **update**, **select** y **delete** sobre la base de datos, verificadas mediante logs de **Hibernate**.
+- Los resultados demostraron que la aplicación responde adecuadamente a cada acción del usuario, mostrando mensajes de validación y actualizando la interfaz en tiempo real.
+
+Con este escenario se valida que el módulo de citas funciona de manera estable, brindando una experiencia de uso coherente y eficaz para el personal odontológico.
+
+#### Escenario probado 3: Gestión de Pacientes
+
+La funcionalidad evaluada se centra en la administración de pacientes, abarcando la visualización, registro, edición y eliminación de registros en el sistema.
+
+El objetivo principal fue comprobar que las operaciones realizadas desde la interfaz del odontólogo se reflejen correctamente en la base de datos y que los cambios se mantengan consistentes durante todo el proceso.
+
+En la ejecución se confirmó que:
+
+- Todos los pasos definidos en el feature fueron ejecutados exitosamente.
+- El escenario pasó sin errores (1 escenario ejecutado – 1 escenario aprobado).
+- Las operaciones **insert**, **update**, **delete** y **select** se realizaron correctamente, reflejando un flujo de interacción estable entre el sistema y la base de datos.
+
+Este caso valida que el módulo de pacientes de **Dentify** garantiza una gestión confiable de la información clínica y administrativa, asegurando la integridad de los datos registrados.
+
+#### Herramientas utilizadas
+
+- **Gherkin / Cucumber** → Para la definición y ejecución de los escenarios BDD.
+- **Spring Boot + JUnit + H2 Database** → Para la ejecución controlada de los pasos de prueba en un entorno aislado.
+- **Hibernate ORM** → Para la persistencia y trazabilidad de las operaciones sobre la base de datos durante las pruebas.
+
+![CoreBehavior.jpeg](Img/CoreBehavior.jpeg)
+
 ### 6.1.4. Core System Tests.
 
+Prueba de sistema de flujo completo de un usuario.  
+Empieza por el registro, login y luego valida la actualización de datos.  
+Este test valida la respuesta de los _Endpoints_ llamados desde las aplicaciones web y mobile.
+
+![chapter6.1.4-1.jpeg](Img/chapter6.1.4-1.jpeg)  
+![chapter6.1.4-2.jpeg](Img/chapter6.1.4-2.jpeg)  
+![chapter6.1.4-3.jpeg](Img/chapter6.1.4-3.jpg)
+![chapter6.1.4-4.jpeg](Img/chapter6.1.4-4.jpeg)
 
 # Capítulo VII: DevOps Practices
 
@@ -4481,14 +4819,12 @@ En el contexto del proyecto **Dentify**, desarrollado con **Java 22 y Spring Boo
 
 Con este propósito, se implementó un pipeline de CI que cubre todas las fases —desde el **commit** hasta la generación del **artefacto contenedor**—, priorizando los siguientes objetivos:
 
-* **Reproducibilidad:** builds deterministas con dependencias declaradas y entornos estandarizados.
-* **Seguridad temprana (shift left):** detección de vulnerabilidades en código y librerías antes de llegar a producción.
-* **Velocidad y visibilidad:** ejecución paralela de jobs, caché de dependencias y métricas disponibles en tiempo real.
-* **Artefactos listos para CD:** imágenes Docker firmadas y versionadas, listas para despliegue en entornos sucesivos (dev → qa → prod).
+- **Reproducibilidad:** builds deterministas con dependencias declaradas y entornos estandarizados.
+- **Seguridad temprana (shift left):** detección de vulnerabilidades en código y librerías antes de llegar a producción.
+- **Velocidad y visibilidad:** ejecución paralela de jobs, caché de dependencias y métricas disponibles en tiempo real.
+- **Artefactos listos para CD:** imágenes Docker firmadas y versionadas, listas para despliegue en entornos sucesivos (dev → qa → prod).
 
 A continuación, se describen las herramientas y buenas prácticas adoptadas dentro del pipeline de **Integración Continua de Dentify**.
-
-
 
 #### Control de versiones – Git + GitHub
 
@@ -4499,8 +4835,6 @@ Cada push o PR desencadena automáticamente la ejecución del pipeline CI a trav
 
 ![github.png](Img/github.png)
 
-
-
 #### Orquestador CI – GitHub Actions
 
 El pipeline de **Dentify** se orquesta mediante **GitHub Actions**, utilizando workflows definidos en YAML directamente dentro del repositorio.
@@ -4508,8 +4842,6 @@ Los **runners hospedados** ejecutan los jobs en entornos preconfigurados con **J
 
 Los disparadores `on: [push, pull_request]` garantizan que cada commit genere un build reproducible y resultados inmediatos.
 Además, el uso de **cachés de Maven** reduce significativamente los tiempos de compilación en ejecuciones sucesivas.
-
-
 
 #### Build & Dependency Management – Maven
 
@@ -4520,35 +4852,31 @@ El archivo **pom.xml** declara versiones explícitas de dependencias, garantizan
 
 ![maven.png](Img/maven.png)
 
-
 #### Pruebas automatizadas – JUnit 5 + Mockito
 
 El pipeline ejecuta **pruebas unitarias** y **de integración** como parte del proceso CI:
 
-* **JUnit 5** y **Mockito** se utilizan para pruebas unitarias en memoria, enfocadas en lógica de negocio (autenticación, gestión de citas, validaciones de pacientes).
-* En un job independiente, se ejecutan pruebas de integración mediante **Testcontainers**, levantando servicios reales como **PostgreSQL** o **RabbitMQ** en contenedores efímeros.
+- **JUnit 5** y **Mockito** se utilizan para pruebas unitarias en memoria, enfocadas en lógica de negocio (autenticación, gestión de citas, validaciones de pacientes).
+- En un job independiente, se ejecutan pruebas de integración mediante **Testcontainers**, levantando servicios reales como **PostgreSQL** o **RabbitMQ** en contenedores efímeros.
 
 Se establece un **umbral mínimo de cobertura del 80 %**, y las pruebas más lentas se etiquetan con `@Tag("slow")` para permitir paralelización sin afectar el tiempo total del pipeline.
 
 ![unit.png](Img/unit.png)
 
-
 #### Análisis de código – SonarQube + Checkstyle
 
 La calidad del código se evalúa mediante **SonarQube**, que centraliza métricas sobre code smells, duplicaciones y vulnerabilidades.
-El job “**Quality Gate**” impide que los merges continúen si se detectan issues de severidad *blocker* o *critical*.
+El job “**Quality Gate**” impide que los merges continúen si se detectan issues de severidad _blocker_ o _critical_.
 
 Como medidas complementarias:
 
-* **Checkstyle** verifica el cumplimiento de las normas de estilo.
-* **PMD** detecta patrones de código potencialmente inseguros.
-* **SpotBugs** analiza defectos de ejecución.
+- **Checkstyle** verifica el cumplimiento de las normas de estilo.
+- **PMD** detecta patrones de código potencialmente inseguros.
+- **SpotBugs** analiza defectos de ejecución.
 
 Aplicar la política de **fail-fast** en esta etapa evita la acumulación de deuda técnica y promueve la calidad continua del código.
 
- 
 ![sonarqube.png](Img/sonarqube.png)
-
 
 #### Escaneo de dependencias
 
@@ -4557,8 +4885,6 @@ Si se detecta una librería afectada, la build falla automáticamente y se adjun
 
 Esta práctica se alinea con el principio de **seguridad desde el diseño (Security by Design)**, priorizando la detección temprana de riesgos.
 
-
-
 #### Empaquetado y contenedores
 
 Una vez superadas las pruebas y validaciones, el sistema **Dentify** se empaqueta dentro de una **imagen Docker multi-arquitectura (amd64/arm64)** utilizando **Buildx**.
@@ -4566,13 +4892,12 @@ Las imágenes se etiquetan con un esquema de **versionado semántico** y el hash
 
 Se aplican buenas prácticas como:
 
-* Uso de **imágenes base inmutables** y usuarios **no root**.
-* Ejecución de `docker scan` para verificar vulnerabilidades en las capas base.
+- Uso de **imágenes base inmutables** y usuarios **no root**.
+- Ejecución de `docker scan` para verificar vulnerabilidades en las capas base.
 
 De esta forma, se obtiene un artefacto seguro, portable y listo para despliegue en entornos de Continuous Delivery (CD).
 
 ![docker.png](Img/docker.png)
-
 
 #### Registro de artefactos
 
@@ -4580,41 +4905,34 @@ Las imágenes Docker y los archivos `.jar` firmados se publican en un **registro
 
 Se aplica una política de retención automática para eliminar versiones obsoletas, y las imágenes se **firman digitalmente con Cosign** para garantizar su **integridad y autenticidad**.
 
-
-
 #### Feedback y reporting
 
 El pipeline de **Dentify** incluye mecanismos de visibilidad y retroalimentación continua:
 
-* **Badges de estado** de build y cobertura se muestran en el `README.md`.
-* Cada ejecución del pipeline notifica al canal `#devops` con duración, resultado y métricas de rendimiento (**DORA Metrics**: frecuencia de despliegue, MTTR y ratio de fallos).
+- **Badges de estado** de build y cobertura se muestran en el `README.md`.
+- Cada ejecución del pipeline notifica al canal `#devops` con duración, resultado y métricas de rendimiento (**DORA Metrics**: frecuencia de despliegue, MTTR y ratio de fallos).
 
 Esta transparencia fomenta la cultura **DevOps** dentro del equipo, facilitando una detección temprana de errores y una mejora continua en la calidad del software.
 
-
-
-
 ### 7.1.2. Build & Test Suite Pipeline Components.
 
-
-Una vez que el pipeline de **Integración Continua (CI)** se activa, la primera responsabilidad es transformar el código fuente de **Dentify** en un artefacto confiable, verificable y listo para despliegue.  
+Una vez que el pipeline de **Integración Continua (CI)** se activa, la primera responsabilidad es transformar el código fuente de **Dentify** en un artefacto confiable, verificable y listo para despliegue.
 
 Para lograrlo, se orquesta una secuencia de pasos que **compila, prueba, analiza, escanea y empaqueta** la aplicación antes de publicarla en el registro de artefactos.  
-Cada fase del proceso está diseñada para **detectar errores lo más pronto posible** —desde fallos lógicos o violaciones de estilo hasta vulnerabilidades de seguridad—, garantizando que la imagen resultante sea **segura, reproducible e inmutable**.  
+Cada fase del proceso está diseñada para **detectar errores lo más pronto posible** —desde fallos lógicos o violaciones de estilo hasta vulnerabilidades de seguridad—, garantizando que la imagen resultante sea **segura, reproducible e inmutable**.
 
 A continuación se describe, paso a paso, esta “línea de montaje” de construcción y pruebas implementada en **Dentify**.
 
-| **Paso** | **Qué ocurre** | **Herramientas** | **Resultado** |
-|-----------|----------------|------------------|----------------|
-| **A – Compilación determinista** | El código fuente del sistema (módulos de autenticación, gestión de pacientes, gestión de citas, etc.) se compila con Maven en modo batch utilizando la versión de **JDK 22** definida en `toolchains.xml`. | Maven 3.9, Temurin JDK 22 | Artefacto **fat-JAR reproducible y firmado** (GPG). |
-| **B – Pruebas unitarias** | Se validan las reglas de negocio y la lógica de dominio (registro de odontólogos, validaciones de citas, operaciones CRUD de pacientes) en memoria. Las pruebas se ejecutan en paralelo para mantener el ciclo de retroalimentación por debajo de 90 segundos. | JUnit 5, Mockito, JaCoCo | **Cobertura ≥ 80 %** y badge de cobertura actualizado en el README. |
-| **C – Pruebas de integración** | Se levantan servicios reales —como **PostgreSQL** o **RabbitMQ**— en contenedores efímeros para verificar la correcta interacción entre las capas de la aplicación y la configuración de Spring. | Testcontainers, Spring Boot Test | Validación completa de la interacción entre componentes del sistema y configuración del contexto Spring. |
-| **D – Análisis estático** | Se analizan el código y las dependencias en busca de vulnerabilidades, code smells y violaciones de estilo. El **Quality Gate** bloquea automáticamente los merges si se detectan issues *blocker* o *critical*. | SonarQube, Checkstyle, PMD, SpotBugs | Informe detallado en el Pull Request; la build se marca como fallida si el gate no se supera. |
-| **E – Escaneo de vulnerabilidades (CVEs)** | Se examinan todas las dependencias declaradas en `pom.xml` y las capas base del contenedor para detectar vulnerabilidades conocidas. | OWASP Dependency-Check, Snyk CLI, docker scan | Reporte de CVEs; la build se marca como **Failed** si existen vulnerabilidades de severidad alta. |
-| **F – Empaquetado Docker** | Se construye una imagen **multi-arch (amd64/arm64)** utilizando Buildx, ejecutando el JAR principal bajo un usuario **no root** y aplicando buenas prácticas para reducir la superficie de ataque. | Docker + Buildx, Jib (opcional) | Imagen **versionada** `dentify-backend:vX.Y.Z-<sha>` y **firmada con Cosign**. |
-| **G – Publicación en el registro de artefactos** | La imagen Docker y los JAR firmados se publican en un **registro privado de GitHub Packages** para su promoción entre entornos (dev → qa → staging → prod). Se aplica una **retention policy** automática para limpiar versiones obsoletas. | GitHub CLI, mvn deploy, Cosign | Artefactos **inmutables y verificados**, listos para la fase de **Continuous Delivery (CD)**. |
-| **H – Reportes y notificación** | Se generan automáticamente **badges de estado** (build, cobertura) en el README y se envían notificaciones al canal `#devops` con métricas DORA (tiempo de build, éxito del pipeline, MTTR). | GitHub Actions badges, Slack/Teams Webhook | **Transparencia total** y **alerta temprana** ante fallos o degradación del pipeline. |
-
+| **Paso**                                         | **Qué ocurre**                                                                                                                                                                                                                                                 | **Herramientas**                              | **Resultado**                                                                                            |
+| ------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| **A – Compilación determinista**                 | El código fuente del sistema (módulos de autenticación, gestión de pacientes, gestión de citas, etc.) se compila con Maven en modo batch utilizando la versión de **JDK 22** definida en `toolchains.xml`.                                                     | Maven 3.9, Temurin JDK 22                     | Artefacto **fat-JAR reproducible y firmado** (GPG).                                                      |
+| **B – Pruebas unitarias**                        | Se validan las reglas de negocio y la lógica de dominio (registro de odontólogos, validaciones de citas, operaciones CRUD de pacientes) en memoria. Las pruebas se ejecutan en paralelo para mantener el ciclo de retroalimentación por debajo de 90 segundos. | JUnit 5, Mockito, JaCoCo                      | **Cobertura ≥ 80 %** y badge de cobertura actualizado en el README.                                      |
+| **C – Pruebas de integración**                   | Se levantan servicios reales —como **PostgreSQL** o **RabbitMQ**— en contenedores efímeros para verificar la correcta interacción entre las capas de la aplicación y la configuración de Spring.                                                               | Testcontainers, Spring Boot Test              | Validación completa de la interacción entre componentes del sistema y configuración del contexto Spring. |
+| **D – Análisis estático**                        | Se analizan el código y las dependencias en busca de vulnerabilidades, code smells y violaciones de estilo. El **Quality Gate** bloquea automáticamente los merges si se detectan issues _blocker_ o _critical_.                                               | SonarQube, Checkstyle, PMD, SpotBugs          | Informe detallado en el Pull Request; la build se marca como fallida si el gate no se supera.            |
+| **E – Escaneo de vulnerabilidades (CVEs)**       | Se examinan todas las dependencias declaradas en `pom.xml` y las capas base del contenedor para detectar vulnerabilidades conocidas.                                                                                                                           | OWASP Dependency-Check, Snyk CLI, docker scan | Reporte de CVEs; la build se marca como **Failed** si existen vulnerabilidades de severidad alta.        |
+| **F – Empaquetado Docker**                       | Se construye una imagen **multi-arch (amd64/arm64)** utilizando Buildx, ejecutando el JAR principal bajo un usuario **no root** y aplicando buenas prácticas para reducir la superficie de ataque.                                                             | Docker + Buildx, Jib (opcional)               | Imagen **versionada** `dentify-backend:vX.Y.Z-<sha>` y **firmada con Cosign**.                           |
+| **G – Publicación en el registro de artefactos** | La imagen Docker y los JAR firmados se publican en un **registro privado de GitHub Packages** para su promoción entre entornos (dev → qa → staging → prod). Se aplica una **retention policy** automática para limpiar versiones obsoletas.                    | GitHub CLI, mvn deploy, Cosign                | Artefactos **inmutables y verificados**, listos para la fase de **Continuous Delivery (CD)**.            |
+| **H – Reportes y notificación**                  | Se generan automáticamente **badges de estado** (build, cobertura) en el README y se envían notificaciones al canal `#devops` con métricas DORA (tiempo de build, éxito del pipeline, MTTR).                                                                   | GitHub Actions badges, Slack/Teams Webhook    | **Transparencia total** y **alerta temprana** ante fallos o degradación del pipeline.                    |
 
 ## 7.2. Continuous Delivery
 
@@ -4692,13 +5010,13 @@ Cada entorno utiliza exactamente el mismo artefacto contenedor, garantizando la 
   El código no se recompila ni reconfigura entre ambientes; únicamente se aplican valores de configuración específicos mediante **Helm** (`values-<env>.yaml`), asegurando coherencia entre entornos.
 
 - **Validación progresiva:**  
-  Se parte de una prueba *smoke* rápida en `dev`, seguida de pruebas funcionales completas en `qa`, un despliegue canario controlado en `staging`, y finalmente un *blue-green deployment* monitoreado en `prod`.
+  Se parte de una prueba _smoke_ rápida en `dev`, seguida de pruebas funcionales completas en `qa`, un despliegue canario controlado en `staging`, y finalmente un _blue-green deployment_ monitoreado en `prod`.
 
 - **Gates y aprobaciones:**  
-  Las etapas críticas (`qa` y `prod`) requieren intervención humana registrada tanto mediante *input step* en Jenkins como *environment protection* en GitHub para cumplir las políticas de cambio, trazabilidad y auditoría.
+  Las etapas críticas (`qa` y `prod`) requieren intervención humana registrada tanto mediante _input step_ en Jenkins como _environment protection_ en GitHub para cumplir las políticas de cambio, trazabilidad y auditoría.
 
 - **Rollback automático:**  
-  Si alguna prueba falla, un *health probe* se degrada o un *SLO* monitoreado por **Prometheus** se viola, Jenkins ejecuta automáticamente `kubectl rollout undo`, restaurando la última versión estable en segundos.
+  Si alguna prueba falla, un _health probe_ se degrada o un _SLO_ monitoreado por **Prometheus** se viola, Jenkins ejecuta automáticamente `kubectl rollout undo`, restaurando la última versión estable en segundos.
 
 **Flujo del Pipeline de Despliegue**
 | Stage | Descripción | Verificaciones | Herramientas | Resultado Esperado |
@@ -4706,13 +5024,13 @@ Cada entorno utiliza exactamente el mismo artefacto contenedor, garantizando la 
 | **dev-deploy** | Despliegue inicial del contenedor de Dentify sobre el clúster de desarrollo. Se valida la integridad del build y la disponibilidad del servicio. | - Pruebas smoke (Postman/Newman) < 90 s<br>- Verificación de health endpoint `/actuator/health` | Jenkins, Helm, Docker, Kubernetes | Imagen desplegada correctamente en entorno `dev` |
 | **qa-deploy** | Requiere aprobación del QA Lead. Despliegue automático en entorno de pruebas y ejecución de pruebas funcionales completas. | - Suite de pruebas Cypress (frontend) y JUnit/Testcontainers (backend)<br>- Análisis de cobertura ≥ 80 % | Jenkins, Helm, Cypress, JUnit, SonarQube | Validación funcional y de calidad superada |
 | **staging-canary** | Despliegue canario gradual en entorno staging con monitoreo activo. | - Tráfico 10 % → 50 % → 100 % (pausas de 15 min)<br>- Monitoreo de métricas y logs con Prometheus y Grafana<br>- Rollback automático si algún SLO se viola | Jenkins, Helm, Prometheus, Grafana | Validación de comportamiento en producción controlada |
-| **prod-approval** | Gate manual de aprobación antes de producción. Revisión de métricas, logs y resultados de staging. | - Revisión por DevOps Lead y Product Owner<br>- Validación del *change record* en GitHub Environment `production` | Jenkins, GitHub Environments | Autorización de despliegue en producción |
-| **prod-blue-green** | Despliegue *blue-green* en producción. La nueva versión se levanta como `green` sin tráfico inicial. | - Smoke tests automáticos<br>- Observación por 30 min<br>- Cambio gradual de tráfico 0 % → 100 %<br>- Retención del entorno `blue` por 1 hora para rollback rápido | Jenkins, Helm, Kubernetes, Prometheus | Versión estable promovida a producción |
-| **post-deploy** | Actividades posteriores al despliegue y monitoreo continuo. | - Creación de tag `prod-vX.Y.Z` en GitHub<br>- Activación de *feature flags* en Unleash (100 % rollout)<br>- Publicación automática de métricas DORA y logs en canal `#devops` de Slack | Jenkins, GitHub CLI, Unleash, Slack Webhook | Monitoreo activo y trazabilidad de despliegue completada |
+| **prod-approval** | Gate manual de aprobación antes de producción. Revisión de métricas, logs y resultados de staging. | - Revisión por DevOps Lead y Product Owner<br>- Validación del _change record_ en GitHub Environment `production` | Jenkins, GitHub Environments | Autorización de despliegue en producción |
+| **prod-blue-green** | Despliegue _blue-green_ en producción. La nueva versión se levanta como `green` sin tráfico inicial. | - Smoke tests automáticos<br>- Observación por 30 min<br>- Cambio gradual de tráfico 0 % → 100 %<br>- Retención del entorno `blue` por 1 hora para rollback rápido | Jenkins, Helm, Kubernetes, Prometheus | Versión estable promovida a producción |
+| **post-deploy** | Actividades posteriores al despliegue y monitoreo continuo. | - Creación de tag `prod-vX.Y.Z` en GitHub<br>- Activación de _feature flags_ en Unleash (100 % rollout)<br>- Publicación automática de métricas DORA y logs en canal `#devops` de Slack | Jenkins, GitHub CLI, Unleash, Slack Webhook | Monitoreo activo y trazabilidad de despliegue completada |
 
 **Resutado del proceso**
 
-El pipeline de Continuous Deployment de *Dentify* asegura que cada versión liberada cumpla con estándares de calidad, seguridad y confiabilidad, minimizando el riesgo de interrupciones en el servicio odontológico digital.  
+El pipeline de Continuous Deployment de _Dentify_ asegura que cada versión liberada cumpla con estándares de calidad, seguridad y confiabilidad, minimizando el riesgo de interrupciones en el servicio odontológico digital.  
 El uso combinado de Helm, Jenkins, Prometheus y GitHub Environments permite mantener control total sobre el ciclo de promoción, garantizando que los despliegues sean repetibles, auditables y reversibles en cualquier punto del flujo.
 
 ![back.png](Img/7.2.2assets.png)
@@ -4722,7 +5040,7 @@ El uso combinado de Helm, Jenkins, Prometheus y GitHub Environments permite mant
 En el contexto de Dentify, la práctica de Continuous Deployment (CDp) garantiza que cada cambio validado en el pipeline de integración continua llegue automáticamente a producción sin intervención manual. A diferencia de Continuous Delivery, donde el despliegue requiere aprobación humana, en este enfoque cada commit que supera las etapas de compilación, pruebas unitarias, integración, análisis estático y empaquetado se promueve directamente al entorno productivo.
 El orquestador principal es el Multibranch Pipeline de Jenkins, configurado para ejecutar automáticamente el stage deploy-prod al aprobarse la rama principal (main). Este proceso asegura una entrega fluida, repetible y trazable del backend, frontend y aplicaciones móviles de Dentify.
 La automatización está reforzada por pruebas post-deploy, monitoreo activo y políticas de rollback inmediato que minimizan el impacto ante fallos.
- El objetivo central es reducir el lead time desde la idea hasta la entrega de valor, permitiendo detectar y corregir errores en cuestión de minutos, manteniendo la disponibilidad y la calidad de la experiencia de los usuarios finales.
+El objetivo central es reducir el lead time desde la idea hasta la entrega de valor, permitiendo detectar y corregir errores en cuestión de minutos, manteniendo la disponibilidad y la calidad de la experiencia de los usuarios finales.
 
 ### 7.3.1. Tools and Practices.
 
@@ -4730,16 +5048,13 @@ Para mantener un proceso de despliegue continuo hasta el entorno de producción,
 
 En este proyecto, se establecerá una infraestructura centrada en Jenkins, que actúa como el núcleo de automatización y coordinación de los distintos componentes del flujo de trabajo. A continuación, se describen las herramientas y practicas a utilizar:
 
-* **Sistema de Control de Versiones (Git):** Se utiliza Git como herramienta principal para el control de versiones, permitiendo llevar un seguimiento detallado del código fuente, gestionar ramas de desarrollo y facilitar la colaboración entre los miembros del equipo.
+- **Sistema de Control de Versiones (Git):** Se utiliza Git como herramienta principal para el control de versiones, permitiendo llevar un seguimiento detallado del código fuente, gestionar ramas de desarrollo y facilitar la colaboración entre los miembros del equipo.
 
+- **Automatización de Pruebas (JUnit y Mockito):** Se realizan pruebas automatizadas, incluyendo pruebas unitarias y de integración, con el fin de asegurar que cada cambio en el código mantenga la calidad requerida antes del despliegue. Estas pruebas serán ejecutadas automáticamente dentro del pipeline gestionado por Jenkins.
 
-* **Automatización de Pruebas (JUnit y Mockito):** Se realizan pruebas automatizadas, incluyendo pruebas unitarias y de integración, con el fin de asegurar que cada cambio en el código mantenga la calidad requerida antes del despliegue. Estas pruebas serán ejecutadas automáticamente dentro del pipeline gestionado por Jenkins.
+- **Entornos de Desarrollo y Pruebas:** Se dispondrá de entornos que replican las condiciones del entorno de producción. Esto permite validar el comportamiento del sistema en escenarios controlados, reduciendo riesgos e imprevistos durante el despliegue final.
 
-
-* **Entornos de Desarrollo y Pruebas:** Se dispondrá de entornos que replican las condiciones del entorno de producción. Esto permite validar el comportamiento del sistema en escenarios controlados, reduciendo riesgos e imprevistos durante el despliegue final.
-
-
-* **Pipeline de Despliegue Automatizado (Jenkins):** Se implementará un pipeline de Integración y Despliegue Continuo (CI/CD) mediante Jenkins, que automatiza las fases de compilación, ejecución de pruebas y despliegue en entornos de preproducción y producción. Este enfoque asegura entregas rápidas, consistentes y trazables.
+- **Pipeline de Despliegue Automatizado (Jenkins):** Se implementará un pipeline de Integración y Despliegue Continuo (CI/CD) mediante Jenkins, que automatiza las fases de compilación, ejecución de pruebas y despliegue en entornos de preproducción y producción. Este enfoque asegura entregas rápidas, consistentes y trazables.
 
 ### 7.3.2. Production Deployment Pipeline Components.
 
@@ -4747,66 +5062,1278 @@ El Production Deployment Pipeline representa la secuencia automatizada de proces
 
 A continuación se describen los pasos que conforman este pipeline:
 
-* **Gestion del código fuente:** El proyecto se gestiona en un repositorio de GitHub, donde cada commit o merge a la rama main activa automáticamente la ejecución del pipeline en Jenkins, clonando el repositorio.
+- **Gestion del código fuente:** El proyecto se gestiona en un repositorio de GitHub, donde cada commit o merge a la rama main activa automáticamente la ejecución del pipeline en Jenkins, clonando el repositorio.
 
+- **Compilación del Proyecto:** Jenkins realiza el proceso de compilación utilizando Maven, resolviendo las dependencias declaradas en el backend de SpringBoot, y genera archivos ejecutables listos para ser implementados.
 
-* **Compilación del Proyecto:** Jenkins realiza el proceso de compilación utilizando Maven, resolviendo las dependencias declaradas en el backend de SpringBoot, y genera archivos ejecutables listos para ser implementados.
+- **Validación Automatizada:** Jenkins realiza la ejecución de las pruebas unitarias e integrales con JUnit y Mockito para verificar la funcionalidad del sistema. Si alguna prueba falla, el pipeline se detiene y se comunica al equipo de desarrollo.
 
+- **Despliegue a Producción:** Una vez validados los pasos previos, Jenkins procede a realizar el despliegue del sistema en el entorno de producción.
 
-* **Validación Automatizada:** Jenkins realiza la ejecución de las pruebas unitarias e integrales con JUnit y Mockito para verificar la funcionalidad del sistema. Si alguna prueba falla, el pipeline se detiene y se comunica al equipo de desarrollo.
+# Capitulo VIII: Experiment-Driven Development
 
+## 8.1. Experiment Planning
 
-* **Despliegue a Producción:** Una vez validados los pasos previos, Jenkins procede a realizar el despliegue del sistema en el entorno de producción.
+### 8.1.1. As-Is Summary.
 
 
 ## 7.4. Continuous Monitoring
 ### 7.4.1. Tools and Practices
 
-Con el fin de asegurar un monitoreo eficiente de la aplicación y sus entornos, se adoptan diversas herramientas y prácticas especializadas:
+- Agendas y citas manejadas en cuadernos, WhatsApp o llamadas, lo que provoca confusiones, duplicidad de horarios y olvidos.
 
-- **Prometheus**: Es una herramienta de monitoreo y generación de alertas que recolecta métricas en tiempo real desde múltiples servicios. Se emplea para registrar datos clave como tiempos de respuesta y carga del sistema, permitiendo evaluar el rendimiento de la aplicación.
+- Historias clínicas en formato físico, difíciles de consultar, almacenar y actualizar.
 
-- **Grafana**: Plataforma de visualización de datos que permite construir paneles personalizados basados en las métricas obtenidas por Prometheus. Facilita la interpretación visual de indicadores clave y la detección temprana de posibles fallos.
+- Inventarios gestionados en hojas de Excel independientes, sin alertas, sin control de insumos y con discrepancias frecuentes.
 
-- **ELK Stack (Elasticsearch, Logstash, Kibana)**: Conjunto de herramientas para el procesamiento y análisis de registros. Elasticsearch permite realizar búsquedas avanzadas, Logstash transforma y organiza los logs, y Kibana proporciona una interfaz gráfica para su análisis visual.
+- Facturación y emisión de comprobantes manuales, lo que demora la atención post-consulta y causa omisiones.
 
-- **New Relic**: Herramienta de monitoreo del rendimiento de aplicaciones (APM) que brinda información en tiempo real sobre el comportamiento de la aplicación y la experiencia del usuario.
+- Comunicación con pacientes basada en mensajes individuales, sin recordatorios automáticos ni confirmación estructurada.
 
-- **PagerDuty**: Plataforma especializada en la gestión de incidentes que se encarga de emitir alertas ante fallos críticos en los servicios o en la infraestructura, permitiendo una respuesta rápida.
+- Ausencia de indicadores clínicos o administrativos, lo que obliga a los odontólogos a tomar decisiones reactivas sin datos consolidados.
+
+Este escenario provoca:
+
+- Mayor probabilidad de errores administrativos (citas mal registradas, pacientes no atendidos, inventario desactualizado).
+
+- Pérdida de tiempo operativo, pues el odontólogo realiza tareas manuales en lugar de enfocarse en la atención clínica.
+
+- Baja retención de pacientes, debido a falta de recordatorios, seguimiento o experiencia digital fluida.
+
+- Dificultad para escalar la clínica, ya que la ausencia de digitalización limita procesos, control y eficiencia.
+
+Información dispersa que impide contar con un historial clínico unificado y confiable.
+
+En síntesis, el modelo actual carece de una plataforma centralizada y moderna que integre citas, pacientes, historias clínicas, inventario y facturación en un solo flujo digital. Esta falta de automatización genera sobrecarga operativa, afecta la calidad del servicio al paciente y limita la capacidad de crecimiento de los consultorios odontológicos en Lima Metropolitana.
+
+### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims.
+
+**Assumptions**
+
+- Se asume que los odontólogos valoran una plataforma que centralice citas, pacientes e inventario en un solo lugar.
+
+- Se cree que la búsqueda rápida por DNI reducirá tiempos de atención y errores de registro.
+
+- Se piensa que los dentistas prefieren una interfaz sencilla y móvil para gestionar pacientes desde cualquier lugar.
+
+- Se supone que la digitalización de historiales clínicos mejorará la continuidad del tratamiento y reducirá pérdidas de información.
+
+**Knowledge Gaps**
+
+- No se conoce qué módulo genera más fricción actualmente: ¿citas, pacientes, inventario o pagos?
+
+- No está claro cuánto tiempo tardan hoy los odontólogos en registrar o modificar una cita manualmente.
+
+- Se desconoce qué tan cómodo se sienten los usuarios con formularios extensos al registrar pacientes.
+
+- No hay datos de qué dispositivos usan más los dentistas (móvil vs. escritorio), lo cual impacta en el diseño UI/UX.
+
+**Ideas**
+
+- Implementar un sistema de recordatorios automáticos vía notificaciones internas para evitar citas perdidas.
+
+- Añadir un registro rápido de insumos consumidos durante la atención para mantener actualizado el inventario.
+
+- Ofrecer dashboards simples con métricas clave: citas del día, pacientes nuevos, insumos por agotarse.
+
+- Crear un onboarding guiado dentro de la app para reducir la curva de aprendizaje de nuevos usuarios.
+
+**Claims**
+
+- Dentify reducirá significativamente la carga administrativa, permitiendo que los odontólogos atiendan más pacientes en menos tiempo.
+
+- La digitalización del historial clínico disminuirá los errores y mejorará la calidad del seguimiento odontológico.
+
+- La gestión automatizada de citas disminuirá ausencias y reprogramaciones, aumentando la productividad.
+
+- Un inventario bien gestionado evitará quiebres de stock y reducirá costos operativos del consultorio.
+
+### 8.1.3. Experiment-Ready Questions.
+
+En esta sección se definen las preguntas que guiarán los experimentos de validación de
+la solución. Se distinguen dos tipos:
+
+1. **Preguntas impulsadas por creencias (Belief-led)**  
+   Buscan poner a prueba una creencia concreta del equipo respecto al comportamiento
+   o necesidades de los usuarios.
+
+2. **Preguntas exploratorias**  
+   Buscan generar conocimiento en áreas donde el equipo aún no tiene creencias
+   fuertes, ayudando a descubrir patrones, motivaciones o problemas no anticipados.
+
+Para formularlas se utiliza la técnica de las **“Cinco Ws y una H” (Who, What, Where,
+When, Why, How)**, lo que permite revelar premisas ocultas y construir preguntas
+exploratorias más completas.
+
+**Preguntas impulsadas por creencias (Belief-led)**
+
+- **B1 – WHO / HOW**  
+  _“Creemos que los usuarios objetivo podrán completar el flujo principal de registro y
+  configuración inicial en menos de 10 minutos sin apoyo externo.”_
+
+- **B2 – WHAT / WHY**  
+  _“Creemos que mostrar indicadores visuales simples (colores, iconos, estados) en la
+  pantalla principal reducirá la necesidad de que los usuarios revisen múltiples
+  pantallas para entender si ‘todo está bien’.”_
+
+- **B3 – WHERE / WHEN**  
+  _“Creemos que la mayoría de usuarios accederán a la solución desde un teléfono
+  móvil en contextos de trabajo (consultorios), por lo que el diseño mobile-first
+  será suficiente para la mayoría de tareas diarias.”_
+
+- **B4 – WHY / HOW**  
+  _“Creemos que incorporar mensajes guiados o tutoriales cortos al inicio mejorará la
+  percepción de facilidad de uso en los nuevos usuarios.”_
+
+Estas preguntas se transforman luego en hipótesis medibles dentro de las condiciones
+experimentales y de control.
+
+**Preguntas exploratorias**
+
+- **E1 – WHO / WHAT / WHY**  
+  _“¿Qué tipo de información consideran crítica los usuarios para tomar decisiones
+  rápidas, y por qué la priorizan sobre otros datos?”_
+
+- **E2 – HOW / WHEN**  
+  _“¿Cómo integran actualmente la solución en su rutina diaria y en qué momentos
+  del día les resulta más útil o más difícil usarla?”_
+
+- **E3 – WHERE / HOW**  
+  _“¿En qué contextos (oficina, campo, casa) usan con mayor frecuencia la
+  aplicación y cómo afecta ese contexto a la forma en que interactúan con ella?”_
+
+- **E4 – WHY / HOW**  
+  _“¿Por qué los usuarios abandonan o interrumpen el uso de la aplicación y cómo
+  describen ellos mismos esos momentos de fricción?”_
+
+Estas preguntas exploratorias permiten ampliar la comprensión de las motivaciones,
+barreras y expectativas de los usuarios, alimentando nuevas hipótesis para ciclos de
+validación posteriores.
+
+### 8.1.4. Question Backlog.
+
+El Question Backlog resume las preguntas clave que debemos responder para mejorar Dentify y orientar los próximos experimentos del producto.
+| **Pregunta** | **Hipótesis** | **Prioridad** | **Objetivo** |
+| ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------- | ------------------------------------------------- |
+| ¿Por qué algunos odontólogos no completan el proceso de creación de citas? | Reducir los campos obligatorios aumentará la tasa de creación de citas. | Alta | Incrementar en +20% la creación exitosa de citas. |
+| ¿Qué impide que se generen facturas después de una cita? | Automatizar la facturación elevará el uso del módulo. | Media | Aumentar la tasa de facturación en +15%. |
+| ¿Por qué el inventario registrado no coincide con el stock real? | Registrar materiales con un solo clic reducirá errores y omisiones. | Alta | Mejorar la exactitud del inventario en +10%. |
+| ¿Entienden los usuarios nuevos el flujo inicial (registrar pacientes, crear citas)? | Un onboarding guiado aumentará el primer uso efectivo. | Alta | Aumentar la activación temprana en +15%. |
+| ¿Qué causa que odontólogos dejen de usar Dentify después del primer mes? | Recordatorios automáticos y alertas relevantes mejoran la retención. | Media | Incrementar retención 30 días en +10%. |
+| ¿Qué información consideran indispensable al registrar pacientes? | Campos mínimos y búsqueda por DNI reducen fricción. | Media | Reducir tiempo de registro en 20%. |
+| ¿Cómo afecta la falta de historial clínico organizado a la atención? | Historial ordenado y cronológico mejora la eficiencia clínica. | Baja | Reducir errores de registro en 10%. |
+| ¿Qué dificultades encuentran los odontólogos al modificar o cancelar citas? | Filtros y vista semanal/mensual mejoran la gestión de agenda. | Media | Reducir modificaciones fallidas en 15%. |
+| ¿Los asistentes dentales requieren un flujo distinto al del odontólogo? | Perfiles separados simplifican la carga administrativa. | Baja | Optimizar flujo por rol y reducir errores. |
+| ¿Qué elementos generan más confianza en la landing page para nuevos clientes? | Precios claros, beneficios y testimonios aumentarán conversiones. | Media | Incrementar leads desde la landing en +20%. |
+
+### 8.1.5. Experiment Cards.
+
+| Question                                                                              | Why                                                                                | What                                                                                   | Hypothesis                                                                                         |
+| ------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| ¿Por qué los odontólogos no completan la creación de citas en Dentify?                | El formulario tiene demasiados campos obligatorios, generando fricción y abandono. | Reducir los campos obligatorios del formulario, dejando solo los esenciales.           | Si reducimos los campos obligatorios, entonces la Tasa de creación de citas aumentará en 20%.      |
+| ¿Por qué los odontólogos no utilizan el módulo de facturación?                        | La facturación es percibida como un proceso manual lento.                          | Automatizar la generación de factura al finalizar una cita.                            | Si automatizamos la factura, entonces la Tasa de facturación aumentará en 15%.                     |
+| ¿Por qué el inventario real del consultorio no coincide con el inventario registrado? | Registrar materiales manualmente es tedioso, por lo que suele omitirse.            | Permitir registrar materiales con un solo clic desde la pantalla de la cita.           | Si simplificamos el registro de materiales, entonces la Exactitud del Inventario aumentará en 10%. |
+| ¿Por qué los odontólogos nuevos no completan su primer paso clave dentro de Dentify?  | Los nuevos usuarios no conocen el flujo básico de inicio y necesitan orientación.  | Añadir un onboarding guiado de tres pasos que explique claramente el flujo inicial.    | Si añadimos un onboarding guiado, entonces la Tasa de Primer Uso Efectivo aumentará en 15%.        |
+| ¿Por qué los odontólogos dejan de usar Dentify después del primer mes?                | No reciben recordatorios relevantes que los motiven a volver a la app.             | Enviar recordatorios automáticos (citas próximas, inventario bajo, tareas pendientes). | Si enviamos recordatorios relevantes, entonces la Retención a 30 días aumentará en 15%             |
+
+## 8.2. Experiment Design
+
+### 8.2.1. Hypotheses.
+
+Para transformar los hallazgos del Question Backlog en conocimiento accionable, se establece un conjunto de hipótesis testables. Cada una conecta una intervención específica del producto con un resultado observable y cuantificable, lo que permite evaluarlas dentro de un sprint de experimentación de corta duración.
+
+Estas hipótesis se presentan como declaraciones de creencia inicial, generadas con la expectativa de ser puestas a prueba, no asumidas como verdaderas. Por ello, cada una es falsificable, medible y testeable, lo que facilita determinar si los cambios observados se deben realmente a la intervención o simplemente al azar.
+
+Asimismo, cada hipótesis se complementa con su Hipótesis Nula, que establece que no ocurrirá el efecto esperado o que no existirá una diferencia significativa, garantizando un marco de evaluación riguroso y una base sólida para la toma de decisiones basada en evidencia.
+
+| Question                                                                                                                             | Belief                                                                                                                                             | Hypothesis                                                                                                                                                                                                                             | Null Hypothesis                                                                                                                           |
+| ------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| ¿Por qué algunos odontólogos no completan el proceso de creación de citas?                                                           | El formulario actual tiene demasiados campos obligatorios, lo que causa fricción y abandono del proceso.                                           | Si reducimos la cantidad de campos obligatorios en el formulario de creación de citas, entonces más odontólogos completarán el flujo, medido por un aumento del 20% en la Tasa de creación de citas.                                   | Reducir los campos obligatorios no generará cambios significativos en la Tasa de creación de citas.                                       |
+| ¿Por qué los odontólogos no generan facturas después de las citas?                                                                   | Los odontólogos perciben la generación de factura como un proceso manual lento que no encaja en su rutina post-cita.                               | Si automatizamos la generación de factura al finalizar una cita, entonces aumentará el uso del módulo de facturación, medido por un incremento del 15% en la Tasa de facturación.                                                      | La automatización de la factura no tendrá efectos significativos en la Tasa de facturación                                                |
+| ¿Por qué el inventario real del consultorio no coincide con el inventario registrado en Dentify?                                     | El registro manual de materiales es tedioso, por lo que los odontólogos suelen omitirlo durante las citas.                                         | Si permitimos registrar materiales usados con un solo clic desde la pantalla de la cita, entonces mejorará la exactitud del inventario, medido por un aumento del 10% en la Exactitud del inventario.                                  | Simplificar el registro de materiales no tendrá efecto significativo en la Exactitud del inventario.                                      |
+| ¿Por qué muchos odontólogos nuevos no completan su primer paso clave dentro de Dentify, como registrar un paciente o crear una cita? | Creemos que los nuevos usuarios desconocen cuál es el flujo básico para iniciar (registrar pacientes y crear citas) y necesitan orientación clara. | Si añadimos un onboarding guiado de tres pasos, entonces aumentará el primer uso efectivo, medido por un incremento del 15% en la Tasa de Primer Uso Efectivo (usuarios que completan al menos una acción clave en su primera sesión). | El onboarding guiado no tendrá efecto significativo en la Tasa de Primer Uso Efectivo y cualquier variación estará explicada por el azar. |
+| ¿Por qué los odontólogos dejan de usar Dentify después del primer mes?                                                               | Creemos que los usuarios no reciben recordatorios relevantes (citas próximas o stock bajo) que les generen motivación para volver a la app.        | Si enviamos recordatorios automáticos de citas y alertas de stock bajo, entonces aumentará la retención, medida por un incremento del 10% en la Retención a 30 días.                                                                   | Los recordatorios automáticos no tendrán impacto significativo en la Retención a 30 días y cualquier variación se deberá al azar.         |
+
+### 8.2.2. Domain Business Metrics
+
+| Métrica                            | Descripción                                                                                                                                                                                                                                                        | Fórmula                                               | Recolección                                                                                    | Meta                                                           |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------- | ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
+| Tasa de Primer Uso Efectivo (TPUE) | Mide el porcentaje de odontólogos que, después de registrarse, realizan las acciones mínimas necesarias para considerar que han comenzado a utilizar el sistema de forma efectiva (p. ej., crear una cita, registrar un paciente o completar una historia clínica) | ![business-metrics-1.png](Img/business-metrics-1.png) | Detección automática basada en eventos clave dentro de las primeras interacciones del usuario. | 60% de activación en el primer mes                             |
+| Tasa de Creación de Citas (TCC)    | Mide la adopción de la gestión de citas                                                                                                                                                                                                                            | ![business-metrics-2.png](Img/business-metrics-2.png) | Logs de creación de citas en API y base de datos.                                              | 5 citas por semana por odontólogo                              |
+| Tasa de Facturación                | Indica qué porcentaje de las citas finalizadas generan una factura posterior.                                                                                                                                                                                      | ![business-metrics-3.png](Img/business-metrics-3.png) | Revisión de estado de cita + registros en la entidad Factura.                                  | 40% en la primera versión                                      |
+| Exactitud del inventario           | Mide si el inventario registrado coincide con las existencias reales.                                                                                                                                                                                              | ![business-metrics-4.png](Img/business-metrics-4.png) | Comparación periódica entre stock digital y stock físico mediante auditorías.                  | Exactitud mayor al 80%                                         |
+| Retención del odontólogo (30 días) | Indica qué porcentaje continúa usando Dentify después del primer mes.                                                                                                                                                                                              | ![business-metrics-5.png](Img/business-metrics-5.png) | Seguimiento de actividad por user_id en logs.                                                  | Porcentaje de odontologos que permanecen en el app mayor a 60% |
+
+### 8.2.3. Measures.
+
+Para validar las hipótesis definidas en Dentify, se establecen las siguientes medidas centradas en la verificación funcional, adopción clínica y experiencia del odontólogo:
+
+● **Medidas de verificación funcional**
+
+-Evalúan si las nuevas funciones operan correctamente dentro del flujo clínico.
+
+-Funcionamiento del flujo de creación de citas.
+
+-Correcta automatización de facturación.
+
+-Registro de materiales desde la pantalla de cita.
+
+● **Medidas de adopción**
+
+-Miden si los odontólogos integran las funcionalidades en su rutina.
+
+-Tasa de creación de citas (TCC).
+
+-Tasa de facturación posterior a cita.
+
+-Uso semanal del módulo de inventario.
+
+● **Medidas de experiencia de usuario (UX)**
+
+-Determinan facilidad, claridad y reducción de fricción.
+
+-Tiempo para completar un flujo (cita, factura, inventario).
+
+-Errores en la historia clínica.
+
+-Satisfacción reportada (escala 1–5).
+
+● **Medidas de retención**
+
+-Evalúan continuidad del uso.
+
+-Retención a 30 días.
+
+-Frecuencia de uso por odontólogo.
+
+### 8.2.4. Conditions.
+
+Las condiciones establecen quiénes participarán en los experimentos, bajo qué entorno clínico se realizarán las pruebas, durante cuánto tiempo y cuáles serán los criterios para interpretar los resultados. Estas condiciones permiten asegurar validez, comparabilidad y control estadístico al momento de evaluar nuevas funcionalidades dentro del flujo odontológico.
+
+**Público objetivo**
+El experimento se realizará con perfiles directamente involucrados en la operación clínica:
+
+- Odontólogos generales y especialistas (endodoncia, ortodoncia, periodoncia, etc.).
+- Asistentes dentales y personal de apoyo en consultorio.
+- Pacientes reales con citas programadas durante el periodo del experimento.
+
+El objetivo es capturar tanto la experiencia clínica (odontólogo/asistente) como la experiencia del paciente.
+
+**Entorno de pruebas**
+
+- Las pruebas se realizarán en clínicas odontológicas pequeñas y medianas de Lima Metropolitana.
+- Se utilizará una versión _staging_ idéntica a producción para evitar variaciones por entorno.
+- Equipos utilizados: computadoras de recepción, PCs de consultorio, tablets y smartphones de pacientes.
+- La rutina clínica se mantendrá sin cambios para evitar sesgos (mismo número de pacientes, mismos procedimientos y horarios).
+
+**Diseño experimental**
+
+- Se empleará un diseño **A/B por consultorio**:
+  - **Grupo A:** utiliza la nueva funcionalidad.
+  - **Grupo B:** mantiene el flujo actual sin cambios.
+- La asignación será aleatoria mediante feature toggles controlados por backend.
+- Se medirán diferencias en tiempos de atención, errores de registro, carga administrativa y satisfacción.
+
+**Periodo de pruebas**
+
+- Duración total: **4 semanas**.
+- Semana 1: onboarding, configuración y adaptación.
+- Semanas 2–3: uso activo en flujo clínico real.
+- Semana 4: análisis, entrevistas y cierre del experimento.
+
+**Criterios de inclusión y exclusión**
+
+**Incluir:**
+
+- Odontólogos activos con agenda durante las 4 semanas.
+- Asistentes que participen en la gestión de pacientes.
+- Pacientes que acepten participar mediante consentimiento informado.
+
+**Excluir:**
+
+- Personal no involucrado en atención clínica.
+- Cuentas demo o testers del equipo de desarrollo.
+- Pacientes sin actividad clínica durante el periodo de pruebas.
+
+  **Control de variables externas**
+
+- No se modificarán procesos internos de las clínicas durante el experimento.
+- Se mantendrá la misma carga de trabajo entre grupos (similar número de pacientes y tipo de procedimientos).
+- No se liberarán nuevas funcionalidades simultáneamente.
+- Se monitorearán eventos externos que puedan alterar resultados (feriados, mantenimientos, cortes de energía).
+
+**Consentimiento informado y privacidad**
+
+- Todos los participantes serán informados del propósito del experimento.
+- Los pacientes firmarán consentimiento informado para el uso de sus datos de manera anonimizada.
+- Los datos clínicos serán tratados cumpliendo la Ley 29733 de protección de datos personales.
+- La información sensible será almacenada y procesada siguiendo protocolos de confidencialidad del sector salud.
+
+**Participación activa y retroalimentación**
+
+- Se fomentará que odontólogos y asistentes reporten dificultades, errores y oportunidades de mejora.
+- Los pacientes recibirán encuestas breves sobre claridad de recordatorios, facilidad de uso y experiencia general.
+- Se realizarán sesiones semanales de retroalimentación con el personal clínico.
+
+**Muestra representativa**
+Para garantizar confiabilidad estadística se reclutarán:
+
+- 2–3 clínicas odontológicas de Lima.
+- ~10 odontólogos.
+- ~6 asistentes dentales.
+- 40–60 pacientes durante el periodo experimental.
+
+Esta muestra permite observar patrones reales tanto clínicos como administrativos.
+
+**Medición y evaluación continua**
+Se medirán indicadores clave semanalmente:
+
+- Tiempo promedio de registro clínico.
+- Tasa de errores en la ficha odontológica.
+- Tasa de asistencia y cancelaciones.
+- Satisfacción del odontólogo y del paciente.
+- Nivel de fricción en el flujo administrativo.
+
+Si se detecta un incremento de errores >5% o fricción significativa, se aplicará una iteración rápida.
+
+**Criterio Go / No-Go**
+
+- **Go:** la funcionalidad se libera si al menos 3 de 4 indicadores principales cumplen su umbral (eficiencia, reducción de errores, satisfacción, disminución del tiempo administrativo).
+- **No-Go:** se ejecutará un sprint de corrección antes de considerar su despliegue en producción.
+
+### 8.2.5. Scale Calculations and Decisions.
+
+Para decidir cuándo una funcionalidad de Dentify está lista para escalar desde pruebas controladas hacia toda la base de usuarios, se establecen criterios cuantitativos y metas mínimas que garantizan estabilidad técnica, valor real para los odontólogos y reducción de fricción operativa. Las decisiones de escalado se basan en los siguientes cálculos e indicadores:
+
+**Índice de Satisfacción del Usuario (ISU):**
+Se mide la percepción de utilidad y facilidad de uso del módulo evaluado.
+
+ISU = ( Usuarios satisfechos / Total encuestados) x 100
+
+**Meta mínima:** ≥ 75% antes de escalar.
+
+**Retención temprana (R30):**
+Evalúa si los odontólogos continúan utilizando la funcionalidad durante el primer mes.
+
+R30 = (Usuarios activos en día 30 / Usuarios que probaron el módulo)x 100
+
+**Meta:** ≥ 60% para considerar que la funcionalidad tiene valor sostenido.
+
+**Tasa de Adopción (TA):**
+Permite estimar qué tan rápido se integra una nueva funcionalidad en la rutina clínica.
+
+TA = (Nuevos usuarios por semana / Usuarios meta)x 100
+
+**Umbral de avance:** crecimiento semanal ≥ 20%.
+
+**Eficiencia Operativa:**
+Se analiza si la funcionalidad reduce tiempo administrativo. Por ejemplo, para citas o inventario:
+
+- **Objetivo:** disminuir al menos 15% el tiempo promedio de registro.
+- **Indicador adicional:** reducción del 10% en errores de digitación o inconsistencias en inventario.
+
+**Criterios Go / No-Go:**
+Una función pasa a la siguiente fase (por ejemplo, de “piloto” a “publicación para todas las clínicas”) solo si cumple:
+
+- Crash-rate < 1%.
+- ISU ≥ 75%.
+- R30 ≥ 60%.
+- Reporte de bugs críticos = 0.
+- Feedback cualitativo positivo en entrevistas (2 de 3 evaluaciones favorables).
+
+En caso de no cumplir los umbrales, la funcionalidad regresa a una fase de iteración, se ajustan los puntos de fricción detectados y se repite el ciclo hasta alcanzar estabilidad. Este enfoque garantiza un crecimiento controlado y basado en evidencia, evitando riesgos para la operación clínica de los usuarios.
+
+### 8.2.6. Methods Selection.
+
+Elegimos una combinación de métodos cualitativos y cuantitativos que equilibra velocidad, costo y fiabilidad.
+
+| Método                                                                 | Prósito                                                                                  |
+| ---------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| Pruebas exploratorias internas                                         | Detectar defectos críticos (P0) que podrían afectar la validez de un experimento.        |
+| Validar escenarios operativos sin riesgo para odontólogos o pacientes. | Validar escenarios operativos sin riesgo                                                 |
+| Sesiones de uso controladas (in-situ)                                  | Observar flujos clave en contexto real de consultorio.                                   |
+| Usability Testing moderado                                             | Observar interacción real y detectar problemas de comprensión.                           |
+| A/B Testing de pequeña escala                                          | Validar rápidamente cuál variante de una interfaz o flujo mejora un comportamiento clave |
+
+### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection.
+
+El análisis de datos en Dentify se centrará en medir la adopción real del sistema, la eficiencia del flujo clínico y la satisfacción del usuario. Para ello, se definirán KPIs como la tasa de primer uso efectivo (odontólogos que completan acciones clave en su primera sesión), el tiempo promedio necesario para registrar pacientes o crear citas, y la exactitud del inventario comparando stock real con el registrado en la aplicación. También se evaluará la retención a 30 días, el nivel de satisfacción mediante NPS y la estabilidad técnica a través del error-rate y fallos operativos registrados en el backend. Estas métricas permitirán priorizar mejoras y validar el impacto de las funcionalidades en la rutina clínica.
+
+### 8.2.8. Web and Mobile Tracking Plan.
+
+El plan de tracking de Dentify registrará eventos clave del flujo odontológico tanto en la versión web como en la app móvil, enfocándose en acciones como inicio de sesión, creación de citas, registro de pacientes, actualización de historias clínicas, uso de inventario y generación de facturas. El monitoreo se realizará mediante Firebase Analytics (solo para mobile) y los logs del backend, permitiendo analizar adopción, detectar fricción en procesos críticos y evaluar la frecuencia real de uso de cada módulo. Esta información permitirá priorizar mejoras y asegurar que las funcionalidades respondan a las necesidades operativas de la clínica.
+<br>
+
+## 8.3. Experimentation
+
+### 8.3.1. To-Be User Stories.
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US04</td>
+    <td>Odontólogo</td>
+    <td>Media</td>
+    <td>EP02</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Editar Cita</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como odontólogo, <br>quiero poder editar la información de una cita ya registrada <br>para corregir errores o adaptarla a cambios de disponibilidad.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: Modificación exitosa de una cita<br><br>
+Dado que el odontólogo visualiza una cita futura<br>
+Cuando edite los campos permitidos (fecha, hora, tratamiento, profesional)<br>
+Entonces la información se actualizará correctamente en el sistema.<br>
+Escenario 2: Cita pasada no editable<br><br>
+Dado que una cita ya ha pasado<br>
+Cuando el asistente intente editarla<br>
+Entonces el sistema mostrará un mensaje indicando que no puede ser modificada.<br>
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US05</td>
+    <td>Odontólogo</td>
+    <td>Alta</td>
+    <td>EP02</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Añadir citas</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">	Como odontólogo, <br>quiero registrar nuevas citas <br>para poder agendar la atención de los pacientes.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: Registro de una nueva cita<br><br>
+Dado que el odontólogo ha iniciado sesión<br>
+Y se encuentra en la sección de citas<br>
+Cuando seleccione la opción para añadir nueva cita<br>
+Y complete los campos requeridos como paciente, fecha y hora<br>
+Y confirme el registro<br>
+Entonces la aplicación guardará la nueva cita y la mostrará en la lista de citas registradas.<br>
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US08</td>
+    <td>Odontólogo</td>
+    <td>Media</td>
+    <td>EP02</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Gestionar horarios de atención</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como odontólogo, <br>quisiera gestionar los horarios de atención de mi consultorio con las citas ya agendadas <br>para poder optimizar la disponibilidad de los especialistas.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: Ver horarios de atención con citas agendadas<br><br>
+Dado que soy un odontólogo autenticado en el sistema<br>
+Cuando accedo a la sección de gestión de horarios de atención<br>
+Entonces debo poder ver los horarios disponibles y ocupados, con las citas agendadas reflejadas en la agenda.<br><br>
+Escenario 2: Editar horarios de atención<br><br>
+Dado que soy un odontólogo autenticado en el sistema<br>
+Cuando modifico los horarios de atención de un especialista<br>
+Entonces el sistema debe actualizar automáticamente la disponibilidad y bloquear esos horarios para nuevas reservas si ya están ocupados por citas.<br>  
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US09</td>
+    <td>Odontólogo</td>
+    <td>Media</td>
+    <td>EP05</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Pagar tratamiento</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como paciente, <br>quiero pagar mi tratamiento desde la plataforma <br>para mayor comodidad y rapidez en el proceso de atención.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: Pago exitoso desde la plataforma<br><br>
+Dado que el paciente ha iniciado sesión y tiene un tratamiento pendiente de pago<br>
+Cuando acceda a la sección de pagos y complete los datos de su tarjeta<br>
+Entonces el sistema procesará el pago y mostrará una confirmación.<br><br>
+Escenario 2: Error en el pago<br><br>
+Dado que el paciente intenta pagar<br>
+Cuando ocurra un error en la transacción (fondos insuficientes, datos inválidos, etc.)<br>
+Entonces el sistema mostrará un mensaje de error y permitirá reintentar el pago.<br><br>
+Escenario 3: Ver historial de pagos<br><br>
+Dado que el paciente ha realizado pagos anteriores<br>
+Cuando acceda a la sección de historial<br>
+Entonces podrá visualizar el detalle de los pagos realizados y sus estados.<br>
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US11</td>
+    <td>Odontólogo</td>
+    <td>Alta</td>
+    <td>EP03</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Mostrar pacientes</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como personal del consultorio, <br>quiero visualizar la lista de pacientes registrados <br>para consultar y gestionar sus datos.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: Visualización de pacientes registrados<br><br>
+Dado que el personal ha iniciado sesión en la aplicación
+Y accede a la sección de pacientes
+Cuando se cargue la pantalla
+Entonces la aplicación mostrará una lista con los datos de todos los pacientes registrados.
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US12</td>
+    <td>Odontólogo</td>
+    <td>Alta</td>
+    <td>EP03</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Añadir pacientes</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como personal del consultorio, <br>quiero registrar nuevos pacientes <br>para poder gestionarlos en las citas y tratamientos.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: Registro de paciente<br><br>
+Dado que el personal accede a la sección de pacientes
+Cuando complete el formulario con los datos del nuevo paciente
+Y presione "Guardar"
+Entonces la aplicación registrará al paciente y lo mostrará en la lista.
+    </td>
+
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US16</td>
+    <td>Odontólog</td>
+    <td>Alta</td>
+    <td>EP03</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Añadir historial clínico</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como personal del consultorio, <br>quiero registrar un nuevo historial clínico <br>para tener un seguimiento detallado del paciente.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: Registro de historial clínico<br><br>
+Dado que el personal accede al perfil de un paciente
+Cuando seleccione "Añadir historial clínico"
+Y complete los campos requeridos
+Y presione "Guardar"
+Entonces la aplicación almacenará el nuevo historial vinculado al paciente.
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US19</td>
+    <td>Odontólogo</td>
+    <td>Alta</td>
+    <td>EP04</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Visualizar Inventario</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como personal del consultorio, <br>quiero acceder al inventario general <br>para revisar la disponibilidad de materiales y equipos.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: Visualización del inventario<br><br>
+Dado que el personal se encuentra correctamente logueado en la apliacion.
+Cuando acceda al módulo de inventario
+Entonces la aplicación mostrará la lista de todos los objetos registrados con su stock disponible.
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US20</td>
+    <td>Odontólogo</td>
+    <td>Alta</td>
+    <td>EP04</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Añadir objeto al inventario</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como personal del consultorio, <br>quiero añadir nuevos objetos al inventario <br>para mantener actualizado el stock disponible.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: Registro de nuevo objeto<br><br>
+Dado que el personal accede al módulo de inventario
+Cuando seleccione "Añadir objeto"
+Y complete los campos requeridos (nombre, tipo, cantidad)
+Entonces la aplicación registrará el objeto en el inventario.
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US21</td>
+    <td>Odontólogo</td>
+    <td>Alta</td>
+    <td>EP03</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Editar objeto de inventario</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como personal del consultorio, <br>quiero modificar los datos de un objeto del inventario <br>para reflejar información correcta y actualizada.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: Modificación de objeto del inventario<br><br>
+Dado que el personal accede a la sección de inventario
+Cuando seleccione un objeto de la lista
+Y actualice su información
+Y presione "Guardar cambios"
+Entonces la aplicación guardará la información modificada del objeto.
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US23</td>
+    <td>Odontólogo</td>
+    <td>Media</td>
+    <td>EP04</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Dashboard de inventario</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como personal del consultorio, <br>quiero visualizar un resumen del inventario <br>para tomar decisiones sobre abastecimiento.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">
+      Escenario 1: Visualización del dashboard<br><br>
+Dado que el personal accede a la seccion de inventario
+Cuando seleccione la opción de "Dashboard"
+Entonces la aplicación mostrará gráficos y métricas de stock, consumo y disponibilidad.
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td><b>Story ID</b></td>
+    <td><b>User</b></td>
+    <td><b>Priority</b></td>
+    <td><b>Epic</b></td>
+  </tr>
+  <tr>
+    <td>US25</td>
+    <td>Odontólogo</td>
+    <td>Alta</td>
+    <td>EP04</td>
+  </tr>
+  <tr>
+    <td><b>Title</b></td>
+    <td colspan="3">Registrar cantidad consumida de ítems</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Description</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Como personal del consultorio, <br>quiero registrar la cantidad de objetos usados en cada tratamiento <br>para llevar un control detallado de insumos.</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="center"><b>Acceptance Criteria</b></td>
+  </tr>
+  <tr>
+    <td colspan="4">Escenario 1: Registro de consumo de objetos<br><br>
+Dado que se realiza una facturación asociada a un tratamiento
+Cuando se especifique la cantidad utilizada de cada objeto
+Entonces el sistema almacenará dicha cantidad como parte del historial de consumo.</td>
+  </tr>
+</table>
+
+### 8.3.2. To-Be Product Backlog
+
+La priorización del backlog se llevó a cabo considerando el impacto que cada funcionalidad puede generar en la experiencia del usuario y el esfuerzo estimado necesario para implementarla. Esta evaluación se apoyó en la evidencia obtenida durante las primeras validaciones con usuarios, incluyendo pruebas de prototipos y entrevistas semiestructuradas.
+
+| Orden | ID   | Descripción To-Be                                                                       | Story Points | Módulo               |
+| ----- | ---- | --------------------------------------------------------------------------------------- | ------------ | -------------------- |
+| 01    | US05 | Como odontólogo, deseo **crear nuevas citas** para organizar mi agenda de atención.     | 8            | Citas                |
+| 02    | US04 | Como odontólogo, deseo **editar citas existentes** para corregir datos o reagendarlas.  | 5            | Citas                |
+| 03    | US06 | Como odontólogo, deseo **eliminar citas** para mantener mi agenda limpia y actualizada. | 6            | Citas                |
+| 04    | TS13 | Implementar el endpoint **POST /api/v1/appointments** para crear citas.                 | 2            | Backend Citas        |
+| 05    | TS14 | Implementar el endpoint **PUT /api/v1/appointments/{id}** para actualizar citas.        | 5            | Backend Citas        |
+| 06    | TS15 | Implementar el endpoint **DELETE /api/v1/appointments/{id}** para eliminar citas.       | 4            | Backend Citas        |
+| 07    | US12 | Como recepcionista, deseo **añadir nuevos pacientes** al sistema.                       | 3            | Pacientes            |
+| 08    | US13 | Como recepcionista, deseo **editar la información de pacientes**.                       | 8            | Pacientes            |
+| 09    | US11 | Como recepcionista, deseo **visualizar la lista de pacientes registrados**.             | 6            | Pacientes            |
+| 10    | TS06 | Implementar **POST /api/v1/patients** para registrar pacientes.                         | 3            | Backend Pacientes    |
+| 11    | TS07 | Implementar **PUT /api/v1/patients/{id}** para actualizar pacientes.                    | 2            | Backend Pacientes    |
+| 12    | TS08 | Implementar **DELETE /api/v1/patients/{id}** para eliminar pacientes inactivos.         | 5            | Backend Pacientes    |
+| 13    | US16 | Como odontólogo, deseo **añadir historiales clínicos** por paciente.                    | 1            | Historial Clínico    |
+| 14    | TS11 | Implementar **POST /api/v1/patients/{id}/medical-histories**.                           | 2            | Backend Historial    |
+| 15    | TS12 | Implementar **GET /api/v1/patients/{id}/medical-histories**.                            | 8            | Backend Historial    |
+| 16    | US19 | Como administrador, deseo **visualizar el inventario** para conocer stock disponible.   | 4            | Inventario           |
+| 17    | US20 | Como administrador, deseo **añadir nuevos ítems** al inventario.                        | 8            | Inventario           |
+| 18    | US21 | Como administrador, deseo **editar ítems** del inventario.                              | 7            | Inventario           |
+| 19    | US22 | Como administrador, deseo **eliminar ítems** obsoletos o agotados.                      | 3            | Inventario           |
+| 20    | US25 | Como odontólogo, deseo **registrar insumos consumidos** en un tratamiento.              | 6            | Inventario / Clínica |
+| 21    | TS01 | Implementar **POST /api/v1/items** para crear ítems.                                    | 5            | Backend Inventario   |
+| 22    | TS02 | Implementar **PUT /api/v1/items/{id}** para actualizar ítems.                           | 6            | Backend Inventario   |
+| 23    | TS03 | Implementar **DELETE /api/v1/items/{id}** para eliminar ítems.                          | 5            | Backend Inventario   |
+| 24    | TS04 | Implementar **GET /api/v1/items/{id}** para obtener un ítem.                            | 6            | Backend Inventario   |
+| 25    | TS05 | Implementar **GET /api/v1/items** para listar inventario.                               | 4            | Backend Inventario   |
+| 26    | SS01 | Investigar **Mockito** para pruebas unitarias efectivas en Dentify.                     | 3            | QA / Testing         |
+| 27    | SS02 | Investigar **Selenium** para pruebas automáticas de interfaz.                           | 2            | QA / Testing         |
+
+### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
+
+#### 8.3.3.1. To-Be Sprint Backlogs
+
+Este sprint integra tanto **User Stories ** como **Technical Stories **, permitiendo una visión completa del trabajo de desarrollo y asegurando alineación entre las necesidades del usuario y la implementación técnica.
+
+| ID   | Tipo       | User Story / Task                               | Descripción ("Como... deseo... para...")                                                                                                             | Estimación (Horas) | Assigned To                           | Status | Justificación desde Experimentos                                          |
+| ---- | ---------- | ----------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ | ------------------------------------- | ------ | ------------------------------------------------------------------------- |
+| US05 | User Story | Crear Nuevas Citas                              | Como odontólogo, deseo **crear nuevas citas con campos mínimos obligatorios** para reducir fricción y aumentar la tasa de creación exitosa de citas. | 8                  | Bohorquez Lerzundi, Gerardo Sebastian | To-do  | Responde a B1: reducir campos obligatorios incrementa creación de citas   |
+| US04 | User Story | Editar Citas Existentes                         | Como odontólogo, deseo **editar citas permitiendo cambios rápidos de fecha y hora** para adaptarme a reprogramaciones de pacientes.                  | 5                  | Cutiri Agüero, Fabrizio Alexander     | To-do  | Optimización por E2: integración en rutina diaria del odontólogo          |
+| US06 | User Story | Eliminar Citas                                  | Como odontólogo, deseo **eliminar citas futuras con confirmación** para mantener una agenda limpia sin registros duplicados.                         | 6                  | Berrocal Ramirez, Omar Christian      | To-do  | Control de consistencia entre sistema y realidad del consultorio          |
+| TS13 | Technical  | Endpoint crear cita optimizado                  | Como desarrollador, deseo **mejorar POST /api/v1/appointments** para validar campos mínimos y retornar respuesta rápida.                             | 2                  | Aponte Cruzado, Andrea Marielena      | To-do  | Soporte técnico a US05                                                    |
+| TS14 | Technical  | Endpoint actualizar cita                        | Como desarrollador, deseo **implementar PUT /api/v1/appointments/{id}** con validación de citas pasadas.                                             | 5                  | Belahonia Miranda, Fabrisio           | To-do  | Soporte técnico a US04                                                    |
+| TS15 | Technical  | Endpoint eliminar cita                          | Como desarrollador, deseo **implementar DELETE /api/v1/appointments/{id}** con lógica de cascada para historiales.                                   | 4                  | Bohorquez Lerzundi, Gerardo Sebastian | To-do  | Soporte técnico a US06                                                    |
+| US12 | User Story | Añadir Nuevos Pacientes                         | Como recepcionista, deseo **registrar pacientes con búsqueda por DNI** para evitar duplicados y agilizar el proceso.                                 | 3                  | Cutiri Agüero, Fabrizio Alexander     | To-do  | E1: información crítica es búsqueda rápida por DNI                        |
+| US13 | User Story | Editar Información de Pacientes                 | Como recepcionista, deseo **actualizar datos de pacientes manteniendo historial de cambios** para garantizar información precisa.                    | 8                  | Berrocal Ramirez, Omar Christian      | To-do  | Mejora en precisión de registros                                          |
+| US11 | User Story | Visualizar Lista de Pacientes Registrados       | Como recepcionista, deseo **ver pacientes con filtros por estado o fecha de última visita** para gestionar seguimiento efectivo.                     | 6                  | Aponte Cruzado, Andrea Marielena      | To-do  | B2: indicadores visuales mejoran comprensión rápida                       |
+| TS06 | Technical  | Endpoint crear paciente con búsqueda DNI        | Como desarrollador, deseo **mejorar POST /api/v1/patients** para validar DNI único y retornar datos de pacientes existentes.                         | 3                  | Belahonia Miranda, Fabrisio           | To-do  | Soporte técnico a US12                                                    |
+| TS07 | Technical  | Endpoint actualizar paciente con auditoría      | Como desarrollador, deseo **implementar PUT /api/v1/patients/{id}** con registro de cambios realizados.                                              | 2                  | Bohorquez Lerzundi, Gerardo Sebastian | To-do  | Soporte técnico a US13                                                    |
+| TS08 | Technical  | Endpoint eliminar paciente con restricciones    | Como desarrollador, deseo **implementar DELETE /api/v1/patients/{id}** validando que no tengan citas o historiales activos.                          | 5                  | Cutiri Agüero, Fabrizio Alexander     | To-do  | Soporte técnico a US11                                                    |
+| US16 | User Story | Añadir Historiales Clínicos por Paciente        | Como odontólogo, deseo **registrar diagnósticos y tratamientos en un historial cronológico** para consultar rápidamente el tratamiento previo.       | 1                  | Berrocal Ramirez, Omar Christian      | To-do  | E3: contexto de uso requiere acceso rápido a historial                    |
+| TS11 | Technical  | Endpoint crear historial clínico optimizado     | Como desarrollador, deseo **implementar POST /api/v1/patients/{id}/medical-histories** con validación de datos clínicos.                             | 2                  | Aponte Cruzado, Andrea Marielena      | To-do  | Soporte técnico a US16                                                    |
+| TS12 | Technical  | Endpoint obtener historial clínico por paciente | Como desarrollador, deseo **implementar GET /api/v1/patients/{id}/medical-histories** retornando registros ordenados cronológicamente.               | 8                  | Belahonia Miranda, Fabrisio           | To-do  | Soporte técnico a US16                                                    |
+| US19 | User Story | Visualizar Inventario Centralizado              | Como administrador, deseo **ver un dashboard del inventario con colores para alertas de stock bajo** para identificar rápidamente insumos críticos.  | 4                  | Bohorquez Lerzundi, Gerardo Sebastian | To-do  | B2: indicadores visuales reducen necesidad de revisar múltiples pantallas |
+| US20 | User Story | Añadir Ítems al Inventario                      | Como administrador, deseo **añadir insumos con categorización automática** para organizar mejor los materiales.                                      | 8                  | Cutiri Agüero, Fabrizio Alexander     | To-do  | Simplificación vs. registro manual tedioso                                |
+| US21 | User Story | Editar Ítems del Inventario                     | Como administrador, deseo **actualizar cantidades y precios de insumos** para mantener datos financieros precisos.                                   | 7                  | Berrocal Ramirez, Omar Christian      | To-do  | Control de costos del consultorio                                         |
+| US22 | User Story | Eliminar Ítems Obsoletos                        | Como administrador, deseo **eliminar insumos agotados o vencidos** para limpiar el inventario.                                                       | 3                  | Aponte Cruzado, Andrea Marielena      | To-do  | Precisión en estado real del inventario                                   |
+| US25 | User Story | Registrar Consumo Simplificado de Insumos       | Como odontólogo, deseo **registrar insumos consumidos con un clic desde la pantalla de cita** para mantener inventario automáticamente actualizado.  | 6                  | Belahonia Miranda, Fabrisio           | To-do  | E4: reducir puntos de fricción en consumo manual                          |
+| TS01 | Technical  | Endpoint crear ítem inventario                  | Como desarrollador, deseo **implementar POST /api/v1/items** con validación de campos y categorización.                                              | 5                  | Bohorquez Lerzundi, Gerardo Sebastian | To-do  | Soporte técnico a US20                                                    |
+| TS02 | Technical  | Endpoint actualizar ítem inventario             | Como desarrollador, deseo **implementar PUT /api/v1/items/{id}** permitiendo cambios en cantidad y precio.                                           | 6                  | Cutiri Agüero, Fabrizio Alexander     | To-do  | Soporte técnico a US21                                                    |
+| TS03 | Technical  | Endpoint eliminar ítem inventario               | Como desarrollador, deseo **implementar DELETE /api/v1/items/{id}** validando restricciones de citas activas.                                        | 5                  | Berrocal Ramirez, Omar Christian      | To-do  | Soporte técnico a US22                                                    |
+| TS04 | Technical  | Endpoint obtener ítem por ID                    | Como desarrollador, deseo **implementar GET /api/v1/items/{id}** retornando datos completos del insumo.                                              | 6                  | Aponte Cruzado, Andrea Marielena      | To-do  | Consulta rápida en operaciones                                            |
+| TS05 | Technical  | Endpoint listar inventario completo             | Como desarrollador, deseo **implementar GET /api/v1/items** con filtros de categoría y estado de stock.                                              | 4                  | Belahonia Miranda, Fabrisio           | To-do  | Soporte a dashboard US19                                                  |
+| SS01 | Spike      | Investigar automatización de pruebas BDD        | Como desarrollador, deseo **investigar Cucumber/Gherkin** para pruebas de comportamiento en flujos críticos.                                         | 8                  | Bohorquez Lerzundi, Gerardo Sebastian | To-do  | Validación experimental de escenarios usuario                             |
+| SS02 | Spike      | Investigar integración de notificaciones        | Como desarrollador, deseo **explorar Firebase Cloud Messaging** para recordatorios automáticos de citas.                                             | 8                  | Cutiri Agüero, Fabrizio Alexander     | To-do  | Reducción de abandonos experimentales                                     |
+
+**Objetivos del Sprint:**
+
+1. **Optimizar flujos críticos:** Reducir campos obligatorios en creación de citas, implementar búsqueda por DNI en pacientes, simplificar registro de consumo de insumos.
+2. **Mejorar visualización:** Implementar dashboards con indicadores visuales para inventario y estado de citas.
+3. **Asegurar consistencia de datos:** Validaciones robustas, auditoría de cambios, integridad referencial.
+4. **Facilitar integración:** Completar endpoints RESTful optimizados y documentación API clara.
+5. **Validar experimentalmente:** Ejecutar pruebas BDD y explorar notificaciones automáticas para mejorar retención de usuarios.
 
 
-### 7.4.2. Monitoring Pipeline Components
+#### 8.3.3.2. Implemented To-Be Landing Page Evidence
 
-El monitoreo del pipeline garantiza que cada etapa del CI/CD de Dentify — compilación, pruebas y despliegue — funcione de forma estable y sin interrupciones. Para ello se supervisan tanto el rendimiento del pipeline como la salud del backend en ejecución.<br>
-| Componente                           | Qué se Monitorea                                                          | Herramientas                                 | Resultado                                      |
-| ------------------------------------ | ------------------------------------------------------------------------- | -------------------------------------------- | ---------------------------------------------- |
-| **Pipeline Metrics**                 | Duración de etapas, fallos de build/test, frecuencia de ejecuciones.      | Jenkins + Logs del pipeline                  | Detecta fallas tempranas y cuellos de botella. |
-| **Server Health**                    | CPU, memoria, disco y consumo durante compilación y pruebas.              | Windows/Linux Metrics / Monitor del servidor | Evita saturación de recursos durante el CI.    |
-| **Backend Health Checks**            | Disponibilidad de API, conexión a la base de datos, estado del servicio.  | Endpoints `/health` o `/actuator`            | Permite actuar rápido ante caídas o fallos.    |
-| **Logs Centralizados**               | Errores del backend, fallos de autenticación, problemas en controladores. | Consola Jenkins + Logs de Spring Boot        | Facilita el diagnóstico después de cada build. |
-| **App Usage Events (mínimo viable)** | Inicio de sesión, errores en formularios, fallos de carga.                | Logs del backend                             | Permite detectar errores de usuario o UI.      |
+![Imagen 1](./Img/landing-page-evidence-1.png)
+![Imagen 2](./Img/landing-page-evidence-2.png)
+![Imagen 3](./Img/landing-page-evidence-4.png)
 
+ **Visita la landing page:**  
+https://cliniccode.github.io/Landing-Page/
 
-### 7.4.3. Alerting Pipeline Components
+#### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
 
-El sistema de alertas de Dentify se basa en reglas simples pero efectivas que notifican únicamente cuando una condición requiere acción inmediata. Se configuran alertas por umbral en el backend (latencia alta, aumento de errores 500 y uso elevado de CPU o memoria), y alertas de disponibilidad cuando un servicio no responde en dos verificaciones consecutivas. Desde Jenkins, se generan alertas automáticas ante fallas en etapas del pipeline como compilación, pruebas unitarias o despliegue. Todas las alertas se envían a un canal dedicado del equipo mediante mensajes instantáneos, permitiendo una reacción rápida ante incidentes y asegurando la continuidad del servicio clínico.
-
-### 7.4.4. Notification Pipeline Components.
-
-El sistema de notificaciones de Dentify distribuye los mensajes de alerta a los canales adecuados para asegurar una respuesta rápida y organizada. Para ello, se emplean los siguientes mecanismos:
-
-* **Notificaciones instantáneas internas**: Mensajes automáticos enviados al canal del equipo con detalles del incidente, enlaces a los logs y el estado del pipeline, permitiendo actuar de inmediato.
-
-* **Alertas prioritarias al celular**: Para eventos críticos que comprometen citas, facturación o disponibilidad del sistema, se envía una notificación directa al responsable de guardia para garantizar una intervención urgente.
-
-* **Resumen diario por correo**: Se envían reportes con todas las alertas generadas, su estado y acciones tomadas, permitiendo a los stakeholders técnicos y administrativos mantener visibilidad sobre la estabilidad del sistema.
+![Imagen 1](./Img/Front3.png)
+![Imagen 2](./Img/Front4.png)
+![Imagen 3](./Img/Front1.png)
+![Imagen 4](./Img/Front2.png)
 
 
+#### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
+![Imagen 1](./Img/mob1.png)
+![Imagen 2](./Img/mob2.png)
+![Imagen 2](./Img/mob3.png)
+![Imagen 2](./Img/mob4.png)
+![Imagen 2](./Img/mob5.png)
+![Imagen 2](./Img/mob6.png)
 
+#### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
+
+En esta sección mostraremos evidencias del Mobile Application desplegado.
+
+**Link del Backend:** https:
+
+**Evidencias:**  
+
+![Imagen 2](./Img/restful1.png)
+![Imagen 2](./Img/restful2.png)
+![Imagen 2](./Img/restful3.png)
+
+#### 8.3.3.6. Team Collaboration Insights
+
+ **Insights Informe:**  
+ ![Imagen 1](./Img/InsightsInforme.png)
+
+  **Insights Landing:**  
+ ![Imagen 1](./Img/InsightsLanding.png)
+
+ **Insights Front:**  
+ ![Imagen 1](./Img/InsightsFront.png)
+
+  **Insights Back:**  
+ ![Imagen 1](./Img/InsightsBack.png)
+
+
+
+
+### 8.3.4. To-Be Validation Interviews
+
+#### 8.3.4.1. Diseño de Entrevistas
+
+Preguntas generales
+
+¿Cuál es tu rol dentro del consultorio?
+
+¿Qué actividades realizas con mayor frecuencia en tu día a día?
+
+¿Usas actualmente algún sistema o aplicación para gestionar tu trabajo?
+
+¿Qué problemas encuentras en los métodos que usas hoy?
+
+Gestión de pacientes
+
+¿Cada cuánto registras nuevos pacientes?
+
+¿Qué información consideras indispensable al registrar un paciente?
+
+¿Qué tan seguido necesitas actualizar los datos de un paciente?
+
+¿La búsqueda por DNI te sería útil en tu rutina?
+
+¿Qué tan importante es acceder rápidamente al historial clínico de cada paciente?
+
+Gestión de citas
+
+¿Cómo gestionas las citas actualmente?
+
+¿Qué problemas encuentras al usar el método o sistema que tienes hoy?
+
+¿Consideras útil tener una vista general de tus citas del día o de la semana?
+
+¿Qué filtros o formas de búsqueda usas para encontrar citas específicas?
+
+¿Qué tan seguido debes modificar o cancelar citas ya programadas?
+
+Gestión de inventario
+
+¿Cómo registras actualmente tus materiales e insumos?
+
+¿Qué dificultades tienes al llevar inventario manualmente?
+
+¿Qué información necesitas ver cuando revisas un producto del inventario?
+
+¿Cada cuánto actualizas el stock real de los insumos?
+
+¿Te sería útil registrar con un clic los materiales usados durante una cita?
+
+Historial clínico
+
+¿Qué información consideras imprescindible en un historial clínico?
+
+¿Con qué frecuencia revisas historiales anteriores de los pacientes?
+
+¿Has tenido problemas buscando historiales antiguos o incompletos?
+
+¿Qué tan útil sería tener todos los historiales organizados cronológicamente?
+
+Pagos y facturación
+
+¿Cómo registras actualmente los pagos de tus pacientes?
+
+¿Qué tan rápido necesitas generar una factura después de una cita?
+
+¿Qué dificultades tienes con la facturación actual?
+
+¿Consideras útil que la aplicación genere recibos o facturas automáticamente?
+
+Onboarding, registro e inicio de sesión
+
+¿Qué información mínima debería pedirse al registrarse para no hacerlo tedioso?
+
+¿Has tenido problemas alguna vez al aprender a usar un sistema nuevo?
+
+¿Te ayudaría contar con una guía de primeros pasos al entrar por primera vez?
+
+Landing Page (primera impresión del producto)
+
+¿Te parece importante tener una página de presentación que explique la aplicación?
+
+¿Qué información te gustaría encontrar antes de usar o descargar el sistema?
+
+¿Qué buscarías primero en una landing? (Precios, beneficios, funcionalidades, etc.)
+
+¿Qué debería transmitir la página para generar confianza en el sistema?
+
+#### 8.3.4.2. Registro de Entrevistas
+
+**Segmento Objetivo:** Odontólogos
+
+**Entrevista 1: Martín Salcedo**
+
+![to-be-validation-interview-1.png](Img/to-be-validation-interview-1.png)
+
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224135_upc_edu_pe/IQB-E-8N3qJKQbH996sMaKNzAddAt5cel4W_k0zdhujbCW4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=3daE5L)
+
+**Datos del entrevistado**
+- **Nombre:** Martín Salcedo
+- **Edad:** 25 años
+- **Distrito:** San Juan de Lurigancho (SJL)
+- **Timestamp:** 00:00 – 18:29
+
+**Resumen de la entrevista (Validación de la aplicación)**
+
+El entrevistado es Martín Salcedo, es un odontólogo de 25 años que maneja un flujo alto de pacientes y suele trabajar con citas simultáneas. Al revisar un ejemplo de formulario extenso para creación de citas, afirmó que él solo necesita tres datos principales: nombre del paciente, tipo de cita y horario. Indicó que todo lo demás puede ser completado posteriormente, por lo que un formulario corto no solo sería suficiente, sino que además se adaptaría mejor a la forma en que maneja su agenda.
+
+Sobre el proceso de facturación, señaló que no le gusta perder tiempo generando facturas manualmente y que, en la práctica, esa tarea suele retrasarse o delegarse. Por ello, la automatización le pareció una mejora significativa, pues considera que eliminaría un punto de fricción sin afectar la calidad del proceso.
+
+En relación con el inventario, expresó que registrar materiales uno por uno es completamente incompatible con su ritmo de trabajo. Comentó que en días de alta afluencia simplemente resulta imposible completar el registro manual. Al conocer la propuesta del registro con un clic desde la misma pantalla de la cita, dijo que sería “ideal”, ya que lo haría viable en su día a día.
+
+Acerca del onboarding guiado, manifestó que lo considera útil siempre y cuando sea breve. Para él, un flujo de tres pasos es más que suficiente para entender lo básico. También valoró positivamente la idea de recibir recordatorios de tareas pendientes, señalando que ese tipo de notificaciones sí influyen en su conducta y lo motivarían a usar la aplicación con mayor frecuencia.
+
+
+**Entrevista 2: Samuel Mendoza**
+
+![to-be-validation-interview-2.png](Img/to-be-validation-interview-2.png)
+
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224135_upc_edu_pe/EZYisY-jQ1BNq9ATwS-hVu0BsUCxZC_t448gftlV-aQPFg?e=8vS1tO)
+
+**Datos del entrevistado**
+
+- **Nombre:** Samuel Mendoza
+- **Edad:** 60 años
+- **Distrito:** Breña
+- **Timestamp:** 18:29 - 33:50
+
+**Resumen de la entrevista (Validación de la aplicación)**
+
+La tercera entrevista se realizó a Samuel Mendoza, un odontólogo de 60 años con una trayectoria extensa en la práctica privada. Él comentó que los formularios largos le resultan confusos y que, debido al tiempo que le toma completar demasiados campos obligatorios, suele sentirse frustrado durante la gestión administrativa. Mencionó que, en su experiencia, mientras menos datos se soliciten al inicio, más sencillo le resulta avanzar sin interrumpir su ritmo de trabajo. Por ello, la propuesta de reducir la cantidad de campos obligatorios le pareció especialmente conveniente, pues considera que simplificaría significativamente el proceso.
+
+En cuanto al módulo de facturación, explicó que con frecuencia se olvida de generar las facturas al terminar una consulta, especialmente en días con mayor carga de pacientes. Comentó que, en su caso, la automatización de la factura sería una mejora importante, ya que evitaría omisiones involuntarias y le permitiría mantener una contabilidad más ordenada sin necesidad de recordar pasos adicionales.
+
+Respecto al manejo del inventario, reconoció que casi nunca actualiza los materiales utilizados inmediatamente después de cada cita porque el proceso es manual y le consume tiempo que prefiere dedicar al paciente siguiente. En su consultorio, esto ha provocado inconsistencias frecuentes entre el stock físico y el registro digital. La idea de poder registrar los insumos con un solo clic le pareció una solución que se ajusta mucho más a su realidad, afirmando que sí sería capaz de mantener un registro fiel bajo ese esquema.
+
+En relación con el onboarding guiado, mencionó que, aunque tiene años de experiencia profesional, no siempre se adapta de inmediato a nuevas aplicaciones. Por ese motivo, un flujo inicial sencillo y guiado le ayudaría a entender la lógica del sistema sin necesidad de explorar por ensayo y error. Asimismo, expresó que los recordatorios automáticos serían útiles, especialmente aquellos relacionados con citas próximas o tareas pendientes, ya que podrían ayudarlo a mantener una mejor organización de su consultorio sin depender exclusivamente de su memoria.
+
+**Entrevista 3: Elizabeth Huanaco**
+
+![to-be-validation-interview-3.png](Img/to-be-validation-interview-3.png)
+
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224135_upc_edu_pe/EZYisY-jQ1BNq9ATwS-hVu0BsUCxZC_t448gftlV-aQPFg?e=Pkl74K)
+
+**Datos del entrevistado**
+- **Nombre:** Elizabeth Huanaco
+- **Edad:** 25 años
+- **Distrito:** San Juan de Lurigancho (SJL)
+- **Timestamp:** 33:51 - 42:37
+
+**Resumen de la entrevista (Validación de la aplicación)**
+
+Esta entrevista fue realizada a Elizabeth Huanuco, una odontóloga de 25 años que atiende entre tres y cuatro pacientes por día. Ella comentó que, al intentar crear una cita en cualquier software, suele sentirse abrumada cuando el formulario presenta muchos campos obligatorios. En sus palabras, “a veces empiezo a crear una cita y me aburro porque hay demasiados campos”, enfatizando que para ella, solo deberían pedirse los datos estrictamente esenciales para avanzar. Esta percepción refuerza la idea de que la fricción generada por formularios extensos contribuye al abandono del proceso.
+
+Respecto a la facturación, señaló que normalmente la realiza al final del día, siempre que se acuerde, pues durante la atención de cada paciente no tiene tiempo para hacerlo. Por esa razón, consideró bastante útil la posibilidad de que la factura se genere automáticamente al finalizar la cita, ya que le permitiría evitar olvidos y ahorrar tiempo.
+
+Sobre el manejo del inventario, afirmó que casi nunca registra los materiales utilizados porque el proceso manual es tedioso y le consume tiempo que no tiene entre atención y atención. La propuesta de permitir registrar los insumos con un solo clic le resultó muy conveniente, indicando que con esa funcionalidad sí podría llevar un control más exacto.
+
+En cuanto a la experiencia de nuevos usuarios, recordó que cuando probó otros sistemas no tenía claro qué debía hacer primero, y expresó que un onboarding guiado le habría facilitado el proceso de familiarización. Finalmente, mencionó que los recordatorios automáticos le serían de bastante utilidad, especialmente aquellos relacionados con citas próximas o inventario bajo, pues considera que ese tipo de alertas sí la motivarían a abrir la aplicación con más frecuencia.
+
+## 8.4. Experiment Aftermath & Analysis
+
+### 8.4.1. Analysis and Interpretation of Results
+
+El análisis de las tres entrevistas revela patrones consistentes que permiten comprender con claridad las principales barreras operativas que enfrentan los profesionales odontológicos al utilizar el sistema actual. En conjunto, los hallazgos respaldan las hipótesis relacionadas con la fricción en el flujo de trabajo, la carga cognitiva y la necesidad de una mayor orientación dentro de la plataforma.
+
+En primer lugar, todos los participantes coincidieron en que la cantidad excesiva de campos obligatorios durante la creación de una cita genera fricción innecesaria. Tanto los profesionales jóvenes como aquellos con más experiencia describieron este paso como lento, repetitivo y cognitivamente demandante, especialmente en horarios de alta carga asistencial. Esto respalda con fuerza la hipótesis de que reducir los campos obligatorios podría agilizar el proceso e incrementar la probabilidad de que los profesionales completen las citas de manera eficiente y consistente.
+
+En segundo lugar, independientemente de la edad o del nivel de familiaridad tecnológica, existe un punto de dolor claro respecto al proceso de facturación. Los participantes mencionaron que suelen posponerlo u olvidarlo, principalmente porque el flujo actual requiere varios pasos que interrumpen la dinámica clínica natural. Este patrón refuerza la hipótesis de que la facturación automática minimizaría omisiones, mejoraría la precisión y se alinearía mejor con el ritmo real de trabajo en un consultorio dental.
+
+En tercer lugar, las entrevistas confirman que el inventario de materiales casi nunca se actualiza en tiempo real. Todos los participantes admitieron que olvidan o deciden no registrar los insumos después de cada cita debido a que el proceso exige demasiada interacción manual. Esto ha generado discrepancias entre el inventario físico y el registro digital. Por tanto, la hipótesis sobre implementar un registro de materiales con un solo clic se ve fuertemente validada, ya que los entrevistados expresaron que sí adoptarían una solución de mínima interacción.
+
+En relación con el onboarding del sistema, las respuestas fueron consistentes al señalar que los usuarios nuevos —especialmente los menos familiarizados con la tecnología— tienen dificultades para comprender el flujo inicial de la plataforma. Un onboarding guiado fue percibido como beneficioso, no solo porque reduce la curva de aprendizaje, sino también porque establece un orden claro desde el primer uso. Esto coincide estrechamente con la hipótesis de que un mejor onboarding puede mejorar la efectividad temprana en la plataforma.
+
+Finalmente, todos los entrevistados valoraron la idea de recibir recordatorios oportunos y relevantes. Indicaron que suelen depender de la memoria o de herramientas externas para realizar seguimiento de tareas pendientes, citas o responsabilidades administrativas. Los recordatorios automatizados se percibieron como una forma de mejorar la organización, reducir olvidos y mantener un flujo de trabajo consistente, respaldando así la hipótesis de que los recordatorios pueden mejorar la retención a 30 días.
+
+En conjunto, las entrevistas ofrecen evidencia cualitativa sólida a favor de las cinco hipótesis de Dentify. Los puntos de dolor identificados son consistentes entre distintos perfiles profesionales, lo que indica que las soluciones propuestas abordan problemas sistémicos y no preferencias aisladas de usuarios específicos.
+
+### 8.4.2. Re-scored and Re-prioritized Question Backlog
+
+| Pregunta                                                                            | Priorización Anterior | Nueva Priorización | Justificación                                                                                      |
+|-------------------------------------------------------------------------------------| --------------------- |--------------------|----------------------------------------------------------------------------------------------------|
+| ¿Por qué algunos odontólogos no completan el proceso de creación de citas?          | Alta                  | **Muy Alta**       | Validación fuerte: todos consideran el formulario largo como fricción principal.                   |
+| ¿Qué impide que se generen facturas después de una cita?                            | Media                 | **Alta**           | Se menciona de forma explícita como necesidad real y frecuente.                                    |
+| ¿Por qué el inventario registrado no coincide con el stock real?                    | Alta                  | **Muy Alta**       | Los entrevistados coinciden en que suelen olvidar registrar materiales y esto afecta su control.   |
+| ¿Entienden los usuarios nuevos el flujo inicial (registrar pacientes, crear citas)? | Alta                  | **Alta**           | Percepción positiva, pero menos urgente que inventario y citas.                                    |
+| ¿Qué causa que odontólogos dejen de usar Dentify después del primer mes?            | Media                 | **Media**          | Es importante, pero su efectividad depende de optimizar primero los flujos esenciales del sistema. |
+
+## 8.5. Continuous Learning
+
+### 8.5.1. Shareback Session Artifacts: Learning Workflow
+
+El flujo de aprendizaje en Denitify está diseñado para convertir la información obtenida durante el desarrollo en mejoras tangibles que fortalezcan la plataforma. A través de sesiones estructuradas, el equipo analiza hallazgos, comparte buenas prácticas y define acciones que optimicen la propuesta de valor, la experiencia del usuario y la solidez técnica del producto.
+
+**Objetivos**
+- Detectar aprendizajes clave relacionados con la digitalización de procesos odontológicos, la automatización de citas y la usabilidad de la aplicación móvil.
+- Documentar y difundir buenas prácticas para reducir errores recurrentes y acelerar la toma de decisiones.
+- Mantener la alineación del equipo frente a cambios en el comportamiento de usuarios, tendencias tecnológicas y métricas críticas del negocio.
+
+**Flujo de Trabajo**
+
+**1. Captura de Datos**
+
+**Fuentes:**
+* Feedback de odontólogos (encuestas, entrevistas).
+* Métricas de uso de la app (citas agendadas, pagos realizados, tiempo en pantalla).
+* Resultados de pruebas de usabilidad y validación de prototipos.
+
+**Herramientas:**
+* Formularios en Google Forms para recopilar feedback.
+* Retrospectivas al cierre de cada sprint.
+* Google Analytics / Firebase para análisis de métricas.
+* Espacios colaborativos como Miro y Notion para organizar hallazgos.
+
+
+**2. Análisis y síntesis**
+
+**Documentación:**
+* Registro en Notion de aprendizajes clave, categorizados por áreas (UX, técnico, negocio).
+* Priorización según impacto en la experiencia del paciente y eficiencia operativa del consultorio.
+**Sesiones de alineamiento:**
+* Reuniones internas para revisar hallazgos y definir acciones con base en impacto y viabilidad.
+
+**3. Implementación de mejoras**
+
+* Ajustes en la interfaz de la app (ej.: simplificación del flujo de agendamiento, claridad en métodos de pago).
+* Optimización de herramientas para odontólogos (ej.: acceso rápido a historiales clínicos).
+* Refinamiento de textos y flujos de onboarding para mejorar la incorporación de nuevos usuarios.
+
+
+**4. Retroalimentación continua**
+
+* Evaluación iterativa después de cada sprint o lanzamiento.
+* Monitoreo constante de métricas clave (retención, conversión en pagos, satisfacción del paciente).
+* Documentación de nuevas lecciones para alimentar el ciclo de mejora continua.
+
+## 8.6. To-Be Software Platform Pre-launch
+
+La fase de pre-lanzamiento de Dentify es un momento crucial para garantizar una transición sin contratiempos hacia la operación oficial de la plataforma. El objetivo principal es asegurar la estabilidad, eficiencia y facilidad de uso del sistema, enfocado en el público clave: odontólogos, responsables de la gestión de sus consultorios.
+
+En esta etapa se prioriza ofrecer una experiencia confiable desde el primer acceso, implementando mejoras técnicas y funcionales que optimicen la interacción y fortalezcan la confianza de los usuarios.
+
+* Gestión de citas
+
+![Gestión de cita](Img/mob1.png)
+![Gestión de cita2](Img/Historial-de-citas-M.png)
+![Gestion 3](Img/Reserva-de-citas-M.png)
+
+* Inventario
+
+![Inventario](Img/mob4.png)
+![Inventario](Img/mob5.png)
+![Inventario](Img/Inventario-M.png)
+
+* Pagos
+
+![Pago](Img/Pagos-pago-exitoso-M.png)
+## 8.6.1. About-the-Product Intro Video
+
+| Sección           | Características del video                         | Sobre el contenido                                                          | Enlace                                                         |
+|-------------------|---------------------------------------------------|-----------------------------------------------------------------------------|----------------------------------------------------------------|
+| About the product | **Cantidad de videos:** 1 <br>  | Video relacionado acerca el funcionamiento de la aplicacion y sus funciones | [link del video](https://youtu.be/y0OFtWAXhIQ?si=p9reksAHqN4XnTwx) |
 
 # Conclusiones
 
-En conclusión, este proyecto resalta la importancia de aplicar diferentes enfoques de arquitectura y el uso de Domain-Driven Design (DDD), lo cual contribuyó a una mejor organización, escalabilidad y mantenibilidad del sistema. La implementación de una aplicación móvil desarrollada en Flutter para Android e iOS, junto con una versión nativa para Android, y respaldada por un backend sólido en Spring Boot con Java 17, permitió consolidar una base tecnológica moderna y eficiente. Asimismo, el énfasis en el diseño UX/UI garantizó una experiencia de usuario clara, atractiva e intuitiva. Finalmente, la utilización de control de versiones con Git y la estrategia de ramificación GitFlow favorecieron una gestión colaborativa y ordenada del desarrollo, manteniendo la trazabilidad y calidad del código durante todo el proceso.
+En conclusión, el desarrollo del proyecto Dentify permitió integrar de forma coherente distintas disciplinas de ingeniería de software bajo un enfoque moderno y orientado al dominio. La aplicación de principios de Domain-Driven Design (DDD) y arquitecturas modulares posibilitó una mejor organización, escalabilidad y mantenibilidad del sistema, garantizando que cada componente, desde las entidades de negocio hasta las capas de infraestructura, mantuviera una separación clara de responsabilidades y una alta cohesión interna.
+
+La implementación de una aplicación móvil desarrollada en Flutter para Android, complementada con una versión nativa para Android, consolidó una plataforma accesible, fluida y adaptada a las necesidades del usuario final. Estos clientes móviles se integraron de forma segura con un backend robusto en Spring Boot con Java 17/22, el cual expone una API RESTful documentada y desplegada en Azure, respaldada por una arquitectura de microservicios, pruebas automatizadas y un modelo de datos optimizado.
+
+Asimismo, el proceso de verificación y validación confirmó que la solución responde adecuadamente a los flujos reales de trabajo de clínicas odontológicas. A través de pruebas unitarias, integraciones, escenarios BDD, pruebas de sistema y análisis estático, se comprobó la estabilidad técnica y funcional del sistema antes de exponerlo a usuarios reales. Las entrevistas con odontólogos, asistentes y pacientes, junto con las auditorías recibidas y realizadas, permitieron identificar fricciones, validar hipótesis y priorizar mejoras centradas en la experiencia clínica.
+
+El enfoque experimental aplicado durante la validación aportó evidencia cuantitativa y cualitativa sobre eficiencia, reducción de errores en historiales, claridad de recordatorios de citas y facilidad de adopción. La definición rigurosa de condiciones, muestras, criterios Go/No-Go y control de variables aseguró resultados confiables, permitiendo tomar decisiones basadas en datos reales obtenidos en un entorno clínico controlado.
+
+Por otro lado, la incorporación de prácticas de Continuous Delivery, pipelines automáticos, control de calidad, estrategias de despliegue seguro y monitoreo continuo facilitó un ciclo de mejora constante. Esto garantizó que cada release fuese progresiva, estable y libre de regresiones, reforzando la confiabilidad del sistema tanto para profesionales odontológicos como para pacientes.
+
+En conjunto, los resultados obtenidos evidencian que _Dentify_ no solo logró cumplir los objetivos funcionales y técnicos planteados, sino que también consolidó una base sólida para su futura expansión. El enfoque modular, la validación estricta y la observación del comportamiento real del usuario permiten proyectar el sistema como una herramienta escalable, confiable y preparada para evolucionar con las necesidades del sector odontológico moderno.
 
 # Bibliografía
 
@@ -4816,24 +6343,22 @@ Osiptel. (2022). Los servicios de telecomunicaciones en los hogares peruanos: En
 
 ## Recursos del Proyecto
 
-| Descripción                          | Enlace                                                                 |
-|--------------------------------------|------------------------------------------------------------------------|
-| Repositorio de Aplicación Móvil      | [GitHub - MobileApp](https://github.com/ClinicCode/dentify-app-mobile) |
-| Repositorio de Landing Page          | [GitHub - LandingPage](https://github.com/ClinicCode/dentify-landing-page) |
-| Despliegue de Landing Page           | [Landing Page Deploy](s) |
-| Repositorio de Web Service           | [GitHub - BackEnd](https://github.com/ClinicCode/dentify-backend) |
-| Despliegue de Web Service            | [Swagger UI](https://dentify-f0gdbubtaafmdfg9.canadacentral-01.azurewebsites.net/swagger-ui/index.html)|
-| Organización de GitHub               | [TF-AplicacionesMoviles](https://github.com/ClinicCode) |
-
+| Descripción                     | Enlace                                                                                                  |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| Repositorio de Aplicación Móvil | [GitHub - MobileApp](https://github.com/ClinicCode/dentify-app-mobile)                                  |
+| Despliegue de Aplicación Web    | [Aop Web Deploy](https://dentify-2025.web.app/)                                                         |
+| Repositorio de Landing Page     | [GitHub - LandingPage](https://github.com/ClinicCode/dentify-landing-page)                              |
+| Despliegue de Landing Page      | [Landing Page Deploy](s)                                                                                |
+| Repositorio de Web Service      | [GitHub - BackEnd](https://github.com/ClinicCode/dentify-backend)                                       |
+| Despliegue de Web Service       | [Swagger UI](https://dentify-f0gdbubtaafmdfg9.canadacentral-01.azurewebsites.net/swagger-ui/index.html) |
+| Organización de GitHub          | [TF-Clinic Code](https://github.com/ClinicCode)                                                         |
 
 ---
 
 ## Evidencias en Video
 
-| Sección                    | Características del video                                                                                                                                          | Enlace                     |
-|----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|
-| *Needfinding Interviews* | *Cantidad de videos:* 1 <br> *Nomenclatura:* upc-pre-202520-1asi0732-14651-ClinicCode-needfinding-sprint-1 <br> *Formato:* mp4 <br> *Duración:* 34:28 | [Ver Video](https://shorturl.at/P0n32) |
+| Sección                  | Características del video                                                                                                                             | Enlace                                 |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
+| _Needfinding Interviews_ | _Cantidad de videos:_ 1 <br> _Nomenclatura:_ upc-pre-202520-1asi0732-14651-ClinicCode-needfinding-sprint-1 <br> _Formato:_ mp4 <br> _Duración:_ 34:28 | [Ver Video](https://shorturl.at/P0n32) |
 
 # Anexos
-
-
