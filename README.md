@@ -222,6 +222,25 @@ Los integrantes son:
       - [Escenario probado 3: Gestión de Pacientes](#escenario-probado-3-gestión-de-pacientes)
       - [Herramientas utilizadas](#herramientas-utilizadas)
     - [6.1.4. Core System Tests.](#614-core-system-tests)
+  - [6.2. Static Testing & Verification](#62-static-testing--verification)
+    - [6.2.1. Static Code Analysis](#621-static-code-analysis)
+    - [6.2.1.1. Coding standard & Code conventions.](#6211-coding-standard--code-conventions)
+    - [6.2.1.2. Code Quality & Code Security.](#6212-code-quality--code-security)
+    - [6.2.2. Reviews](#622-reviews)
+  - [6.3. Validation Interviews](#63-validation-interviews)
+    - [6.3.1. Diseño de Entrevistas.](#631-diseño-de-entrevistas)
+    - [6.3.2. Registro de Entrevistas.](#632-registro-de-entrevistas)
+    - [6.3.3. Evaluaciones según heurísticas.](#633-evaluaciones-según-heurísticas)
+  - [6.4. Auditoría de Experiencias de Usuario](#64-auditoría-de-experiencias-de-usuario)
+    - [6.4.1. Auditoría realizada.](#641-auditoría-realizada)
+      - [6.4.1.1. Información del grupo auditado.](#6411-información-del-grupo-auditado)
+      - [6.4.1.2. Cronograma de auditoría realizada.](#6412-cronograma-de-auditoría-realizada)
+      - [6.4.1.3. Contenido de auditoría realizada.](#6413-contenido-de-auditoría-realizada)
+    - [6.4.2. Auditoría recibida.](#642-auditoría-recibida)
+      - [6.4.2.1. Información del grupo auditor.](#6421-información-del-grupo-auditor)
+      - [6.4.2.2. Cronograma de auditoría recibida.](#6422-cronograma-de-auditoría-recibida)
+      - [6.4.2.3. Contenido de auditoría recibida.](#6423-contenido-de-auditoría-recibida)
+      - [6.4.2.4. Resumen de modificaciones para subsanar fallas.](#6424-resumen-de-modificaciones-para-subsanar-fallas)
 - [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)
   - [7.1. Continuous Integration](#71-continuous-integration)
     - [7.1.1. Tools and Practices.](#711-tools-and-practices)
@@ -4805,6 +4824,475 @@ Este test valida la respuesta de los _Endpoints_ llamados desde las aplicaciones
 ![chapter6.1.4-3.jpeg](Img/chapter6.1.4-3.jpg)
 ![chapter6.1.4-4.jpeg](Img/chapter6.1.4-4.jpeg)
 
+1. Registro (web/móvil)
+   Validación de creación de cuenta y confirmación de que el backend procesa correctamente los datos enviados.
+   ![imagen](Img/system-test-1.png)
+
+2. Login
+   Ingreso con credenciales válidas y verificación de acceso correcto a la pantalla principal.
+   ![imagen](Img/system-test-2.png)
+
+3. Navegación por pantallas
+   Recorrido por las vistas principales de la app para asegurar que todas cargan y funcionan sin errores.
+   ![imagen1](Img/system-test-3.1.png)
+   ![imagen2](Img/system-test-3.2.png)
+
+4. Llamadas a API
+   Prueba de integración: la app envía solicitudes al backend y recibe respuestas correctas.
+   ![imagenSwagger](Img/system-test-4.png)
+
+5. Manejo de errores
+   Ejecución de acciones con datos inválidos para comprobar que el sistema responde con mensajes de error controlados.
+   ![imagen](Img/system-test-5.png)
+
+## 6.2. Static testing & Verification
+### 6.2.1. Static Code Analysis
+#### 6.2.1.1. Coding standard & Code conventions.
+
+En la sección actual, se destacarán los estándares que se aplicarán para las aplicaciones tanto en Front-end, Back-end y Landing Page.
+
+<h3>Naming Conventions</h3>
+
+- Nombres de proyectos, clases: Se usarán nombres cortos.
+- Proyectos: Se usarán mayúsculas
+- Formato: Se usará CamelCase para nombrar los distintos proyectos. Así como el uso de snake_case para las tablas en el back-end.
+
+<h3>Identación y Espaciado</h3>
+
+Se uso tabulación para separar las distintas partes del codigo con el fin de obtener un resultado más comprensible.
+
+<h3>Comentarios</h3>
+
+Se hizo uso de JavaDocs para nombrar distintas partes del codigo. Con el fin de tener cada funcionalidad en el backend clara.
+
+<h3>Organización de archivos</h3>
+
+- Backend: Se organizo en distintas carpetas según bounded context y además siguiendo Domain Driven Design.
+- Frontend: A semejanza del backend se dividio segun bounded context y dentro de ellas según funcionalidad, siguiendo Domain Driven Design.
+- Landing Page: No se hizo una distinción entre carpetas.
+
+
+#### 6.2.1.2. Code Quality & Code Security.
+
+En el proyecto se identificaron puntos básicos a mejorar en calidad y seguridad del código.<br>
+**Calidad**: se halló duplicación de lógica en controladores, poco uso de pruebas unitarias y ausencia de herramientas de análisis estático.<br>
+**Seguridad**: existen credenciales en texto plano, CORS muy abierto y registros que exponen información sensible.
+
+### 6.2.2. Reviews
+
+El objetivo del proceso de revisión de código es asegurar que el software sea de alta calidad, consistente y seguro antes de su despliegue. Este proceso se llevará a cabo tanto de forma colaborativa como automatizada, y consta de las siguientes etapas:
+
+1. **Revisión entre pares**: Un desarrollador examina el código de otro miembro del equipo para identificar posibles errores y asegurar el uso adecuado de las convenciones de codificación.
+
+2. **Análisis automatizado del código**: Herramientas como Jenkins e IntelliJ se encargarán de detectar problemas relacionados con la calidad y la seguridad, verificando el cumplimiento de los estándares establecidos.
+
+3. **Verificación final de calidad**: Antes de su implementación, se validará que el código esté bien estructurado, correctamente documentado y libre de errores graves.
+
+4. **Evaluación de seguridad**: Se analizarán posibles vulnerabilidades en las partes críticas del código utilizando Jenkins y Lighthouse, con el fin de proteger el entorno de producción.
+
+Registro de revisiones: Todas las revisiones serán documentadas, detallando los errores encontrados y las soluciones aplicadas, para promover una mejora continua en el proceso de desarrollo.
+
+## 6.3.Validation Interviews.
+
+### 6.3.1. Diseño de Entrevistas.
+
+Para validar las necesidades reales del personal odontológico y evaluar la adecuación del producto, se diseñó una guía estructurada de entrevistas dividida por bloques temáticos. Este diseño permite obtener información clara sobre flujo de trabajo, puntos de dolor, expectativas y prioridades del usuario final.
+
+*Preguntas generales*
+
+1. ¿Cuál es tu rol dentro del consultorio?
+2. ¿Qué actividades realizas con mayor frecuencia en tu día a día?
+3. ¿Usas actualmente algún sistema o aplicación para gestionar tu trabajo?
+4. ¿Qué problemas encuentras en los métodos que usas hoy?
+
+*Gestión de pacientes*
+
+5. ¿Cada cuánto registras nuevos pacientes?
+6. ¿Qué información consideras indispensable al registrar un paciente?
+7. ¿Qué tan seguido necesitas actualizar los datos de un paciente?
+8. ¿La búsqueda por DNI te sería útil en tu rutina?
+9. ¿Qué tan importante es acceder rápidamente al historial clínico?
+
+*Gestión de citas*
+
+10. ¿Cómo gestionas las citas actualmente?
+11. ¿Qué problemas encuentras al usar tu método actual?
+12. ¿Te sería útil una vista general de citas por día o semana?
+13. ¿Qué filtros empleas para encontrar citas específicas?
+14. ¿Con qué frecuencia modificas o cancelas citas ya programadas?
+
+*Gestión de inventario*
+
+15. ¿Cómo registras actualmente tus materiales e insumos?
+16. ¿Qué dificultades tienes al llevar inventario manualmente?
+17. ¿Qué información necesitas ver al revisar un producto del inventario?
+18. ¿Cada cuánto actualizas el stock real de los insumos?
+19. ¿Te sería útil registrar con un clic los materiales usados durante una cita?
+
+*Historial clínico*
+
+20. ¿Qué información consideras imprescindible en un historial clínico?
+21. ¿Con qué frecuencia revisas historiales anteriores?
+22. ¿Has tenido problemas buscando historiales antiguos o incompletos?
+23. ¿Qué tan útil sería tener los historiales organizados cronológicamente?
+
+*Pagos y facturación*
+
+24. ¿Cómo registras actualmente los pagos de tus pacientes?
+25. ¿Qué tan rápido necesitas generar una factura después de la cita?
+26. ¿Qué dificultades tienes con tu método de facturación actual?
+27. ¿Te sería útil que la aplicación genere recibos o facturas automáticamente?
+
+*Onboarding, registro e inicio de sesión*
+
+28. ¿Qué información mínima debería pedirse en el registro?
+29. ¿Has tenido problemas alguna vez al aprender a usar un sistema nuevo?
+30. ¿Te ayudaría una guía de primeros pasos la primera vez que entras?
+
+*Landing Page*
+
+31. ¿Consideras importante que exista una página de presentación del sistema?
+32. ¿Qué información buscarías antes de usar o descargar la aplicación?
+33. ¿Qué revisarías primero en una landing? (Precios, beneficios, funcionalidades, etc.)
+34. ¿Qué debería transmitir la página para generar confianza?
+
+### 6.3.2. Registro de Entrevistas
+
+*Segmento Objetivo:* Odontólogos
+
+*Entrevista 1: Martín Salcedo*
+
+![entrevista-martin-salcedo](Img/entrevista-martin-salcedo-v.png)
+
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224135_upc_edu_pe/IQB-E-8N3qJKQbH996sMaKNzAddAt5cel4W_k0zdhujbCW4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=3daE5L)
+
+*Datos del entrevistado*
+- *Nombre:* Martín Salcedo
+- *Edad:* 25 años
+- *Distrito:* San Juan de Lurigancho (SJL)
+- *Timestamp:* 00:00 – 18:31
+
+*Resumen de la entrevista (Validación de la aplicación)*  
+Martín probó las funcionalidades iniciales de Dentify, incluyendo autenticación, navegación general, agenda y ficha del paciente. Comentó que la experiencia inicial es fluida, clara y sin fricción. El flujo de visualización de citas y detalles clínicos funciona como espera un odontólogo en consulta.
+
+Destacó como puntos fuertes:
+- Interfaz intuitiva y rápida de entender.
+- Organización clara de la información del paciente.
+- Actualizaciones inmediatas cuando una cita cambia.
+
+Sugirió mejorar:
+- Acceso más directo a la historia clínica.
+- Mayor visibilidad en las alertas y recordatorios.
+- Mejor contraste para uso en consultorios con iluminación variable.
+
+En general, considera que Dentify reduciría solapamientos y mejoraría la organización diaria.
+
+*Entrevista 2: Samuel Mendoza*
+
+![entrevista-samuel](Img/entrevista-fabrizio-cutiri.png)
+
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224135_upc_edu_pe/EZYisY-jQ1BNq9ATwS-hVu0BsUCxZC_t448gftlV-aQPFg?e=8vS1tO)
+
+*Datos del entrevistado*
+- *Nombre:* Samuel Mendoza
+- *Edad:* 60 años
+- *Distrito:* Breña
+- *Timestamp:* 10:35 – 25:55
+
+*Resumen de la entrevista (Validación de la aplicación)*  
+El Dr. Mendoza evaluó los módulos de citas, pacientes y navegación principal. Indicó que Dentify es sencillo de usar y que los formularios tienen el nivel justo de información. Consideró que el flujo de registro y actualización de citas es fácil y ordenado.
+
+Observaciones positivas:
+- Flujo claro para registrar, actualizar y revisar citas.
+- Historial del paciente accesible y sin pérdida de datos.
+- Validaciones correctas (no modificar citas pasadas, campos obligatorios, etc.).
+
+Sugerencias de mejora:
+- Aumentar tamaño de letra en secciones clínicas.
+- Mostrar más claramente el estado de pagos.
+- Resumir la historia clínica para evitar demasiado scroll.
+
+Considera que la lógica de negocio implementada coincide con la operación real de un consultorio odontológico y que Dentify podría reemplazar sistemas manuales que actualmente le consumen tiempo.
+
+*Entrevista 3: Elizabeth Huanaco*
+
+![entrevista_elizabeth](Img/entrevista_elizabeth.png)
+
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224135_upc_edu_pe/EZYisY-jQ1BNq9ATwS-hVu0BsUCxZC_t448gftlV-aQPFg?e=Pkl74K)
+
+*Datos del entrevistado*
+- *Nombre:* Elizabeth Huanaco
+- *Edad:* 25 años
+- *Distrito:* San Juan de Lurigancho (SJL)
+- *Timestamp:* 25:55 – 34:24
+
+*Resumen de la entrevista (Validación de la aplicación)*  
+Elizabeth validó las pantallas de agenda, paciente, historial y comunicación. Encontró que la organización del contenido es clara y que la navegación es rápida, incluso en sesiones con varios pacientes seguidos.
+
+Comentarios positivos:
+- Información clínica bien estructurada.
+- Flujo rápido de registro de procedimientos.
+- Vista de citas con estados visibles y útiles.
+
+Recomendaciones:
+- Integrar botón de mensajes/recordatorios desde la cita.
+- Agregar plantillas rápidas de tratamientos frecuentes.
+- Permitir subir fotos directamente desde su dispositivo (iPad o cámara).
+
+Concluyó que Dentify agilizaría su trabajo, reduciría su dependencia de Excel y WhatsApp, y facilitaría la gestión integral del consultorio.
+
+### 6.3.3. Evaluaciones según heurísticas.
+
+
+**Entrevista 1: Martín Salcedo**
+
+| Heurística | Evaluación |
+|------------|------------|
+| **Claridad de la información** | La información del paciente está bien organizada y los detalles clínicos son claros. |
+| **Facilidad de navegación** | Considera la experiencia fluida, clara y sin fricción. |
+| **Visibilidad del estado del sistema** | Señala que las alertas y recordatorios podrían ser más visibles. |
+| **Accesibilidad** | Menciona problemas de contraste en ambientes con iluminación variable. |
+| **Satisfacción general** | Alta; Dentify ayudaría a evitar solapamientos y mejorar la organización del día. |
+
+---
+
+**Entrevista 2: Dr. Samuel Mendoza**
+
+| Heurística | Evaluación |
+|------------|------------|
+| **Claridad de la información** | Los formularios tienen el nivel justo de información. |
+| **Facilidad de navegación** | Encuentra sencillo el registro y actualización de citas. |
+| **Consistencia** | Valora que no se permitan modificaciones a citas pasadas; flujo coherente. |
+| **Visibilidad del sistema** | Menciona mejorar la claridad del estado de pagos. |
+| **Diseño estético / Minimalismo** | Sugiere reducir scroll en historia clínica. |
+| **Accesibilidad** | Recomienda aumentar tamaño de letra. |
+| **Satisfacción general** | Percibe que Dentify puede reemplazar sistemas manuales y ahorrar tiempo. |
+
+---
+
+**Entrevista 3: Elizabeth Huanaco**
+
+| Heurística | Evaluación |
+|------------|------------|
+| **Claridad de la información** | Información clínica bien estructurada, fácil de leer. |
+| **Facilidad de navegación** | Rápida incluso con varios pacientes; flujo eficiente. |
+| **Visibilidad del sistema** | Los estados de citas son claros y útiles. |
+| **Flexibilidad y eficiencia** | Solicita plantillas rápidas para procedimientos y subida de fotos desde su dispositivo. |
+| **Control y libertad del usuario** | Requiere un botón de mensajes desde la cita. |
+| **Satisfacción general** | Afirma que Dentify reduciría el uso de Excel y WhatsApp y agilizaría su trabajo. |
+
+## 6.4. Auditoría de Experiencias de Usuario
+### 6.4.1. Auditoría realizada.
+#### 6.4.1.1. Información del grupo auditado.
+
+Nombre del grupo: Huellitas conectadas<br>
+Integrantes:<br>
+Navarro Correa César Augusto<br>
+Espinoza Saenz Christian Renato<br>
+Payesa Torres Harrison Hubert<br>
+Ramirez Escalante Carlo Patricio<br>
+
+#### 6.4.1.2. Cronograma de auditoría realizada.
+
+| Actividad de auditoría        | Fecha      | Hora       | Realizado por                        |
+|-------------------------------|------------|------------|--------------------------------------|
+| Solicitud de información      | 14/11/2025 | 1:00 p.m.  | Belahonia Miranda, Fabrisio          |
+| Recepción de información      | 14/11/2025 | 11:00 p.m. | Belahonia Miranda, Fabrisio          |
+| Lectura de la información     | 15/06/2025 | 9:00 a.m.  | Berrocal Ramirez Omar Christian      |
+| Ejecución de auditoría        | 15/06/2025 | 10:00 a.m. | Cutiri Agüero Fabrizio Alexander     |
+| Elaboración del informe       | 15/06/2025 | 11:00 a.m. | Aponte Cruzado, Andrea Marielena     |
+| Envío del informe de auditoría| 15/06/2025 | 1:00 p.m.  | Bohorquez Lerzundi Gerardo Sebastian |
+
+| Nombres y Apellidos                   | Código de alumno |
+|---------------------------------------|------------------|
+| Aponte Cruzado, Andrea Marielena	     | U202224135       |
+| Belahonia Miranda, Fabrisio 	         | U202220219       |
+| Bohorquez Lerzundi Gerardo Sebastian	 | U202224149       |
+| Cutiri Agüero Fabrizio Alexander	     | U201914181       |
+| Berrocal Ramirez Omar Christian       | U20201B529       |
+
+#### 6.4.1.3. Contenido de auditoría realizada.
+
+### **Tareas a Evaluar**
+
+El alcance de esta evaluación incluye una revisión exhaustiva de la usabilidad en las siguientes tareas clave dentro de la aplicación web:
+* Registro de usuarios y selección de rol
+* Registro de mascotas y llenado de información relevante
+* Registro de refugios y gestión de animales
+* Coherencia entre publicaciones, animales registrados y solicitudes de adopción
+
+### **Descripcion de Problemas**
+
+### **Problema #01: Opciones de rol con fondo transparente que se sobreponen al formulario**
+
+**Severidad:** 2
+
+**Heurística Violada:** Visibilidad del estado del sistema
+
+**Problema:**
+
+Al registrar un usuario, el menú desplegable para seleccionar el rol presenta opciones con fondo transparente, lo que hace que el texto se mezcle con el contenido del formulario. Esto dificulta la lectura, genera incertidumbre y puede llevar a la selección incorrecta de un rol.
+
+**Recomendación:**
+
+Corregir estilos del dropdown: fondo sólido, sombra, z-index adecuado y evitar que contenedores recorten el menú.
+
+<img src="Img/auditoria-heuristica-1.png" alt="" height="400">
+
+### Problema #02: Campos ambiguos “Vacunación” y “Necesidades Especiales” al registrar una mascota
+
+**Severidad:** 3
+
+**Heurísticas violadas:** Correspondencia entre el sistema y el mundo real
+
+**Problema:**
+
+Estos campos no especifican qué tipo de información espera la plataforma. El usuario nuevo no sabe si debe escribir texto, indicar fechas o colocar descripciones específicas. La falta de contexto lleva a respuestas inconsistentes, confusión y datos de baja calidad que pueden afectar procesos como adopción o búsqueda.
+
+**Recomendación:**
+
+Reemplazar campos ambiguos por opciones guiadas (checkboxes, radio buttons, listas predefinidas) y añadir pequeños textos de ayuda o ejemplos.
+
+<img src="Img/auditoria-heuristica-7.png" alt="" height="400">
+
+### Problema #03: Uso del mismo formulario para roles diferentes
+
+**Severidad:** 2
+
+**Heurísticas violadas:** Prevención de errores / Consistencia y estándares
+
+**Problema:**
+
+La plataforma muestra el mismo formulario para todos los roles, aunque algunos campos son irrelevantes o confusos dependiendo del rol seleccionado.  Campos como “Capacidad máxima de mascotas” o “Animales actualmente disponibles” al parecer son específicos para el rol de “Refugio”, sin embargo, también se presentan al registrar un “Adoptante”. De igual forma, el campo “Tipo de Hogar” debería ser especifico para el rol de “Adoptante”, sin embargo, este también se presenta en el rol de “Refugio”.
+Este detalle aumenta la carga cognitiva, confunde al usuario y genera posibles errores o información innecesaria. También puede afectar la intención de completar el registro.
+
+**Recomendación:**
+
+Implementar formularios dinámicos según el rol seleccionado: mostrar solo campos relevantes y validar únicamente la información correspondiente a ese rol.
+
+<img src="Img/auditoria-heuristica-4.png" alt="" height="400">
+
+<img src="Img/auditoria-heuristica-3.png" alt="" height="400">
+
+### Problema #04: Inconsistencia en el registro de refugios (0 animales registrados, pero sí hay publicaciones y solicitudes)
+
+**Severidad:** 04
+
+**Heurísticas violadas:** Visibilidad del estado del sistema/ Prevención de errores
+
+**Problema:**
+
+Al crear un nuevo usuario con rol de refugio, la interfaz muestra que no tiene animales registrados, pero en la sección de publicaciones si aparecen animales, y en la sección de solicitudes también existen registros. Esto representa un desbalance entre los datos reales y lo que la plataforma comunica. Estas inconsistencias afectan gravemente la confianza del usuario. Además, dificulta la comprensión del flujo de adopción y puede generar errores administrativos o información contradictoria.
+
+**Recomendación:**
+
+Revisar la lógica de sincronización entre la entidad “animal”, las publicaciones y las solicitudes.
+Asegurar que el conteo mostrado se base en la misma fuente de verdad y que las operaciones de registro sean atómicas y consistentes.
+
+<img src="Img/nuevo-refugio-creado-auditoria.png" alt="" height="400">
+
+<img src="Img/publicaciones-generadas-sin-aviso.png" alt="" height="400">
+
+<img src="Img/Adopcion-solicitada-sin-aviso.png" alt="" height="400">
+
+
+
+#### 6.4.2. Auditoría recibida.
+#### 6.4.2.1. Información del grupo auditor.
+
+Integrantes del c
+
+Aponte Cruzado, Andrea Marielena - U202224135
+Belahonia Miranda, Fabrisio - U202220219
+Bohorquez Lerzundi	Gerardo Sebastian - U202224149
+Cutiri Agüero	Fabrizio Alexander - U201914181
+Berrocal Ramirez	Omar Christian - U20201B529
+
+#### 6.4.2.2. Cronograma de auditoría recibida.
+
+| Fecha        | Actividad                                      | Responsable                               |
+|--------------|------------------------------------------------|--------------------------------------------|
+| 25-jun-2025  | Recepción del informe de auditoría externa     | Aponte Cruzado, Andrea Marielena          |
+| 25-jun-2025  | Revisión inicial de hallazgos                  | Belahonia Miranda, Fabrisio               |
+| 25-jun-2025  | Sesión de aclaración y discusión de hallazgos  | Bohorquez Lerzundi, Gerardo Sebastian     |
+| 25-jun-2025  | Priorización de mejoras sugeridas              | Cutiri Agüero, Fabrizio Alexander         |
+| 25-jun-2025  | Aprobación del plan de mejora y próximos pasos | Berrocal Ramirez, Omar Christian          |
+
+#### 6.4.2.3. Contenido de auditoría recibida.
+
+## **PROBLEMA #1: Falta de detalles en la vista de citas**
+
+**Severidad:** 3
+**Heurística violada:** Visibilidad del estado del sistema
+**Problema:**
+La vista de citas no muestra información suficiente para que el odontólogo entienda rápidamente el contexto de cada cita. Faltan detalles como motivo de consulta, duración, o estado de confirmación. Esto provoca que el usuario necesite entrar a cada cita para obtener información adicional.
+**Recomendación:**
+
+* Agregar descripción breve o motivo de consulta en cada tarjeta.
+* Incluir íconos o colores para indicar estados (confirmada, pendiente, cancelada).
+* Mostrar duración estimada o tipo de atención.
+
+---
+
+## **PROBLEMA #2: Poca claridad en el módulo odontológico (odontograma e historial)**
+
+**Severidad:** 3
+**Heurística violada:** Correspondencia con el mundo real
+**Problema:**
+La sección odontológica no otorga suficiente contexto visual sobre qué parte del tratamiento se está editando o registrando. La interacción con el odontograma no es totalmente intuitiva para usuarios nuevos.
+**Recomendación:**
+
+* Añadir etiquetas visibles y persistentes para cada sección del odontograma.
+* Implementar tooltips que expliquen acciones o piezas dentales.
+* Colocar ejemplos de diagnósticos o tratamientos frecuentes.
+
+---
+
+## **PROBLEMA #3: Vista de historial clínico poco diferenciada**
+
+**Severidad:** 2
+**Heurística violada:** Organización y jerarquía visual
+**Problema:**
+Los registros del historial clínico aparecen muy similares entre sí, lo que hace difícil distinguir atenciones recientes de antiguas.
+**Recomendación:**
+
+* Incorporar separación visual clara entre atenciones.
+* Añadir fecha en formato legible (“6 de agosto, 10:30 a.m.”).
+* Usar colores suaves para diferenciar tipos de tratamiento (endodoncia, profilaxis, control, etc.).
+
+---
+
+## **PROBLEMA #4: Falta de funcionamiento offline para registrar insumos**
+
+**Severidad:** 3
+**Heurística violada:** Control y eficiencia de uso
+**Problema:**
+El sistema no permite registrar el consumo de materiales en modo offline. Si la conexión se pierde, el odontólogo no puede continuar con el registro del tratamiento, generando pérdida de información.
+**Recomendación:**
+
+* Implementar almacenamiento local temporal.
+* Hacer sincronización automática al recuperar Internet.
+* Mostrar indicador “trabajando sin conexión”.
+
+---
+
+## **PROBLEMA #5: Generación de reportes limitada y poco automatizada**
+
+**Severidad:** 2
+**Heurística violada:** Flexibilidad y eficiencia
+**Problema:**
+Los reportes administrativos requieren procesos manuales (filtros, búsquedas, búsquedas repetidas). Esto hace que tareas simples tomen demasiado tiempo.
+**Recomendación:**
+
+* Crear reportes prearmados (mensuales, por paciente, por tipo de tratamiento).
+* Incluir exportación rápida a PDF/Excel.
+* Agregar filtros inteligentes (por doctor, fecha, especialidad).
+
+
+#### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos.
+
+A partir de la auditoría recibida, se ejecutaron mejoras enfocadas en aumentar la claridad visual, reducir fricción en el flujo clínico y optimizar la eficiencia operativa. Para la vista de citas, se añadió información contextual (motivo, estado y duración), permitiendo una lectura rápida sin ingresar a cada registro. En el módulo odontológico se incorporaron etiquetas persistentes, tooltips y referencias visuales para facilitar el entendimiento del odontograma y el registro clínico. El historial clínico fue reorganizado con mayor jerarquía, fechas legibles y diferenciación por tipo de tratamiento. Además, se desarrolló soporte offline para el registro de insumos, garantizando continuidad del trabajo ante pérdida de conexión. Finalmente, se mejoró la generación de reportes con formatos predefinidos, filtros inteligentes y exportación automática, reduciendo tiempos administrativos.
+
 # Capítulo VII: DevOps Practices
 
 ## 7.1. Continuous Integration
@@ -5037,10 +5525,8 @@ El uso combinado de Helm, Jenkins, Prometheus y GitHub Environments permite mant
 
 ## 7.3. Continuous deployment
 
-En el contexto de Dentify, la práctica de Continuous Deployment (CDp) garantiza que cada cambio validado en el pipeline de integración continua llegue automáticamente a producción sin intervención manual. A diferencia de Continuous Delivery, donde el despliegue requiere aprobación humana, en este enfoque cada commit que supera las etapas de compilación, pruebas unitarias, integración, análisis estático y empaquetado se promueve directamente al entorno productivo.
-El orquestador principal es el Multibranch Pipeline de Jenkins, configurado para ejecutar automáticamente el stage deploy-prod al aprobarse la rama principal (main). Este proceso asegura una entrega fluida, repetible y trazable del backend, frontend y aplicaciones móviles de Dentify.
-La automatización está reforzada por pruebas post-deploy, monitoreo activo y políticas de rollback inmediato que minimizan el impacto ante fallos.
-El objetivo central es reducir el lead time desde la idea hasta la entrega de valor, permitiendo detectar y corregir errores en cuestión de minutos, manteniendo la disponibilidad y la calidad de la experiencia de los usuarios finales.
+
+### 7.1.2. Build & Test Suite Pipeline Components.
 
 ### 7.3.1. Tools and Practices.
 
@@ -5069,6 +5555,50 @@ A continuación se describen los pasos que conforman este pipeline:
 - **Validación Automatizada:** Jenkins realiza la ejecución de las pruebas unitarias e integrales con JUnit y Mockito para verificar la funcionalidad del sistema. Si alguna prueba falla, el pipeline se detiene y se comunica al equipo de desarrollo.
 
 - **Despliegue a Producción:** Una vez validados los pasos previos, Jenkins procede a realizar el despliegue del sistema en el entorno de producción.
+
+
+## 7.4. Continuous Monitoring
+### 7.4.1. Tools and Practices
+
+Con el fin de asegurar un monitoreo eficiente de la aplicación y sus entornos, se adoptan diversas herramientas y prácticas especializadas:
+
+- **Prometheus**: Es una herramienta de monitoreo y generación de alertas que recolecta métricas en tiempo real desde múltiples servicios. Se emplea para registrar datos clave como tiempos de respuesta y carga del sistema, permitiendo evaluar el rendimiento de la aplicación.
+
+- **Grafana**: Plataforma de visualización de datos que permite construir paneles personalizados basados en las métricas obtenidas por Prometheus. Facilita la interpretación visual de indicadores clave y la detección temprana de posibles fallos.
+
+- **ELK Stack (Elasticsearch, Logstash, Kibana)**: Conjunto de herramientas para el procesamiento y análisis de registros. Elasticsearch permite realizar búsquedas avanzadas, Logstash transforma y organiza los logs, y Kibana proporciona una interfaz gráfica para su análisis visual.
+
+- **New Relic**: Herramienta de monitoreo del rendimiento de aplicaciones (APM) que brinda información en tiempo real sobre el comportamiento de la aplicación y la experiencia del usuario.
+
+- **PagerDuty**: Plataforma especializada en la gestión de incidentes que se encarga de emitir alertas ante fallos críticos en los servicios o en la infraestructura, permitiendo una respuesta rápida.
+
+
+### 7.4.2. Monitoring Pipeline Components
+
+El monitoreo del pipeline garantiza que cada etapa del CI/CD de Dentify — compilación, pruebas y despliegue — funcione de forma estable y sin interrupciones. Para ello se supervisan tanto el rendimiento del pipeline como la salud del backend en ejecución.<br>
+| Componente                           | Qué se Monitorea                                                          | Herramientas                                 | Resultado                                      |
+| ------------------------------------ | ------------------------------------------------------------------------- | -------------------------------------------- | ---------------------------------------------- |
+| **Pipeline Metrics**                 | Duración de etapas, fallos de build/test, frecuencia de ejecuciones.      | Jenkins + Logs del pipeline                  | Detecta fallas tempranas y cuellos de botella. |
+| **Server Health**                    | CPU, memoria, disco y consumo durante compilación y pruebas.              | Windows/Linux Metrics / Monitor del servidor | Evita saturación de recursos durante el CI.    |
+| **Backend Health Checks**            | Disponibilidad de API, conexión a la base de datos, estado del servicio.  | Endpoints `/health` o `/actuator`            | Permite actuar rápido ante caídas o fallos.    |
+| **Logs Centralizados**               | Errores del backend, fallos de autenticación, problemas en controladores. | Consola Jenkins + Logs de Spring Boot        | Facilita el diagnóstico después de cada build. |
+| **App Usage Events (mínimo viable)** | Inicio de sesión, errores en formularios, fallos de carga.                | Logs del backend                             | Permite detectar errores de usuario o UI.      |
+
+
+### 7.4.3. Alerting Pipeline Components
+
+El sistema de alertas de Dentify se basa en reglas simples pero efectivas que notifican únicamente cuando una condición requiere acción inmediata. Se configuran alertas por umbral en el backend (latencia alta, aumento de errores 500 y uso elevado de CPU o memoria), y alertas de disponibilidad cuando un servicio no responde en dos verificaciones consecutivas. Desde Jenkins, se generan alertas automáticas ante fallas en etapas del pipeline como compilación, pruebas unitarias o despliegue. Todas las alertas se envían a un canal dedicado del equipo mediante mensajes instantáneos, permitiendo una reacción rápida ante incidentes y asegurando la continuidad del servicio clínico.
+
+### 7.4.4. Notification Pipeline Components.
+
+El sistema de notificaciones de Dentify distribuye los mensajes de alerta a los canales adecuados para asegurar una respuesta rápida y organizada. Para ello, se emplean los siguientes mecanismos:
+
+* **Notificaciones instantáneas internas**: Mensajes automáticos enviados al canal del equipo con detalles del incidente, enlaces a los logs y el estado del pipeline, permitiendo actuar de inmediato.
+
+* **Alertas prioritarias al celular**: Para eventos críticos que comprometen citas, facturación o disponibilidad del sistema, se envía una notificación directa al responsable de guardia para garantizar una intervención urgente.
+
+* **Resumen diario por correo**: Se envían reportes con todas las alertas generadas, su estado y acciones tomadas, permitiendo a los stakeholders técnicos y administrativos mantener visibilidad sobre la estabilidad del sistema.
+
 
 # Capitulo VIII: Experiment-Driven Development
 
@@ -6360,3 +6890,7 @@ Osiptel. (2022). Los servicios de telecomunicaciones en los hogares peruanos: En
 | _Needfinding Interviews_ | _Cantidad de videos:_ 1 <br> _Nomenclatura:_ upc-pre-202520-1asi0732-14651-ClinicCode-needfinding-sprint-1 <br> _Formato:_ mp4 <br> _Duración:_ 34:28 | [Ver Video](https://shorturl.at/P0n32) |
 
 # Anexos
+
+
+
+
